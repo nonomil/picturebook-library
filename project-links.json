@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "links": [
-    { "title": "宠物积分总站", "url": "", "devUrl": "http://127.0.0.1:7000/" },
-    { "title": "学习中心", "url": "", "devUrl": "http://127.0.0.1:7001/" },
-    { "title": "单词远征", "url": "", "devUrl": "http://127.0.0.1:7002/" },
-    { "title": "小游戏项目", "url": "", "devUrl": "http://127.0.0.1:7003/" }
+    { "title": "宠物积分总站", "url": "https://nonomil.github.io/pet-bank/", "devUrl": "http://127.0.0.1:7000/" },
+    { "title": "学习中心", "url": "https://nonomil.github.io/learning-center/", "devUrl": "http://127.0.0.1:7001/" },
+    { "title": "单词远征", "url": "https://nonomil.github.io/word-quest-learning-game/", "devUrl": "http://127.0.0.1:7002/" },
+    { "title": "小游戏项目", "url": "https://nonomil.github.io/mini-games/", "devUrl": "http://127.0.0.1:7003/" }
   ]
 }
