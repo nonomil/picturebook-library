@@ -1,0 +1,1323 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head><link rel="icon" href="../../../favicon.svg" type="image/svg+xml">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no,viewport-fit=cover">
+<title>🏘️ 村庄学堂 - Canvas</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:100%;height:100%;overflow:hidden;background:#000;font-family:'Press Start 2P',monospace}
+canvas{position:absolute;top:0;left:0;image-rendering:pixelated}
+#groundCanvas{z-index:1}
+#objectsCanvas{z-index:2}
+
+/* ── HUD ── */
+#hud{
+  position:fixed;top:0;left:0;right:0;
+  background:rgba(0,0,0,.85);border-bottom:3px solid #866043;
+  padding:7px 14px;display:flex;align-items:center;gap:10px;
+  z-index:100;flex-wrap:wrap;
+}
+.h-name{font-size:9px;color:#F5C800;text-shadow:2px 2px 0 #A88800}
+.h-lv{background:#25D5E8;color:#000;font-size:8px;padding:2px 7px;border:2px solid #0099BB}
+.h-xwrap{flex:1;min-width:80px}
+.h-xlbl{font-size:6px;color:#888;margin-bottom:2px}
+.h-bar{height:10px;background:#111;border:2px solid #333}
+.h-xfill{height:100%;background:#66FF00;width:0%;transition:width .5s}
+.h-coins{font-size:9px;color:#F5C800;display:flex;align-items:center;gap:5px}
+.h-coin{width:14px;height:14px;background:#F5C800;border:2px solid #A88800;border-radius:50%;box-shadow:0 0 5px #F5C800}
+.h-pet{font-size:8px;color:#12CC55;text-decoration:none}
+.h-pet:hover{text-shadow:0 0 8px #12CC55}
+.h-chest{position:relative}
+.h-dot{
+  position:absolute;top:-2px;right:-2px;width:8px;height:8px;
+  background:#FF3B30;border-radius:50%;border:2px solid #000;display:none;
+  animation:dpulse 1.2s ease-in-out infinite;
+}
+@keyframes dpulse{0%,100%{transform:scale(1)}50%{transform:scale(1.3)}}
+
+/* ── D-PAD ── */
+#dpad{
+  position:fixed;bottom:16px;left:16px;z-index:100;
+  display:grid;grid-template-columns:52px 52px 52px;
+  grid-template-rows:52px 52px 52px;gap:3px;opacity:.85;
+}
+.dp{
+  width:52px;height:52px;background:rgba(0,0,0,.72);
+  border:2px solid #555;border-radius:5px;
+  display:flex;align-items:center;justify-content:center;
+  font-size:20px;cursor:pointer;color:#fff;
+  user-select:none;-webkit-user-select:none;touch-action:none;
+}
+.dp:active,.dp.on{background:rgba(255,255,255,.18)}
+#dpu{grid-column:2;grid-row:1}
+#dpl{grid-column:1;grid-row:2}
+#dpc{grid-column:2;grid-row:2;background:rgba(245,200,0,.15);font-size:10px;color:#F5C800;border-color:#F5C80060}
+#dpr{grid-column:3;grid-row:2}
+#dpd{grid-column:2;grid-row:3}
+#dpc.near{background:rgba(245,200,0,.4);animation:abtn .7s ease-in-out infinite}
+@keyframes abtn{0%,100%{box-shadow:0 0 0 0 rgba(245,200,0,.4)}50%{box-shadow:0 0 0 8px rgba(245,200,0,0)}}
+
+/* ── PROMPT ── */
+#prompt{
+  position:fixed;bottom:88px;left:50%;
+  transform:translateX(-50%);
+  background:rgba(0,0,0,.92);border:2px solid #F5C800;
+  color:#F5C800;font-size:8px;padding:8px 16px;z-index:100;
+  display:none;white-space:nowrap;pointer-events:none;
+  animation:pbob .9s ease-in-out infinite alternate;
+}
+@keyframes pbob{
+  from{transform:translateX(-50%) translateY(0)}
+  to{transform:translateX(-50%) translateY(-5px)}
+}
+
+/* ── MINI MAP ── */
+#mini{
+  position:fixed;top:56px;right:12px;
+  width:110px;height:86px;background:rgba(0,0,0,.7);
+  border:2px solid #555;z-index:100;overflow:hidden;
+}
+#miniCanvas{width:100%;height:100%}
+
+/* ── SCREEN FADE ── */
+#fade{
+  position:fixed;inset:0;background:#000;
+  opacity:0;pointer-events:none;z-index:999;
+  transition:opacity .4s ease;
+}
+#fade.in{opacity:1;pointer-events:all}
+
+/* ── ZONE PANEL ── */
+.panel-overlay{
+  position:fixed;inset:0;background:rgba(0,0,0,.6);
+  z-index:200;opacity:0;pointer-events:none;transition:opacity .3s;
+  backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px);
+}
+.panel-overlay.show{opacity:1;pointer-events:auto}
+.zone-panel{
+  position:fixed;bottom:0;left:0;right:0;
+  max-height:75vh;background:rgba(15,15,20,.97);
+  z-index:201;border-radius:16px 16px 0 0;
+  transform:translateY(100%);transition:transform .4s cubic-bezier(.34,1.56,.64,1);
+  display:flex;flex-direction:column;overflow:hidden;
+}
+.zone-panel.open{transform:translateY(0)}
+.panel-handle{display:flex;justify-content:center;padding:8px 0 4px}
+.panel-handle-bar{width:36px;height:4px;background:rgba(255,255,255,.25);border-radius:2px}
+.panel-header{display:flex;align-items:center;gap:12px;padding:12px 16px;color:#fff}
+.panel-icon{font-size:24px}
+.panel-title{font-size:12px;font-weight:800;flex:1}
+.panel-close{
+  width:36px;height:36px;background:rgba(255,255,255,.1);
+  border:2px solid rgba(255,255,255,.2);border-radius:8px;
+  color:#fff;font-size:16px;cursor:pointer;display:flex;
+  align-items:center;justify-content:center;min-width:36px;
+}
+.panel-desc{font-size:9px;color:rgba(255,255,255,.6);padding:0 16px 8px}
+.course-list{
+  display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));
+  gap:8px;padding:0 16px 16px;overflow-y:auto;flex:1;
+  -webkit-overflow-scrolling:touch;
+}
+.course-card{
+  background:rgba(255,255,255,.06);border:2px solid rgba(255,255,255,.1);
+  border-radius:8px;padding:10px 8px;cursor:pointer;
+  transition:all .15s;text-align:center;
+}
+.course-card:hover{border-color:rgba(255,255,255,.3);transform:translateY(-2px)}
+.course-card.completed{border-color:#5D9C3C}
+.course-card .cc-emoji{font-size:22px;margin-bottom:4px}
+.course-card .cc-name{font-size:7px;color:#fff;font-weight:700;line-height:1.3}
+.course-card .cc-lesson{font-size:6px;color:rgba(255,255,255,.5);margin-top:2px}
+.course-card .cc-stars{font-size:8px;margin-top:3px}
+
+/* ── WELCOME ── */
+#welcome{
+  position:fixed;inset:0;background:rgba(0,0,0,.88);z-index:300;
+  display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;
+}
+#welcome.hidden{display:none}
+.w-title{font-size:14px;color:#F5C800;text-shadow:2px 2px 0 #A88800;text-align:center;line-height:2}
+.w-hint{font-size:7px;color:#888;margin-top:4px}
+.w-btn{
+  margin-top:12px;padding:12px 28px;background:#5D9C3C;border:3px solid #3E7228;
+  color:#fff;font-family:inherit;font-size:9px;cursor:pointer;
+  box-shadow:0 4px 0 #2E5C1A;transition:all .1s;
+}
+.w-btn:active{box-shadow:none;transform:translateY(4px)}
+
+/* ── NPC BUBBLE ── */
+.npc-bubble{
+  position:fixed;background:#fff;border:3px solid #222;
+  font-size:8px;color:#222;padding:4px 8px;white-space:nowrap;
+  pointer-events:none;z-index:110;
+  animation:bpop .15s ease;
+}
+.npc-bubble::after{
+  content:'';position:absolute;top:100%;left:50%;
+  transform:translateX(-50%);
+  border:4px solid transparent;border-top-color:#222;
+}
+@keyframes bpop{from{opacity:0;transform:scale(0)}to{opacity:1;transform:scale(1)}}
+
+@media(max-width:480px){
+  #dpad{grid-template-columns:46px 46px 46px;grid-template-rows:46px 46px 46px;bottom:10px;left:10px}
+  .dp{width:46px;height:46px;font-size:16px}
+  #mini{width:80px;height:62px;top:50px;right:8px}
+  #prompt{font-size:7px;bottom:76px}
+}
+</style>
+</head>
+<body>
+<div id="fade"></div>
+<div id="loadingOverlay" style="position:fixed;inset:0;background:#000;z-index:400;display:flex;align-items:center;justify-content:center;color:#F5C800;font-size:12px;font-family:'Press Start 2P',monospace">加载中...</div>
+
+<!-- WELCOME -->
+<div id="welcome">
+  <div class="w-title">🏘️ 欢迎来到<br>村庄学堂！</div>
+  <div class="w-hint">用方向键或 D-pad 移动 Steve<br>走近小屋按 A 进入学习</div>
+  <button class="w-btn" onclick="startGame()">开始冒险！</button>
+</div>
+
+<!-- HUD -->
+<div id="hud">
+  <span class="h-name" id="hName">🗡️ 小勇士</span>
+  <div class="h-lv" id="hLv">LV.1</div>
+  <div class="h-xwrap">
+    <div class="h-xlbl" id="hXp">EXP 0/10</div>
+    <div class="h-bar"><div class="h-xfill" id="hXpFill"></div></div>
+  </div>
+  <div class="h-coins"><div class="h-coin"></div><span id="hCoins">0</span></div>
+  <a href="pet-hub.html" class="h-pet">🐺 宠物</a>
+  <a href="collection-hub.html" class="h-pet h-chest" style="position:relative">
+    🎁<span class="h-dot" id="hChestDot"></span>
+  </a>
+</div>
+
+<!-- CANVASES -->
+<canvas id="groundCanvas"></canvas>
+<canvas id="objectsCanvas"></canvas>
+
+<!-- D-PAD -->
+<div id="dpad">
+  <div class="dp" id="dpu">▲</div>
+  <div class="dp" id="dpl">◀</div>
+  <div class="dp" id="dpc">A</div>
+  <div class="dp" id="dpr">▶</div>
+  <div class="dp" id="dpd">▼</div>
+</div>
+
+<!-- PROMPT -->
+<div id="prompt">🏠 走进去看看！按 A 进入</div>
+
+<!-- MINI MAP -->
+<div id="mini"><canvas id="miniCanvas" width="110" height="86"></canvas></div>
+
+<!-- ZONE PANEL -->
+<div class="panel-overlay" id="panelOv" onclick="closePanel()"></div>
+<div class="zone-panel" id="zonePanel">
+  <div class="panel-handle"><div class="panel-handle-bar"></div></div>
+  <div class="panel-header">
+    <span class="panel-icon" id="pIcon">📚</span>
+    <span class="panel-title" id="pTitle">课程列表</span>
+    <button class="panel-close" onclick="closePanel()">✕</button>
+  </div>
+  <div class="panel-desc" id="pDesc"></div>
+  <div class="course-list" id="courseList"></div>
+</div>
+
+<script>
+// ═══════════════════════════════════════════════
+// CONSTANTS
+// ═══════════════════════════════════════════════
+var WW = 1400, WH = 1100;
+var SPD = 230;
+var PROX = 90;
+var STEVE_W = 48, STEVE_H = 64;
+
+// ─── PATHS ───
+var STONE_PATHS = [
+  {x:0, y:470, w:WW, h:80},
+  {x:650, y:0, w:80, h:WH},
+];
+var DIRT_PATHS = [
+  {x:168,y:268, w:44, h:202},
+  {x:1168,y:268,w:44, h:202},
+  {x:168,y:550, w:44, h:144},
+  {x:1168,y:550,w:44, h:144},
+];
+
+// ─── WATER ───
+var WATERS = [
+  {x:1060,y:290,w:200,h:140},
+  {x:320, y:600,w:160,h:100},
+];
+
+// ─── BUILDINGS ───
+var BLDS = [
+  {id:'stories', name:'绘本故事屋',sub:'故事·绘本',emoji:'📖',
+   x:80, y:60, w:200,h:200,
+   wall:'#A0522D',roof:'#6B1A1A',
+   ex:180,ey:268, href:null,
+   sprite:'assets/gpt-sprites/buildings/stories.png'},
+  {id:'science', name:'自然探索',  sub:'科学·探索',emoji:'🌿',
+   x:590,y:60, w:200,h:200,
+   wall:'#2E7D32',roof:'#1A4E20',
+   ex:690,ey:268, href:null,
+   sprite:'assets/gpt-sprites/buildings/science.png'},
+  {id:'chinese', name:'语文学堂',  sub:'识字·阅读',emoji:'✏️',
+   x:1100,y:60, w:200,h:200,
+   wall:'#D4A017',roof:'#8B6510',
+   ex:1200,ey:268, href:null,
+   sprite:'assets/gpt-sprites/buildings/chinese.png'},
+  {id:'math',    name:'数学学堂',  sub:'数字·计算',emoji:'🔢',
+   x:80, y:694, w:200,h:200,
+   wall:'#1565C0',roof:'#0D3B7A',
+   ex:180,ey:694, href:null,
+   sprite:'assets/gpt-sprites/buildings/math.png'},
+  {id:'pets',    name:'宠物之家',  sub:'我的宠物',emoji:'🐾',
+   x:590,y:694, w:200,h:200,
+   wall:'#8D6E3F',roof:'#5D3F1A',
+   ex:690,ey:694, href:'pet-hub.html',
+   sprite:'assets/gpt-sprites/buildings/pets.png'},
+  {id:'english', name:'英语小屋',  sub:'单词·对话',emoji:'🔤',
+   x:1100,y:694, w:200,h:200,
+   wall:'#7B1FA2',roof:'#4A0E6A',
+   ex:1200,ey:694, href:null,
+   sprite:'assets/gpt-sprites/buildings/english.png'},
+];
+
+// ─── TREES ───
+var TREES = [
+  {x:330,y:80},{x:395,y:110},{x:460,y:75},{x:510,y:100},
+  {x:880,y:80},{x:945,y:105},{x:1010,y:75},{x:1060,y:100},
+  {x:330,y:780},{x:395,y:810},{x:460,y:775},
+  {x:880,y:778},{x:945,y:808},
+  {x:55, y:380},{x:55, y:445},
+  {x:1330,y:380},{x:1330,y:445},
+  {x:1060,y:320},{x:300,y:640},
+];
+
+// ─── FLOWERS ───
+var FLOS = [
+  {x:310,y:190,c:'#FF69B4'},{x:365,y:175,c:'#FF6633'},
+  {x:490,y:200,c:'#FFD700'},{x:548,y:182,c:'#FF69B4'},
+  {x:830,y:190,c:'#66EE66'},{x:875,y:210,c:'#FF69B4'},
+  {x:1040,y:460,c:'#FFD700'},{x:1080,y:440,c:'#FF69B4'},
+  {x:330,y:665,c:'#FF6633'},{x:395,y:680,c:'#FFD700'},
+  {x:510,y:648,c:'#FF69B4'},{x:560,y:675,c:'#66EE66'},
+  {x:850,y:670,c:'#FF69B4'},{x:900,y:648,c:'#FFD700'},
+  {x:1060,y:680,c:'#FF6633'},{x:1110,y:655,c:'#66EE66'},
+];
+
+// ─── ANIMAL NPCs ───
+var NPCS = [
+  {type:'chicken', x:350, y:340, dir:1,  speed:22, range:140,
+   sounds:['咕咕！','叽！','咕～']},
+  {type:'sheep',   x:500, y:380, dir:-1, speed:16, range:120,
+   sounds:['咩！','咩咩！','咩～']},
+  {type:'pig',     x:700, y:550, dir:1,  speed:18, range:100,
+   sounds:['哼哼！','哼～','哼哼哼！']},
+  {type:'cat',     x:250, y:500, dir:-1, speed:20, range:80,
+   sounds:['喵！','喵～','喵喵！']},
+  {type:'dog',     x:1050,y:500, dir:1,  speed:24, range:130,
+   sounds:['汪！','汪汪！','汪～']},
+];
+
+// ─── ZONE CONFIG ───
+var ZONE_CONFIG = {
+  stories:  {name:'绘本故事屋',icon:'📖',desc:'精彩的故事绘本等你来读！',prefix:'story-',dir:'stories/',totalCount:17},
+  science:  {name:'自然探索',icon:'🌿',desc:'齿轮、太阳系、大冒险！',prefix:null,dir:'science/',totalCount:8},
+  chinese:  {name:'语文学堂',icon:'✏️',desc:'识字、拼音、阅读',prefix:'chinese-',dir:'chinese/',totalCount:25},
+  math:     {name:'数学学堂',icon:'🔢',desc:'数字、计算、图形',prefix:'math-',dir:'math/',totalCount:25},
+  pets:     null,
+  english:  {name:'英语小屋',icon:'🔤',desc:'单词、对话、歌曲',prefix:null,dir:'english/',totalCount:25},
+};
+
+// ─── COURSE META ───
+var COURSE_META = {
+  'chinese-01-characters.html':  {emoji:'📖',lesson:'第1课'},
+  'chinese-02-strokes.html':     {emoji:'✏️',lesson:'第2课'},
+  'chinese-03-heaven-earth.html':{emoji:'🌍',lesson:'第3课'},
+  'chinese-04-nature.html':      {emoji:'🌿',lesson:'第4课'},
+  'chinese-05-family.html':      {emoji:'👨‍👩‍👧',lesson:'第5课'},
+  'chinese-06-school.html':      {emoji:'🏫',lesson:'第6课'},
+  'chinese-07-pinyin.html':      {emoji:'🔤',lesson:'第7课'},
+  'chinese-08-pinyin2.html':     {emoji:'🔤',lesson:'第8课'},
+  'chinese-09-shengmu1.html':    {emoji:'🅰️',lesson:'第9课'},
+  'chinese-10-shengmu2.html':    {emoji:'🅱️',lesson:'第10课'},
+  'english-01-hello.html':       {emoji:'👋',lesson:'第1课'},
+  'english-02-abc.html':         {emoji:'🅰️',lesson:'第2课'},
+  'english-03-abc-nz.html':      {emoji:'🅱️',lesson:'第3课'},
+  'english-04-colors.html':      {emoji:'🌈',lesson:'第4课'},
+  'english-05-numbers.html':     {emoji:'🔢',lesson:'第5课'},
+  'english-06-family.html':      {emoji:'👨‍👩‍👧',lesson:'第6课'},
+  'english-07-animals.html':     {emoji:'🐾',lesson:'第7课'},
+  'english-08-body.html':        {emoji:'🖐️',lesson:'第8课'},
+  'english-09-food.html':        {emoji:'🍕',lesson:'第9课'},
+  'english-10-toys.html':        {emoji:'🧸',lesson:'第10课'},
+  'math-01-counting.html':       {emoji:'1️⃣',lesson:'第1课'},
+  'math-02-counting-11to20.html':{emoji:'2️⃣',lesson:'第2课'},
+  'math-03-compare.html':        {emoji:'⚖️',lesson:'第3课'},
+  'math-04-addition.html':       {emoji:'➕',lesson:'第4课'},
+  'math-05-addition10.html':     {emoji:'🔟',lesson:'第5课'},
+  'story-brave-pea-shooter.html':{emoji:'🌱',lesson:'豌豆射手'},
+  'story-block-battle.html':     {emoji:'⚔️',lesson:'方块大战'},
+  'story-star-wars.html':        {emoji:'⭐',lesson:'星球大战'},
+};
+
+// ═══════════════════════════════════════════════
+// STATE
+// ═══════════════════════════════════════════════
+var STORAGE_KEY = 'village_state';
+var VSTATE = null;
+
+function loadState() {
+  try {
+    var raw = localStorage.getItem(STORAGE_KEY);
+    VSTATE = raw ? JSON.parse(raw) : {};
+  } catch(e) { VSTATE = {}; }
+  if (!VSTATE.zones) VSTATE.zones = {};
+  if (typeof VSTATE.coins === 'undefined') VSTATE.coins = 0;
+  if (typeof VSTATE.totalStars === 'undefined') VSTATE.totalStars = 0;
+}
+
+function saveState() {
+  try { localStorage.setItem(STORAGE_KEY, JSON.stringify(VSTATE)); } catch(e) {}
+}
+
+function updateHUD() {
+  var stars = VSTATE.totalStars || 0;
+  var level = Math.floor(stars / 10) + 1;
+  var xpInLevel = stars % 10;
+  var xpPct = (xpInLevel / 10) * 100;
+  document.getElementById('hName').textContent = '🗡️ ' + (VSTATE.name || '小勇士');
+  document.getElementById('hLv').textContent = 'LV.' + level;
+  document.getElementById('hXp').textContent = 'EXP ' + xpInLevel + '/10';
+  document.getElementById('hXpFill').style.width = xpPct + '%';
+  document.getElementById('hCoins').textContent = VSTATE.coins || 0;
+  var dot = document.getElementById('hChestDot');
+  if (dot) dot.style.display = VSTATE.pendingReward ? 'block' : 'none';
+}
+
+// ═══════════════════════════════════════════════
+// CANVAS SETUP
+// ═══════════════════════════════════════════════
+var groundCanvas = document.getElementById('groundCanvas');
+var objectsCanvas = document.getElementById('objectsCanvas');
+var groundCtx = groundCanvas.getContext('2d');
+var objCtx = objectsCanvas.getContext('2d');
+
+function resizeCanvases() {
+  var w = window.innerWidth;
+  var h = window.innerHeight;
+  groundCanvas.width = w; groundCanvas.height = h;
+  objectsCanvas.width = w; objectsCanvas.height = h;
+  groundCtx.imageSmoothingEnabled = false;
+  objCtx.imageSmoothingEnabled = false;
+  drawGroundCache();
+}
+window.addEventListener('resize', resizeCanvases);
+
+// ═══════════════════════════════════════════════
+// IMAGE LOADER
+// ═══════════════════════════════════════════════
+var imgCache = {};
+var loadQueue = 0;
+var loadDone = 0;
+
+function img(src) {
+  if (imgCache[src]) return imgCache[src];
+  var i = new Image();
+  i.src = src;
+  imgCache[src] = i;
+  i.onerror = function() { i._failed = true; };
+  loadQueue++;
+  i.onload = function() { loadDone++; };
+  return i;
+}
+
+// Preload all sprites
+function preloadAll() {
+  // Background
+  img('assets/gpt-sprites/backgrounds/background_02.png');
+  // Buildings
+  BLDS.forEach(function(b){ img(b.sprite); });
+  // Trees (7 variants)
+  for (var t = 0; t < 7; t++) {
+    img('assets/gpt-sprites/trees/tree_0' + t + '.png');
+  }
+  // Plants for flowers (use first few)
+  for (var p = 0; p < 17; p++) {
+    var ps = p < 10 ? '0' + p : '' + p;
+    img('assets/gpt-sprites/plants/plant_' + ps + '.png');
+  }
+  // Animals
+  NPCS.forEach(function(n) {
+    img('assets/gpt-sprites/animals/' + n.type + '/' + n.type + '_frame_00.png');
+  });
+  // Steve idle + run
+  for (var si = 0; si < 8; si++) {
+    img('assets/gpt-sprites/character/steve_idle_' + si + '.png');
+  }
+  for (var sr = 0; sr < 5; sr++) {
+    img('assets/gpt-sprites/character/steve_run_' + sr + '.png');
+  }
+}
+
+function drawImg(ctx, image, dx, dy, dw, dh, flipX) {
+  if (!image || image._failed || !image.complete || !image.naturalWidth) return false;
+  ctx.save();
+  if (flipX) {
+    ctx.translate(dx + dw, dy);
+    ctx.scale(-1, 1);
+    ctx.drawImage(image, 0, 0, dw, dh);
+  } else {
+    ctx.drawImage(image, dx, dy, dw, dh);
+  }
+  ctx.restore();
+  return true;
+}
+
+function drawRect(ctx, x, y, w, h, color) {
+  ctx.fillStyle = color;
+  ctx.fillRect(x, y, w, h);
+}
+
+// ═══════════════════════════════════════════════
+// GROUND LAYER (cached - only redrawn on resize)
+// ═══════════════════════════════════════════════
+var groundOffscreen = null;
+
+function drawGroundCache() {
+  if (groundOffscreen && groundOffscreen.width === WW && groundOffscreen.height === WH) return;
+  groundOffscreen = document.createElement('canvas');
+  groundOffscreen.width = WW;
+  groundOffscreen.height = WH;
+  var gc = groundOffscreen.getContext('2d');
+  gc.imageSmoothingEnabled = false;
+
+  // Try background image
+  var bgImg = imgCache['assets/gpt-sprites/backgrounds/background_02.png'];
+  if (bgImg && bgImg.complete && !bgImg._failed) {
+    gc.drawImage(bgImg, 0, 0, WW, WH);
+  } else {
+    // Fallback: solid green + grid
+    gc.fillStyle = '#4E8C33';
+    gc.fillRect(0, 0, WW, WH);
+    gc.strokeStyle = 'rgba(0,0,0,0.04)';
+    gc.lineWidth = 1;
+    for (var gx = 0; gx < WW; gx += 64) {
+      gc.beginPath(); gc.moveTo(gx, 0); gc.lineTo(gx, WH); gc.stroke();
+    }
+    for (var gy = 0; gy < WH; gy += 64) {
+      gc.beginPath(); gc.moveTo(0, gy); gc.lineTo(WW, gy); gc.stroke();
+    }
+  }
+
+  // Stone paths
+  gc.fillStyle = '#888';
+  STONE_PATHS.forEach(function(p) {
+    gc.fillRect(p.x, p.y, p.w, p.h);
+    // Stone texture
+    gc.strokeStyle = 'rgba(0,0,0,0.06)';
+    gc.lineWidth = 1;
+    for (var sx = p.x; sx < p.x + p.w; sx += 16) {
+      gc.beginPath(); gc.moveTo(sx, p.y); gc.lineTo(sx, p.y + p.h); gc.stroke();
+    }
+    for (var sy = p.y; sy < p.y + p.h; sy += 16) {
+      gc.beginPath(); gc.moveTo(p.x, sy); gc.lineTo(p.x + p.w, sy); gc.stroke();
+    }
+  });
+
+  // Dirt paths
+  DIRT_PATHS.forEach(function(p) {
+    gc.fillStyle = '#A07840';
+    gc.fillRect(p.x, p.y, p.w, p.h);
+    gc.strokeStyle = 'rgba(0,0,0,0.05)';
+    for (var dx = p.x; dx < p.x + p.w; dx += 12) {
+      gc.beginPath(); gc.moveTo(dx, p.y); gc.lineTo(dx, p.y + p.h); gc.stroke();
+    }
+  });
+
+  // Water
+  WATERS.forEach(function(w) {
+    gc.fillStyle = '#1488C8';
+    gc.fillRect(w.x, w.y, w.w, w.h);
+    // Water shimmer lines
+    gc.strokeStyle = 'rgba(255,255,255,0.07)';
+    gc.lineWidth = 4;
+    for (var wx = w.x; wx < w.x + w.w; wx += 20) {
+      gc.beginPath();
+      gc.moveTo(wx, w.y);
+      gc.lineTo(wx + 8, w.y + w.h);
+      gc.stroke();
+    }
+  });
+
+  // Fence border
+  gc.fillStyle = '#8B6340';
+  gc.fillRect(0, 0, WW, 14);
+  gc.fillRect(0, WH - 14, WW, 14);
+  gc.fillRect(0, 0, 14, WH);
+  gc.fillRect(WW - 14, 0, 14, WH);
+  // Fence texture
+  gc.strokeStyle = 'rgba(0,0,0,0.2)';
+  gc.lineWidth = 2;
+  [0, WW - 14].forEach(function(fx) {
+    for (var fy = 0; fy < WH; fy += 20) {
+      gc.beginPath(); gc.moveTo(fx, fy); gc.lineTo(fx + 14, fy); gc.stroke();
+    }
+  });
+  [0, WH - 14].forEach(function(fy) {
+    for (var fxx = 0; fxx < WW; fxx += 20) {
+      gc.beginPath(); gc.moveTo(fxx, fy); gc.lineTo(fxx, fy + 14); gc.stroke();
+    }
+  });
+
+  // Well
+  gc.fillStyle = '#555';
+  gc.beginPath();
+  gc.arc(690, 510, 28, 0, Math.PI * 2);
+  gc.fill();
+  gc.strokeStyle = '#333';
+  gc.lineWidth = 6;
+  gc.beginPath();
+  gc.arc(690, 510, 28, 0, Math.PI * 2);
+  gc.stroke();
+  gc.strokeStyle = '#666';
+  gc.lineWidth = 4;
+  gc.beginPath();
+  gc.arc(690, 510, 32, 0, Math.PI * 2);
+  gc.stroke();
+  // Well post
+  gc.fillStyle = '#8B6340';
+  gc.fillRect(688, 486, 4, 20);
+  // Water drop emoji fallback
+  gc.font = '20px serif';
+  gc.fillText('💧', 680, 516);
+}
+
+// ═══════════════════════════════════════════════
+// GAME STATE
+// ═══════════════════════════════════════════════
+var steve = {x:690, y:510, dir:'down', walk:false, frame:0, frameTick:0};
+var cam = {x:0, y:0};
+var keys = {};
+var dpState = {u:false, d:false, l:false, r:false};
+var nearBld = null;
+var lastTime = 0;
+var gameStarted = false;
+
+// NPC runtime state
+var npcState = [];
+NPCS.forEach(function(n) {
+  npcState.push({ox: n.x, t: Math.random() * 100, bubble: null, bubbleTimer: 0});
+});
+
+// Collision
+function blocked(nx, ny) {
+  var sw = 16, sh = 8;
+  for (var i = 0; i < BLDS.length; i++) {
+    var b = BLDS[i], m = 8;
+    if (nx + sw > b.x + m && nx - sw < b.x + b.w - m && ny > b.y + m && ny - sh < b.y + b.h - m) return true;
+  }
+  for (var j = 0; j < WATERS.length; j++) {
+    var w = WATERS[j];
+    if (nx + sw > w.x && nx - sw < w.x + w.w && ny > w.y && ny - sh < w.y + w.h) return true;
+  }
+  for (var k = 0; k < TREES.length; k++) {
+    var tr = TREES[k];
+    if (nx + sw > tr.x + 8 && nx - sw < tr.x + 44 && ny > tr.y + 38 && ny - sh < tr.y + 62) return true;
+  }
+  return false;
+}
+
+// ═══════════════════════════════════════════════
+// RENDER OBJECTS LAYER
+// ═══════════════════════════════════════════════
+
+// Build sortable render list
+function buildRenderList() {
+  var list = [];
+
+  // Flowers (low z, always behind)
+  FLOS.forEach(function(f, fi) {
+    var plantIdx = fi % 17;
+    var ps = plantIdx < 10 ? '0' + plantIdx : '' + plantIdx;
+    list.push({
+      type: 'flower',
+      x: f.x, y: f.y,
+      sortY: f.y + 10,
+      color: f.c,
+      sprite: 'assets/gpt-sprites/plants/plant_' + ps + '.png',
+      w: 16, h: 16
+    });
+  });
+
+  // Trees
+  TREES.forEach(function(t, ti) {
+    var treeIdx = ti % 7;
+    list.push({
+      type: 'tree',
+      x: t.x, y: t.y,
+      sortY: t.y + 62,
+      sprite: 'assets/gpt-sprites/trees/tree_0' + treeIdx + '.png',
+      w: 56, h: 66
+    });
+  });
+
+  // Buildings
+  BLDS.forEach(function(b) {
+    list.push({
+      type: 'building',
+      x: b.x, y: b.y,
+      sortY: b.y + b.h,
+      data: b,
+      sprite: b.sprite,
+      w: b.w, h: b.h
+    });
+  });
+
+  // NPCs
+  NPCS.forEach(function(n, ni) {
+    var ns = npcState[ni];
+    var px = ns.ox + Math.sin(ns.t * (n.speed / 50)) * n.range / 2;
+    list.push({
+      type: 'npc',
+      x: px - 20, y: n.y - 20,
+      sortY: n.y + 20,
+      data: n,
+      idx: ni,
+      sprite: 'assets/gpt-sprites/animals/' + n.type + '/' + n.type + '_frame_00.png',
+      w: 40, h: 40
+    });
+  });
+
+  // Steve
+  list.push({
+    type: 'steve',
+    x: steve.x - STEVE_W / 2,
+    y: steve.y - STEVE_H,
+    sortY: steve.y,
+    w: STEVE_W, h: STEVE_H
+  });
+
+  // Sort by Y
+  list.sort(function(a, b) { return a.sortY - b.sortY; });
+
+  return list;
+}
+
+function getSteveFrame() {
+  if (!steve.walk) {
+    // Idle animation
+    var idx = Math.floor(steve.frame) % 8;
+    return 'assets/gpt-sprites/character/steve_idle_' + idx + '.png';
+  } else {
+    var idx2 = Math.floor(steve.frame) % 5;
+    return 'assets/gpt-sprites/character/steve_run_' + idx2 + '.png';
+  }
+}
+
+function drawFallbackBuilding(ctx, b) {
+  // Roof
+  ctx.fillStyle = b.roof;
+  ctx.fillRect(b.x, b.y, b.w, 28);
+  ctx.fillStyle = 'rgba(0,0,0,0.35)';
+  ctx.fillRect(b.x, b.y + 26, b.w, 4);
+  // Wall
+  ctx.fillStyle = b.wall;
+  ctx.fillRect(b.x, b.y + 30, b.w, 96);
+  // Wall texture
+  ctx.strokeStyle = 'rgba(0,0,0,0.12)';
+  ctx.lineWidth = 1;
+  for (var wy = b.y + 30; wy < b.y + 126; wy += 10) {
+    ctx.beginPath(); ctx.moveTo(b.x, wy); ctx.lineTo(b.x + b.w, wy); ctx.stroke();
+  }
+  // Windows
+  ctx.fillStyle = '#B0E8FF';
+  ctx.fillRect(b.x + 40, b.y + 50, 28, 28);
+  ctx.fillRect(b.x + 130, b.y + 50, 28, 28);
+  ctx.strokeStyle = 'rgba(0,0,0,0.4)';
+  ctx.lineWidth = 4;
+  ctx.strokeRect(b.x + 40, b.y + 50, 28, 28);
+  ctx.strokeRect(b.x + 130, b.y + 50, 28, 28);
+  // Bottom
+  ctx.fillStyle = b.wall;
+  ctx.fillRect(b.x, b.y + 126, b.w, 60);
+  // Door
+  ctx.fillStyle = 'rgba(0,0,0,0.65)';
+  ctx.fillRect(b.x + b.w / 2 - 22, b.y + 132, 44, 54);
+  // Entry
+  ctx.fillStyle = '#866043';
+  ctx.fillRect(b.x + b.w / 2 - 28, b.y + b.h - 12, 56, 12);
+  // Sign
+  ctx.fillStyle = '#7B5020';
+  var signW = ctx.measureText(b.name).width + 16;
+  if (signW < 80) signW = 80;
+  ctx.fillRect(b.x + b.w / 2 - signW / 2, b.y - 38, signW, 30);
+  ctx.strokeStyle = '#3D2000';
+  ctx.lineWidth = 3;
+  ctx.strokeRect(b.x + b.w / 2 - signW / 2, b.y - 38, signW, 30);
+  ctx.fillStyle = '#FFF';
+  ctx.font = '8px "Press Start 2P", monospace';
+  ctx.textAlign = 'center';
+  ctx.fillText(b.emoji + ' ' + b.name, b.x + b.w / 2, b.y - 22);
+  ctx.font = '5.5px "Press Start 2P", monospace';
+  ctx.fillStyle = '#CCC';
+  ctx.fillText(b.sub, b.x + b.w / 2, b.y - 12);
+  ctx.textAlign = 'left';
+}
+
+function drawFallbackTree(ctx, t, idx) {
+  // Trunk
+  ctx.fillStyle = '#5D4037';
+  ctx.fillRect(t.x + 22, t.y + 44, 12, 18);
+  // Canopy
+  ctx.fillStyle = idx % 2 === 0 ? '#2E7D32' : '#388E3C';
+  ctx.beginPath();
+  ctx.moveTo(t.x, t.y + 44);
+  ctx.lineTo(t.x + 26, t.y);
+  ctx.lineTo(t.x + 52, t.y + 44);
+  ctx.closePath();
+  ctx.fill();
+  // Top round
+  ctx.fillStyle = '#388E3C';
+  ctx.beginPath();
+  ctx.arc(t.x + 26, t.y + 6, 16, 0, Math.PI * 2);
+  ctx.fill();
+}
+
+function drawFallbackSteve(ctx, sx, sy) {
+  // Shadow
+  ctx.fillStyle = 'rgba(0,0,0,0.28)';
+  ctx.beginPath();
+  ctx.ellipse(sx + STEVE_W / 2, sy + STEVE_H + 3, 14, 3, 0, 0, Math.PI * 2);
+  ctx.fill();
+  // Hair
+  ctx.fillStyle = '#8B4513';
+  ctx.fillRect(sx + 12, sy, 24, 9);
+  // Face
+  ctx.fillStyle = '#F5C8A0';
+  ctx.fillRect(sx + 12, sy + 9, 24, 18);
+  // Eyes
+  ctx.fillStyle = '#5B2C0B';
+  ctx.fillRect(sx + 15, sy + 15, 6, 6);
+  ctx.fillRect(sx + 27, sy + 15, 6, 6);
+  // Body
+  ctx.fillStyle = '#4A90E2';
+  ctx.fillRect(sx + 9, sy + 27, 30, 20);
+  // Arms
+  ctx.fillStyle = '#3A80D2';
+  ctx.fillRect(sx + 3, sy + 27, 6, 18);
+  ctx.fillRect(sx + 39, sy + 27, 6, 18);
+  // Legs
+  ctx.fillStyle = '#555';
+  ctx.fillRect(sx + 9, sy + 47, 12, 12);
+  ctx.fillRect(sx + 27, sy + 47, 12, 12);
+  // Boots
+  ctx.fillStyle = '#222';
+  ctx.fillRect(sx + 9, sy + 56, 12, 8);
+  ctx.fillRect(sx + 27, sy + 56, 12, 8);
+}
+
+function drawFallbackNPC(ctx, n, px, py) {
+  var colors = {
+    chicken: '#EEE', sheep: '#F5F5F5', pig: '#FFB6C1',
+    cat: '#FF9944', dog: '#8B6340'
+  };
+  ctx.fillStyle = colors[n.type] || '#CCC';
+  ctx.fillRect(px + 8, py + 8, 24, 20);
+  ctx.fillStyle = '#333';
+  ctx.fillRect(px + 14, py + 14, 4, 4);
+  ctx.fillRect(px + 22, py + 14, 4, 4);
+  ctx.fillRect(px + 12, py + 28, 6, 8);
+  ctx.fillRect(px + 22, py + 28, 6, 8);
+}
+
+function renderObjects(dt) {
+  var cw = objectsCanvas.width;
+  var ch = objectsCanvas.height;
+  objCtx.clearRect(0, 0, cw, ch);
+  objCtx.imageSmoothingEnabled = false;
+
+  var cx = Math.round(cam.x);
+  var cy = Math.round(cam.y);
+
+  var renderList = buildRenderList();
+
+  for (var i = 0; i < renderList.length; i++) {
+    var obj = renderList[i];
+    var dx = obj.x - cx;
+    var dy = obj.y - cy;
+
+    // Skip if off screen
+    if (dx + (obj.w || 0) < -50 || dx > cw + 50 || dy + (obj.h || 0) < -50 || dy > ch + 50) continue;
+
+    switch (obj.type) {
+      case 'flower':
+        var fImg = imgCache[obj.sprite];
+        if (fImg && fImg.complete && !fImg._failed) {
+          objCtx.drawImage(fImg, dx - 4, dy - 4, 18, 18);
+        } else {
+          // Fallback: colored circle
+          objCtx.fillStyle = obj.color;
+          objCtx.beginPath();
+          objCtx.arc(dx + 5, dy + 5, 5, 0, Math.PI * 2);
+          objCtx.fill();
+          objCtx.fillStyle = '#FFD700';
+          objCtx.beginPath();
+          objCtx.arc(dx + 5, dy + 5, 2.5, 0, Math.PI * 2);
+          objCtx.fill();
+        }
+        break;
+
+      case 'tree':
+        var tImg = imgCache[obj.sprite];
+        var treeData = TREES[obj.sortY ? i : 0]; // not used for fallback
+        if (tImg && tImg.complete && !tImg._failed) {
+          objCtx.drawImage(tImg, dx, dy, obj.w, obj.h);
+        } else {
+          drawFallbackTree(objCtx, {x: dx, y: dy}, i);
+        }
+        break;
+
+      case 'building':
+        var bImg = imgCache[obj.sprite];
+        var bData = obj.data;
+        if (bImg && bImg.complete && !bImg._failed) {
+          objCtx.drawImage(bImg, dx, dy, obj.w, obj.h);
+          // Sign above building
+          objCtx.fillStyle = '#7B5020';
+          objCtx.strokeStyle = '#3D2000';
+          objCtx.lineWidth = 3;
+          var sw = 120;
+          objCtx.fillRect(dx + obj.w / 2 - sw / 2, dy - 38, sw, 30);
+          objCtx.strokeRect(dx + obj.w / 2 - sw / 2, dy - 38, sw, 30);
+          objCtx.fillStyle = '#FFF';
+          objCtx.font = '7px "Press Start 2P", monospace';
+          objCtx.textAlign = 'center';
+          objCtx.fillText(bData.emoji + ' ' + bData.name, dx + obj.w / 2, dy - 20);
+          objCtx.font = '5px "Press Start 2P", monospace';
+          objCtx.fillStyle = '#CCC';
+          objCtx.fillText(bData.sub, dx + obj.w / 2, dy - 10);
+          objCtx.textAlign = 'left';
+        } else {
+          drawFallbackBuilding(objCtx, {x: dx, y: dy, w: obj.w, h: obj.h,
+            wall: bData.wall, roof: bData.roof, name: bData.name, sub: bData.sub, emoji: bData.emoji});
+        }
+
+        // Proximity ring
+        if (nearBld && nearBld.id === bData.id) {
+          var ringX = dx + bData.ex - bData.x;
+          var ringY = dy + bData.ey - bData.y;
+          var ringPulse = 0.8 + Math.sin(performance.now() / 300) * 0.2;
+          objCtx.strokeStyle = '#F5C800';
+          objCtx.lineWidth = 3;
+          objCtx.globalAlpha = 0.5 + Math.sin(performance.now() / 400) * 0.5;
+          objCtx.beginPath();
+          objCtx.arc(ringX, ringY, 34 * ringPulse, 0, Math.PI * 2);
+          objCtx.stroke();
+          objCtx.globalAlpha = 1.0;
+        }
+        break;
+
+      case 'npc':
+        var nImg = imgCache[obj.sprite];
+        var npcData = obj.data;
+        var flipX = npcData.dir < 0;
+        if (nImg && nImg.complete && !nImg._failed) {
+          drawImg(objCtx, nImg, dx, dy, obj.w, obj.h, flipX);
+        } else {
+          drawFallbackNPC(objCtx, npcData, dx, dy);
+        }
+
+        // NPC bubble
+        var ns = npcState[obj.idx];
+        if (ns.bubble && ns.bubbleTimer > 0) {
+          objCtx.fillStyle = '#FFF';
+          objCtx.strokeStyle = '#222';
+          objCtx.lineWidth = 3;
+          var bw = objCtx.measureText(ns.bubble).width + 16;
+          var bx = dx + obj.w / 2 - bw / 2;
+          var by = dy - 22;
+          objCtx.fillRect(bx, by, bw, 18);
+          objCtx.strokeRect(bx, by, bw, 18);
+          // Arrow
+          objCtx.fillStyle = '#FFF';
+          objCtx.beginPath();
+          objCtx.moveTo(dx + obj.w / 2 - 4, by + 18);
+          objCtx.lineTo(dx + obj.w / 2, by + 24);
+          objCtx.lineTo(dx + obj.w / 2 + 4, by + 18);
+          objCtx.fill();
+          // Text
+          objCtx.fillStyle = '#222';
+          objCtx.font = '8px "Press Start 2P", monospace';
+          objCtx.textAlign = 'center';
+          objCtx.fillText(ns.bubble, dx + obj.w / 2, by + 13);
+          objCtx.textAlign = 'left';
+        }
+        break;
+
+      case 'steve':
+        var sFrame = getSteveFrame();
+        var sImg = imgCache[sFrame];
+        var flipSteve = steve.dir === 'left';
+        if (sImg && sImg.complete && !sImg._failed) {
+          // Shadow
+          objCtx.fillStyle = 'rgba(0,0,0,0.28)';
+          objCtx.beginPath();
+          objCtx.ellipse(dx + STEVE_W / 2, dy + STEVE_H + 3, 14, 3, 0, 0, Math.PI * 2);
+          objCtx.fill();
+          drawImg(objCtx, sImg, dx, dy, STEVE_W, STEVE_H, flipSteve);
+        } else {
+          drawFallbackSteve(objCtx, dx, dy);
+        }
+
+        // Building name bubble when near
+        if (nearBld) {
+          objCtx.fillStyle = 'rgba(0,0,0,0.88)';
+          objCtx.strokeStyle = '#F5C800';
+          objCtx.lineWidth = 2;
+          var bubTxt = nearBld.emoji + ' ' + nearBld.name;
+          objCtx.font = '8px "Press Start 2P", monospace';
+          var bubW = objCtx.measureText(bubTxt).width + 24;
+          var bubX = dx + STEVE_W / 2 - bubW / 2;
+          var bubY = dy - 24;
+          objCtx.fillRect(bubX, bubY, bubW, 20);
+          objCtx.strokeRect(bubX, bubY, bubW, 20);
+          objCtx.fillStyle = '#F5C800';
+          objCtx.textAlign = 'center';
+          objCtx.fillText(bubTxt, dx + STEVE_W / 2, bubY + 14);
+          objCtx.textAlign = 'left';
+        }
+        break;
+    }
+  }
+}
+
+// ═══════════════════════════════════════════════
+// GROUND RENDER
+// ═══════════════════════════════════════════════
+function renderGround() {
+  groundCtx.clearRect(0, 0, groundCanvas.width, groundCanvas.height);
+  groundCtx.imageSmoothingEnabled = false;
+  if (groundOffscreen) {
+    groundCtx.drawImage(groundOffscreen,
+      Math.round(cam.x), Math.round(cam.y),
+      groundCanvas.width, groundCanvas.height,
+      0, 0, groundCanvas.width, groundCanvas.height);
+  }
+}
+
+// ═══════════════════════════════════════════════
+// MINI MAP
+// ═══════════════════════════════════════════════
+var miniCanvas = document.getElementById('miniCanvas');
+var miniCtx = miniCanvas.getContext('2d');
+miniCtx.imageSmoothingEnabled = false;
+
+function drawMiniMap() {
+  miniCtx.clearRect(0, 0, 110, 86);
+  // Background
+  miniCtx.fillStyle = '#4E8C33';
+  miniCtx.fillRect(0, 0, 110, 86);
+  // Paths
+  miniCtx.fillStyle = 'rgba(136,136,136,0.6)';
+  miniCtx.fillRect(0, Math.round(470 / WH * 86), 110, Math.round(80 / WH * 86));
+  miniCtx.fillRect(Math.round(650 / WW * 110), 0, Math.round(80 / WW * 110), 86);
+  // Buildings
+  BLDS.forEach(function(b) {
+    miniCtx.fillStyle = b.roof;
+    miniCtx.fillRect(
+      Math.round(b.x / WW * 110),
+      Math.round(b.y / WH * 86),
+      Math.round(b.w / WW * 110),
+      Math.round(b.h / WH * 86)
+    );
+  });
+  // Steve
+  miniCtx.fillStyle = '#FFD700';
+  miniCtx.beginPath();
+  miniCtx.arc(
+    Math.round(steve.x / WW * 110),
+    Math.round(steve.y / WH * 86),
+    3, 0, Math.PI * 2
+  );
+  miniCtx.fill();
+  miniCtx.strokeStyle = 'rgba(255,215,0,0.5)';
+  miniCtx.lineWidth = 1;
+  miniCtx.stroke();
+}
+
+// ═══════════════════════════════════════════════
+// GAME LOOP
+// ═══════════════════════════════════════════════
+function loop(ts) {
+  if (!gameStarted) { requestAnimationFrame(loop); return; }
+  var dt = Math.min((ts - lastTime) / 1000, 0.05);
+  lastTime = ts;
+
+  // INPUT
+  var dx = 0, dy = 0;
+  if (keys['ArrowLeft'] || keys['a'] || keys['A'] || dpState.l) dx = -1;
+  if (keys['ArrowRight'] || keys['d'] || keys['D'] || dpState.r) dx = 1;
+  if (keys['ArrowUp'] || keys['w'] || keys['W'] || dpState.u) dy = -1;
+  if (keys['ArrowDown'] || keys['s'] || keys['S'] || dpState.d) dy = 1;
+  if (dx && dy) { dx *= 0.707; dy *= 0.707; }
+
+  steve.walk = !!(dx || dy);
+
+  if (steve.walk) {
+    var spd = SPD * dt;
+    var nx = Math.max(30, Math.min(WW - 30, steve.x + dx * spd));
+    var ny = Math.max(60, Math.min(WH - 20, steve.y + dy * spd));
+    if (!blocked(nx, steve.y)) steve.x = nx;
+    if (!blocked(steve.x, ny)) steve.y = ny;
+    var newDir = Math.abs(dy) > Math.abs(dx) ? (dy < 0 ? 'up' : 'down') : (dx < 0 ? 'left' : 'right');
+    steve.dir = newDir;
+  }
+
+  // Animation frame
+  steve.frameTick += dt;
+  var frameSpeed = steve.walk ? 8 : 3;
+  if (steve.frameTick > 1 / frameSpeed) {
+    steve.frameTick = 0;
+    steve.frame++;
+  }
+
+  // CAMERA lerp
+  var tcx = Math.max(0, Math.min(WW - window.innerWidth, steve.x - window.innerWidth / 2));
+  var tcy = Math.max(0, Math.min(WH - window.innerHeight, steve.y - window.innerHeight / 2));
+  cam.x += (tcx - cam.x) * 0.13;
+  cam.y += (tcy - cam.y) * 0.13;
+
+  // PROXIMITY
+  nearBld = null;
+  for (var bi = 0; bi < BLDS.length; bi++) {
+    var b2 = BLDS[bi];
+    var pdx = steve.x - b2.ex, pdy = steve.y - b2.ey;
+    if (Math.sqrt(pdx * pdx + pdy * pdy) < PROX) { nearBld = b2; break; }
+  }
+
+  var prompt = document.getElementById('prompt');
+  prompt.style.display = nearBld ? 'block' : 'none';
+  if (nearBld) prompt.textContent = nearBld.emoji + ' ' + nearBld.name + ' · 按 A 进入';
+  document.getElementById('dpc').classList.toggle('near', !!nearBld);
+
+  // NPC movement
+  for (var ni = 0; ni < NPCS.length; ni++) {
+    var n = NPCS[ni];
+    var ns = npcState[ni];
+    if (n.speed) {
+      ns.t += dt;
+      var npx = ns.ox + Math.sin(ns.t * (n.speed / 50)) * n.range / 2;
+      // Update NPC x for collision
+      NPCS[ni].x = npx;
+    }
+    // Bubble timer
+    if (ns.bubbleTimer > 0) {
+      ns.bubbleTimer -= dt;
+      if (ns.bubbleTimer <= 0) {
+        ns.bubble = null;
+        ns.bubbleTimer = 0;
+      }
+    }
+  }
+
+  // RENDER
+  renderGround();
+  renderObjects(dt);
+  drawMiniMap();
+
+  requestAnimationFrame(loop);
+}
+
+// ═══════════════════════════════════════════════
+// INTERACTIONS
+// ═══════════════════════════════════════════════
+function enter(b) {
+  if (b.href) {
+    var fade = document.getElementById('fade');
+    fade.classList.add('in');
+    setTimeout(function() { window.location.href = b.href; }, 450);
+  } else {
+    openPanel(b.id);
+  }
+}
+
+function showNPCBubble(idx) {
+  var n = NPCS[idx];
+  var ns = npcState[idx];
+  ns.bubble = n.sounds[Math.floor(Math.random() * n.sounds.length)];
+  ns.bubbleTimer = 1.8;
+}
+
+// ═══════════════════════════════════════════════
+// COURSE PANEL
+// ═══════════════════════════════════════════════
+function openPanel(zoneId) {
+  var zone = ZONE_CONFIG[zoneId];
+  if (!zone) return;
+  document.getElementById('pIcon').textContent = zone.icon;
+  document.getElementById('pTitle').textContent = zone.name;
+  document.getElementById('pDesc').textContent = zone.desc;
+
+  var completed = {};
+  if (VSTATE.zones && VSTATE.zones[zoneId]) {
+    (VSTATE.zones[zoneId].completed || []).forEach(function(f) { completed[f] = true; });
+  }
+
+  var listEl = document.getElementById('courseList');
+  listEl.innerHTML = '';
+  var count = 0;
+  Object.keys(COURSE_META).forEach(function(filename) {
+    var match = false;
+    if (zone.dir === 'stories/' && filename.indexOf('story-') === 0) match = true;
+    else if (zone.dir === 'chinese/' && filename.indexOf('chinese-') === 0) match = true;
+    else if (zone.dir === 'english/' && filename.indexOf('english-') === 0) match = true;
+    else if (zone.dir === 'math/' && filename.indexOf('math-') === 0) match = true;
+    if (!match) return;
+
+    var meta = COURSE_META[filename];
+    var isDone = completed[filename];
+    var card = document.createElement('div');
+    card.className = 'course-card' + (isDone ? ' completed' : '');
+    card.innerHTML = '<div class="cc-emoji">' + meta.emoji + '</div>' +
+      '<div class="cc-name">' + filename.replace('.html', '').replace(/-/g, ' ') + '</div>' +
+      '<div class="cc-lesson">' + meta.lesson + '</div>' +
+      (isDone ? '<div class="cc-stars">⭐</div>' : '');
+    card.onclick = function() {
+      closePanel();
+      var fade = document.getElementById('fade');
+      fade.classList.add('in');
+      setTimeout(function() { window.location.href = zone.dir + filename; }, 450);
+    };
+    listEl.appendChild(card);
+    count++;
+  });
+
+  if (count === 0) {
+    listEl.innerHTML = '<div style="color:#888;font-size:8px;padding:20px;text-align:center;grid-column:1/-1">课程加载中...</div>';
+  }
+
+  document.getElementById('panelOv').classList.add('show');
+  document.getElementById('zonePanel').classList.add('open');
+}
+
+function closePanel() {
+  document.getElementById('panelOv').classList.remove('show');
+  document.getElementById('zonePanel').classList.remove('open');
+}
+
+// ═══════════════════════════════════════════════
+// INPUT
+// ═══════════════════════════════════════════════
+window.addEventListener('keydown', function(e) {
+  keys[e.key] = true;
+  if (e.key.startsWith('Arrow') || e.key === ' ') e.preventDefault();
+  if ((e.key === 'Enter' || e.key === ' ') && nearBld) enter(nearBld);
+  if (e.key === 'Escape') closePanel();
+});
+window.addEventListener('keyup', function(e) { keys[e.key] = false; });
+
+function dpOn(dir) { dpState[dir] = true; }
+function dpOff(dir) { dpState[dir] = false; }
+
+[['dpu', 'u'], ['dpd', 'd'], ['dpl', 'l'], ['dpr', 'r']].forEach(function(pair) {
+  var id = pair[0], dir = pair[1];
+  var dpe = document.getElementById(id);
+  dpe.addEventListener('pointerdown', function(e) { e.preventDefault(); dpOn(dir); dpe.classList.add('on'); });
+  dpe.addEventListener('pointerup', function() { dpOff(dir); dpe.classList.remove('on'); });
+  dpe.addEventListener('pointerleave', function() { dpOff(dir); dpe.classList.remove('on'); });
+});
+
+document.getElementById('dpc').addEventListener('pointerdown', function(e) {
+  e.preventDefault();
+  if (nearBld) enter(nearBld);
+});
+
+// Canvas click for NPC interaction
+objectsCanvas.addEventListener('click', function(e) {
+  var rect = objectsCanvas.getBoundingClientRect();
+  var mx = e.clientX - rect.left + cam.x;
+  var my = e.clientY - rect.top + cam.y;
+
+  // Check NPC click
+  for (var ni = 0; ni < NPCS.length; ni++) {
+    var n = NPCS[ni];
+    var ns = npcState[ni];
+    var npx = n.x;
+    var npy = n.y;
+    if (Math.abs(mx - npx) < 24 && Math.abs(my - npy) < 24) {
+      showNPCBubble(ni);
+      return;
+    }
+  }
+
+  // Check building click
+  if (nearBld) {
+    var b = nearBld;
+    if (mx >= b.x && mx <= b.x + b.w && my >= b.y && my <= b.y + b.h) {
+      enter(b);
+      return;
+    }
+  }
+});
+
+// ═══════════════════════════════════════════════
+// START
+// ═══════════════════════════════════════════════
+function startGame() {
+  var overlay = document.getElementById('loadingOverlay');
+  if (overlay) overlay.style.display = 'flex';
+  var checkReady = setInterval(function() {
+    if (loadQueue > 0 && loadDone >= loadQueue) {
+      clearInterval(checkReady);
+      if (overlay) overlay.style.display = 'none';
+      document.getElementById('welcome').classList.add('hidden');
+      gameStarted = true;
+      lastTime = performance.now();
+    }
+  }, 100);
+  // Fallback: start anyway after 4s even if images not loaded
+  setTimeout(function() {
+    clearInterval(checkReady);
+    if (overlay) overlay.style.display = 'none';
+    if (!gameStarted) {
+      document.getElementById('welcome').classList.add('hidden');
+      gameStarted = true;
+      lastTime = performance.now();
+    }
+  }, 4000);
+}
+
+loadState();
+updateHUD();
+setInterval(updateHUD, 3000);
+
+// Preload and init
+preloadAll();
+resizeCanvases();
+
+cam.x = Math.max(0, Math.min(WW - window.innerWidth, steve.x - window.innerWidth / 2));
+cam.y = Math.max(0, Math.min(WH - window.innerHeight, steve.y - window.innerHeight / 2));
+
+// Fade in
+var fade = document.getElementById('fade');
+fade.style.transition = 'none'; fade.classList.add('in');
+setTimeout(function() { fade.style.transition = 'opacity .6s ease'; fade.classList.remove('in'); }, 100);
+
+requestAnimationFrame(loop);
+
+// SpriteLoader integration (optional)
+if (window.SpriteLoader) {
+  SpriteLoader.init().then(function() {
+    console.log('[Village-Canvas] GPT sprites ready via SpriteLoader');
+  });
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="🏘️ 村庄学堂 · 离线模板课件">
+    <title>🏘️ 村庄学堂 | 活动体验模板</title>
+    <link rel="stylesheet" href="../shared/courseware-template.css">
+  </head>
+  <body>
+    <div id="courseware-app" class="cw-shell" data-template="activity-studio" data-content-type="">
+      <header class="cw-topbar">
+        <a class="cw-back" href="../../../../index.html" aria-label="返回绘本书架">返回书架</a>
+        <div class="cw-topbar-title"><strong>🏘️ 村庄学堂</strong><span>活动体验模板 · 离线学习</span></div>
+        <div class="cw-topbar-actions">
+          <a class="cw-icon-button cw-legacy-link" href="../../local/village.html" target="_blank" rel="noopener" title="打开原始备份">原始备份</a>
+          <button id="cw-read-aloud" class="cw-icon-button" type="button" title="朗读当前页">朗读</button>
+          <button id="cw-reset" class="cw-icon-button" type="button" title="重新开始">重置</button>
+        </div>
+      </header>
+      <main class="cw-main">
+        <section class="cw-hero">
+          <div><p class="cw-kicker">ACTIVITY-STUDIO · OFFLINE</p><h1>🏘️ 村庄学堂</h1><p>已将原课件整理为统一的逐步阅读界面，文字、图片和学习顺序保留在本机。</p></div>
+          <div class="cw-meta"><span>village</span><span>1 步</span><span>无需网络</span></div>
+        </section>
+        <section class="cw-progress-panel" aria-label="课件进度">
+          <span id="cw-progress-label" class="cw-progress-label">学习进度</span><div class="cw-progress-track"><div id="cw-progress-fill" class="cw-progress-fill"></div></div><strong id="cw-progress-value" class="cw-progress-value">0%</strong>
+        </section>
+        <section id="cw-stage" class="cw-stage" aria-live="polite"></section>
+        <section id="cw-completion" class="cw-completion" hidden><h2>课件完成</h2><p id="cw-completion-text"></p></section>
+        <p id="cw-status" class="cw-status" role="status">从第一步开始学习。</p>
+      </main>
+      <nav class="cw-bottom-nav" aria-label="课件翻页"><button id="cw-prev" class="cw-nav-button" type="button">上一步</button><div class="cw-nav-center"><strong id="cw-step-counter">第 1 / 1 步</strong><span>文字、图片和朗读均可离线使用</span></div><button id="cw-next" class="cw-nav-button" type="button">下一步</button></nav>
+    </div>
+    <script>window.COURSEWARE_CONFIG = {"id":"village","template":"activity-studio","contentType":"","categoryLabel":"","author":"","dynasty":"","activityLabel":"动手活动","requiredInteractions":[],"sourcePath":"childrens-library/courseware/village.html","steps":[{"title":"选择你的角色","scene":"meadow","textZh":"Steve\n经典像素风","detailsText":"Steve\n经典像素风\nMax\n冒险少年\n点击选择\n🏘️ 欢迎来到\n村庄学堂！\n用方向键或 D-pad 移动角色\n走近小屋按 ✕ 进入学习\n开始冒险！\n🗡️ 小勇士\nLV.1\nEXP 0/80\n0\n🐺 宠物\n🎁\n▲\n◀\n✕\n▶\n▼\n🏠 走进去看看！按 ✕ 进入\n📚\n课程列表\n✕","images":["../../local/assets/gpt-sprites/character/steve_idle_0.png","../../local/assets/gpt-sprites/character/max/max_idle_00.png"],"imageAlt":"选择你的角色"}]};</script>
+    <script type="module" src="../shared/courseware-model.js"></script>
+    <script type="module" src="../shared/courseware-runtime.js"></script>
+  </body>
+</html>

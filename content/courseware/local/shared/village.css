@@ -1,0 +1,1102 @@
+/* ========================================
+   village.css — 我的学习村庄样式
+   Minecraft 游戏风格全面改造
+   ======================================== */
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+  /* Minecraft 专用色 */
+  --mc-dark: #1A1A1A;
+  --mc-panel: rgba(16,16,16,0.88);
+  --mc-border: rgba(255,255,255,0.12);
+  --mc-gold: #FFD700;
+  --mc-green: #5D9C3C;
+  --mc-green-dark: #3E7228;
+  --mc-dirt: #9B7340;
+  --mc-sky: #78C8F0;
+
+  /* 主色调 */
+  --primary: #4A90D9;
+  --primary-dark: #2C6FAD;
+  --primary-light: #D6EAFA;
+  --accent-orange: #FF6B35;
+  --accent-orange-light: rgba(255,107,53,0.15);
+  --accent-green: #5BAD6F;
+  --accent-green-light: rgba(91,173,111,0.15);
+  --accent-pink: #F48FB1;
+  --accent-purple: #9B59B6;
+  --accent-yellow: #FFD166;
+  --accent-red: #E85D5D;
+
+  /* 中性色 — Minecraft 暗色主题 */
+  --bg: #87CEEB;
+  --bg-alt: rgba(0,0,0,0.3);
+  --card-bg: var(--mc-panel);
+  --text-primary: #FFFFFF;
+  --text-secondary: rgba(255,255,255,0.7);
+  --text-light: rgba(255,255,255,0.4);
+  --border: var(--mc-border);
+  --shadow-sm: 0 2px 8px rgba(0,0,0,0.3);
+  --shadow-md: 0 4px 16px rgba(0,0,0,0.4);
+  --shadow-lg: 0 8px 32px rgba(0,0,0,0.5);
+
+  /* 区域色 */
+  --zone-english: #4A90D9;
+  --zone-chinese: #FF6B35;
+  --zone-math: #5BAD6F;
+  --zone-songs: #F48FB1;
+  --zone-science: #9B59B6;
+  --zone-stories: #FFD166;
+
+  /* 字体 */
+  --font-body: 'Nunito', 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  --font-pixel: 'Press Start 2P', 'Courier New', monospace;
+
+  /* 圆角 — Minecraft 风格（小圆角） */
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 8px;
+  --radius-xl: 12px;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--text-primary);
+  background: #888888;
+  overflow-x: hidden;
+  min-height: 100vh;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.6;
+}
+
+/* Canvas 像素世界背景 */
+#worldCanvas {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  z-index: -1;
+  image-rendering: pixelated;
+}
+
+/* ===== 顶部 HUD ===== */
+.village-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: linear-gradient(180deg, rgba(0,0,0,0.55) 0%, transparent 100%);
+  padding: 12px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: none;
+  box-shadow: none;
+  pointer-events: none;
+}
+.village-header > * { pointer-events: auto; }
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.steve-icon {
+  font-size: 32px;
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.5));
+}
+.village-name {
+  font-family: var(--font-pixel);
+  font-size: 14px;
+  color: white;
+  text-shadow: 2px 2px 0 rgba(0,0,0,0.8);
+  letter-spacing: 0.05em;
+}
+.header-right {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.stat-badge {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(0,0,0,0.6);
+  border: 2px solid rgba(255,255,255,0.2);
+  border-radius: 8px;
+  padding: 6px 12px;
+  color: white;
+  font-size: 13px;
+  font-weight: 800;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.stat-badge:hover {
+  background: rgba(0,0,0,0.8);
+  transform: translateY(-1px);
+}
+.stat-badge .badge-icon { font-size: 16px; }
+.stat-badge .badge-value { min-width: 20px; text-align: center; color: var(--mc-gold); }
+.stat-badge .badge-label { font-size: 8px; color: rgba(255,255,255,0.5); font-family: var(--font-pixel); }
+
+/* ===== 主内容区 ===== */
+.village-main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px 16px 100px;
+}
+
+/* ===== 欢迎横幅（Minecraft 风格） ===== */
+.welcome-banner {
+  background: var(--mc-panel);
+  border: 3px solid rgba(255,255,255,0.15);
+  border-radius: var(--radius-lg);
+  padding: 24px 24px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.4);
+  position: relative;
+  overflow: hidden;
+}
+.welcome-avatar {
+  font-size: 56px;
+  animation: avatarBounce 2s ease-in-out infinite;
+  filter: drop-shadow(0 4px 8px rgba(0,0,0,0.4));
+  flex-shrink: 0;
+  position: relative;
+}
+@keyframes avatarBounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+.welcome-info { flex: 1; position: relative; }
+.welcome-greeting {
+  font-family: var(--font-pixel);
+  font-size: 14px;
+  font-weight: 900;
+  color: #fff;
+  margin-bottom: 4px;
+  line-height: 1.4;
+  text-shadow: 1px 1px 0 rgba(0,0,0,0.8);
+}
+.welcome-hint {
+  font-size: 13px;
+  color: rgba(255,255,255,0.55);
+  line-height: 1.5;
+}
+
+/* ===== 每日任务卡片（Minecraft 风格） ===== */
+.daily-card {
+  background: var(--mc-panel);
+  border: 3px solid rgba(255,255,255,0.15);
+  border-radius: var(--radius-lg);
+  padding: 16px 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  border-left: 4px solid var(--mc-gold);
+  transition: transform 0.2s;
+}
+.daily-card:hover { transform: translateY(-2px); }
+.daily-icon {
+  font-size: 32px;
+  flex-shrink: 0;
+}
+.daily-info { flex: 1; }
+.daily-label {
+  font-family: var(--font-pixel);
+  font-size: 9px;
+  font-weight: 700;
+  color: var(--mc-gold);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 4px;
+}
+.daily-task {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+.daily-reward {
+  font-size: 12px;
+  color: var(--mc-gold);
+  margin-top: 2px;
+}
+.daily-status {
+  font-size: 11px;
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-weight: 700;
+  flex-shrink: 0;
+  font-family: var(--font-pixel);
+}
+.daily-status.pending {
+  background: rgba(255,215,0,0.15);
+  color: var(--mc-gold);
+}
+.daily-status.done {
+  background: rgba(93,156,60,0.2);
+  color: var(--mc-green);
+}
+
+/* ===== 区域标题（Minecraft 风格） ===== */
+.section-title {
+  font-family: var(--font-pixel);
+  font-size: 14px;
+  font-weight: 900;
+  color: white;
+  margin-bottom: 14px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-shadow: 1px 1px 0 rgba(0,0,0,0.8);
+}
+.section-title .title-icon { font-size: 22px; }
+
+/* ===== 区域卡片网格 ===== */
+.zone-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 16px;
+  margin-bottom: 28px;
+}
+
+.zone-card {
+  background: var(--mc-panel);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.15s, box-shadow 0.15s, border-color 0.15s;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.4);
+  border: 3px solid rgba(255,255,255,0.15);
+  position: relative;
+}
+.zone-card:hover {
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+  border-color: rgba(255,255,255,0.3);
+}
+.zone-card:active {
+  transform: translateY(-2px) scale(0.98);
+}
+
+/* 卡片顶部封面区 — Minecraft 风格 */
+.zone-card-header {
+  padding: 20px 18px 16px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  position: relative;
+}
+
+/* 各区域封面背景色 */
+.zone-card[data-zone="english"] .zone-card-header { background: linear-gradient(135deg, #B5D4F4, var(--zone-english)); }
+.zone-card[data-zone="chinese"] .zone-card-header { background: linear-gradient(135deg, #FFD0B8, var(--zone-chinese)); }
+.zone-card[data-zone="math"] .zone-card-header { background: linear-gradient(135deg, #A8E6CF, var(--zone-math)); }
+.zone-card[data-zone="songs"] .zone-card-header { background: linear-gradient(135deg, #FAD0E0, var(--zone-songs)); }
+.zone-card[data-zone="science"] .zone-card-header { background: linear-gradient(135deg, #D8C4F0, var(--zone-science)); }
+.zone-card[data-zone="stories"] .zone-card-header { background: linear-gradient(135deg, #FFE8B0, var(--zone-stories)); }
+
+.zone-card[data-zone="english"]:hover { border-color: var(--zone-english); }
+.zone-card[data-zone="chinese"]:hover { border-color: var(--zone-chinese); }
+.zone-card[data-zone="math"]:hover { border-color: var(--zone-math); }
+.zone-card[data-zone="songs"]:hover { border-color: var(--zone-songs); }
+.zone-card[data-zone="science"]:hover { border-color: var(--zone-science); }
+.zone-card[data-zone="stories"]:hover { border-color: var(--zone-stories); }
+
+.zone-icon {
+  width: 52px; height: 52px;
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  flex-shrink: 0;
+  background: rgba(0,0,0,0.4);
+  border: 2px solid rgba(255,255,255,0.15);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+.zone-title-area { flex: 1; min-width: 0; }
+.zone-name {
+  font-family: var(--font-pixel);
+  font-size: 12px;
+  font-weight: 900;
+  color: #fff;
+  margin-bottom: 4px;
+  text-shadow: 1px 1px 0 rgba(0,0,0,0.8);
+}
+.zone-desc {
+  font-size: 14px;
+  color: rgba(255,255,255,0.7);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* 卡片进度区 */
+.zone-card-footer {
+  padding: 0 20px 16px;
+}
+.zone-progress-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 6px;
+}
+.zone-progress-bar {
+  flex: 1;
+  height: 8px;
+  background: rgba(0,0,0,0.6);
+  border: 2px solid rgba(255,255,255,0.25);
+  border-radius: 2px;
+  overflow: hidden;
+}
+.zone-progress-fill {
+  height: 100%;
+  border-radius: 1px;
+  transition: width 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+  width: 0%;
+  background: repeating-linear-gradient(90deg, var(--mc-green) 0, var(--mc-green) 10px, var(--mc-green-dark) 10px, var(--mc-green-dark) 13px);
+}
+/* 进度条统一使用 Minecraft 绿色条纹 */
+
+.zone-progress-text {
+  font-family: var(--font-pixel);
+  font-size: 10px;
+  font-weight: 700;
+  color: rgba(255,255,255,0.6);
+  flex-shrink: 0;
+  min-width: 48px;
+  text-align: right;
+}
+
+/* 锁定状态 */
+.zone-card.locked {
+  opacity: 0.6;
+  filter: grayscale(0.3);
+}
+.zone-card.locked:hover {
+  transform: translateY(-2px);
+  border-color: var(--border);
+}
+.lock-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(255,255,255,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-lg);
+  z-index: 5;
+  pointer-events: none;
+}
+.lock-icon {
+  font-size: 36px;
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.2));
+}
+
+/* ===== 底部快捷栏（Minecraft Hotbar） ===== */
+.bottom-bar {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0,0,0,0.75);
+  border: 3px solid rgba(255,255,255,0.25);
+  border-radius: 6px 6px 0 0;
+  padding: 4px;
+  padding-bottom: calc(4px + env(safe-area-inset-bottom, 0px));
+  display: flex;
+  gap: 2px;
+  z-index: 90;
+}
+.bottom-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  width: 56px;
+  height: 56px;
+  background: rgba(100,100,100,0.4);
+  border: 2px solid rgba(0,0,0,0.5);
+  border-radius: 2px;
+  cursor: pointer;
+  transition: all 0.15s;
+  font-family: var(--font-body);
+  color: rgba(255,255,255,0.7);
+}
+.bottom-btn:hover {
+  background: rgba(100,100,100,0.7);
+  border-color: rgba(255,255,255,0.3);
+  color: white;
+  transform: translateY(-2px);
+}
+.bottom-btn .btn-icon { font-size: 28px; }
+.bottom-btn .btn-label {
+  font-family: var(--font-pixel);
+  font-size: 8px;
+  font-weight: 800;
+}
+
+/* 待领取红点 */
+.pending-dot {
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  width: 10px;
+  height: 10px;
+  background: #FF3B30;
+  border-radius: 50%;
+  border: 2px solid #1A1A1A;
+  animation: dotPulse 1.2s ease-in-out infinite;
+}
+@keyframes dotPulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.3); }
+}
+
+/* ===== 角色（Steve / Alex / Pet）===== */
+.characters-row {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+.character-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+  transition: transform 0.2s;
+  position: relative;
+}
+.character-card:hover { transform: scale(1.08); }
+.character-svg {
+  animation: characterBounce 1.5s ease-in-out infinite;
+}
+.character-svg svg,
+.character-svg img {
+  display: block;
+}
+@keyframes characterBounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+.character-name {
+  font-family: var(--font-pixel);
+  font-size: 10px;
+  font-weight: 700;
+  color: rgba(255,255,255,0.7);
+}
+
+/* 语音气泡 — Minecraft 风格 */
+.speech-bubble {
+  position: absolute;
+  top: -60px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0,0,0,0.85);
+  color: white;
+  padding: 10px 16px;
+  border-radius: var(--radius-lg);
+  font-size: 13px;
+  font-weight: 700;
+  white-space: nowrap;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.4);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s, transform 0.3s;
+  transform: translateX(-50%) translateY(8px);
+  z-index: 50;
+  border: 3px solid rgba(255,255,255,0.2);
+}
+.speech-bubble.show {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+.speech-bubble::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 6px solid transparent;
+  border-top-color: rgba(255,255,255,0.2);
+}
+
+/* ===== 宠物展示 ===== */
+.pet-display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+  position: relative;
+}
+.pet-svg {
+  animation: petBounce 2s ease-in-out infinite;
+}
+.pet-svg svg,
+.pet-svg img {
+  display: block;
+}
+.pet-happy .pet-svg { animation: petJump 0.8s ease-in-out infinite; }
+.pet-sad .pet-svg { animation: petSad 2s ease-in-out infinite; opacity: 0.7; }
+@keyframes petBounce { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-4px); } }
+@keyframes petJump { 0%,100% { transform: translateY(0) rotate(0); } 25% { transform: translateY(-12px) rotate(-5deg); } 75% { transform: translateY(-12px) rotate(5deg); } }
+@keyframes petSad { 0%,100% { transform: translateY(0); } 50% { transform: translateY(2px); } }
+.pet-tag {
+  font-family: var(--font-pixel);
+  font-size: 9px;
+  font-weight: 700;
+  color: rgba(255,255,255,0.6);
+}
+
+/* ===== 装饰层 ===== */
+.decorations {
+  display: none; /* 装饰在新布局中隐藏，不影响功能 */
+}
+
+/* ===== 课件列表面板（底部弹出 + 暗色主题） ===== */
+.panel-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  z-index: 199;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+.panel-overlay.show { opacity: 1; pointer-events: auto; }
+
+.zone-panel {
+  position: fixed;
+  bottom: 0; left: 0; right: 0;
+  max-height: 85vh;
+  background: rgba(15,15,20,0.97);
+  z-index: 200;
+  border-radius: 20px 20px 0 0;
+  transform: translateY(100%);
+  transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.zone-panel.open { transform: translateY(0); }
+
+.panel-handle {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0 4px;
+}
+.panel-handle-bar {
+  width: 36px;
+  height: 4px;
+  background: rgba(255,255,255,0.25);
+  border-radius: 2px;
+}
+
+.panel-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 20px;
+  background: transparent;
+  color: #FFFFFF;
+}
+.panel-icon { font-size: 28px; }
+.panel-title {
+  font-size: 18px;
+  font-weight: 900;
+  flex: 1;
+  color: #FFFFFF;
+}
+.panel-close {
+  background: rgba(255,255,255,0.12);
+  border: none;
+  color: rgba(255,255,255,0.7);
+  font-size: 20px;
+  cursor: pointer;
+  width: 44px;
+  height: 44px;
+  min-width: 44px;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  transition: all 0.2s;
+  line-height: 1;
+  font-weight: 700;
+  touch-action: manipulation;
+}
+.panel-close:hover { background: rgba(255,255,255,0.2); color: #fff; }
+
+.panel-desc {
+  padding: 0 20px 14px;
+  font-size: 14px;
+  color: rgba(255,255,255,0.55);
+  line-height: 1.5;
+}
+.panel-progress {
+  padding: 0 20px 14px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.progress-bar {
+  flex: 1;
+  height: 12px;
+  background: rgba(255,255,255,0.1);
+  border-radius: 6px;
+  overflow: hidden;
+}
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--accent-green), #43A047);
+  border-radius: 6px;
+  transition: width 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+  width: 0%;
+}
+.progress-text {
+  font-weight: 700;
+  font-size: 14px;
+  color: rgba(255,255,255,0.8);
+  flex-shrink: 0;
+}
+
+/* 课件列表 */
+.course-list {
+  flex: 1;
+  overflow-y: auto;
+  padding: 16px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 14px;
+  align-content: start;
+  -webkit-overflow-scrolling: touch;
+}
+.course-card {
+  background: rgba(255,255,255,0.06);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.3);
+}
+.course-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+}
+.course-card.completed {
+  box-shadow: 0 0 0 2px var(--accent-orange), 0 2px 12px rgba(0,0,0,0.3);
+}
+/* 课程封面区域 — 参考模板 book-cover */
+.card-cover {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+.card-cover-pattern {
+  position: absolute;
+  inset: 0;
+  opacity: 0.12;
+  background-image: radial-gradient(circle, white 20%, transparent 20%);
+  background-size: 20px 20px;
+  pointer-events: none;
+}
+.card-emoji {
+  font-size: 44px;
+  position: relative;
+  z-index: 1;
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.15));
+}
+/* 课程信息区域 — 暗色主题 */
+.card-body {
+  padding: 12px;
+  text-align: center;
+}
+.course-card .card-title {
+  font-size: 13px;
+  font-weight: 800;
+  color: rgba(255,255,255,0.92);
+  line-height: 1.3;
+  margin-bottom: 4px;
+}
+.course-card .card-meta {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+.course-card .meta-tag {
+  font-size: 10px;
+  color: rgba(255,255,255,0.45);
+  background: rgba(255,255,255,0.08);
+  padding: 2px 6px;
+  border-radius: 6px;
+}
+.course-card .card-status {
+  font-size: 11px;
+  color: rgba(255,255,255,0.4);
+  font-family: var(--font-body);
+}
+.course-card.completed .card-status {
+  color: var(--accent-orange);
+  font-weight: 700;
+}
+
+/* ===== 商店面板（暗色主题） ===== */
+.shop-panel .shop-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 20px;
+  background: transparent;
+  color: #FFFFFF;
+}
+.shop-panel .shop-title {
+  font-size: 18px;
+  font-weight: 900;
+  flex: 1;
+  color: #FFFFFF;
+}
+.shop-panel .shop-coins {
+  font-size: 18px;
+  font-weight: 800;
+  color: var(--accent-orange);
+}
+.shop-items {
+  flex: 1;
+  overflow-y: auto;
+  padding: 16px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 12px;
+  align-content: start;
+}
+.shop-item {
+  background: rgba(255,255,255,0.06);
+  border-radius: var(--radius-md);
+  padding: 16px 12px;
+  text-align: center;
+  border: 2px solid transparent;
+  transition: all 0.2s;
+}
+.shop-item:hover { border-color: var(--accent-orange); }
+.shop-item.disabled { opacity: 0.5; }
+.item-icon { font-size: 40px; margin-bottom: 8px; }
+.item-name { font-size: 14px; font-weight: 700; color: rgba(255,255,255,0.92); }
+.item-desc { font-size: 11px; color: rgba(255,255,255,0.5); margin: 4px 0; line-height: 1.4; }
+.item-price { font-size: 15px; font-weight: 800; color: var(--accent-orange); margin: 8px 0; }
+.item-buy {
+  background: var(--accent-orange);
+  color: #fff;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 28px;
+  font-size: 13px;
+  font-weight: 800;
+  cursor: pointer;
+  transition: transform 0.15s, box-shadow 0.15s;
+  font-family: var(--font-body);
+  box-shadow: 0 4px 12px rgba(255,107,53,0.35);
+}
+.item-buy:hover { transform: scale(1.06) translateY(-2px); box-shadow: 0 6px 18px rgba(255,107,53,0.45); }
+.item-buy:disabled { background: rgba(255,255,255,0.15); cursor: default; transform: none; box-shadow: none; }
+.item-owned { color: var(--accent-green); font-size: 12px; font-weight: 700; }
+
+/* ===== 宠物面板（暗色主题） ===== */
+.pet-panel .shop-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 20px;
+  background: transparent;
+  color: #FFFFFF;
+}
+.pet-panel .shop-title {
+  font-size: 18px;
+  font-weight: 900;
+  flex: 1;
+  color: #FFFFFF;
+}
+.pet-status-panel {
+  padding: 24px 20px;
+  overflow-y: auto;
+}
+.pet-big-icon {
+  font-size: 72px;
+  text-align: center;
+  margin-bottom: 12px;
+}
+.pet-accessories {
+  text-align: center;
+  margin-bottom: 8px;
+}
+.pet-acc { font-size: 28px; margin: 0 4px; }
+.pet-stage {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 700;
+  color: rgba(255,255,255,0.5);
+  margin-bottom: 20px;
+}
+.pet-stat {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+  font-size: 14px;
+  color: rgba(255,255,255,0.8);
+}
+.pet-stat > span:first-child { width: 50px; font-weight: 700; color: rgba(255,255,255,0.5); }
+.stat-bar {
+  flex: 1;
+  height: 14px;
+  background: rgba(255,255,255,0.1);
+  border-radius: 7px;
+  overflow: hidden;
+}
+.stat-fill {
+  height: 100%;
+  border-radius: 7px;
+  transition: width 0.5s ease;
+}
+.pet-stat > span:last-child { width: 80px; text-align: right; font-size: 13px; color: rgba(255,255,255,0.5); }
+.pet-feed-btn, .pet-play-btn {
+  display: block;
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 28px;
+  font-size: 16px;
+  font-weight: 800;
+  cursor: pointer;
+  margin-top: 12px;
+  transition: transform 0.15s, box-shadow 0.15s;
+  font-family: var(--font-body);
+}
+.pet-feed-btn {
+  background: var(--accent-orange);
+  color: #fff;
+  box-shadow: 0 4px 16px rgba(255,107,53,0.35);
+}
+.pet-feed-btn:hover { transform: scale(1.05) translateY(-2px); box-shadow: 0 8px 24px rgba(255,107,53,0.45); }
+.pet-play-btn {
+  background: var(--accent-pink);
+  color: #fff;
+  box-shadow: 0 4px 16px rgba(244,143,177,0.3);
+}
+.pet-play-btn:hover { transform: scale(1.05) translateY(-2px); box-shadow: 0 8px 24px rgba(244,143,177,0.45); }
+
+/* 宠物选择 */
+.pet-select-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  padding: 20px;
+}
+.pet-select-card {
+  background: rgba(255,255,255,0.06);
+  border-radius: var(--radius-lg);
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  border: 3px solid transparent;
+  transition: all 0.2s;
+}
+.pet-select-card:hover, .pet-select-card:active {
+  border-color: var(--accent-orange);
+  transform: scale(1.05);
+  background: rgba(255,255,255,0.1);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+}
+.pet-select-icon {
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pet-select-icon svg,
+.pet-select-icon img {
+  display: block;
+}
+.pet-select-name { font-size: 15px; font-weight: 700; color: rgba(255,255,255,0.92); }
+
+/* ===== 欢迎动画（Minecraft 风格） ===== */
+.welcome-overlay {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.85);
+  backdrop-filter: blur(8px);
+  z-index: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.5s;
+}
+.welcome-overlay.show { opacity: 1; pointer-events: auto; }
+.welcome-content { text-align: center; color: #fff; }
+.welcome-steve {
+  animation: avatarBounce 1s ease-in-out infinite;
+}
+.welcome-steve img {
+  display: block;
+}
+.welcome-text {
+  font-family: var(--font-pixel);
+  font-size: 14px;
+  font-weight: 800;
+  color: #fff;
+  margin: 20px 0 10px;
+  text-shadow: 2px 2px 0 rgba(0,0,0,0.8);
+  line-height: 1.6;
+}
+.welcome-hint {
+  font-size: 14px;
+  color: rgba(255,255,255,0.5);
+}
+
+/* ===== 完成提示（Minecraft 风格） ===== */
+.completion-toast {
+  position: fixed;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  background: var(--mc-dark);
+  color: white;
+  padding: 32px 44px;
+  border-radius: var(--radius-xl);
+  text-align: center;
+  z-index: 300;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+  border: 3px solid var(--mc-gold);
+  transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+.completion-toast.show { transform: translate(-50%, -50%) scale(1); }
+.toast-stars { font-size: 40px; margin-bottom: 10px; }
+.toast-text {
+  font-family: var(--font-pixel);
+  font-size: 12px;
+  font-weight: 900;
+}
+
+/* ===== 金币浮动动画 ===== */
+.coin-count {
+  cursor: pointer;
+}
+
+/* ===== 成就弹窗（Minecraft Achievement） ===== */
+.achievement-toast {
+  position: fixed;
+  top: -100px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0,0,0,0.9);
+  border: 3px solid var(--mc-gold);
+  border-radius: 12px;
+  padding: 16px 24px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  z-index: 500;
+  transition: top 0.5s cubic-bezier(0.34,1.56,0.64,1);
+  box-shadow: 0 4px 24px rgba(255,215,0,0.3);
+  pointer-events: none;
+}
+.achievement-toast.show { top: 20px; }
+.achievement-toast .ach-icon { font-size: 36px; flex-shrink: 0; }
+.achievement-toast .ach-text {}
+.achievement-toast .ach-title {
+  font-family: var(--font-pixel);
+  font-size: 9px;
+  color: var(--mc-gold);
+  margin-bottom: 4px;
+}
+.achievement-toast .ach-desc {
+  font-size: 13px;
+  color: rgba(255,255,255,0.8);
+  font-weight: 700;
+}
+
+/* ===== 经验条（Minecraft XP Bar） ===== */
+.xp-bar-container {
+  position: fixed;
+  bottom: 68px;
+  bottom: calc(68px + env(safe-area-inset-bottom, 0px));
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  z-index: 89;
+  pointer-events: none;
+}
+.xp-level {
+  font-family: var(--font-pixel);
+  font-size: 10px;
+  color: #80FF20;
+  text-shadow: 1px 1px 0 rgba(0,0,0,0.8);
+  min-width: 20px;
+  text-align: center;
+}
+.xp-bar {
+  width: 200px;
+  height: 8px;
+  background: rgba(0,0,0,0.6);
+  border: 2px solid rgba(255,255,255,0.25);
+  border-radius: 2px;
+  overflow: hidden;
+}
+.xp-bar-fill {
+  height: 100%;
+  background: #80FF20;
+  transition: width 0.5s ease;
+  width: 0%;
+}
+
+/* ===== 响应式 ===== */
+@media (max-width: 768px) {
+  .village-header { padding: 10px 14px; }
+  .village-name { font-size: 9px; }
+  .stat-badge { padding: 5px 10px; font-size: 12px; }
+  .village-main { padding: 14px 12px 100px; }
+  .welcome-banner { padding: 18px 16px; gap: 14px; }
+  .welcome-avatar { font-size: 44px; }
+  .welcome-greeting { font-size: 11px; }
+  .zone-grid { grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 12px; }
+  .zone-icon { width: 44px; height: 44px; font-size: 24px; }
+  .zone-name { font-size: 10px; }
+  .daily-card { padding: 12px 14px; }
+  .characters-row { gap: 16px; }
+  .course-list { grid-template-columns: repeat(auto-fill, minmax(110px, 1fr)); }
+  .xp-bar { width: 150px; }
+  .xp-bar-container { bottom: 64px; bottom: calc(64px + env(safe-area-inset-bottom, 0px)); }
+}
+
+@media (max-width: 480px) {
+  .header-right { gap: 6px; }
+  .stat-badge { padding: 4px 8px; font-size: 11px; }
+  .zone-grid { grid-template-columns: 1fr; }
+  .welcome-banner { flex-direction: column; text-align: center; gap: 10px; }
+  .pet-select-grid { grid-template-columns: repeat(2, 1fr); }
+  .bottom-btn { width: 48px; height: 48px; }
+  .bottom-btn .btn-icon { font-size: 22px; }
+  .bottom-btn .btn-label { font-size: 7px; }
+  .xp-bar { width: 120px; }
+  .xp-level { font-size: 10px; }
+}

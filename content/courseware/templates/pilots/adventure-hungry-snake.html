@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="好饿的小蛇离线绘本模板试点">
+    <title>好饿的小蛇 | 冒险故事模板</title>
+    <link rel="stylesheet" href="../shared/courseware-template.css">
+  </head>
+  <body>
+    <div id="courseware-app" class="cw-shell" data-template="adventure-story">
+      <header class="cw-topbar">
+        <a class="cw-back" href="../../../../index.html" aria-label="返回绘本书架">返回书架</a>
+        <div class="cw-topbar-title"><strong>好饿的小蛇</strong><span>冒险故事模板 · 离线阅读</span></div>
+        <button id="cw-read-aloud" class="cw-icon-button" type="button" title="朗读当前页">朗读</button>
+        <button id="cw-reset" class="cw-icon-button" type="button" title="重新开始">重置</button>
+      </header>
+      <main class="cw-main">
+        <section class="cw-hero">
+          <div><p class="cw-kicker">ADVENTURE STORY · 3-5 岁</p><h1>好饿的小蛇</h1><p>一扭一扭走进故事，看看小蛇每天发现了什么形状、什么颜色的食物。</p></div>
+          <div class="cw-meta"><span>中文绘本</span><span>约 4 分钟</span><span>7 页</span></div>
+        </section>
+        <section class="cw-progress-panel" aria-label="阅读进度">
+          <span id="cw-progress-label" class="cw-progress-label">阅读进度</span><div class="cw-progress-track"><div id="cw-progress-fill" class="cw-progress-fill"></div></div><strong id="cw-progress-value" class="cw-progress-value">0%</strong>
+        </section>
+        <section id="cw-stage" class="cw-stage" aria-live="polite"></section>
+        <section id="cw-completion" class="cw-completion" hidden><h2>故事读完了</h2><p id="cw-completion-text"></p></section>
+        <p id="cw-status" class="cw-status" role="status">准备好了吗？从第一页开始阅读。</p>
+      </main>
+      <nav class="cw-bottom-nav" aria-label="故事翻页"><button id="cw-prev" class="cw-nav-button" type="button">上一步</button><div class="cw-nav-center"><strong id="cw-step-counter">第 1 / 7 步</strong><span>插画、文字和朗读都可以离线使用</span></div><button id="cw-next" class="cw-nav-button" type="button">下一步</button></nav>
+    </div>
+    <script>
+      window.COURSEWARE_CONFIG = {
+        id: 'story-hungry-snake',
+        template: 'adventure-story',
+        activityLabel: '绘本阅读',
+        requiredInteractions: [],
+        steps: [
+          { title: '阳光小路', image: '../../../books/hungry-snake/assets/page-1.jpg', imageAlt: '小蛇在阳光明媚的小路上散步', textZh: '一个阳光明媚的早晨，小蛇一扭一扭地在小路上散步。' },
+          { title: '圆圆的红苹果', image: '../../../books/hungry-snake/assets/page-2.jpg', imageAlt: '小蛇发现红苹果', textZh: '他看到一个圆圆的红苹果。你猜他会怎么做？他啊呜，啊呜，真好吃！', vocab: [{ text: '苹果', en: 'apple' }] },
+          { title: '弯弯的黄香蕉', image: '../../../books/hungry-snake/assets/page-3.jpg', imageAlt: '小蛇发现黄香蕉', textZh: '第二天，小蛇又一扭一扭地去散步了。他看到一根弯弯的黄香蕉。啊呜，啊呜，真好吃！', vocab: [{ text: '香蕉', en: 'banana' }] },
+          { title: '三角形的小饭团', image: '../../../books/hungry-snake/assets/page-4.jpg', imageAlt: '小蛇发现三角形饭团', textZh: '第三天，他看到一个三角形的小饭团。小蛇张开嘴巴，啊呜，啊呜，真好吃！', vocab: [{ text: '三角形', en: 'triangle' }] },
+          { title: '一大串紫葡萄', image: '../../../books/hungry-snake/assets/page-5.jpg', imageAlt: '小蛇发现紫色葡萄', textZh: '第四天，他看到一大串紫色的葡萄。你猜他会怎么做？啊呜，啊呜，真好吃！', vocab: [{ text: '葡萄', en: 'grapes' }] },
+          { title: '尖尖的菠萝', image: '../../../books/hungry-snake/assets/page-6.jpg', imageAlt: '小蛇发现菠萝', textZh: '第五天，他看到一个尖尖的菠萝。小蛇还是一口吃掉了，真是好饿呀！', vocab: [{ text: '菠萝', en: 'pineapple' }] },
+          { title: '树上的苹果', image: '../../../books/hungry-snake/assets/page-7.jpg', imageAlt: '小蛇爬上树吃苹果', textZh: '第六天，小蛇看见树上有许多红苹果。他一扭一扭地爬上树，张开大嘴。喔！啊呜，啊呜，真好吃！现在小蛇吃饱了，也变得好开心。', vocab: [{ text: '吃饱了', en: 'full' }] }
+        ]
+      };
+    </script>
+    <script type="module" src="../shared/courseware-model.js"></script>
+    <script type="module" src="../shared/courseware-runtime.js"></script>
+  </body>
+</html>

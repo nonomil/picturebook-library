@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-type="index">
+<head><link rel="icon" href="../../../favicon.svg" type="image/svg+xml">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+<title>中英文故事绘本 — 集合与索引 | nonomil 儿童绘本图书馆</title>
+<meta name="description" content="17个中英文故事绘本卡片列表，Minecraft像素风儿童故事集">
+<style>
+/* ===== 基础变量与重置 ===== */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+  --sky: #87CEEB;
+  --sky-dark: #5BA3C7;
+  --mc-dark: #1D1D1D;
+  --mc-brown: #3C1F0A;
+  --mc-gold: #FFD700;
+  --mc-green: #5D8A3C;
+  --mc-panel: rgba(0,0,0,0.82);
+  --mc-red: #E74C3C;
+  --mc-blue: #3498DB;
+  --font-mc: 'Press Start 2P', 'Courier New', monospace;
+  --font-body: 'Nunito', 'Segoe UI', sans-serif;
+}
+
+body {
+  font-family: var(--font-body);
+  background: linear-gradient(180deg, #87CEEB 0%, #B8E6FF 40%, #5D8A3C 40%, #4A7030 100%);
+  min-height: 100vh;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  overflow-x: hidden;
+}
+
+/* ===== 顶部标题栏 ===== */
+.page-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--mc-panel);
+  backdrop-filter: blur(6px);
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+.back-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(255,255,255,0.12);
+  color: #fff;
+  border: 2px solid rgba(255,255,255,0.25);
+  border-radius: 8px;
+  padding: 8px 14px;
+  font-family: var(--font-mc);
+  font-size: 10px;
+  cursor: pointer;
+  transition: all 0.2s;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.back-btn:hover { background: rgba(255,255,255,0.22); border-color: var(--mc-gold); }
+
+.page-title {
+  font-family: var(--font-mc);
+  font-size: 14px;
+  color: var(--mc-gold);
+  flex: 1;
+  line-height: 1.6;
+}
+
+/* ===== 主内容区 ===== */
+.main-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px 16px 40px;
+}
+
+/* ===== 像素风装饰 ===== */
+.pixel-divider {
+  height: 6px;
+  background: repeating-linear-gradient(90deg,
+    var(--mc-green) 0px, var(--mc-green) 12px,
+    #3D5A28 12px, #3D5A28 14px
+  );
+  margin: 16px 0 24px;
+  border-radius: 3px;
+  image-rendering: pixelated;
+}
+
+/* ===== 卡片网格 ===== */
+.stories-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+/* ===== 故事卡片 ===== */
+.story-card {
+  position: relative;
+  border-radius: 16px;
+  padding: 24px;
+  cursor: pointer;
+  transition: all 0.2s;
+  border: 3px solid transparent;
+  overflow: hidden;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  image-rendering: auto;
+}
+.story-card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 4px;
+  background: rgba(0,0,0,0.15);
+}
+.story-card:hover {
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.25);
+}
+.story-card:active { transform: scale(0.98); }
+
+.card-emoji { font-size: 48px; line-height: 1; }
+.card-titles { display: flex; flex-direction: column; gap: 4px; }
+.card-title-cn {
+  font-family: var(--font-mc);
+  font-size: 12px;
+  line-height: 1.6;
+}
+.card-title-en {
+  font-size: 13px;
+  font-weight: 700;
+  opacity: 0.8;
+}
+.card-desc {
+  font-size: 14px;
+  opacity: 0.85;
+  line-height: 1.5;
+  flex: 1;
+}
+.card-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-family: var(--font-mc);
+  font-size: 10px;
+  font-weight: 700;
+  border: 2px solid rgba(0,0,0,0.15);
+  cursor: pointer;
+  transition: all 0.2s;
+  align-self: flex-start;
+  margin-top: 4px;
+  text-decoration: none;
+}
+.card-btn:hover { transform: scale(1.05); filter: brightness(1.1); }
+
+/* ===== 主题配色 ===== */
+/* 海洋蓝 */
+.theme-ocean {
+  background: linear-gradient(135deg, #1565C0, #0D47A1);
+  color: #E3F2FD;
+  border-color: #0D47A1;
+}
+.theme-ocean .card-btn { background: #E3F2FD; color: #0D47A1; }
+
+/* 太空深绿 */
+.theme-space {
+  background: linear-gradient(135deg, #1B5E20, #004D40);
+  color: #E8F5E9;
+  border-color: #1B5E20;
+}
+.theme-space .card-btn { background: #E8F5E9; color: #1B5E20; }
+
+/* 战斗红 */
+.theme-battle {
+  background: linear-gradient(135deg, #C62828, #B71C1C);
+  color: #FFEBEE;
+  border-color: #C62828;
+}
+.theme-battle .card-btn { background: #FFEBEE; color: #B71C1C; }
+
+/* 农场绿 */
+.theme-farm {
+  background: linear-gradient(135deg, #388E3C, #2E7D32);
+  color: #E8F5E9;
+  border-color: #388E3C;
+}
+.theme-farm .card-btn { background: #E8F5E9; color: #2E7D32; }
+
+/* 坦克棕 */
+.theme-tank {
+  background: linear-gradient(135deg, #6D4C41, #4E342E);
+  color: #EFEBE9;
+  border-color: #6D4C41;
+}
+.theme-tank .card-btn { background: #EFEBE9; color: #4E342E; }
+
+/* 机械灰 */
+.theme-robot {
+  background: linear-gradient(135deg, #455A64, #37474F);
+  color: #ECEFF1;
+  border-color: #455A64;
+}
+.theme-robot .card-btn { background: #ECEFF1; color: #37474F; }
+
+/* 像素橙 */
+.theme-minecraft {
+  background: linear-gradient(135deg, #E65100, #BF360C);
+  color: #FFF3E0;
+  border-color: #E65100;
+}
+.theme-minecraft .card-btn { background: #FFF3E0; color: #BF360C; }
+
+/* 豌豆绿 */
+.theme-pea {
+  background: linear-gradient(135deg, #4CAF50, #388E3C);
+  color: #E8F5E9;
+  border-color: #4CAF50;
+}
+.theme-pea .card-btn { background: #E8F5E9; color: #388E3C; }
+
+/* 蛇紫 */
+.theme-snake {
+  background: linear-gradient(135deg, #7B1FA2, #6A1B9A);
+  color: #F3E5F5;
+  border-color: #7B1FA2;
+}
+.theme-snake .card-btn { background: #F3E5F5; color: #6A1B9A; }
+
+/* 星球大战深蓝 */
+.theme-starwars {
+  background: linear-gradient(135deg, #1A237E, #0D1B5E);
+  color: #E8EAF6;
+  border-color: #1A237E;
+}
+.theme-starwars .card-btn { background: #E8EAF6; color: #0D1B5E; }
+
+/* 坦克灰绿 */
+.theme-tank2 {
+  background: linear-gradient(135deg, #546E7A, #37474F);
+  color: #ECEFF1;
+  border-color: #546E7A;
+}
+.theme-tank2 .card-btn { background: #ECEFF1; color: #37474F; }
+
+/* ===== 底部信息 ===== */
+.footer-info {
+  text-align: center;
+  padding: 32px 16px 24px;
+  color: rgba(255,255,255,0.8);
+  font-size: 14px;
+  font-weight: 700;
+}
+.footer-info .footer-badge {
+  display: inline-block;
+  background: var(--mc-panel);
+  padding: 10px 24px;
+  border-radius: 12px;
+  border: 2px solid var(--mc-gold);
+  font-family: var(--font-mc);
+  font-size: 10px;
+  color: var(--mc-gold);
+}
+
+/* ===== 响应式 ===== */
+@media (min-width: 1024px) {
+  .stories-grid { grid-template-columns: repeat(3, 1fr); }
+}
+
+@media (max-width: 768px) {
+  .page-title { font-size: 11px; }
+  .back-btn { font-size: 12px; padding: 6px 10px; }
+  .stories-grid { grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 14px; }
+  .story-card { padding: 18px; }
+  .card-emoji { font-size: 40px; }
+  .card-title-cn { font-size: 10px; }
+}
+
+@media (max-width: 480px) {
+  .stories-grid { grid-template-columns: 1fr; }
+  .page-header { padding: 10px 12px; flex-wrap: wrap; }
+  .page-title { font-size: 10px; }
+}
+
+/* ===== 入场动画 ===== */
+.story-card {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: cardFadeIn 0.4s ease forwards;
+}
+@keyframes cardFadeIn {
+  to { opacity: 1; transform: translateY(0); }
+}
+.story-card:nth-child(1)  { animation-delay: 0.05s; }
+.story-card:nth-child(2)  { animation-delay: 0.10s; }
+.story-card:nth-child(3)  { animation-delay: 0.15s; }
+.story-card:nth-child(4)  { animation-delay: 0.20s; }
+.story-card:nth-child(5)  { animation-delay: 0.25s; }
+.story-card:nth-child(6)  { animation-delay: 0.30s; }
+.story-card:nth-child(7)  { animation-delay: 0.35s; }
+.story-card:nth-child(8)  { animation-delay: 0.40s; }
+.story-card:nth-child(9)  { animation-delay: 0.45s; }
+.story-card:nth-child(10) { animation-delay: 0.50s; }
+.story-card:nth-child(11) { animation-delay: 0.55s; }
+.story-card:nth-child(12) { animation-delay: 0.60s; }
+.story-card:nth-child(13) { animation-delay: 0.65s; }
+.story-card:nth-child(14) { animation-delay: 0.70s; }
+.story-card:nth-child(15) { animation-delay: 0.75s; }
+.story-card:nth-child(16) { animation-delay: 0.80s; }
+.story-card:nth-child(17) { animation-delay: 0.85s; }
+</style>
+<script src="shared/offline-gsap.js"></script>
+<script src="shared/village-reporter.js">
+// === AUTO-ADDED: village completion reporting ===
+document.addEventListener('click', function(e) {
+  if (e.target && e.target.closest && e.target.closest('.story-card')) {
+    setTimeout(function() { if (window.celebrate) window.celebrate(); }, 500);
+  }
+});
+</script>
+</head>
+<body>
+
+  <!-- 顶部标题栏 -->
+  <header class="page-header">
+    <a href="../village.html" class="back-btn">⬅ 返回村庄</a>
+    <h1 class="page-title">📖 中英文故事绘本 — 集合与索引</h1>
+  </header>
+
+  <main class="main-content">
+    <div class="pixel-divider"></div>
+
+    <!-- 故事卡片网格 -->
+    <div class="stories-grid">
+
+      <!-- 1. 好饿的小蛇 -->
+      <a class="story-card theme-snake" href="stories/story-hungry-snake.html">
+        <div class="card-emoji">🐍</div>
+        <div class="card-titles">
+          <div class="card-title-cn">好饿的小蛇</div>
+          <div class="card-title-en">The Very Hungry Little Snake</div>
+        </div>
+        <div class="card-desc">小蛇吃了很多东西，最后肚子疼了！</div>
+        <div class="card-btn">📖 开始阅读</div>
+      </a>
+
+      <!-- 2. 勇敢的豌豆射手 -->
+      <a class="story-card theme-pea" href="stories/story-brave-pea-shooter.html">
+        <div class="card-emoji">🌱</div>
+        <div class="card-titles">
+          <div class="card-title-cn">勇敢的豌豆射手</div>
+          <div class="card-title-en">The Brave Pea Shooter</div>
+        </div>
+        <div class="card-desc">豌豆射手勇敢地保护花园！</div>
+        <div class="card-btn">📖 开始阅读</div>
+      </a>
+
+      <!-- 3. Steve vs The Wither -->
+      <a class="story-card theme-battle" href="stories/story-steve-wither.html">
+        <div class="card-emoji">⚔️</div>
+        <div class="card-titles">
+          <div class="card-title-cn">Steve大战凋灵</div>
+          <div class="card-title-en">Steve vs The Wither - Sky Knight</div>
+        </div>
+        <div class="card-desc">Steve大战凋灵的史诗战斗！</div>
+        <div class="card-btn">📖 开始阅读</div>
+      </a>
+
+      <!-- 4. 方块大战 -->
+      <a class="story-card theme-minecraft" href="stories/story-block-battle.html">
+        <div class="card-emoji">🧱</div>
+        <div class="card-titles">
+          <div class="card-title-cn">方块大战</div>
+          <div class="card-title-en">Block Battle</div>
+        </div>
+        <div class="card-desc">方块王国的激烈战争！</div>
+        <div class="card-btn">📖 开始阅读</div>
+      </a>
+
+      <!-- 5. 星球大战 -->
+      <a class="story-card theme-starwars" href="stories/story-star-wars.html">
+        <div class="card-emoji">🚀</div>
+        <div class="card-titles">
+          <div class="card-title-cn">星球大战</div>
+          <div class="card-title-en">Star Wars</div>
+        </div>
+        <div class="card-desc">在遥远的银河系展开冒险！</div>
+        <div class="card-btn">📖 开始阅读</div>
+      </a>
+
+      <!-- 6. 家务机器人大战 -->
+      <a class="story-card theme-robot" href="stories/story-robot-battle.html">
+        <div class="card-emoji">🤖</div>
+        <div class="card-titles">
+          <div class="card-title-cn">家务机器人大战</div>
+          <div class="card-title-en">Robot Battle</div>
+        </div>
+        <div class="card-desc">豆豆和豆包的机器人失控了！</div>
+        <div class="card-btn">📖 开始阅读</div>
+      </a>
+
+      <!-- 7. 勇敢的小坦克 -->
+      <a class="story-card theme-tank" href="stories/story-brave-tank.html">
+        <div class="card-emoji">🛡️</div>
+        <div class="card-titles">
+          <div class="card-title-cn">勇敢的小坦克</div>
+          <div class="card-title-en">The Brave Little Tank</div>
+        </div>
+        <div class="card-desc">小坦克的英雄之旅！</div>
+        <div class="card-btn">📖 开始阅读</div>
+      </a>
+
+      <!-- 8. 坦克大战·第一册 -->
+      <a class="story-card theme-tank2" href="stories/story-minecraft-tank-1.html">
+        <div class="card-emoji">🔧</div>
+        <div class="card-titles">
+          <div class="card-title-cn">坦克大战·第一册</div>
+          <div class="card-title-en">Tank Battles Book 1</div>
+        </div>
+        <div class="card-desc">Steve建造了他的第一辆坦克！</div>
+        <div class="card-btn">📖 开始阅读</div>
+      </a>
+
+      <!-- 9. 坦克大战·第二册 -->
+      <a class="story-card theme-tank2" href="stories/story-minecraft-tank-2.html">
+        <div class="card-emoji">🔧</div>
+        <div class="card-titles">
+          <div class="card-title-cn">坦克大战·第二册</div>
+          <div class="card-title-en">Tank Battles Book 2</div>
+        </div>
+        <div class="card-desc">升级坦克，更大战斗！</div>
+        <div class="card-btn">📖 开始阅读</div>
+      </a>
+
+      <!-- 10. 坦克大战·第三册 -->
+      <a class="story-card theme-tank2" href="stories/story-minecraft-tank-3.html">
+        <div class="card-emoji">🔧</div>
+        <div class="card-titles">
+          <div class="card-title-cn">坦克大战·第三册</div>
+          <div class="card-title-en">Tank Battles Book 3</div>
+        </div>
+        <div class="card-desc">最终决战，和平到来！</div>
+        <div class="card-btn">📖 开始阅读</div>
+      </a>
+
+      <!-- 11. 甘蔗坦克大作战 -->
+      <a class="story-card theme-farm" href="stories/story-sugarcane-tank.html">
+        <div class="card-emoji">🎋</div>
+        <div class="card-titles">
+          <div class="card-title-cn">甘蔗坦克大作战</div>
+          <div class="card-title-en">The Great Sugarcane Tank Battle</div>
+        </div>
+        <div class="card-desc">甘蔗田里的秘密武器！</div>
+        <div class="card-btn">📖 开始阅读</div>
+      </a>
+
+      <!-- 12. 隐身战车奇袭 -->
+      <a class="story-card theme-robot" href="stories/story-invisible-tank.html">
+        <div class="card-emoji">👻</div>
+        <div class="card-titles">
+          <div class="card-title-cn">隐身战车奇袭</div>
+          <div class="card-title-en">The Invisible Tank Mission</div>
+        </div>
+        <div class="card-desc">隐身战车的秘密任务！</div>
+        <div class="card-btn">📖 开始阅读</div>
+      </a>
+
+      <!-- 13. 太空冒险·飞行平台 -->
+      <a class="story-card theme-space" href="stories/story-space-d1.html">
+        <div class="card-emoji">🛸</div>
+        <div class="card-titles">
+          <div class="card-title-cn">太空冒险·飞行平台</div>
+          <div class="card-title-en">D1: The Flying Platform</div>
+        </div>
+        <div class="card-desc">豆豆发现了一个神奇的飞行平台！</div>
+        <div class="card-btn">📖 开始阅读</div>
+      </a>
+
+      <!-- 14. 太空冒险·宇宙飞船 -->
+      <a class="story-card theme-space" href="stories/story-space-d2.html">
+        <div class="card-emoji">🛸</div>
+        <div class="card-titles">
+          <div class="card-title-cn">太空冒险·宇宙飞船</div>
+          <div class="card-title-en">D2: The Spaceship</div>
+        </div>
+        <div class="card-desc">建造宇宙飞船去太空！</div>
+        <div class="card-btn">📖 开始阅读</div>
+      </a>
+
+      <!-- 15. 太空冒险·恐龙星球 -->
+      <a class="story-card theme-space" href="stories/story-space-d3.html">
+        <div class="card-emoji">🦕</div>
+        <div class="card-titles">
+          <div class="card-title-cn">太空冒险·恐龙星球</div>
+          <div class="card-title-en">D3: The Dinosaur Planet</div>
+        </div>
+        <div class="card-desc">在太空遇到了恐龙！</div>
+        <div class="card-btn">📖 开始阅读</div>
+      </a>
+
+      <!-- 16. 太空冒险·太空城市 -->
+      <a class="story-card theme-space" href="stories/story-space-d4.html">
+        <div class="card-emoji">🏙️</div>
+        <div class="card-titles">
+          <div class="card-title-cn">太空冒险·太空城市</div>
+          <div class="card-title-en">D4: The City in Space</div>
+        </div>
+        <div class="card-desc">参观未来的太空城市！</div>
+        <div class="card-btn">📖 开始阅读</div>
+      </a>
+
+      <!-- 17. 海底大冒险 -->
+      <a class="story-card theme-ocean" href="stories/story-ocean-adventure.html">
+        <div class="card-emoji">🌊</div>
+        <div class="card-titles">
+          <div class="card-title-cn">海底大冒险</div>
+          <div class="card-title-en">Ocean Adventure</div>
+        </div>
+        <div class="card-desc">20章完整的海底探险故事！</div>
+        <div class="card-btn">📖 开始阅读</div>
+      </a>
+
+    </div><!-- .stories-grid -->
+
+    <!-- 底部统计 -->
+    <div class="footer-info">
+      <div class="footer-badge">共17个故事绘本 · 持续更新中</div>
+    </div>
+  </main>
+
+  <script src="shared/village-animals.js"></script>
+</body>
+</html>

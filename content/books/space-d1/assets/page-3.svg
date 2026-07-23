@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="768" viewBox="0 0 1024 768" role="img" aria-label="A friendly robot designing a crystal energy planet in space">
+  <defs>
+    <radialGradient id="space3" cx="50%" cy="45%" r="70%"><stop offset="0" stop-color="#263e86"/><stop offset="1" stop-color="#090d2d"/></radialGradient>
+    <radialGradient id="planet3" cx="35%" cy="30%" r="75%"><stop offset="0" stop-color="#9ef7ff"/><stop offset=".42" stop-color="#4b8cff"/><stop offset="1" stop-color="#653bd1"/></radialGradient>
+    <linearGradient id="robot3" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff7db"/><stop offset=".55" stop-color="#ffb15c"/><stop offset="1" stop-color="#e56b4e"/></linearGradient>
+    <filter id="glow3"><feGaussianBlur stdDeviation="15" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1024" height="768" fill="url(#space3)"/>
+  <g fill="#fff2a8" opacity=".9"><circle cx="78" cy="112" r="5"/><circle cx="164" cy="254" r="4"/><circle cx="282" cy="84" r="6"/><circle cx="705" cy="98" r="4"/><circle cx="908" cy="188" r="6"/><circle cx="954" cy="608" r="4"/><circle cx="560" cy="690" r="5"/></g>
+  <path d="M40 560 C190 410 245 435 350 545 S580 685 745 548" fill="none" stroke="#5f78dc" stroke-width="3" opacity=".45"/>
+  <g filter="url(#glow3)"><circle cx="694" cy="368" r="192" fill="url(#planet3)" stroke="#b7f7ff" stroke-width="8"/><path d="M536 338 664 222 740 276 835 242 876 348 824 454 708 496 601 456Z" fill="none" stroke="#d5c9ff" stroke-width="10" opacity=".72"/><path d="m608 288 88 162 92-172M545 383l145 22 180-57M632 230l32 178 112 87" fill="none" stroke="#b5f4ff" stroke-width="6" opacity=".7"/><circle cx="694" cy="368" r="42" fill="#fff7a3" opacity=".8"/></g>
+  <g transform="translate(210 355)"><ellipse cx="126" cy="248" rx="112" ry="28" fill="#030615" opacity=".45"/><rect x="35" y="52" width="186" height="170" rx="74" fill="url(#robot3)" stroke="#fff3d1" stroke-width="8"/><rect x="67" y="90" width="122" height="75" rx="34" fill="#162552" stroke="#8fe6ff" stroke-width="6"/><circle cx="105" cy="126" r="13" fill="#a5f8ff"/><circle cx="153" cy="126" r="13" fill="#a5f8ff"/><path d="M111 149 Q129 164 147 149" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round"/><path d="M35 118 0 88M221 118l38-30M119 52V18" fill="none" stroke="#ffc36c" stroke-width="14" stroke-linecap="round"/><circle cx="119" cy="15" r="12" fill="#a5f8ff"/><path d="M72 220 44 274M185 220l28 54" stroke="#ffc36c" stroke-width="22" stroke-linecap="round"/><path d="M238 92 Q302 58 346 96" fill="none" stroke="#fff3a6" stroke-width="8" stroke-linecap="round"/></g>
+  <g fill="#a8eaff" opacity=".85"><path d="m450 138 24 42-42-24z"/><path d="m882 420 28 48-48-22z"/><path d="m470 570 19 34-35-16z"/></g>
+</svg>

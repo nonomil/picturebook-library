@@ -1,0 +1,4402 @@
+{
+  "version": "1.0.0",
+  "generated_at": "2026-05-31T00:47:00+08:00",
+  "description": "GPT sprite assets manifest for childrens-library courseware",
+  "base_path": "assets/gpt-sprites",
+  "total_files": 681,
+  "categories": {
+    "animals": {
+      "label": "动物",
+      "groups": [
+        {
+          "id": "pig",
+          "label": "猪",
+          "frames": [
+            "animals/pig/pig_frame_00.png",
+            "animals/pig/pig_frame_01.png",
+            "animals/pig/pig_frame_02.png",
+            "animals/pig/pig_frame_03.png",
+            "animals/pig/pig_frame_04.png",
+            "animals/pig/pig_frame_05.png",
+            "animals/pig/pig_frame_06.png",
+            "animals/pig/pig_frame_07.png",
+            "animals/pig/pig_frame_08.png",
+            "animals/pig/pig_frame_09.png",
+            "animals/pig/pig_frame_10.png",
+            "animals/pig/pig_frame_11.png",
+            "animals/pig/pig_frame_12.png",
+            "animals/pig/pig_frame_13.png"
+          ]
+        },
+        {
+          "id": "sheep",
+          "label": "羊",
+          "frames": [
+            "animals/sheep/sheep_frame_00.png",
+            "animals/sheep/sheep_frame_01.png",
+            "animals/sheep/sheep_frame_02.png",
+            "animals/sheep/sheep_frame_03.png",
+            "animals/sheep/sheep_frame_04.png",
+            "animals/sheep/sheep_frame_05.png",
+            "animals/sheep/sheep_frame_06.png",
+            "animals/sheep/sheep_frame_07.png",
+            "animals/sheep/sheep_frame_08.png",
+            "animals/sheep/sheep_frame_09.png",
+            "animals/sheep/sheep_frame_10.png",
+            "animals/sheep/sheep_frame_11.png",
+            "animals/sheep/sheep_frame_12.png"
+          ]
+        },
+        {
+          "id": "chicken",
+          "label": "鸡",
+          "frames": [
+            "animals/chicken/chicken_frame_00.png",
+            "animals/chicken/chicken_frame_01.png",
+            "animals/chicken/chicken_frame_02.png",
+            "animals/chicken/chicken_frame_03.png",
+            "animals/chicken/chicken_frame_04.png",
+            "animals/chicken/chicken_frame_05.png",
+            "animals/chicken/chicken_frame_06.png",
+            "animals/chicken/chicken_frame_07.png",
+            "animals/chicken/chicken_frame_08.png",
+            "animals/chicken/chicken_frame_09.png",
+            "animals/chicken/chicken_frame_10.png",
+            "animals/chicken/chicken_frame_11.png"
+          ]
+        },
+        {
+          "id": "cat",
+          "label": "猫",
+          "frames": [
+            "animals/cat/cat_frame_00.png",
+            "animals/cat/cat_frame_01.png",
+            "animals/cat/cat_frame_02.png",
+            "animals/cat/cat_frame_03.png",
+            "animals/cat/cat_frame_04.png",
+            "animals/cat/cat_frame_05.png",
+            "animals/cat/cat_frame_06.png",
+            "animals/cat/cat_frame_07.png",
+            "animals/cat/cat_frame_08.png",
+            "animals/cat/cat_frame_09.png",
+            "animals/cat/cat_frame_10.png",
+            "animals/cat/cat_frame_11.png"
+          ]
+        },
+        {
+          "id": "dog",
+          "label": "狗",
+          "frames": [
+            "animals/dog/dog_frame_00.png",
+            "animals/dog/dog_frame_01.png",
+            "animals/dog/dog_frame_02.png",
+            "animals/dog/dog_frame_03.png",
+            "animals/dog/dog_frame_04.png",
+            "animals/dog/dog_frame_05.png",
+            "animals/dog/dog_frame_06.png",
+            "animals/dog/dog_frame_07.png",
+            "animals/dog/dog_frame_08.png",
+            "animals/dog/dog_frame_09.png",
+            "animals/dog/dog_frame_10.png",
+            "animals/dog/dog_frame_11.png"
+          ]
+        },
+        {
+          "id": "horse",
+          "label": "马",
+          "frames": [
+            "animals/horse/horse_frame_00.png",
+            "animals/horse/horse_frame_01.png",
+            "animals/horse/horse_frame_02.png",
+            "animals/horse/horse_frame_03.png",
+            "animals/horse/horse_frame_04.png",
+            "animals/horse/horse_frame_05.png",
+            "animals/horse/horse_frame_06.png",
+            "animals/horse/horse_frame_07.png",
+            "animals/horse/horse_frame_08.png",
+            "animals/horse/horse_frame_09.png",
+            "animals/horse/horse_frame_10.png",
+            "animals/horse/horse_frame_11.png"
+          ]
+        }
+      ]
+    },
+    "character": {
+      "label": "角色",
+      "groups": [
+        {
+          "id": "steve_idle_0",
+          "label": "steve idle 0",
+          "frames": [
+            "character/steve_idle_0.png"
+          ]
+        },
+        {
+          "id": "steve_idle_1",
+          "label": "steve idle 1",
+          "frames": [
+            "character/steve_idle_1.png"
+          ]
+        },
+        {
+          "id": "steve_idle_2",
+          "label": "steve idle 2",
+          "frames": [
+            "character/steve_idle_2.png"
+          ]
+        },
+        {
+          "id": "steve_idle_3",
+          "label": "steve idle 3",
+          "frames": [
+            "character/steve_idle_3.png"
+          ]
+        },
+        {
+          "id": "steve_idle_4",
+          "label": "steve idle 4",
+          "frames": [
+            "character/steve_idle_4.png"
+          ]
+        },
+        {
+          "id": "steve_idle_5",
+          "label": "steve idle 5",
+          "frames": [
+            "character/steve_idle_5.png"
+          ]
+        },
+        {
+          "id": "steve_idle_6",
+          "label": "steve idle 6",
+          "frames": [
+            "character/steve_idle_6.png"
+          ]
+        },
+        {
+          "id": "steve_idle_7",
+          "label": "steve idle 7",
+          "frames": [
+            "character/steve_idle_7.png"
+          ]
+        },
+        {
+          "id": "steve_run_0",
+          "label": "steve run 0",
+          "frames": [
+            "character/steve_run_0.png"
+          ]
+        },
+        {
+          "id": "steve_run_1",
+          "label": "steve run 1",
+          "frames": [
+            "character/steve_run_1.png"
+          ]
+        },
+        {
+          "id": "steve_run_2",
+          "label": "steve run 2",
+          "frames": [
+            "character/steve_run_2.png"
+          ]
+        },
+        {
+          "id": "steve_run_3",
+          "label": "steve run 3",
+          "frames": [
+            "character/steve_run_3.png"
+          ]
+        },
+        {
+          "id": "steve_run_4",
+          "label": "steve run 4",
+          "frames": [
+            "character/steve_run_4.png"
+          ]
+        },
+        {
+          "id": "steve_walk_0",
+          "label": "steve walk 0",
+          "frames": [
+            "character/steve_walk_0.png"
+          ]
+        },
+        {
+          "id": "steve_walk_1",
+          "label": "steve walk 1",
+          "frames": [
+            "character/steve_walk_1.png"
+          ]
+        },
+        {
+          "id": "steve_walk_2",
+          "label": "steve walk 2",
+          "frames": [
+            "character/steve_walk_2.png"
+          ]
+        },
+        {
+          "id": "steve_walk_3",
+          "label": "steve walk 3",
+          "frames": [
+            "character/steve_walk_3.png"
+          ]
+        },
+        {
+          "id": "steve_walk_4",
+          "label": "steve walk 4",
+          "frames": [
+            "character/steve_walk_4.png"
+          ]
+        },
+        {
+          "id": "steve_walk_5",
+          "label": "steve walk 5",
+          "frames": [
+            "character/steve_walk_5.png"
+          ]
+        }
+      ]
+    },
+    "backgrounds": {
+      "label": "背景",
+      "groups": [
+        {
+          "id": "background_02",
+          "label": "background 02",
+          "frames": [
+            "backgrounds/background_02.png"
+          ]
+        }
+      ]
+    },
+    "trees": {
+      "label": "树木",
+      "groups": [
+        {
+          "id": "tree_00",
+          "label": "tree 00",
+          "frames": [
+            "trees/tree_00.png"
+          ]
+        },
+        {
+          "id": "tree_01",
+          "label": "tree 01",
+          "frames": [
+            "trees/tree_01.png"
+          ]
+        },
+        {
+          "id": "tree_02",
+          "label": "tree 02",
+          "frames": [
+            "trees/tree_02.png"
+          ]
+        },
+        {
+          "id": "tree_03",
+          "label": "tree 03",
+          "frames": [
+            "trees/tree_03.png"
+          ]
+        },
+        {
+          "id": "tree_04",
+          "label": "tree 04",
+          "frames": [
+            "trees/tree_04.png"
+          ]
+        },
+        {
+          "id": "tree_05",
+          "label": "tree 05",
+          "frames": [
+            "trees/tree_05.png"
+          ]
+        },
+        {
+          "id": "tree_06",
+          "label": "tree 06",
+          "frames": [
+            "trees/tree_06.png"
+          ]
+        }
+      ]
+    },
+    "plants": {
+      "label": "植物",
+      "groups": [
+        {
+          "id": "plant_00",
+          "label": "plant 00",
+          "frames": [
+            "plants/plant_00.png"
+          ]
+        },
+        {
+          "id": "plant_01",
+          "label": "plant 01",
+          "frames": [
+            "plants/plant_01.png"
+          ]
+        },
+        {
+          "id": "plant_02",
+          "label": "plant 02",
+          "frames": [
+            "plants/plant_02.png"
+          ]
+        },
+        {
+          "id": "plant_03",
+          "label": "plant 03",
+          "frames": [
+            "plants/plant_03.png"
+          ]
+        },
+        {
+          "id": "plant_04",
+          "label": "plant 04",
+          "frames": [
+            "plants/plant_04.png"
+          ]
+        },
+        {
+          "id": "plant_05",
+          "label": "plant 05",
+          "frames": [
+            "plants/plant_05.png"
+          ]
+        },
+        {
+          "id": "plant_06",
+          "label": "plant 06",
+          "frames": [
+            "plants/plant_06.png"
+          ]
+        },
+        {
+          "id": "plant_07",
+          "label": "plant 07",
+          "frames": [
+            "plants/plant_07.png"
+          ]
+        },
+        {
+          "id": "plant_08",
+          "label": "plant 08",
+          "frames": [
+            "plants/plant_08.png"
+          ]
+        },
+        {
+          "id": "plant_09",
+          "label": "plant 09",
+          "frames": [
+            "plants/plant_09.png"
+          ]
+        },
+        {
+          "id": "plant_10",
+          "label": "plant 10",
+          "frames": [
+            "plants/plant_10.png"
+          ]
+        },
+        {
+          "id": "plant_11",
+          "label": "plant 11",
+          "frames": [
+            "plants/plant_11.png"
+          ]
+        },
+        {
+          "id": "plant_12",
+          "label": "plant 12",
+          "frames": [
+            "plants/plant_12.png"
+          ]
+        },
+        {
+          "id": "plant_13",
+          "label": "plant 13",
+          "frames": [
+            "plants/plant_13.png"
+          ]
+        },
+        {
+          "id": "plant_14",
+          "label": "plant 14",
+          "frames": [
+            "plants/plant_14.png"
+          ]
+        },
+        {
+          "id": "plant_15",
+          "label": "plant 15",
+          "frames": [
+            "plants/plant_15.png"
+          ]
+        },
+        {
+          "id": "plant_16",
+          "label": "plant 16",
+          "frames": [
+            "plants/plant_16.png"
+          ]
+        }
+      ]
+    },
+    "decorations": {
+      "label": "装饰",
+      "groups": [
+        {
+          "id": "deco_00",
+          "label": "deco 00",
+          "frames": [
+            "decorations/deco_00.png"
+          ]
+        },
+        {
+          "id": "deco_01",
+          "label": "deco 01",
+          "frames": [
+            "decorations/deco_01.png"
+          ]
+        },
+        {
+          "id": "deco_02",
+          "label": "deco 02",
+          "frames": [
+            "decorations/deco_02.png"
+          ]
+        },
+        {
+          "id": "deco_03",
+          "label": "deco 03",
+          "frames": [
+            "decorations/deco_03.png"
+          ]
+        },
+        {
+          "id": "deco_04",
+          "label": "deco 04",
+          "frames": [
+            "decorations/deco_04.png"
+          ]
+        },
+        {
+          "id": "deco_05",
+          "label": "deco 05",
+          "frames": [
+            "decorations/deco_05.png"
+          ]
+        },
+        {
+          "id": "deco_06",
+          "label": "deco 06",
+          "frames": [
+            "decorations/deco_06.png"
+          ]
+        },
+        {
+          "id": "deco_07",
+          "label": "deco 07",
+          "frames": [
+            "decorations/deco_07.png"
+          ]
+        },
+        {
+          "id": "deco_08",
+          "label": "deco 08",
+          "frames": [
+            "decorations/deco_08.png"
+          ]
+        },
+        {
+          "id": "deco_09",
+          "label": "deco 09",
+          "frames": [
+            "decorations/deco_09.png"
+          ]
+        },
+        {
+          "id": "deco_10",
+          "label": "deco 10",
+          "frames": [
+            "decorations/deco_10.png"
+          ]
+        },
+        {
+          "id": "deco_11",
+          "label": "deco 11",
+          "frames": [
+            "decorations/deco_11.png"
+          ]
+        },
+        {
+          "id": "deco_12",
+          "label": "deco 12",
+          "frames": [
+            "decorations/deco_12.png"
+          ]
+        }
+      ]
+    },
+    "props": {
+      "label": "道具",
+      "groups": [
+        {
+          "id": "item_1_000",
+          "label": "item 1 000",
+          "frames": [
+            "props/item_1_000.png"
+          ]
+        },
+        {
+          "id": "item_1_001",
+          "label": "item 1 001",
+          "frames": [
+            "props/item_1_001.png"
+          ]
+        },
+        {
+          "id": "item_1_002",
+          "label": "item 1 002",
+          "frames": [
+            "props/item_1_002.png"
+          ]
+        },
+        {
+          "id": "item_1_003",
+          "label": "item 1 003",
+          "frames": [
+            "props/item_1_003.png"
+          ]
+        },
+        {
+          "id": "item_1_004",
+          "label": "item 1 004",
+          "frames": [
+            "props/item_1_004.png"
+          ]
+        },
+        {
+          "id": "item_1_005",
+          "label": "item 1 005",
+          "frames": [
+            "props/item_1_005.png"
+          ]
+        },
+        {
+          "id": "item_1_006",
+          "label": "item 1 006",
+          "frames": [
+            "props/item_1_006.png"
+          ]
+        },
+        {
+          "id": "item_1_007",
+          "label": "item 1 007",
+          "frames": [
+            "props/item_1_007.png"
+          ]
+        },
+        {
+          "id": "item_1_008",
+          "label": "item 1 008",
+          "frames": [
+            "props/item_1_008.png"
+          ]
+        },
+        {
+          "id": "item_1_009",
+          "label": "item 1 009",
+          "frames": [
+            "props/item_1_009.png"
+          ]
+        },
+        {
+          "id": "item_1_010",
+          "label": "item 1 010",
+          "frames": [
+            "props/item_1_010.png"
+          ]
+        },
+        {
+          "id": "item_1_011",
+          "label": "item 1 011",
+          "frames": [
+            "props/item_1_011.png"
+          ]
+        },
+        {
+          "id": "item_1_012",
+          "label": "item 1 012",
+          "frames": [
+            "props/item_1_012.png"
+          ]
+        },
+        {
+          "id": "item_1_013",
+          "label": "item 1 013",
+          "frames": [
+            "props/item_1_013.png"
+          ]
+        },
+        {
+          "id": "item_1_014",
+          "label": "item 1 014",
+          "frames": [
+            "props/item_1_014.png"
+          ]
+        },
+        {
+          "id": "item_1_015",
+          "label": "item 1 015",
+          "frames": [
+            "props/item_1_015.png"
+          ]
+        },
+        {
+          "id": "item_1_016",
+          "label": "item 1 016",
+          "frames": [
+            "props/item_1_016.png"
+          ]
+        },
+        {
+          "id": "item_1_017",
+          "label": "item 1 017",
+          "frames": [
+            "props/item_1_017.png"
+          ]
+        },
+        {
+          "id": "item_1_018",
+          "label": "item 1 018",
+          "frames": [
+            "props/item_1_018.png"
+          ]
+        },
+        {
+          "id": "item_1_019",
+          "label": "item 1 019",
+          "frames": [
+            "props/item_1_019.png"
+          ]
+        },
+        {
+          "id": "item_1_020",
+          "label": "item 1 020",
+          "frames": [
+            "props/item_1_020.png"
+          ]
+        },
+        {
+          "id": "item_1_021",
+          "label": "item 1 021",
+          "frames": [
+            "props/item_1_021.png"
+          ]
+        },
+        {
+          "id": "item_1_022",
+          "label": "item 1 022",
+          "frames": [
+            "props/item_1_022.png"
+          ]
+        },
+        {
+          "id": "item_1_023",
+          "label": "item 1 023",
+          "frames": [
+            "props/item_1_023.png"
+          ]
+        },
+        {
+          "id": "item_1_024",
+          "label": "item 1 024",
+          "frames": [
+            "props/item_1_024.png"
+          ]
+        },
+        {
+          "id": "item_1_025",
+          "label": "item 1 025",
+          "frames": [
+            "props/item_1_025.png"
+          ]
+        },
+        {
+          "id": "item_1_026",
+          "label": "item 1 026",
+          "frames": [
+            "props/item_1_026.png"
+          ]
+        },
+        {
+          "id": "item_1_027",
+          "label": "item 1 027",
+          "frames": [
+            "props/item_1_027.png"
+          ]
+        },
+        {
+          "id": "item_1_028",
+          "label": "item 1 028",
+          "frames": [
+            "props/item_1_028.png"
+          ]
+        },
+        {
+          "id": "item_1_029",
+          "label": "item 1 029",
+          "frames": [
+            "props/item_1_029.png"
+          ]
+        },
+        {
+          "id": "item_1_030",
+          "label": "item 1 030",
+          "frames": [
+            "props/item_1_030.png"
+          ]
+        },
+        {
+          "id": "item_1_031",
+          "label": "item 1 031",
+          "frames": [
+            "props/item_1_031.png"
+          ]
+        },
+        {
+          "id": "item_1_032",
+          "label": "item 1 032",
+          "frames": [
+            "props/item_1_032.png"
+          ]
+        },
+        {
+          "id": "item_1_033",
+          "label": "item 1 033",
+          "frames": [
+            "props/item_1_033.png"
+          ]
+        },
+        {
+          "id": "item_1_034",
+          "label": "item 1 034",
+          "frames": [
+            "props/item_1_034.png"
+          ]
+        },
+        {
+          "id": "item_1_035",
+          "label": "item 1 035",
+          "frames": [
+            "props/item_1_035.png"
+          ]
+        },
+        {
+          "id": "item_1_036",
+          "label": "item 1 036",
+          "frames": [
+            "props/item_1_036.png"
+          ]
+        },
+        {
+          "id": "item_1_037",
+          "label": "item 1 037",
+          "frames": [
+            "props/item_1_037.png"
+          ]
+        },
+        {
+          "id": "item_1_038",
+          "label": "item 1 038",
+          "frames": [
+            "props/item_1_038.png"
+          ]
+        },
+        {
+          "id": "item_1_039",
+          "label": "item 1 039",
+          "frames": [
+            "props/item_1_039.png"
+          ]
+        },
+        {
+          "id": "item_1_040",
+          "label": "item 1 040",
+          "frames": [
+            "props/item_1_040.png"
+          ]
+        },
+        {
+          "id": "item_1_041",
+          "label": "item 1 041",
+          "frames": [
+            "props/item_1_041.png"
+          ]
+        },
+        {
+          "id": "item_1_042",
+          "label": "item 1 042",
+          "frames": [
+            "props/item_1_042.png"
+          ]
+        },
+        {
+          "id": "item_1_043",
+          "label": "item 1 043",
+          "frames": [
+            "props/item_1_043.png"
+          ]
+        },
+        {
+          "id": "item_1_044",
+          "label": "item 1 044",
+          "frames": [
+            "props/item_1_044.png"
+          ]
+        },
+        {
+          "id": "item_1_045",
+          "label": "item 1 045",
+          "frames": [
+            "props/item_1_045.png"
+          ]
+        },
+        {
+          "id": "item_1_046",
+          "label": "item 1 046",
+          "frames": [
+            "props/item_1_046.png"
+          ]
+        },
+        {
+          "id": "item_1_047",
+          "label": "item 1 047",
+          "frames": [
+            "props/item_1_047.png"
+          ]
+        },
+        {
+          "id": "item_1_048",
+          "label": "item 1 048",
+          "frames": [
+            "props/item_1_048.png"
+          ]
+        },
+        {
+          "id": "item_1_049",
+          "label": "item 1 049",
+          "frames": [
+            "props/item_1_049.png"
+          ]
+        },
+        {
+          "id": "item_1_050",
+          "label": "item 1 050",
+          "frames": [
+            "props/item_1_050.png"
+          ]
+        },
+        {
+          "id": "item_1_051",
+          "label": "item 1 051",
+          "frames": [
+            "props/item_1_051.png"
+          ]
+        },
+        {
+          "id": "item_1_052",
+          "label": "item 1 052",
+          "frames": [
+            "props/item_1_052.png"
+          ]
+        },
+        {
+          "id": "item_1_053",
+          "label": "item 1 053",
+          "frames": [
+            "props/item_1_053.png"
+          ]
+        },
+        {
+          "id": "item_1_054",
+          "label": "item 1 054",
+          "frames": [
+            "props/item_1_054.png"
+          ]
+        },
+        {
+          "id": "item_1_055",
+          "label": "item 1 055",
+          "frames": [
+            "props/item_1_055.png"
+          ]
+        },
+        {
+          "id": "item_1_056",
+          "label": "item 1 056",
+          "frames": [
+            "props/item_1_056.png"
+          ]
+        },
+        {
+          "id": "item_1_057",
+          "label": "item 1 057",
+          "frames": [
+            "props/item_1_057.png"
+          ]
+        },
+        {
+          "id": "item_1_058",
+          "label": "item 1 058",
+          "frames": [
+            "props/item_1_058.png"
+          ]
+        },
+        {
+          "id": "item_1_059",
+          "label": "item 1 059",
+          "frames": [
+            "props/item_1_059.png"
+          ]
+        },
+        {
+          "id": "item_1_060",
+          "label": "item 1 060",
+          "frames": [
+            "props/item_1_060.png"
+          ]
+        },
+        {
+          "id": "item_1_061",
+          "label": "item 1 061",
+          "frames": [
+            "props/item_1_061.png"
+          ]
+        },
+        {
+          "id": "item_1_062",
+          "label": "item 1 062",
+          "frames": [
+            "props/item_1_062.png"
+          ]
+        },
+        {
+          "id": "item_1_063",
+          "label": "item 1 063",
+          "frames": [
+            "props/item_1_063.png"
+          ]
+        },
+        {
+          "id": "item_1_064",
+          "label": "item 1 064",
+          "frames": [
+            "props/item_1_064.png"
+          ]
+        },
+        {
+          "id": "item_1_065",
+          "label": "item 1 065",
+          "frames": [
+            "props/item_1_065.png"
+          ]
+        },
+        {
+          "id": "item_1_066",
+          "label": "item 1 066",
+          "frames": [
+            "props/item_1_066.png"
+          ]
+        },
+        {
+          "id": "item_1_067",
+          "label": "item 1 067",
+          "frames": [
+            "props/item_1_067.png"
+          ]
+        },
+        {
+          "id": "item_1_068",
+          "label": "item 1 068",
+          "frames": [
+            "props/item_1_068.png"
+          ]
+        },
+        {
+          "id": "item_1_069",
+          "label": "item 1 069",
+          "frames": [
+            "props/item_1_069.png"
+          ]
+        },
+        {
+          "id": "item_1_070",
+          "label": "item 1 070",
+          "frames": [
+            "props/item_1_070.png"
+          ]
+        },
+        {
+          "id": "item_1_071",
+          "label": "item 1 071",
+          "frames": [
+            "props/item_1_071.png"
+          ]
+        },
+        {
+          "id": "item_1_072",
+          "label": "item 1 072",
+          "frames": [
+            "props/item_1_072.png"
+          ]
+        },
+        {
+          "id": "item_1_073",
+          "label": "item 1 073",
+          "frames": [
+            "props/item_1_073.png"
+          ]
+        },
+        {
+          "id": "item_1_074",
+          "label": "item 1 074",
+          "frames": [
+            "props/item_1_074.png"
+          ]
+        },
+        {
+          "id": "item_1_075",
+          "label": "item 1 075",
+          "frames": [
+            "props/item_1_075.png"
+          ]
+        },
+        {
+          "id": "item_1_076",
+          "label": "item 1 076",
+          "frames": [
+            "props/item_1_076.png"
+          ]
+        },
+        {
+          "id": "item_1_077",
+          "label": "item 1 077",
+          "frames": [
+            "props/item_1_077.png"
+          ]
+        },
+        {
+          "id": "item_1_078",
+          "label": "item 1 078",
+          "frames": [
+            "props/item_1_078.png"
+          ]
+        },
+        {
+          "id": "item_1_079",
+          "label": "item 1 079",
+          "frames": [
+            "props/item_1_079.png"
+          ]
+        },
+        {
+          "id": "item_1_080",
+          "label": "item 1 080",
+          "frames": [
+            "props/item_1_080.png"
+          ]
+        },
+        {
+          "id": "item_1_081",
+          "label": "item 1 081",
+          "frames": [
+            "props/item_1_081.png"
+          ]
+        },
+        {
+          "id": "item_1_082",
+          "label": "item 1 082",
+          "frames": [
+            "props/item_1_082.png"
+          ]
+        },
+        {
+          "id": "item_1_083",
+          "label": "item 1 083",
+          "frames": [
+            "props/item_1_083.png"
+          ]
+        },
+        {
+          "id": "item_1_084",
+          "label": "item 1 084",
+          "frames": [
+            "props/item_1_084.png"
+          ]
+        },
+        {
+          "id": "item_1_085",
+          "label": "item 1 085",
+          "frames": [
+            "props/item_1_085.png"
+          ]
+        },
+        {
+          "id": "item_1_086",
+          "label": "item 1 086",
+          "frames": [
+            "props/item_1_086.png"
+          ]
+        },
+        {
+          "id": "item_1_087",
+          "label": "item 1 087",
+          "frames": [
+            "props/item_1_087.png"
+          ]
+        },
+        {
+          "id": "item_1_088",
+          "label": "item 1 088",
+          "frames": [
+            "props/item_1_088.png"
+          ]
+        },
+        {
+          "id": "item_1_089",
+          "label": "item 1 089",
+          "frames": [
+            "props/item_1_089.png"
+          ]
+        },
+        {
+          "id": "item_1_090",
+          "label": "item 1 090",
+          "frames": [
+            "props/item_1_090.png"
+          ]
+        },
+        {
+          "id": "item_1_091",
+          "label": "item 1 091",
+          "frames": [
+            "props/item_1_091.png"
+          ]
+        },
+        {
+          "id": "item_1_092",
+          "label": "item 1 092",
+          "frames": [
+            "props/item_1_092.png"
+          ]
+        },
+        {
+          "id": "item_1_093",
+          "label": "item 1 093",
+          "frames": [
+            "props/item_1_093.png"
+          ]
+        },
+        {
+          "id": "item_1_094",
+          "label": "item 1 094",
+          "frames": [
+            "props/item_1_094.png"
+          ]
+        },
+        {
+          "id": "item_1_095",
+          "label": "item 1 095",
+          "frames": [
+            "props/item_1_095.png"
+          ]
+        },
+        {
+          "id": "item_1_096",
+          "label": "item 1 096",
+          "frames": [
+            "props/item_1_096.png"
+          ]
+        },
+        {
+          "id": "item_1_097",
+          "label": "item 1 097",
+          "frames": [
+            "props/item_1_097.png"
+          ]
+        },
+        {
+          "id": "item_1_098",
+          "label": "item 1 098",
+          "frames": [
+            "props/item_1_098.png"
+          ]
+        },
+        {
+          "id": "item_1_099",
+          "label": "item 1 099",
+          "frames": [
+            "props/item_1_099.png"
+          ]
+        },
+        {
+          "id": "item_1_100",
+          "label": "item 1 100",
+          "frames": [
+            "props/item_1_100.png"
+          ]
+        },
+        {
+          "id": "item_1_101",
+          "label": "item 1 101",
+          "frames": [
+            "props/item_1_101.png"
+          ]
+        },
+        {
+          "id": "item_1_102",
+          "label": "item 1 102",
+          "frames": [
+            "props/item_1_102.png"
+          ]
+        },
+        {
+          "id": "item_1_103",
+          "label": "item 1 103",
+          "frames": [
+            "props/item_1_103.png"
+          ]
+        },
+        {
+          "id": "item_1_104",
+          "label": "item 1 104",
+          "frames": [
+            "props/item_1_104.png"
+          ]
+        },
+        {
+          "id": "item_1_105",
+          "label": "item 1 105",
+          "frames": [
+            "props/item_1_105.png"
+          ]
+        },
+        {
+          "id": "item_1_106",
+          "label": "item 1 106",
+          "frames": [
+            "props/item_1_106.png"
+          ]
+        },
+        {
+          "id": "item_1_107",
+          "label": "item 1 107",
+          "frames": [
+            "props/item_1_107.png"
+          ]
+        },
+        {
+          "id": "item_1_108",
+          "label": "item 1 108",
+          "frames": [
+            "props/item_1_108.png"
+          ]
+        },
+        {
+          "id": "item_1_109",
+          "label": "item 1 109",
+          "frames": [
+            "props/item_1_109.png"
+          ]
+        },
+        {
+          "id": "item_1_110",
+          "label": "item 1 110",
+          "frames": [
+            "props/item_1_110.png"
+          ]
+        },
+        {
+          "id": "item_1_111",
+          "label": "item 1 111",
+          "frames": [
+            "props/item_1_111.png"
+          ]
+        },
+        {
+          "id": "item_1_112",
+          "label": "item 1 112",
+          "frames": [
+            "props/item_1_112.png"
+          ]
+        },
+        {
+          "id": "item_1_113",
+          "label": "item 1 113",
+          "frames": [
+            "props/item_1_113.png"
+          ]
+        },
+        {
+          "id": "item_1_114",
+          "label": "item 1 114",
+          "frames": [
+            "props/item_1_114.png"
+          ]
+        },
+        {
+          "id": "item_1_115",
+          "label": "item 1 115",
+          "frames": [
+            "props/item_1_115.png"
+          ]
+        },
+        {
+          "id": "item_1_116",
+          "label": "item 1 116",
+          "frames": [
+            "props/item_1_116.png"
+          ]
+        },
+        {
+          "id": "item_1_117",
+          "label": "item 1 117",
+          "frames": [
+            "props/item_1_117.png"
+          ]
+        },
+        {
+          "id": "item_1_118",
+          "label": "item 1 118",
+          "frames": [
+            "props/item_1_118.png"
+          ]
+        },
+        {
+          "id": "item_1_119",
+          "label": "item 1 119",
+          "frames": [
+            "props/item_1_119.png"
+          ]
+        },
+        {
+          "id": "item_1_120",
+          "label": "item 1 120",
+          "frames": [
+            "props/item_1_120.png"
+          ]
+        },
+        {
+          "id": "item_1_121",
+          "label": "item 1 121",
+          "frames": [
+            "props/item_1_121.png"
+          ]
+        },
+        {
+          "id": "item_1_122",
+          "label": "item 1 122",
+          "frames": [
+            "props/item_1_122.png"
+          ]
+        },
+        {
+          "id": "item_1_123",
+          "label": "item 1 123",
+          "frames": [
+            "props/item_1_123.png"
+          ]
+        },
+        {
+          "id": "item_1_124",
+          "label": "item 1 124",
+          "frames": [
+            "props/item_1_124.png"
+          ]
+        },
+        {
+          "id": "item_1_125",
+          "label": "item 1 125",
+          "frames": [
+            "props/item_1_125.png"
+          ]
+        },
+        {
+          "id": "item_1_126",
+          "label": "item 1 126",
+          "frames": [
+            "props/item_1_126.png"
+          ]
+        },
+        {
+          "id": "item_1_127",
+          "label": "item 1 127",
+          "frames": [
+            "props/item_1_127.png"
+          ]
+        },
+        {
+          "id": "item_1_128",
+          "label": "item 1 128",
+          "frames": [
+            "props/item_1_128.png"
+          ]
+        },
+        {
+          "id": "item_1_129",
+          "label": "item 1 129",
+          "frames": [
+            "props/item_1_129.png"
+          ]
+        },
+        {
+          "id": "item_1_130",
+          "label": "item 1 130",
+          "frames": [
+            "props/item_1_130.png"
+          ]
+        },
+        {
+          "id": "item_1_131",
+          "label": "item 1 131",
+          "frames": [
+            "props/item_1_131.png"
+          ]
+        },
+        {
+          "id": "item_1_132",
+          "label": "item 1 132",
+          "frames": [
+            "props/item_1_132.png"
+          ]
+        },
+        {
+          "id": "item_1_133",
+          "label": "item 1 133",
+          "frames": [
+            "props/item_1_133.png"
+          ]
+        },
+        {
+          "id": "item_1_134",
+          "label": "item 1 134",
+          "frames": [
+            "props/item_1_134.png"
+          ]
+        },
+        {
+          "id": "item_1_135",
+          "label": "item 1 135",
+          "frames": [
+            "props/item_1_135.png"
+          ]
+        },
+        {
+          "id": "item_1_136",
+          "label": "item 1 136",
+          "frames": [
+            "props/item_1_136.png"
+          ]
+        },
+        {
+          "id": "item_1_137",
+          "label": "item 1 137",
+          "frames": [
+            "props/item_1_137.png"
+          ]
+        },
+        {
+          "id": "item_1_138",
+          "label": "item 1 138",
+          "frames": [
+            "props/item_1_138.png"
+          ]
+        },
+        {
+          "id": "item_1_139",
+          "label": "item 1 139",
+          "frames": [
+            "props/item_1_139.png"
+          ]
+        },
+        {
+          "id": "item_1_140",
+          "label": "item 1 140",
+          "frames": [
+            "props/item_1_140.png"
+          ]
+        },
+        {
+          "id": "item_1_141",
+          "label": "item 1 141",
+          "frames": [
+            "props/item_1_141.png"
+          ]
+        },
+        {
+          "id": "item_1_142",
+          "label": "item 1 142",
+          "frames": [
+            "props/item_1_142.png"
+          ]
+        },
+        {
+          "id": "item_1_143",
+          "label": "item 1 143",
+          "frames": [
+            "props/item_1_143.png"
+          ]
+        },
+        {
+          "id": "item_1_144",
+          "label": "item 1 144",
+          "frames": [
+            "props/item_1_144.png"
+          ]
+        },
+        {
+          "id": "item_1_145",
+          "label": "item 1 145",
+          "frames": [
+            "props/item_1_145.png"
+          ]
+        },
+        {
+          "id": "item_1_146",
+          "label": "item 1 146",
+          "frames": [
+            "props/item_1_146.png"
+          ]
+        },
+        {
+          "id": "item_1_147",
+          "label": "item 1 147",
+          "frames": [
+            "props/item_1_147.png"
+          ]
+        },
+        {
+          "id": "item_1_148",
+          "label": "item 1 148",
+          "frames": [
+            "props/item_1_148.png"
+          ]
+        },
+        {
+          "id": "item_1_149",
+          "label": "item 1 149",
+          "frames": [
+            "props/item_1_149.png"
+          ]
+        },
+        {
+          "id": "item_1_150",
+          "label": "item 1 150",
+          "frames": [
+            "props/item_1_150.png"
+          ]
+        },
+        {
+          "id": "item_1_151",
+          "label": "item 1 151",
+          "frames": [
+            "props/item_1_151.png"
+          ]
+        },
+        {
+          "id": "item_1_152",
+          "label": "item 1 152",
+          "frames": [
+            "props/item_1_152.png"
+          ]
+        },
+        {
+          "id": "item_1_153",
+          "label": "item 1 153",
+          "frames": [
+            "props/item_1_153.png"
+          ]
+        },
+        {
+          "id": "item_1_154",
+          "label": "item 1 154",
+          "frames": [
+            "props/item_1_154.png"
+          ]
+        },
+        {
+          "id": "item_1_155",
+          "label": "item 1 155",
+          "frames": [
+            "props/item_1_155.png"
+          ]
+        },
+        {
+          "id": "item_1_156",
+          "label": "item 1 156",
+          "frames": [
+            "props/item_1_156.png"
+          ]
+        },
+        {
+          "id": "item_1_157",
+          "label": "item 1 157",
+          "frames": [
+            "props/item_1_157.png"
+          ]
+        },
+        {
+          "id": "item_1_158",
+          "label": "item 1 158",
+          "frames": [
+            "props/item_1_158.png"
+          ]
+        },
+        {
+          "id": "item_2_000",
+          "label": "item 2 000",
+          "frames": [
+            "props/item_2_000.png"
+          ]
+        },
+        {
+          "id": "item_2_001",
+          "label": "item 2 001",
+          "frames": [
+            "props/item_2_001.png"
+          ]
+        },
+        {
+          "id": "item_2_002",
+          "label": "item 2 002",
+          "frames": [
+            "props/item_2_002.png"
+          ]
+        },
+        {
+          "id": "item_2_003",
+          "label": "item 2 003",
+          "frames": [
+            "props/item_2_003.png"
+          ]
+        },
+        {
+          "id": "item_2_004",
+          "label": "item 2 004",
+          "frames": [
+            "props/item_2_004.png"
+          ]
+        },
+        {
+          "id": "item_2_005",
+          "label": "item 2 005",
+          "frames": [
+            "props/item_2_005.png"
+          ]
+        },
+        {
+          "id": "item_2_006",
+          "label": "item 2 006",
+          "frames": [
+            "props/item_2_006.png"
+          ]
+        },
+        {
+          "id": "item_2_007",
+          "label": "item 2 007",
+          "frames": [
+            "props/item_2_007.png"
+          ]
+        },
+        {
+          "id": "item_2_008",
+          "label": "item 2 008",
+          "frames": [
+            "props/item_2_008.png"
+          ]
+        },
+        {
+          "id": "item_2_009",
+          "label": "item 2 009",
+          "frames": [
+            "props/item_2_009.png"
+          ]
+        },
+        {
+          "id": "item_2_010",
+          "label": "item 2 010",
+          "frames": [
+            "props/item_2_010.png"
+          ]
+        },
+        {
+          "id": "item_2_011",
+          "label": "item 2 011",
+          "frames": [
+            "props/item_2_011.png"
+          ]
+        },
+        {
+          "id": "item_2_012",
+          "label": "item 2 012",
+          "frames": [
+            "props/item_2_012.png"
+          ]
+        },
+        {
+          "id": "item_2_013",
+          "label": "item 2 013",
+          "frames": [
+            "props/item_2_013.png"
+          ]
+        },
+        {
+          "id": "item_2_014",
+          "label": "item 2 014",
+          "frames": [
+            "props/item_2_014.png"
+          ]
+        },
+        {
+          "id": "item_2_015",
+          "label": "item 2 015",
+          "frames": [
+            "props/item_2_015.png"
+          ]
+        },
+        {
+          "id": "item_2_016",
+          "label": "item 2 016",
+          "frames": [
+            "props/item_2_016.png"
+          ]
+        },
+        {
+          "id": "item_2_017",
+          "label": "item 2 017",
+          "frames": [
+            "props/item_2_017.png"
+          ]
+        },
+        {
+          "id": "item_2_018",
+          "label": "item 2 018",
+          "frames": [
+            "props/item_2_018.png"
+          ]
+        },
+        {
+          "id": "item_2_019",
+          "label": "item 2 019",
+          "frames": [
+            "props/item_2_019.png"
+          ]
+        },
+        {
+          "id": "item_2_020",
+          "label": "item 2 020",
+          "frames": [
+            "props/item_2_020.png"
+          ]
+        },
+        {
+          "id": "item_2_021",
+          "label": "item 2 021",
+          "frames": [
+            "props/item_2_021.png"
+          ]
+        },
+        {
+          "id": "item_2_022",
+          "label": "item 2 022",
+          "frames": [
+            "props/item_2_022.png"
+          ]
+        },
+        {
+          "id": "item_2_023",
+          "label": "item 2 023",
+          "frames": [
+            "props/item_2_023.png"
+          ]
+        },
+        {
+          "id": "item_2_024",
+          "label": "item 2 024",
+          "frames": [
+            "props/item_2_024.png"
+          ]
+        },
+        {
+          "id": "item_2_025",
+          "label": "item 2 025",
+          "frames": [
+            "props/item_2_025.png"
+          ]
+        },
+        {
+          "id": "item_2_026",
+          "label": "item 2 026",
+          "frames": [
+            "props/item_2_026.png"
+          ]
+        },
+        {
+          "id": "item_2_027",
+          "label": "item 2 027",
+          "frames": [
+            "props/item_2_027.png"
+          ]
+        },
+        {
+          "id": "item_2_028",
+          "label": "item 2 028",
+          "frames": [
+            "props/item_2_028.png"
+          ]
+        },
+        {
+          "id": "item_2_029",
+          "label": "item 2 029",
+          "frames": [
+            "props/item_2_029.png"
+          ]
+        },
+        {
+          "id": "item_2_030",
+          "label": "item 2 030",
+          "frames": [
+            "props/item_2_030.png"
+          ]
+        },
+        {
+          "id": "item_2_031",
+          "label": "item 2 031",
+          "frames": [
+            "props/item_2_031.png"
+          ]
+        },
+        {
+          "id": "item_2_032",
+          "label": "item 2 032",
+          "frames": [
+            "props/item_2_032.png"
+          ]
+        },
+        {
+          "id": "item_2_033",
+          "label": "item 2 033",
+          "frames": [
+            "props/item_2_033.png"
+          ]
+        },
+        {
+          "id": "item_2_034",
+          "label": "item 2 034",
+          "frames": [
+            "props/item_2_034.png"
+          ]
+        },
+        {
+          "id": "item_2_035",
+          "label": "item 2 035",
+          "frames": [
+            "props/item_2_035.png"
+          ]
+        },
+        {
+          "id": "item_2_036",
+          "label": "item 2 036",
+          "frames": [
+            "props/item_2_036.png"
+          ]
+        },
+        {
+          "id": "item_2_037",
+          "label": "item 2 037",
+          "frames": [
+            "props/item_2_037.png"
+          ]
+        },
+        {
+          "id": "item_2_038",
+          "label": "item 2 038",
+          "frames": [
+            "props/item_2_038.png"
+          ]
+        },
+        {
+          "id": "item_2_039",
+          "label": "item 2 039",
+          "frames": [
+            "props/item_2_039.png"
+          ]
+        },
+        {
+          "id": "item_2_040",
+          "label": "item 2 040",
+          "frames": [
+            "props/item_2_040.png"
+          ]
+        },
+        {
+          "id": "item_2_041",
+          "label": "item 2 041",
+          "frames": [
+            "props/item_2_041.png"
+          ]
+        },
+        {
+          "id": "item_2_042",
+          "label": "item 2 042",
+          "frames": [
+            "props/item_2_042.png"
+          ]
+        },
+        {
+          "id": "item_2_043",
+          "label": "item 2 043",
+          "frames": [
+            "props/item_2_043.png"
+          ]
+        },
+        {
+          "id": "item_2_044",
+          "label": "item 2 044",
+          "frames": [
+            "props/item_2_044.png"
+          ]
+        },
+        {
+          "id": "item_2_045",
+          "label": "item 2 045",
+          "frames": [
+            "props/item_2_045.png"
+          ]
+        },
+        {
+          "id": "item_2_046",
+          "label": "item 2 046",
+          "frames": [
+            "props/item_2_046.png"
+          ]
+        },
+        {
+          "id": "item_2_047",
+          "label": "item 2 047",
+          "frames": [
+            "props/item_2_047.png"
+          ]
+        },
+        {
+          "id": "item_2_048",
+          "label": "item 2 048",
+          "frames": [
+            "props/item_2_048.png"
+          ]
+        },
+        {
+          "id": "item_2_049",
+          "label": "item 2 049",
+          "frames": [
+            "props/item_2_049.png"
+          ]
+        },
+        {
+          "id": "item_2_050",
+          "label": "item 2 050",
+          "frames": [
+            "props/item_2_050.png"
+          ]
+        },
+        {
+          "id": "item_2_051",
+          "label": "item 2 051",
+          "frames": [
+            "props/item_2_051.png"
+          ]
+        },
+        {
+          "id": "item_2_052",
+          "label": "item 2 052",
+          "frames": [
+            "props/item_2_052.png"
+          ]
+        },
+        {
+          "id": "item_2_053",
+          "label": "item 2 053",
+          "frames": [
+            "props/item_2_053.png"
+          ]
+        },
+        {
+          "id": "item_2_054",
+          "label": "item 2 054",
+          "frames": [
+            "props/item_2_054.png"
+          ]
+        },
+        {
+          "id": "item_2_055",
+          "label": "item 2 055",
+          "frames": [
+            "props/item_2_055.png"
+          ]
+        },
+        {
+          "id": "item_2_056",
+          "label": "item 2 056",
+          "frames": [
+            "props/item_2_056.png"
+          ]
+        },
+        {
+          "id": "item_2_057",
+          "label": "item 2 057",
+          "frames": [
+            "props/item_2_057.png"
+          ]
+        },
+        {
+          "id": "item_2_058",
+          "label": "item 2 058",
+          "frames": [
+            "props/item_2_058.png"
+          ]
+        },
+        {
+          "id": "item_2_059",
+          "label": "item 2 059",
+          "frames": [
+            "props/item_2_059.png"
+          ]
+        },
+        {
+          "id": "item_2_060",
+          "label": "item 2 060",
+          "frames": [
+            "props/item_2_060.png"
+          ]
+        },
+        {
+          "id": "item_2_061",
+          "label": "item 2 061",
+          "frames": [
+            "props/item_2_061.png"
+          ]
+        },
+        {
+          "id": "item_2_062",
+          "label": "item 2 062",
+          "frames": [
+            "props/item_2_062.png"
+          ]
+        },
+        {
+          "id": "item_2_063",
+          "label": "item 2 063",
+          "frames": [
+            "props/item_2_063.png"
+          ]
+        },
+        {
+          "id": "item_2_064",
+          "label": "item 2 064",
+          "frames": [
+            "props/item_2_064.png"
+          ]
+        },
+        {
+          "id": "item_2_065",
+          "label": "item 2 065",
+          "frames": [
+            "props/item_2_065.png"
+          ]
+        },
+        {
+          "id": "item_2_066",
+          "label": "item 2 066",
+          "frames": [
+            "props/item_2_066.png"
+          ]
+        },
+        {
+          "id": "item_2_067",
+          "label": "item 2 067",
+          "frames": [
+            "props/item_2_067.png"
+          ]
+        },
+        {
+          "id": "item_2_068",
+          "label": "item 2 068",
+          "frames": [
+            "props/item_2_068.png"
+          ]
+        },
+        {
+          "id": "item_2_069",
+          "label": "item 2 069",
+          "frames": [
+            "props/item_2_069.png"
+          ]
+        },
+        {
+          "id": "item_2_070",
+          "label": "item 2 070",
+          "frames": [
+            "props/item_2_070.png"
+          ]
+        },
+        {
+          "id": "item_2_071",
+          "label": "item 2 071",
+          "frames": [
+            "props/item_2_071.png"
+          ]
+        },
+        {
+          "id": "item_2_072",
+          "label": "item 2 072",
+          "frames": [
+            "props/item_2_072.png"
+          ]
+        },
+        {
+          "id": "item_2_073",
+          "label": "item 2 073",
+          "frames": [
+            "props/item_2_073.png"
+          ]
+        },
+        {
+          "id": "item_2_074",
+          "label": "item 2 074",
+          "frames": [
+            "props/item_2_074.png"
+          ]
+        },
+        {
+          "id": "item_2_075",
+          "label": "item 2 075",
+          "frames": [
+            "props/item_2_075.png"
+          ]
+        },
+        {
+          "id": "item_2_076",
+          "label": "item 2 076",
+          "frames": [
+            "props/item_2_076.png"
+          ]
+        },
+        {
+          "id": "item_2_077",
+          "label": "item 2 077",
+          "frames": [
+            "props/item_2_077.png"
+          ]
+        },
+        {
+          "id": "item_2_078",
+          "label": "item 2 078",
+          "frames": [
+            "props/item_2_078.png"
+          ]
+        },
+        {
+          "id": "item_2_079",
+          "label": "item 2 079",
+          "frames": [
+            "props/item_2_079.png"
+          ]
+        },
+        {
+          "id": "item_2_080",
+          "label": "item 2 080",
+          "frames": [
+            "props/item_2_080.png"
+          ]
+        },
+        {
+          "id": "item_2_081",
+          "label": "item 2 081",
+          "frames": [
+            "props/item_2_081.png"
+          ]
+        },
+        {
+          "id": "item_2_082",
+          "label": "item 2 082",
+          "frames": [
+            "props/item_2_082.png"
+          ]
+        },
+        {
+          "id": "item_2_083",
+          "label": "item 2 083",
+          "frames": [
+            "props/item_2_083.png"
+          ]
+        },
+        {
+          "id": "item_2_084",
+          "label": "item 2 084",
+          "frames": [
+            "props/item_2_084.png"
+          ]
+        },
+        {
+          "id": "item_2_085",
+          "label": "item 2 085",
+          "frames": [
+            "props/item_2_085.png"
+          ]
+        },
+        {
+          "id": "item_2_086",
+          "label": "item 2 086",
+          "frames": [
+            "props/item_2_086.png"
+          ]
+        },
+        {
+          "id": "item_2_087",
+          "label": "item 2 087",
+          "frames": [
+            "props/item_2_087.png"
+          ]
+        },
+        {
+          "id": "item_2_088",
+          "label": "item 2 088",
+          "frames": [
+            "props/item_2_088.png"
+          ]
+        },
+        {
+          "id": "item_2_089",
+          "label": "item 2 089",
+          "frames": [
+            "props/item_2_089.png"
+          ]
+        },
+        {
+          "id": "item_2_090",
+          "label": "item 2 090",
+          "frames": [
+            "props/item_2_090.png"
+          ]
+        },
+        {
+          "id": "item_2_091",
+          "label": "item 2 091",
+          "frames": [
+            "props/item_2_091.png"
+          ]
+        },
+        {
+          "id": "item_2_092",
+          "label": "item 2 092",
+          "frames": [
+            "props/item_2_092.png"
+          ]
+        },
+        {
+          "id": "item_2_093",
+          "label": "item 2 093",
+          "frames": [
+            "props/item_2_093.png"
+          ]
+        },
+        {
+          "id": "item_2_094",
+          "label": "item 2 094",
+          "frames": [
+            "props/item_2_094.png"
+          ]
+        },
+        {
+          "id": "item_2_095",
+          "label": "item 2 095",
+          "frames": [
+            "props/item_2_095.png"
+          ]
+        },
+        {
+          "id": "item_2_096",
+          "label": "item 2 096",
+          "frames": [
+            "props/item_2_096.png"
+          ]
+        },
+        {
+          "id": "item_2_097",
+          "label": "item 2 097",
+          "frames": [
+            "props/item_2_097.png"
+          ]
+        },
+        {
+          "id": "item_2_098",
+          "label": "item 2 098",
+          "frames": [
+            "props/item_2_098.png"
+          ]
+        },
+        {
+          "id": "item_2_099",
+          "label": "item 2 099",
+          "frames": [
+            "props/item_2_099.png"
+          ]
+        },
+        {
+          "id": "item_2_100",
+          "label": "item 2 100",
+          "frames": [
+            "props/item_2_100.png"
+          ]
+        },
+        {
+          "id": "item_2_101",
+          "label": "item 2 101",
+          "frames": [
+            "props/item_2_101.png"
+          ]
+        },
+        {
+          "id": "item_2_102",
+          "label": "item 2 102",
+          "frames": [
+            "props/item_2_102.png"
+          ]
+        },
+        {
+          "id": "item_2_103",
+          "label": "item 2 103",
+          "frames": [
+            "props/item_2_103.png"
+          ]
+        },
+        {
+          "id": "item_2_104",
+          "label": "item 2 104",
+          "frames": [
+            "props/item_2_104.png"
+          ]
+        },
+        {
+          "id": "item_2_105",
+          "label": "item 2 105",
+          "frames": [
+            "props/item_2_105.png"
+          ]
+        },
+        {
+          "id": "item_2_106",
+          "label": "item 2 106",
+          "frames": [
+            "props/item_2_106.png"
+          ]
+        },
+        {
+          "id": "item_2_107",
+          "label": "item 2 107",
+          "frames": [
+            "props/item_2_107.png"
+          ]
+        },
+        {
+          "id": "item_2_108",
+          "label": "item 2 108",
+          "frames": [
+            "props/item_2_108.png"
+          ]
+        },
+        {
+          "id": "item_2_109",
+          "label": "item 2 109",
+          "frames": [
+            "props/item_2_109.png"
+          ]
+        },
+        {
+          "id": "item_2_110",
+          "label": "item 2 110",
+          "frames": [
+            "props/item_2_110.png"
+          ]
+        },
+        {
+          "id": "item_2_111",
+          "label": "item 2 111",
+          "frames": [
+            "props/item_2_111.png"
+          ]
+        },
+        {
+          "id": "item_2_112",
+          "label": "item 2 112",
+          "frames": [
+            "props/item_2_112.png"
+          ]
+        },
+        {
+          "id": "item_2_113",
+          "label": "item 2 113",
+          "frames": [
+            "props/item_2_113.png"
+          ]
+        },
+        {
+          "id": "item_2_114",
+          "label": "item 2 114",
+          "frames": [
+            "props/item_2_114.png"
+          ]
+        },
+        {
+          "id": "item_2_115",
+          "label": "item 2 115",
+          "frames": [
+            "props/item_2_115.png"
+          ]
+        },
+        {
+          "id": "item_2_116",
+          "label": "item 2 116",
+          "frames": [
+            "props/item_2_116.png"
+          ]
+        },
+        {
+          "id": "item_2_117",
+          "label": "item 2 117",
+          "frames": [
+            "props/item_2_117.png"
+          ]
+        },
+        {
+          "id": "item_2_118",
+          "label": "item 2 118",
+          "frames": [
+            "props/item_2_118.png"
+          ]
+        },
+        {
+          "id": "item_2_119",
+          "label": "item 2 119",
+          "frames": [
+            "props/item_2_119.png"
+          ]
+        },
+        {
+          "id": "item_2_120",
+          "label": "item 2 120",
+          "frames": [
+            "props/item_2_120.png"
+          ]
+        },
+        {
+          "id": "item_2_121",
+          "label": "item 2 121",
+          "frames": [
+            "props/item_2_121.png"
+          ]
+        },
+        {
+          "id": "item_5_000",
+          "label": "item 5 000",
+          "frames": [
+            "props/item_5_000.png"
+          ]
+        },
+        {
+          "id": "item_5_001",
+          "label": "item 5 001",
+          "frames": [
+            "props/item_5_001.png"
+          ]
+        },
+        {
+          "id": "item_5_002",
+          "label": "item 5 002",
+          "frames": [
+            "props/item_5_002.png"
+          ]
+        },
+        {
+          "id": "item_5_003",
+          "label": "item 5 003",
+          "frames": [
+            "props/item_5_003.png"
+          ]
+        },
+        {
+          "id": "item_5_004",
+          "label": "item 5 004",
+          "frames": [
+            "props/item_5_004.png"
+          ]
+        },
+        {
+          "id": "item_5_005",
+          "label": "item 5 005",
+          "frames": [
+            "props/item_5_005.png"
+          ]
+        },
+        {
+          "id": "item_5_006",
+          "label": "item 5 006",
+          "frames": [
+            "props/item_5_006.png"
+          ]
+        },
+        {
+          "id": "item_5_007",
+          "label": "item 5 007",
+          "frames": [
+            "props/item_5_007.png"
+          ]
+        },
+        {
+          "id": "item_5_008",
+          "label": "item 5 008",
+          "frames": [
+            "props/item_5_008.png"
+          ]
+        },
+        {
+          "id": "item_5_009",
+          "label": "item 5 009",
+          "frames": [
+            "props/item_5_009.png"
+          ]
+        },
+        {
+          "id": "item_5_010",
+          "label": "item 5 010",
+          "frames": [
+            "props/item_5_010.png"
+          ]
+        },
+        {
+          "id": "item_5_011",
+          "label": "item 5 011",
+          "frames": [
+            "props/item_5_011.png"
+          ]
+        },
+        {
+          "id": "item_5_012",
+          "label": "item 5 012",
+          "frames": [
+            "props/item_5_012.png"
+          ]
+        },
+        {
+          "id": "item_5_013",
+          "label": "item 5 013",
+          "frames": [
+            "props/item_5_013.png"
+          ]
+        },
+        {
+          "id": "item_5_014",
+          "label": "item 5 014",
+          "frames": [
+            "props/item_5_014.png"
+          ]
+        },
+        {
+          "id": "item_5_015",
+          "label": "item 5 015",
+          "frames": [
+            "props/item_5_015.png"
+          ]
+        },
+        {
+          "id": "item_5_016",
+          "label": "item 5 016",
+          "frames": [
+            "props/item_5_016.png"
+          ]
+        },
+        {
+          "id": "item_5_017",
+          "label": "item 5 017",
+          "frames": [
+            "props/item_5_017.png"
+          ]
+        },
+        {
+          "id": "item_5_018",
+          "label": "item 5 018",
+          "frames": [
+            "props/item_5_018.png"
+          ]
+        },
+        {
+          "id": "item_5_019",
+          "label": "item 5 019",
+          "frames": [
+            "props/item_5_019.png"
+          ]
+        },
+        {
+          "id": "item_5_020",
+          "label": "item 5 020",
+          "frames": [
+            "props/item_5_020.png"
+          ]
+        },
+        {
+          "id": "item_5_021",
+          "label": "item 5 021",
+          "frames": [
+            "props/item_5_021.png"
+          ]
+        },
+        {
+          "id": "item_5_022",
+          "label": "item 5 022",
+          "frames": [
+            "props/item_5_022.png"
+          ]
+        },
+        {
+          "id": "item_5_023",
+          "label": "item 5 023",
+          "frames": [
+            "props/item_5_023.png"
+          ]
+        },
+        {
+          "id": "item_5_024",
+          "label": "item 5 024",
+          "frames": [
+            "props/item_5_024.png"
+          ]
+        },
+        {
+          "id": "item_5_025",
+          "label": "item 5 025",
+          "frames": [
+            "props/item_5_025.png"
+          ]
+        },
+        {
+          "id": "item_5_026",
+          "label": "item 5 026",
+          "frames": [
+            "props/item_5_026.png"
+          ]
+        },
+        {
+          "id": "item_5_027",
+          "label": "item 5 027",
+          "frames": [
+            "props/item_5_027.png"
+          ]
+        },
+        {
+          "id": "item_5_028",
+          "label": "item 5 028",
+          "frames": [
+            "props/item_5_028.png"
+          ]
+        },
+        {
+          "id": "item_5_029",
+          "label": "item 5 029",
+          "frames": [
+            "props/item_5_029.png"
+          ]
+        },
+        {
+          "id": "item_5_030",
+          "label": "item 5 030",
+          "frames": [
+            "props/item_5_030.png"
+          ]
+        },
+        {
+          "id": "item_5_031",
+          "label": "item 5 031",
+          "frames": [
+            "props/item_5_031.png"
+          ]
+        },
+        {
+          "id": "item_5_032",
+          "label": "item 5 032",
+          "frames": [
+            "props/item_5_032.png"
+          ]
+        },
+        {
+          "id": "item_5_033",
+          "label": "item 5 033",
+          "frames": [
+            "props/item_5_033.png"
+          ]
+        },
+        {
+          "id": "item_5_034",
+          "label": "item 5 034",
+          "frames": [
+            "props/item_5_034.png"
+          ]
+        },
+        {
+          "id": "item_5_035",
+          "label": "item 5 035",
+          "frames": [
+            "props/item_5_035.png"
+          ]
+        },
+        {
+          "id": "item_5_036",
+          "label": "item 5 036",
+          "frames": [
+            "props/item_5_036.png"
+          ]
+        },
+        {
+          "id": "item_5_037",
+          "label": "item 5 037",
+          "frames": [
+            "props/item_5_037.png"
+          ]
+        },
+        {
+          "id": "item_5_038",
+          "label": "item 5 038",
+          "frames": [
+            "props/item_5_038.png"
+          ]
+        },
+        {
+          "id": "item_5_039",
+          "label": "item 5 039",
+          "frames": [
+            "props/item_5_039.png"
+          ]
+        },
+        {
+          "id": "item_5_040",
+          "label": "item 5 040",
+          "frames": [
+            "props/item_5_040.png"
+          ]
+        },
+        {
+          "id": "item_5_041",
+          "label": "item 5 041",
+          "frames": [
+            "props/item_5_041.png"
+          ]
+        },
+        {
+          "id": "item_5_042",
+          "label": "item 5 042",
+          "frames": [
+            "props/item_5_042.png"
+          ]
+        },
+        {
+          "id": "item_5_043",
+          "label": "item 5 043",
+          "frames": [
+            "props/item_5_043.png"
+          ]
+        },
+        {
+          "id": "item_5_044",
+          "label": "item 5 044",
+          "frames": [
+            "props/item_5_044.png"
+          ]
+        },
+        {
+          "id": "item_5_045",
+          "label": "item 5 045",
+          "frames": [
+            "props/item_5_045.png"
+          ]
+        },
+        {
+          "id": "item_5_046",
+          "label": "item 5 046",
+          "frames": [
+            "props/item_5_046.png"
+          ]
+        },
+        {
+          "id": "item_5_047",
+          "label": "item 5 047",
+          "frames": [
+            "props/item_5_047.png"
+          ]
+        },
+        {
+          "id": "item_5_048",
+          "label": "item 5 048",
+          "frames": [
+            "props/item_5_048.png"
+          ]
+        },
+        {
+          "id": "item_5_049",
+          "label": "item 5 049",
+          "frames": [
+            "props/item_5_049.png"
+          ]
+        },
+        {
+          "id": "item_5_050",
+          "label": "item 5 050",
+          "frames": [
+            "props/item_5_050.png"
+          ]
+        },
+        {
+          "id": "item_5_051",
+          "label": "item 5 051",
+          "frames": [
+            "props/item_5_051.png"
+          ]
+        },
+        {
+          "id": "item_5_052",
+          "label": "item 5 052",
+          "frames": [
+            "props/item_5_052.png"
+          ]
+        },
+        {
+          "id": "item_5_053",
+          "label": "item 5 053",
+          "frames": [
+            "props/item_5_053.png"
+          ]
+        },
+        {
+          "id": "item_5_054",
+          "label": "item 5 054",
+          "frames": [
+            "props/item_5_054.png"
+          ]
+        },
+        {
+          "id": "item_5_055",
+          "label": "item 5 055",
+          "frames": [
+            "props/item_5_055.png"
+          ]
+        },
+        {
+          "id": "item_5_056",
+          "label": "item 5 056",
+          "frames": [
+            "props/item_5_056.png"
+          ]
+        },
+        {
+          "id": "item_5_057",
+          "label": "item 5 057",
+          "frames": [
+            "props/item_5_057.png"
+          ]
+        },
+        {
+          "id": "item_5_058",
+          "label": "item 5 058",
+          "frames": [
+            "props/item_5_058.png"
+          ]
+        },
+        {
+          "id": "item_5_059",
+          "label": "item 5 059",
+          "frames": [
+            "props/item_5_059.png"
+          ]
+        },
+        {
+          "id": "item_5_060",
+          "label": "item 5 060",
+          "frames": [
+            "props/item_5_060.png"
+          ]
+        },
+        {
+          "id": "item_5_061",
+          "label": "item 5 061",
+          "frames": [
+            "props/item_5_061.png"
+          ]
+        },
+        {
+          "id": "item_5_062",
+          "label": "item 5 062",
+          "frames": [
+            "props/item_5_062.png"
+          ]
+        },
+        {
+          "id": "item_5_063",
+          "label": "item 5 063",
+          "frames": [
+            "props/item_5_063.png"
+          ]
+        },
+        {
+          "id": "item_5_064",
+          "label": "item 5 064",
+          "frames": [
+            "props/item_5_064.png"
+          ]
+        },
+        {
+          "id": "item_5_065",
+          "label": "item 5 065",
+          "frames": [
+            "props/item_5_065.png"
+          ]
+        },
+        {
+          "id": "item_5_066",
+          "label": "item 5 066",
+          "frames": [
+            "props/item_5_066.png"
+          ]
+        },
+        {
+          "id": "item_5_067",
+          "label": "item 5 067",
+          "frames": [
+            "props/item_5_067.png"
+          ]
+        },
+        {
+          "id": "item_5_068",
+          "label": "item 5 068",
+          "frames": [
+            "props/item_5_068.png"
+          ]
+        },
+        {
+          "id": "item_5_069",
+          "label": "item 5 069",
+          "frames": [
+            "props/item_5_069.png"
+          ]
+        },
+        {
+          "id": "item_5_070",
+          "label": "item 5 070",
+          "frames": [
+            "props/item_5_070.png"
+          ]
+        },
+        {
+          "id": "item_5_071",
+          "label": "item 5 071",
+          "frames": [
+            "props/item_5_071.png"
+          ]
+        },
+        {
+          "id": "item_5_072",
+          "label": "item 5 072",
+          "frames": [
+            "props/item_5_072.png"
+          ]
+        },
+        {
+          "id": "item_5_073",
+          "label": "item 5 073",
+          "frames": [
+            "props/item_5_073.png"
+          ]
+        },
+        {
+          "id": "item_5_074",
+          "label": "item 5 074",
+          "frames": [
+            "props/item_5_074.png"
+          ]
+        },
+        {
+          "id": "item_5_075",
+          "label": "item 5 075",
+          "frames": [
+            "props/item_5_075.png"
+          ]
+        },
+        {
+          "id": "item_5_076",
+          "label": "item 5 076",
+          "frames": [
+            "props/item_5_076.png"
+          ]
+        },
+        {
+          "id": "item_5_077",
+          "label": "item 5 077",
+          "frames": [
+            "props/item_5_077.png"
+          ]
+        },
+        {
+          "id": "item_5_078",
+          "label": "item 5 078",
+          "frames": [
+            "props/item_5_078.png"
+          ]
+        },
+        {
+          "id": "item_5_079",
+          "label": "item 5 079",
+          "frames": [
+            "props/item_5_079.png"
+          ]
+        },
+        {
+          "id": "item_5_080",
+          "label": "item 5 080",
+          "frames": [
+            "props/item_5_080.png"
+          ]
+        },
+        {
+          "id": "item_5_081",
+          "label": "item 5 081",
+          "frames": [
+            "props/item_5_081.png"
+          ]
+        },
+        {
+          "id": "item_5_082",
+          "label": "item 5 082",
+          "frames": [
+            "props/item_5_082.png"
+          ]
+        },
+        {
+          "id": "item_5_083",
+          "label": "item 5 083",
+          "frames": [
+            "props/item_5_083.png"
+          ]
+        },
+        {
+          "id": "item_5_084",
+          "label": "item 5 084",
+          "frames": [
+            "props/item_5_084.png"
+          ]
+        },
+        {
+          "id": "item_5_085",
+          "label": "item 5 085",
+          "frames": [
+            "props/item_5_085.png"
+          ]
+        },
+        {
+          "id": "item_5_086",
+          "label": "item 5 086",
+          "frames": [
+            "props/item_5_086.png"
+          ]
+        },
+        {
+          "id": "item_5_087",
+          "label": "item 5 087",
+          "frames": [
+            "props/item_5_087.png"
+          ]
+        },
+        {
+          "id": "item_5_088",
+          "label": "item 5 088",
+          "frames": [
+            "props/item_5_088.png"
+          ]
+        },
+        {
+          "id": "item_5_089",
+          "label": "item 5 089",
+          "frames": [
+            "props/item_5_089.png"
+          ]
+        },
+        {
+          "id": "item_5_090",
+          "label": "item 5 090",
+          "frames": [
+            "props/item_5_090.png"
+          ]
+        },
+        {
+          "id": "item_5_091",
+          "label": "item 5 091",
+          "frames": [
+            "props/item_5_091.png"
+          ]
+        },
+        {
+          "id": "item_5_092",
+          "label": "item 5 092",
+          "frames": [
+            "props/item_5_092.png"
+          ]
+        },
+        {
+          "id": "item_5_093",
+          "label": "item 5 093",
+          "frames": [
+            "props/item_5_093.png"
+          ]
+        },
+        {
+          "id": "item_5_094",
+          "label": "item 5 094",
+          "frames": [
+            "props/item_5_094.png"
+          ]
+        },
+        {
+          "id": "item_5_095",
+          "label": "item 5 095",
+          "frames": [
+            "props/item_5_095.png"
+          ]
+        },
+        {
+          "id": "item_5_096",
+          "label": "item 5 096",
+          "frames": [
+            "props/item_5_096.png"
+          ]
+        },
+        {
+          "id": "item_5_097",
+          "label": "item 5 097",
+          "frames": [
+            "props/item_5_097.png"
+          ]
+        },
+        {
+          "id": "item_5_098",
+          "label": "item 5 098",
+          "frames": [
+            "props/item_5_098.png"
+          ]
+        },
+        {
+          "id": "item_5_099",
+          "label": "item 5 099",
+          "frames": [
+            "props/item_5_099.png"
+          ]
+        },
+        {
+          "id": "item_5_100",
+          "label": "item 5 100",
+          "frames": [
+            "props/item_5_100.png"
+          ]
+        },
+        {
+          "id": "item_5_101",
+          "label": "item 5 101",
+          "frames": [
+            "props/item_5_101.png"
+          ]
+        },
+        {
+          "id": "item_5_102",
+          "label": "item 5 102",
+          "frames": [
+            "props/item_5_102.png"
+          ]
+        },
+        {
+          "id": "item_7_000",
+          "label": "item 7 000",
+          "frames": [
+            "props/item_7_000.png"
+          ]
+        },
+        {
+          "id": "item_7_001",
+          "label": "item 7 001",
+          "frames": [
+            "props/item_7_001.png"
+          ]
+        },
+        {
+          "id": "item_7_002",
+          "label": "item 7 002",
+          "frames": [
+            "props/item_7_002.png"
+          ]
+        },
+        {
+          "id": "item_7_003",
+          "label": "item 7 003",
+          "frames": [
+            "props/item_7_003.png"
+          ]
+        },
+        {
+          "id": "item_7_004",
+          "label": "item 7 004",
+          "frames": [
+            "props/item_7_004.png"
+          ]
+        },
+        {
+          "id": "item_7_005",
+          "label": "item 7 005",
+          "frames": [
+            "props/item_7_005.png"
+          ]
+        },
+        {
+          "id": "item_7_006",
+          "label": "item 7 006",
+          "frames": [
+            "props/item_7_006.png"
+          ]
+        },
+        {
+          "id": "item_7_007",
+          "label": "item 7 007",
+          "frames": [
+            "props/item_7_007.png"
+          ]
+        },
+        {
+          "id": "item_7_008",
+          "label": "item 7 008",
+          "frames": [
+            "props/item_7_008.png"
+          ]
+        },
+        {
+          "id": "item_7_009",
+          "label": "item 7 009",
+          "frames": [
+            "props/item_7_009.png"
+          ]
+        },
+        {
+          "id": "item_7_010",
+          "label": "item 7 010",
+          "frames": [
+            "props/item_7_010.png"
+          ]
+        },
+        {
+          "id": "item_7_011",
+          "label": "item 7 011",
+          "frames": [
+            "props/item_7_011.png"
+          ]
+        },
+        {
+          "id": "item_7_012",
+          "label": "item 7 012",
+          "frames": [
+            "props/item_7_012.png"
+          ]
+        },
+        {
+          "id": "item_7_013",
+          "label": "item 7 013",
+          "frames": [
+            "props/item_7_013.png"
+          ]
+        },
+        {
+          "id": "item_7_014",
+          "label": "item 7 014",
+          "frames": [
+            "props/item_7_014.png"
+          ]
+        },
+        {
+          "id": "item_7_015",
+          "label": "item 7 015",
+          "frames": [
+            "props/item_7_015.png"
+          ]
+        },
+        {
+          "id": "item_7_016",
+          "label": "item 7 016",
+          "frames": [
+            "props/item_7_016.png"
+          ]
+        },
+        {
+          "id": "item_7_017",
+          "label": "item 7 017",
+          "frames": [
+            "props/item_7_017.png"
+          ]
+        },
+        {
+          "id": "item_7_018",
+          "label": "item 7 018",
+          "frames": [
+            "props/item_7_018.png"
+          ]
+        },
+        {
+          "id": "item_7_019",
+          "label": "item 7 019",
+          "frames": [
+            "props/item_7_019.png"
+          ]
+        },
+        {
+          "id": "item_7_020",
+          "label": "item 7 020",
+          "frames": [
+            "props/item_7_020.png"
+          ]
+        },
+        {
+          "id": "item_7_021",
+          "label": "item 7 021",
+          "frames": [
+            "props/item_7_021.png"
+          ]
+        },
+        {
+          "id": "item_7_022",
+          "label": "item 7 022",
+          "frames": [
+            "props/item_7_022.png"
+          ]
+        },
+        {
+          "id": "item_7_023",
+          "label": "item 7 023",
+          "frames": [
+            "props/item_7_023.png"
+          ]
+        },
+        {
+          "id": "item_7_024",
+          "label": "item 7 024",
+          "frames": [
+            "props/item_7_024.png"
+          ]
+        },
+        {
+          "id": "item_7_025",
+          "label": "item 7 025",
+          "frames": [
+            "props/item_7_025.png"
+          ]
+        },
+        {
+          "id": "item_7_026",
+          "label": "item 7 026",
+          "frames": [
+            "props/item_7_026.png"
+          ]
+        },
+        {
+          "id": "item_7_027",
+          "label": "item 7 027",
+          "frames": [
+            "props/item_7_027.png"
+          ]
+        },
+        {
+          "id": "item_7_028",
+          "label": "item 7 028",
+          "frames": [
+            "props/item_7_028.png"
+          ]
+        },
+        {
+          "id": "item_7_029",
+          "label": "item 7 029",
+          "frames": [
+            "props/item_7_029.png"
+          ]
+        },
+        {
+          "id": "item_7_030",
+          "label": "item 7 030",
+          "frames": [
+            "props/item_7_030.png"
+          ]
+        },
+        {
+          "id": "item_7_031",
+          "label": "item 7 031",
+          "frames": [
+            "props/item_7_031.png"
+          ]
+        },
+        {
+          "id": "item_7_032",
+          "label": "item 7 032",
+          "frames": [
+            "props/item_7_032.png"
+          ]
+        },
+        {
+          "id": "item_7_033",
+          "label": "item 7 033",
+          "frames": [
+            "props/item_7_033.png"
+          ]
+        },
+        {
+          "id": "item_7_034",
+          "label": "item 7 034",
+          "frames": [
+            "props/item_7_034.png"
+          ]
+        },
+        {
+          "id": "item_7_035",
+          "label": "item 7 035",
+          "frames": [
+            "props/item_7_035.png"
+          ]
+        },
+        {
+          "id": "item_7_036",
+          "label": "item 7 036",
+          "frames": [
+            "props/item_7_036.png"
+          ]
+        },
+        {
+          "id": "item_7_037",
+          "label": "item 7 037",
+          "frames": [
+            "props/item_7_037.png"
+          ]
+        },
+        {
+          "id": "item_7_038",
+          "label": "item 7 038",
+          "frames": [
+            "props/item_7_038.png"
+          ]
+        },
+        {
+          "id": "item_7_039",
+          "label": "item 7 039",
+          "frames": [
+            "props/item_7_039.png"
+          ]
+        },
+        {
+          "id": "item_7_040",
+          "label": "item 7 040",
+          "frames": [
+            "props/item_7_040.png"
+          ]
+        },
+        {
+          "id": "item_7_041",
+          "label": "item 7 041",
+          "frames": [
+            "props/item_7_041.png"
+          ]
+        },
+        {
+          "id": "item_7_042",
+          "label": "item 7 042",
+          "frames": [
+            "props/item_7_042.png"
+          ]
+        },
+        {
+          "id": "item_7_043",
+          "label": "item 7 043",
+          "frames": [
+            "props/item_7_043.png"
+          ]
+        },
+        {
+          "id": "item_7_044",
+          "label": "item 7 044",
+          "frames": [
+            "props/item_7_044.png"
+          ]
+        },
+        {
+          "id": "item_7_045",
+          "label": "item 7 045",
+          "frames": [
+            "props/item_7_045.png"
+          ]
+        },
+        {
+          "id": "item_7_046",
+          "label": "item 7 046",
+          "frames": [
+            "props/item_7_046.png"
+          ]
+        },
+        {
+          "id": "item_7_047",
+          "label": "item 7 047",
+          "frames": [
+            "props/item_7_047.png"
+          ]
+        },
+        {
+          "id": "item_7_048",
+          "label": "item 7 048",
+          "frames": [
+            "props/item_7_048.png"
+          ]
+        },
+        {
+          "id": "item_7_049",
+          "label": "item 7 049",
+          "frames": [
+            "props/item_7_049.png"
+          ]
+        },
+        {
+          "id": "item_7_050",
+          "label": "item 7 050",
+          "frames": [
+            "props/item_7_050.png"
+          ]
+        },
+        {
+          "id": "item_7_051",
+          "label": "item 7 051",
+          "frames": [
+            "props/item_7_051.png"
+          ]
+        },
+        {
+          "id": "item_7_052",
+          "label": "item 7 052",
+          "frames": [
+            "props/item_7_052.png"
+          ]
+        },
+        {
+          "id": "item_7_053",
+          "label": "item 7 053",
+          "frames": [
+            "props/item_7_053.png"
+          ]
+        },
+        {
+          "id": "item_7_054",
+          "label": "item 7 054",
+          "frames": [
+            "props/item_7_054.png"
+          ]
+        },
+        {
+          "id": "item_7_055",
+          "label": "item 7 055",
+          "frames": [
+            "props/item_7_055.png"
+          ]
+        },
+        {
+          "id": "item_7_056",
+          "label": "item 7 056",
+          "frames": [
+            "props/item_7_056.png"
+          ]
+        },
+        {
+          "id": "item_7_057",
+          "label": "item 7 057",
+          "frames": [
+            "props/item_7_057.png"
+          ]
+        },
+        {
+          "id": "item_7_058",
+          "label": "item 7 058",
+          "frames": [
+            "props/item_7_058.png"
+          ]
+        },
+        {
+          "id": "item_7_059",
+          "label": "item 7 059",
+          "frames": [
+            "props/item_7_059.png"
+          ]
+        },
+        {
+          "id": "item_7_060",
+          "label": "item 7 060",
+          "frames": [
+            "props/item_7_060.png"
+          ]
+        },
+        {
+          "id": "item_7_061",
+          "label": "item 7 061",
+          "frames": [
+            "props/item_7_061.png"
+          ]
+        },
+        {
+          "id": "item_7_062",
+          "label": "item 7 062",
+          "frames": [
+            "props/item_7_062.png"
+          ]
+        },
+        {
+          "id": "item_7_063",
+          "label": "item 7 063",
+          "frames": [
+            "props/item_7_063.png"
+          ]
+        },
+        {
+          "id": "item_7_064",
+          "label": "item 7 064",
+          "frames": [
+            "props/item_7_064.png"
+          ]
+        },
+        {
+          "id": "item_7_065",
+          "label": "item 7 065",
+          "frames": [
+            "props/item_7_065.png"
+          ]
+        },
+        {
+          "id": "item_7_066",
+          "label": "item 7 066",
+          "frames": [
+            "props/item_7_066.png"
+          ]
+        },
+        {
+          "id": "item_7_067",
+          "label": "item 7 067",
+          "frames": [
+            "props/item_7_067.png"
+          ]
+        },
+        {
+          "id": "item_7_068",
+          "label": "item 7 068",
+          "frames": [
+            "props/item_7_068.png"
+          ]
+        },
+        {
+          "id": "item_7_069",
+          "label": "item 7 069",
+          "frames": [
+            "props/item_7_069.png"
+          ]
+        },
+        {
+          "id": "item_7_070",
+          "label": "item 7 070",
+          "frames": [
+            "props/item_7_070.png"
+          ]
+        },
+        {
+          "id": "item_7_071",
+          "label": "item 7 071",
+          "frames": [
+            "props/item_7_071.png"
+          ]
+        },
+        {
+          "id": "item_7_072",
+          "label": "item 7 072",
+          "frames": [
+            "props/item_7_072.png"
+          ]
+        },
+        {
+          "id": "item_7_073",
+          "label": "item 7 073",
+          "frames": [
+            "props/item_7_073.png"
+          ]
+        },
+        {
+          "id": "item_7_074",
+          "label": "item 7 074",
+          "frames": [
+            "props/item_7_074.png"
+          ]
+        },
+        {
+          "id": "item_7_075",
+          "label": "item 7 075",
+          "frames": [
+            "props/item_7_075.png"
+          ]
+        },
+        {
+          "id": "item_7_076",
+          "label": "item 7 076",
+          "frames": [
+            "props/item_7_076.png"
+          ]
+        },
+        {
+          "id": "item_7_077",
+          "label": "item 7 077",
+          "frames": [
+            "props/item_7_077.png"
+          ]
+        },
+        {
+          "id": "item_7_078",
+          "label": "item 7 078",
+          "frames": [
+            "props/item_7_078.png"
+          ]
+        },
+        {
+          "id": "item_7_079",
+          "label": "item 7 079",
+          "frames": [
+            "props/item_7_079.png"
+          ]
+        },
+        {
+          "id": "item_7_080",
+          "label": "item 7 080",
+          "frames": [
+            "props/item_7_080.png"
+          ]
+        },
+        {
+          "id": "item_7_081",
+          "label": "item 7 081",
+          "frames": [
+            "props/item_7_081.png"
+          ]
+        },
+        {
+          "id": "item_7_082",
+          "label": "item 7 082",
+          "frames": [
+            "props/item_7_082.png"
+          ]
+        },
+        {
+          "id": "item_7_083",
+          "label": "item 7 083",
+          "frames": [
+            "props/item_7_083.png"
+          ]
+        },
+        {
+          "id": "item_7_084",
+          "label": "item 7 084",
+          "frames": [
+            "props/item_7_084.png"
+          ]
+        },
+        {
+          "id": "item_7_085",
+          "label": "item 7 085",
+          "frames": [
+            "props/item_7_085.png"
+          ]
+        },
+        {
+          "id": "item_7_086",
+          "label": "item 7 086",
+          "frames": [
+            "props/item_7_086.png"
+          ]
+        },
+        {
+          "id": "prop_000",
+          "label": "prop 000",
+          "frames": [
+            "props/prop_000.png"
+          ]
+        },
+        {
+          "id": "prop_001",
+          "label": "prop 001",
+          "frames": [
+            "props/prop_001.png"
+          ]
+        },
+        {
+          "id": "prop_002",
+          "label": "prop 002",
+          "frames": [
+            "props/prop_002.png"
+          ]
+        },
+        {
+          "id": "prop_003",
+          "label": "prop 003",
+          "frames": [
+            "props/prop_003.png"
+          ]
+        },
+        {
+          "id": "prop_004",
+          "label": "prop 004",
+          "frames": [
+            "props/prop_004.png"
+          ]
+        },
+        {
+          "id": "prop_005",
+          "label": "prop 005",
+          "frames": [
+            "props/prop_005.png"
+          ]
+        },
+        {
+          "id": "prop_006",
+          "label": "prop 006",
+          "frames": [
+            "props/prop_006.png"
+          ]
+        },
+        {
+          "id": "prop_007",
+          "label": "prop 007",
+          "frames": [
+            "props/prop_007.png"
+          ]
+        },
+        {
+          "id": "prop_008",
+          "label": "prop 008",
+          "frames": [
+            "props/prop_008.png"
+          ]
+        },
+        {
+          "id": "prop_009",
+          "label": "prop 009",
+          "frames": [
+            "props/prop_009.png"
+          ]
+        },
+        {
+          "id": "prop_010",
+          "label": "prop 010",
+          "frames": [
+            "props/prop_010.png"
+          ]
+        },
+        {
+          "id": "prop_011",
+          "label": "prop 011",
+          "frames": [
+            "props/prop_011.png"
+          ]
+        },
+        {
+          "id": "prop_012",
+          "label": "prop 012",
+          "frames": [
+            "props/prop_012.png"
+          ]
+        },
+        {
+          "id": "prop_013",
+          "label": "prop 013",
+          "frames": [
+            "props/prop_013.png"
+          ]
+        },
+        {
+          "id": "prop_014",
+          "label": "prop 014",
+          "frames": [
+            "props/prop_014.png"
+          ]
+        },
+        {
+          "id": "prop_015",
+          "label": "prop 015",
+          "frames": [
+            "props/prop_015.png"
+          ]
+        },
+        {
+          "id": "prop_016",
+          "label": "prop 016",
+          "frames": [
+            "props/prop_016.png"
+          ]
+        },
+        {
+          "id": "prop_017",
+          "label": "prop 017",
+          "frames": [
+            "props/prop_017.png"
+          ]
+        },
+        {
+          "id": "prop_018",
+          "label": "prop 018",
+          "frames": [
+            "props/prop_018.png"
+          ]
+        },
+        {
+          "id": "prop_019",
+          "label": "prop 019",
+          "frames": [
+            "props/prop_019.png"
+          ]
+        },
+        {
+          "id": "prop_020",
+          "label": "prop 020",
+          "frames": [
+            "props/prop_020.png"
+          ]
+        },
+        {
+          "id": "prop_021",
+          "label": "prop 021",
+          "frames": [
+            "props/prop_021.png"
+          ]
+        },
+        {
+          "id": "prop_022",
+          "label": "prop 022",
+          "frames": [
+            "props/prop_022.png"
+          ]
+        },
+        {
+          "id": "prop_023",
+          "label": "prop 023",
+          "frames": [
+            "props/prop_023.png"
+          ]
+        },
+        {
+          "id": "prop_024",
+          "label": "prop 024",
+          "frames": [
+            "props/prop_024.png"
+          ]
+        },
+        {
+          "id": "prop_025",
+          "label": "prop 025",
+          "frames": [
+            "props/prop_025.png"
+          ]
+        },
+        {
+          "id": "prop_026",
+          "label": "prop 026",
+          "frames": [
+            "props/prop_026.png"
+          ]
+        },
+        {
+          "id": "prop_027",
+          "label": "prop 027",
+          "frames": [
+            "props/prop_027.png"
+          ]
+        },
+        {
+          "id": "prop_028",
+          "label": "prop 028",
+          "frames": [
+            "props/prop_028.png"
+          ]
+        },
+        {
+          "id": "prop_029",
+          "label": "prop 029",
+          "frames": [
+            "props/prop_029.png"
+          ]
+        },
+        {
+          "id": "prop_030",
+          "label": "prop 030",
+          "frames": [
+            "props/prop_030.png"
+          ]
+        },
+        {
+          "id": "prop_031",
+          "label": "prop 031",
+          "frames": [
+            "props/prop_031.png"
+          ]
+        },
+        {
+          "id": "prop_032",
+          "label": "prop 032",
+          "frames": [
+            "props/prop_032.png"
+          ]
+        },
+        {
+          "id": "prop_033",
+          "label": "prop 033",
+          "frames": [
+            "props/prop_033.png"
+          ]
+        },
+        {
+          "id": "prop_034",
+          "label": "prop 034",
+          "frames": [
+            "props/prop_034.png"
+          ]
+        },
+        {
+          "id": "prop_035",
+          "label": "prop 035",
+          "frames": [
+            "props/prop_035.png"
+          ]
+        },
+        {
+          "id": "prop_036",
+          "label": "prop 036",
+          "frames": [
+            "props/prop_036.png"
+          ]
+        },
+        {
+          "id": "prop_037",
+          "label": "prop 037",
+          "frames": [
+            "props/prop_037.png"
+          ]
+        },
+        {
+          "id": "prop_038",
+          "label": "prop 038",
+          "frames": [
+            "props/prop_038.png"
+          ]
+        },
+        {
+          "id": "prop_039",
+          "label": "prop 039",
+          "frames": [
+            "props/prop_039.png"
+          ]
+        },
+        {
+          "id": "prop_040",
+          "label": "prop 040",
+          "frames": [
+            "props/prop_040.png"
+          ]
+        },
+        {
+          "id": "prop_041",
+          "label": "prop 041",
+          "frames": [
+            "props/prop_041.png"
+          ]
+        },
+        {
+          "id": "prop_042",
+          "label": "prop 042",
+          "frames": [
+            "props/prop_042.png"
+          ]
+        },
+        {
+          "id": "prop_043",
+          "label": "prop 043",
+          "frames": [
+            "props/prop_043.png"
+          ]
+        },
+        {
+          "id": "prop_044",
+          "label": "prop 044",
+          "frames": [
+            "props/prop_044.png"
+          ]
+        },
+        {
+          "id": "prop_045",
+          "label": "prop 045",
+          "frames": [
+            "props/prop_045.png"
+          ]
+        },
+        {
+          "id": "prop_046",
+          "label": "prop 046",
+          "frames": [
+            "props/prop_046.png"
+          ]
+        },
+        {
+          "id": "prop_047",
+          "label": "prop 047",
+          "frames": [
+            "props/prop_047.png"
+          ]
+        },
+        {
+          "id": "prop_048",
+          "label": "prop 048",
+          "frames": [
+            "props/prop_048.png"
+          ]
+        },
+        {
+          "id": "prop_049",
+          "label": "prop 049",
+          "frames": [
+            "props/prop_049.png"
+          ]
+        },
+        {
+          "id": "prop_050",
+          "label": "prop 050",
+          "frames": [
+            "props/prop_050.png"
+          ]
+        },
+        {
+          "id": "prop_051",
+          "label": "prop 051",
+          "frames": [
+            "props/prop_051.png"
+          ]
+        },
+        {
+          "id": "prop_052",
+          "label": "prop 052",
+          "frames": [
+            "props/prop_052.png"
+          ]
+        },
+        {
+          "id": "prop_053",
+          "label": "prop 053",
+          "frames": [
+            "props/prop_053.png"
+          ]
+        },
+        {
+          "id": "prop_054",
+          "label": "prop 054",
+          "frames": [
+            "props/prop_054.png"
+          ]
+        },
+        {
+          "id": "prop_055",
+          "label": "prop 055",
+          "frames": [
+            "props/prop_055.png"
+          ]
+        },
+        {
+          "id": "prop_056",
+          "label": "prop 056",
+          "frames": [
+            "props/prop_056.png"
+          ]
+        },
+        {
+          "id": "prop_057",
+          "label": "prop 057",
+          "frames": [
+            "props/prop_057.png"
+          ]
+        },
+        {
+          "id": "prop_058",
+          "label": "prop 058",
+          "frames": [
+            "props/prop_058.png"
+          ]
+        },
+        {
+          "id": "prop_059",
+          "label": "prop 059",
+          "frames": [
+            "props/prop_059.png"
+          ]
+        },
+        {
+          "id": "prop_060",
+          "label": "prop 060",
+          "frames": [
+            "props/prop_060.png"
+          ]
+        },
+        {
+          "id": "prop_061",
+          "label": "prop 061",
+          "frames": [
+            "props/prop_061.png"
+          ]
+        },
+        {
+          "id": "prop_062",
+          "label": "prop 062",
+          "frames": [
+            "props/prop_062.png"
+          ]
+        },
+        {
+          "id": "prop_063",
+          "label": "prop 063",
+          "frames": [
+            "props/prop_063.png"
+          ]
+        },
+        {
+          "id": "prop_064",
+          "label": "prop 064",
+          "frames": [
+            "props/prop_064.png"
+          ]
+        },
+        {
+          "id": "prop_065",
+          "label": "prop 065",
+          "frames": [
+            "props/prop_065.png"
+          ]
+        },
+        {
+          "id": "prop_066",
+          "label": "prop 066",
+          "frames": [
+            "props/prop_066.png"
+          ]
+        },
+        {
+          "id": "prop_067",
+          "label": "prop 067",
+          "frames": [
+            "props/prop_067.png"
+          ]
+        },
+        {
+          "id": "prop_068",
+          "label": "prop 068",
+          "frames": [
+            "props/prop_068.png"
+          ]
+        },
+        {
+          "id": "prop_069",
+          "label": "prop 069",
+          "frames": [
+            "props/prop_069.png"
+          ]
+        },
+        {
+          "id": "prop_070",
+          "label": "prop 070",
+          "frames": [
+            "props/prop_070.png"
+          ]
+        },
+        {
+          "id": "prop_071",
+          "label": "prop 071",
+          "frames": [
+            "props/prop_071.png"
+          ]
+        }
+      ]
+    },
+    "buildings": {
+      "label": "建筑",
+      "groups": [
+        {
+          "id": "stories",
+          "label": "stories",
+          "frames": [
+            "buildings/stories.png"
+          ]
+        },
+        {
+          "id": "science",
+          "label": "science",
+          "frames": [
+            "buildings/science.png"
+          ]
+        },
+        {
+          "id": "chinese",
+          "label": "chinese",
+          "frames": [
+            "buildings/chinese.png"
+          ]
+        },
+        {
+          "id": "math",
+          "label": "math",
+          "frames": [
+            "buildings/math.png"
+          ]
+        },
+        {
+          "id": "pets",
+          "label": "pets",
+          "frames": [
+            "buildings/pets.png"
+          ]
+        },
+        {
+          "id": "english",
+          "label": "english",
+          "frames": [
+            "buildings/english.png"
+          ]
+        }
+      ]
+    }
+  }
+}

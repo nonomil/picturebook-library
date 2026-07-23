@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-labelledby="title desc">
+  <title id="title">🍎 I Am an Apple - 苹果的一生 封面</title>
+  <desc id="desc">探索实验室 离线互动课件</desc>
+  <defs><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#166534"/><stop offset="1" stop-color="#22C55E"/></linearGradient><filter id="shadow"><feDropShadow dx="0" dy="10" stdDeviation="12" flood-opacity=".22"/></filter></defs>
+  <rect width="640" height="400" rx="32" fill="url(#bg)"/>
+  <circle cx="560" cy="70" r="110" fill="#ffffff" opacity=".12"/><circle cx="70" cy="360" r="150" fill="#ffffff" opacity=".08"/>
+  <path d="M0 312 C130 260 220 360 350 306 S550 260 640 300 V400 H0Z" fill="#ffffff" opacity=".1"/>
+  <g filter="url(#shadow)"><circle cx="510" cy="210" r="78" fill="#ffffff" opacity=".94"/><text x="510" y="235" text-anchor="middle" fill="#166534" font-size="72" font-weight="700">✦</text></g>
+  <text x="48" y="72" fill="#ffffff" opacity=".82" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" font-weight="700" letter-spacing="2">OFFLINE COURSEWARE</text>
+  <text x="48" y="112" fill="#ffffff" opacity=".9" font-family="Arial, Microsoft YaHei, sans-serif" font-size="20">探索实验室</text>
+  <text x="48" y="238" fill="#ffffff" font-size="28" font-weight="700">🍎 I Am an Apple </text><text x="48" y="280" fill="#ffffff" font-size="30" font-weight="700">- 苹果的一生</text>
+  <text x="48" y="350" fill="#ffffff" opacity=".76" font-family="Arial, Microsoft YaHei, sans-serif" font-size="16">打开课件 · 逐步学习 · 本地可用</text>
+</svg>

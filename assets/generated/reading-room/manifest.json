@@ -1,0 +1,44 @@
+{
+  "style": "reading-room-editorial",
+  "provider": "Agnes API",
+  "model": "agnes-image-2.1-flash",
+  "reference": "docs/design/generated/reading-room-reference/reading-room-reference.png",
+  "background": "assets/generated/reading-room/reading-room-background.png",
+  "prompts": [
+    "docs/design/reading-room-reference.prompt.txt",
+    "docs/design/reading-room-background.prompt.txt",
+    "docs/design/reading-room-ornament-sheet.prompt.txt"
+  ],
+  "assetPolicy": "Generated text-free art; all UI labels remain HTML/CSS.",
+  "assets": [
+    {
+      "name": "book_stack",
+      "file": "assets/generated/reading-room/published/reading-room-book-stack.png",
+      "source": "docs/design/generated/reading-room-assets/ornaments/reading-room-ornaments.png",
+      "gridCell": 1,
+      "format": "RGBA PNG",
+      "edgeAlpha": { "nonzero": 0, "max": 0 }
+    },
+    {
+      "name": "pencil",
+      "file": "assets/generated/reading-room/published/reading-room-pencil.png",
+      "source": "docs/design/generated/reading-room-assets/ornaments/reading-room-ornaments.png",
+      "gridCell": 5,
+      "format": "RGBA PNG",
+      "edgeAlpha": { "nonzero": 0, "max": 0 }
+    },
+    {
+      "name": "bookmark",
+      "file": "assets/generated/reading-room/published/reading-room-bookmark.png",
+      "source": "docs/design/generated/reading-room-assets/ornaments/reading-room-ornaments.png",
+      "gridCell": 6,
+      "format": "RGBA PNG",
+      "edgeAlpha": { "nonzero": 0, "max": 0 }
+    }
+  ],
+  "notIntegrated": [
+    "lamp: retained in the cleaned grid for future use; green spill remains visible around the glow",
+    "leaf_sprig: retained in the cleaned grid for future use; aggressive chroma removal damaged fine green strokes",
+    "star_mobile: retained in the raw grid; the current 2x3 crop touches the lower tile boundary"
+  ]
+}

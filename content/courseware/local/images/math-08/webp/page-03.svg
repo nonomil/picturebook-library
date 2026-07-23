@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-labelledby="title desc">
+  <title id="title">凑十法例题</title>
+  <desc id="desc">9加2、8加3、7加4都等于11</desc>
+  <rect width="800" height="520" rx="42" fill="#fff8e8"/>
+  <circle cx="120" cy="110" r="58" fill="#ffd166"/>
+  <circle cx="680" cy="110" r="58" fill="#8ecae6"/>
+  <text x="400" y="92" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#365268">先凑十，再加剩下的</text>
+  <g font-family="Arial, sans-serif" font-size="52" font-weight="700" fill="#365268" text-anchor="middle">
+    <text x="400" y="220">9 + 2 = 11</text>
+    <text x="400" y="320">8 + 3 = 11</text>
+    <text x="400" y="420">7 + 4 = 11</text>
+  </g>
+  <g fill="#ff8fab">
+    <circle cx="270" cy="205" r="11"/><circle cx="302" cy="205" r="11"/>
+    <circle cx="270" cy="305" r="11"/><circle cx="302" cy="305" r="11"/><circle cx="334" cy="305" r="11"/>
+    <circle cx="270" cy="405" r="11"/><circle cx="302" cy="405" r="11"/><circle cx="334" cy="405" r="11"/><circle cx="366" cy="405" r="11"/>
+  </g>
+</svg>

@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "links": [
+    { "title": "宠物积分总站", "url": "", "devUrl": "http://127.0.0.1:7000/" },
+    { "title": "学习中心", "url": "", "devUrl": "http://127.0.0.1:7001/" },
+    { "title": "单词远征", "url": "", "devUrl": "http://127.0.0.1:7002/" },
+    { "title": "小游戏项目", "url": "", "devUrl": "http://127.0.0.1:7003/" }
+  ]
+}

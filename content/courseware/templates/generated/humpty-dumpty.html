@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="🥚 Humpty Dumpty · 离线模板课件">
+    <title>🥚 Humpty Dumpty | 活动体验模板</title>
+    <link rel="stylesheet" href="../shared/courseware-template.css">
+  </head>
+  <body>
+    <div id="courseware-app" class="cw-shell" data-template="activity-studio" data-content-type="">
+      <header class="cw-topbar">
+        <a class="cw-back" href="../../../../index.html" aria-label="返回绘本书架">返回书架</a>
+        <div class="cw-topbar-title"><strong>🥚 Humpty Dumpty</strong><span>活动体验模板 · 离线学习</span></div>
+        <div class="cw-topbar-actions">
+          <a class="cw-icon-button cw-legacy-link" href="../../local/songs/humpty-dumpty.html" target="_blank" rel="noopener" title="打开原始备份">原始备份</a>
+          <button id="cw-read-aloud" class="cw-icon-button" type="button" title="朗读当前页">朗读</button>
+          <button id="cw-reset" class="cw-icon-button" type="button" title="重新开始">重置</button>
+        </div>
+      </header>
+      <main class="cw-main">
+        <section class="cw-hero">
+          <div><p class="cw-kicker">ACTIVITY-STUDIO · OFFLINE</p><h1>🥚 Humpty Dumpty</h1><p>已将原课件整理为统一的逐步阅读界面，文字、图片和学习顺序保留在本机。</p></div>
+          <div class="cw-meta"><span>songs</span><span>9 步</span><span>无需网络</span></div>
+        </section>
+        <section class="cw-progress-panel" aria-label="课件进度">
+          <span id="cw-progress-label" class="cw-progress-label">学习进度</span><div class="cw-progress-track"><div id="cw-progress-fill" class="cw-progress-fill"></div></div><strong id="cw-progress-value" class="cw-progress-value">0%</strong>
+        </section>
+        <section id="cw-stage" class="cw-stage" aria-live="polite"></section>
+        <section id="cw-completion" class="cw-completion" hidden><h2>课件完成</h2><p id="cw-completion-text"></p></section>
+        <p id="cw-status" class="cw-status" role="status">从第一步开始学习。</p>
+      </main>
+      <nav class="cw-bottom-nav" aria-label="课件翻页"><button id="cw-prev" class="cw-nav-button" type="button">上一步</button><div class="cw-nav-center"><strong id="cw-step-counter">第 1 / 9 步</strong><span>文字、图片和朗读均可离线使用</span></div><button id="cw-next" class="cw-nav-button" type="button">下一步</button></nav>
+    </div>
+    <script>window.COURSEWARE_CONFIG = {"id":"humpty-dumpty","template":"activity-studio","contentType":"","categoryLabel":"","author":"","dynasty":"","activityLabel":"动手活动","requiredInteractions":["record:8"],"sourcePath":"childrens-library/courseware/songs/humpty-dumpty.html","steps":[{"title":"Humpty Dumpty","scene":"star","detailsText":"✏️ 蛋头先生坐在墙头上！","textZh":"✏️ 蛋头先生坐在墙头上！","audio":{"src":"../../local/audio/humpty-dumpty/page-1.mp3","lang":"zh-CN"},"images":["../../local/generated-visuals/humpty-dumpty/page-1.webp"],"imageAlt":"Humpty Dumpty主题插图"},{"title":"蛋头先生坐在墙头上","scene":"star","detailsText":"Humpty Dumpty sat on a wall","textZh":"Humpty Dumpty sat on a wall","vocab":[{"text":"humpty","en":"蛋头"},{"text":"wall","en":"墙"}],"audio":{"src":"../../local/audio/humpty-dumpty/page-2.mp3","lang":"en-US"},"images":["../../local/generated-visuals/humpty-dumpty/page-2.webp"],"imageAlt":"蛋头先生坐在墙头上主题插图"},{"title":"蛋头先生摔了一大跤","scene":"star","detailsText":"Humpty Dumpty had a great fall","textZh":"Humpty Dumpty had a great fall","vocab":[{"text":"great","en":"大大的"},{"text":"fall","en":"摔跤"}],"audio":{"src":"../../local/audio/humpty-dumpty/page-3.mp3","lang":"en-US"},"images":["../../local/generated-visuals/humpty-dumpty/page-3.webp"],"imageAlt":"蛋头先生摔了一大跤主题插图"},{"title":"国王所有的马和士兵","scene":"star","detailsText":"All the king horses and all the king men","textZh":"All the king horses and all the king men","vocab":[{"text":"king","en":"国王"},{"text":"horse","en":"马"}],"audio":{"src":"../../local/audio/humpty-dumpty/page-4.mp3","lang":"en-US"},"images":["../../local/generated-visuals/humpty-dumpty/page-4.webp"],"imageAlt":"国王所有的马和士兵主题插图"},{"title":"都没法把蛋头拼回去","scene":"star","detailsText":"Couldn put Humpty together again","textZh":"Couldn put Humpty together again","vocab":[{"text":"again","en":"再次"},{"text":"together","en":"一起"}],"audio":{"src":"../../local/audio/humpty-dumpty/page-5.mp3","lang":"en-US"},"images":["../../local/generated-visuals/humpty-dumpty/page-5.webp"],"imageAlt":"都没法把蛋头拼回去主题插图"},{"title":"互动游戏","scene":"star","detailsText":"拖动或点击完成这一页的互动游戏。","textZh":"拖动或点击完成这一页的互动游戏。","audio":{"src":"../../local/audio/humpty-dumpty/page-6.mp3","lang":"zh-CN"},"images":["../../local/generated-visuals/humpty-dumpty/page-6.webp"],"imageAlt":"互动游戏主题插图"},{"title":"听声音找单词","scene":"star","detailsText":"先听一听，再选出你听到的单词。","textZh":"先听一听，再选出你听到的单词。","audio":{"src":"../../local/audio/humpty-dumpty/page-7.mp3","lang":"zh-CN"},"images":["../../local/generated-visuals/humpty-dumpty/page-7.webp"],"imageAlt":"听声音找单词主题插图"},{"title":"小问答","scene":"star","detailsText":"读一读题目，选出正确答案。","textZh":"读一读题目，选出正确答案。","audio":{"src":"../../local/audio/humpty-dumpty/page-8.mp3","lang":"zh-CN"},"images":["../../local/generated-visuals/humpty-dumpty/page-8.webp"],"imageAlt":"小问答主题插图"},{"title":"学完啦！","scene":"star","detailsText":"这一课完成啦！","textZh":"这一课完成啦！","audio":{"src":"../../local/audio/humpty-dumpty/page-9.mp3","lang":"zh-CN"},"images":["../../local/generated-visuals/humpty-dumpty/page-9.webp"],"imageAlt":"学完啦！主题插图","record":{"prompt":"这一课完成了吗？请勾选后保存学习记录。","label":"我完成了这一课"}}]};</script>
+    <script type="module" src="../shared/courseware-model.js"></script>
+    <script type="module" src="../shared/courseware-runtime.js"></script>
+  </body>
+</html>

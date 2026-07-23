@@ -1,0 +1,4445 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "english-story-01-the-talkative-tortoise",
+      "page": 1,
+      "path": "english-story-01-the-talkative-tortoise/page-1.png",
+      "bytes": 6592638,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "english-story-01-the-talkative-tortoise",
+      "page": 2,
+      "path": "english-story-01-the-talkative-tortoise/page-2.png",
+      "bytes": 6231280,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "english-story-01-the-talkative-tortoise",
+      "page": 3,
+      "path": "english-story-01-the-talkative-tortoise/page-3.png",
+      "bytes": 5338898,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "english-story-01-the-talkative-tortoise",
+      "page": 4,
+      "path": "english-story-01-the-talkative-tortoise/page-4.png",
+      "bytes": 5202139,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "english-story-01-the-talkative-tortoise",
+      "page": 5,
+      "path": "english-story-01-the-talkative-tortoise/page-5.png",
+      "bytes": 6597989,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "english-story-01-the-talkative-tortoise",
+      "page": 6,
+      "path": "english-story-01-the-talkative-tortoise/page-6.png",
+      "bytes": 6180247,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "lesson-extra-02-bubble-experiment",
+      "page": 1,
+      "path": "lesson-extra-02-bubble-experiment/page-1.png",
+      "bytes": 2041070,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "lesson-extra-02-bubble-experiment",
+      "page": 2,
+      "path": "lesson-extra-02-bubble-experiment/page-2.png",
+      "bytes": 5174660,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "lesson-extra-02-bubble-experiment",
+      "page": 3,
+      "path": "lesson-extra-02-bubble-experiment/page-3.png",
+      "bytes": 4541220,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "lesson-extra-02-bubble-experiment",
+      "page": 4,
+      "path": "lesson-extra-02-bubble-experiment/page-4.png",
+      "bytes": 3365656,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "lesson-extra-02-bubble-experiment",
+      "page": 5,
+      "path": "lesson-extra-02-bubble-experiment/page-5.png",
+      "bytes": 3712703,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "lesson-extra-02-bubble-experiment",
+      "page": 6,
+      "path": "lesson-extra-02-bubble-experiment/page-6.png",
+      "bytes": 4644063,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "poem-explain-01-yong-e",
+      "page": 1,
+      "path": "poem-explain-01-yong-e/page-1.png",
+      "bytes": 3709109,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "poem-explain-02-chun-xiao",
+      "page": 1,
+      "path": "poem-explain-02-chun-xiao/page-1.png",
+      "bytes": 5354580,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "poem-explain-03-jing-ye-si",
+      "page": 1,
+      "path": "poem-explain-03-jing-ye-si/page-1.png",
+      "bytes": 6574331,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "poem-explain-05-deng-guan-que-lou",
+      "page": 1,
+      "path": "poem-explain-05-deng-guan-que-lou/page-1.png",
+      "bytes": 4425119,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "poem-explain-06-wang-lu-shan-pu-bu",
+      "page": 1,
+      "path": "poem-explain-06-wang-lu-shan-pu-bu/page-1.png",
+      "bytes": 4068219,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "poem-explain-07-jiang-xue",
+      "page": 1,
+      "path": "poem-explain-07-jiang-xue/page-1.png",
+      "bytes": 4244735,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "poem-explain-10-lu-zhai",
+      "page": 1,
+      "path": "poem-explain-10-lu-zhai/page-1.png",
+      "bytes": 5552693,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "poem-explain-11-niao-ming-jian",
+      "page": 1,
+      "path": "poem-explain-11-niao-ming-jian/page-1.png",
+      "bytes": 6641608,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "poem-explain-12-zhu-li-guan",
+      "page": 1,
+      "path": "poem-explain-12-zhu-li-guan/page-1.png",
+      "bytes": 6846964,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "poem-explain-14-za-shi",
+      "page": 1,
+      "path": "poem-explain-14-za-shi/page-1.png",
+      "bytes": 4592423,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "poem-explain-16-shu-shi",
+      "page": 1,
+      "path": "poem-explain-16-shu-shi/page-1.png",
+      "bytes": 7639630,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "poem-explain-17-xin-yi-wu",
+      "page": 1,
+      "path": "poem-explain-17-xin-yi-wu/page-1.png",
+      "bytes": 6770807,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "poem-explain-18-qi-yuan",
+      "page": 1,
+      "path": "poem-explain-18-qi-yuan/page-1.png",
+      "bytes": 6118153,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "poem-explain-19-wang-chuan-xian-ju",
+      "page": 1,
+      "path": "poem-explain-19-wang-chuan-xian-ju/page-1.png",
+      "bytes": 6687338,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "poem-explain-20-tian-yuan-le",
+      "page": 1,
+      "path": "poem-explain-20-tian-yuan-le/page-1.png",
+      "bytes": 4566353,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "poem-explain-04-min-nong",
+      "page": 1,
+      "path": "poem-explain-04-min-nong/page-1.png",
+      "bytes": 1790334,
+      "source": "agnes",
+      "model": "agnes-image-2.1-flash",
+      "status": "verified"
+    },
+    {
+      "id": "poem-explain-08-you-zi-yin",
+      "page": 1,
+      "path": "poem-explain-08-you-zi-yin/page-1.png",
+      "bytes": 1561444,
+      "source": "agnes",
+      "model": "agnes-image-2.1-flash",
+      "status": "verified"
+    },
+    {
+      "id": "poem-explain-09-xiang-si",
+      "page": 1,
+      "path": "poem-explain-09-xiang-si/page-1.png",
+      "bytes": 1984423,
+      "source": "agnes",
+      "model": "agnes-image-2.1-flash",
+      "status": "verified"
+    },
+    {
+      "id": "poem-explain-13-song-bie",
+      "page": 1,
+      "path": "poem-explain-13-song-bie/page-1.png",
+      "bytes": 1918656,
+      "source": "agnes",
+      "model": "agnes-image-2.1-flash",
+      "status": "verified"
+    },
+    {
+      "id": "poem-explain-15-shan-zhong-song-bie",
+      "page": 1,
+      "path": "poem-explain-15-shan-zhong-song-bie/page-1.png",
+      "bytes": 1976671,
+      "source": "agnes",
+      "model": "agnes-image-2.1-flash",
+      "status": "verified"
+    },
+    {
+      "id": "english-story-02-the-lion-and-the-mouse",
+      "page": 1,
+      "path": "english-story-02-the-lion-and-the-mouse/page-1.png",
+      "bytes": 6834620,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "english-story-03-the-ugly-duckling",
+      "page": 1,
+      "path": "english-story-03-the-ugly-duckling/page-1.png",
+      "bytes": 6240886,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "english-story-04-the-boy-who-cried-wolf",
+      "page": 1,
+      "path": "english-story-04-the-boy-who-cried-wolf/page-1.png",
+      "bytes": 5034770,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "english-story-05-the-three-little-pigs",
+      "page": 1,
+      "path": "english-story-05-the-three-little-pigs/page-1.png",
+      "bytes": 5333357,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "english-story-06-goldilocks-and-the-three-bears",
+      "page": 1,
+      "path": "english-story-06-goldilocks-and-the-three-bears/page-1.png",
+      "bytes": 5782833,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "english-story-07-the-ant-and-the-grasshopper",
+      "page": 1,
+      "path": "english-story-07-the-ant-and-the-grasshopper/page-1.png",
+      "bytes": 6054077,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "english-story-08-little-red-riding-hood",
+      "page": 1,
+      "path": "english-story-08-little-red-riding-hood/page-1.png",
+      "bytes": 6222833,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "english-story-09-the-tortoise-and-the-hare",
+      "page": 1,
+      "path": "english-story-09-the-tortoise-and-the-hare/page-1.png",
+      "bytes": 6016524,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "english-story-10-jack-and-the-beanstalk",
+      "page": 1,
+      "path": "english-story-10-jack-and-the-beanstalk/page-1.png",
+      "bytes": 5164110,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "shared-chinese",
+      "page": 1,
+      "path": "shared-chinese/page-1.png",
+      "bytes": 3683584,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "shared-english",
+      "page": 1,
+      "path": "shared-english/page-1.png",
+      "bytes": 3983181,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "shared-songs",
+      "page": 1,
+      "path": "shared-songs/page-1.png",
+      "bytes": 4996675,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "shared-science",
+      "page": 1,
+      "path": "shared-science/page-1.png",
+      "bytes": 3302234,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "shared-gears",
+      "page": 1,
+      "path": "shared-gears/page-1.png",
+      "bytes": 3289515,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "shared-stories",
+      "page": 1,
+      "path": "shared-stories/page-1.png",
+      "bytes": 6330388,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "story-extra-01",
+      "page": 1,
+      "path": "story-extra-01/page-1.png",
+      "bytes": 6241407,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "story-extra-02",
+      "page": 1,
+      "path": "story-extra-02/page-1.png",
+      "bytes": 5808214,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "story-extra-03",
+      "page": 1,
+      "path": "story-extra-03/page-1.png",
+      "bytes": 6701507,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "story-extra-04",
+      "page": 1,
+      "path": "story-extra-04/page-1.png",
+      "bytes": 4545659,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "story-extra-05",
+      "page": 1,
+      "path": "story-extra-05/page-1.png",
+      "bytes": 6078524,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "story-extra-06",
+      "page": 1,
+      "path": "story-extra-06/page-1.png",
+      "bytes": 4892949,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "story-extra-07",
+      "page": 1,
+      "path": "story-extra-07/page-1.png",
+      "bytes": 5721203,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "story-extra-08",
+      "page": 1,
+      "path": "story-extra-08/page-1.png",
+      "bytes": 5708156,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "story-extra-09",
+      "page": 1,
+      "path": "story-extra-09/page-1.png",
+      "bytes": 5711902,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "story-extra-10",
+      "page": 1,
+      "path": "story-extra-10/page-1.png",
+      "bytes": 5386952,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "shared-math",
+      "page": 1,
+      "path": "shared-math/page-1.png",
+      "bytes": 3056394,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "lesson-extra-01-math-compare",
+      "page": 1,
+      "path": "lesson-extra-01-math-compare/page-1.png",
+      "bytes": 3458962,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "lesson-extra-01-math-compare",
+      "page": 2,
+      "path": "lesson-extra-01-math-compare/page-2.png",
+      "bytes": 5444984,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "lesson-extra-01-math-compare",
+      "page": 3,
+      "path": "lesson-extra-01-math-compare/page-3.png",
+      "bytes": 4850796,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "lesson-extra-01-math-compare",
+      "page": 4,
+      "path": "lesson-extra-01-math-compare/page-4.png",
+      "bytes": 3553655,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "lesson-extra-01-math-compare",
+      "page": 5,
+      "path": "lesson-extra-01-math-compare/page-5.png",
+      "bytes": 4384575,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "lesson-extra-01-math-compare",
+      "page": 6,
+      "path": "lesson-extra-01-math-compare/page-6.png",
+      "bytes": 5179335,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "lesson-extra-03-finger-painting",
+      "page": 1,
+      "path": "lesson-extra-03-finger-painting/page-1.png",
+      "bytes": 4249182,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "lesson-extra-03-finger-painting",
+      "page": 2,
+      "path": "lesson-extra-03-finger-painting/page-2.png",
+      "bytes": 4409043,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "lesson-extra-03-finger-painting",
+      "page": 3,
+      "path": "lesson-extra-03-finger-painting/page-3.png",
+      "bytes": 5064434,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "lesson-extra-03-finger-painting",
+      "page": 4,
+      "path": "lesson-extra-03-finger-painting/page-4.png",
+      "bytes": 5839778,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "lesson-extra-03-finger-painting",
+      "page": 5,
+      "path": "lesson-extra-03-finger-painting/page-5.png",
+      "bytes": 3675121,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "lesson-extra-03-finger-painting",
+      "page": 6,
+      "path": "lesson-extra-03-finger-painting/page-6.png",
+      "bytes": 5663566,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "lesson-extra-04-tongue-twister",
+      "page": 1,
+      "path": "lesson-extra-04-tongue-twister/page-1.png",
+      "bytes": 5064649,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "lesson-extra-04-tongue-twister",
+      "page": 2,
+      "path": "lesson-extra-04-tongue-twister/page-2.png",
+      "bytes": 2968701,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "lesson-extra-04-tongue-twister",
+      "page": 3,
+      "path": "lesson-extra-04-tongue-twister/page-3.png",
+      "bytes": 5241413,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "lesson-extra-04-tongue-twister",
+      "page": 4,
+      "path": "lesson-extra-04-tongue-twister/page-4.png",
+      "bytes": 5712270,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "lesson-extra-04-tongue-twister",
+      "page": 5,
+      "path": "lesson-extra-04-tongue-twister/page-5.png",
+      "bytes": 5335077,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "lesson-extra-04-tongue-twister",
+      "page": 6,
+      "path": "lesson-extra-04-tongue-twister/page-6.png",
+      "bytes": 4682436,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "lesson-extra-05-insect-observation",
+      "page": 1,
+      "path": "lesson-extra-05-insect-observation/page-1.png",
+      "bytes": 7659395,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "lesson-extra-05-insect-observation",
+      "page": 2,
+      "path": "lesson-extra-05-insect-observation/page-2.png",
+      "bytes": 4777474,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "lesson-extra-05-insect-observation",
+      "page": 3,
+      "path": "lesson-extra-05-insect-observation/page-3.png",
+      "bytes": 6234329,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "lesson-extra-05-insect-observation",
+      "page": 4,
+      "path": "lesson-extra-05-insect-observation/page-4.png",
+      "bytes": 5871490,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "lesson-extra-05-insect-observation",
+      "page": 5,
+      "path": "lesson-extra-05-insect-observation/page-5.png",
+      "bytes": 5769412,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "lesson-extra-05-insect-observation",
+      "page": 6,
+      "path": "lesson-extra-05-insect-observation/page-6.png",
+      "bytes": 5964620,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "lesson-extra-07-jobs",
+      "page": 1,
+      "path": "lesson-extra-07-jobs/page-1.png",
+      "bytes": 6260609,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "lesson-extra-07-jobs",
+      "page": 2,
+      "path": "lesson-extra-07-jobs/page-2.png",
+      "bytes": 4360999,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "lesson-extra-07-jobs",
+      "page": 3,
+      "path": "lesson-extra-07-jobs/page-3.png",
+      "bytes": 6827492,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "lesson-extra-07-jobs",
+      "page": 4,
+      "path": "lesson-extra-07-jobs/page-4.png",
+      "bytes": 4996205,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "lesson-extra-07-jobs",
+      "page": 5,
+      "path": "lesson-extra-07-jobs/page-5.png",
+      "bytes": 6182004,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "lesson-extra-08-handwashing",
+      "page": 1,
+      "path": "lesson-extra-08-handwashing/page-1.png",
+      "bytes": 1430278,
+      "source": "agnes",
+      "model": "agnes-image-2.1-flash",
+      "status": "verified"
+    },
+    {
+      "id": "lesson-extra-07-jobs",
+      "page": 6,
+      "path": "lesson-extra-07-jobs/page-6.png",
+      "bytes": 1489423,
+      "source": "agnes",
+      "model": "agnes-image-2.1-flash",
+      "status": "verified"
+    },
+    {
+      "id": "lesson-extra-08-handwashing",
+      "page": 2,
+      "path": "lesson-extra-08-handwashing/page-2.png",
+      "bytes": 1308167,
+      "source": "agnes",
+      "model": "agnes-image-2.1-flash",
+      "status": "verified"
+    },
+    {
+      "id": "lesson-extra-08-handwashing",
+      "page": 3,
+      "path": "lesson-extra-08-handwashing/page-3.png",
+      "bytes": 1535959,
+      "source": "agnes",
+      "model": "agnes-image-2.1-flash",
+      "status": "verified"
+    },
+    {
+      "id": "lesson-extra-08-handwashing",
+      "page": 4,
+      "path": "lesson-extra-08-handwashing/page-4.png",
+      "bytes": 843032,
+      "source": "agnes",
+      "model": "agnes-image-2.1-flash",
+      "status": "verified"
+    },
+    {
+      "id": "lesson-extra-08-handwashing",
+      "page": 5,
+      "path": "lesson-extra-08-handwashing/page-5.png",
+      "bytes": 1634638,
+      "source": "agnes",
+      "model": "agnes-image-2.1-flash",
+      "status": "verified"
+    },
+    {
+      "id": "lesson-extra-08-handwashing",
+      "page": 6,
+      "path": "lesson-extra-08-handwashing/page-6.png",
+      "bytes": 1235517,
+      "source": "agnes",
+      "model": "agnes-image-2.1-flash",
+      "status": "verified"
+    },
+    {
+      "id": "lesson-extra-09-sorting-game",
+      "page": 1,
+      "path": "lesson-extra-09-sorting-game/page-1.png",
+      "bytes": 1595881,
+      "source": "agnes",
+      "model": "agnes-image-2.1-flash",
+      "status": "verified"
+    },
+    {
+      "id": "lesson-extra-09-sorting-game",
+      "page": 2,
+      "path": "lesson-extra-09-sorting-game/page-2.png",
+      "bytes": 1061109,
+      "source": "agnes",
+      "model": "agnes-image-2.1-flash",
+      "status": "verified"
+    },
+    {
+      "id": "lesson-extra-09-sorting-game",
+      "page": 3,
+      "path": "lesson-extra-09-sorting-game/page-3.png",
+      "bytes": 1566414,
+      "source": "agnes",
+      "model": "agnes-image-2.1-flash",
+      "status": "verified"
+    },
+    {
+      "id": "lesson-extra-09-sorting-game",
+      "page": 4,
+      "path": "lesson-extra-09-sorting-game/page-4.png",
+      "bytes": 1357767,
+      "source": "agnes",
+      "model": "agnes-image-2.1-flash",
+      "status": "verified"
+    },
+    {
+      "id": "lesson-extra-09-sorting-game",
+      "page": 5,
+      "path": "lesson-extra-09-sorting-game/page-5.png",
+      "bytes": 1141035,
+      "source": "agnes",
+      "model": "agnes-image-2.1-flash",
+      "status": "verified"
+    },
+    {
+      "id": "lesson-extra-09-sorting-game",
+      "page": 6,
+      "path": "lesson-extra-09-sorting-game/page-6.png",
+      "bytes": 1125922,
+      "source": "agnes",
+      "model": "agnes-image-2.1-flash",
+      "status": "verified"
+    },
+    {
+      "id": "lesson-extra-10-cup-building",
+      "page": 1,
+      "path": "lesson-extra-10-cup-building/page-1.png",
+      "bytes": 1500925,
+      "source": "agnes",
+      "model": "agnes-image-2.1-flash",
+      "status": "verified"
+    },
+    {
+      "id": "lesson-extra-10-cup-building",
+      "page": 2,
+      "path": "lesson-extra-10-cup-building/page-2.png",
+      "bytes": 1253628,
+      "source": "agnes",
+      "model": "agnes-image-2.1-flash",
+      "status": "verified"
+    },
+    {
+      "id": "lesson-extra-10-cup-building",
+      "page": 4,
+      "path": "lesson-extra-10-cup-building/page-4.png",
+      "bytes": 1636204,
+      "source": "agnes",
+      "model": "agnes-image-2.1-flash",
+      "status": "verified"
+    },
+    {
+      "id": "lesson-extra-10-cup-building",
+      "page": 5,
+      "path": "lesson-extra-10-cup-building/page-5.png",
+      "bytes": 1655594,
+      "source": "agnes",
+      "model": "agnes-image-2.1-flash",
+      "status": "verified"
+    },
+    {
+      "id": "lesson-extra-10-cup-building",
+      "page": 3,
+      "path": "lesson-extra-10-cup-building/page-3.png",
+      "bytes": 1434341,
+      "source": "agnes",
+      "model": "agnes-image-2.1-flash",
+      "status": "verified"
+    },
+    {
+      "id": "lesson-extra-10-cup-building",
+      "page": 6,
+      "path": "lesson-extra-10-cup-building/page-6.png",
+      "bytes": 1413256,
+      "source": "agnes",
+      "model": "agnes-image-2.1-flash",
+      "status": "verified"
+    },
+    {
+      "id": "math-13-numbers100",
+      "page": 1,
+      "path": "math-13-numbers100/page-1.png",
+      "bytes": 4461142,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-13-numbers100",
+      "page": 2,
+      "path": "math-13-numbers100/page-2.png",
+      "bytes": 3389139,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-13-numbers100",
+      "page": 3,
+      "path": "math-13-numbers100/page-3.png",
+      "bytes": 5188227,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-13-numbers100",
+      "page": 4,
+      "path": "math-13-numbers100/page-4.png",
+      "bytes": 5159606,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-13-numbers100",
+      "page": 5,
+      "path": "math-13-numbers100/page-5.png",
+      "bytes": 5342010,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-13-numbers100",
+      "page": 6,
+      "path": "math-13-numbers100/page-6.png",
+      "bytes": 4966011,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-13-numbers100",
+      "page": 7,
+      "path": "math-13-numbers100/page-7.png",
+      "bytes": 4982059,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-13-numbers100",
+      "page": 8,
+      "path": "math-13-numbers100/page-8.png",
+      "bytes": 3227590,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-13-numbers100",
+      "page": 9,
+      "path": "math-13-numbers100/page-9.png",
+      "bytes": 4899142,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-14-addsub2digit",
+      "page": 1,
+      "path": "math-14-addsub2digit/page-1.png",
+      "bytes": 5224815,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-14-addsub2digit",
+      "page": 2,
+      "path": "math-14-addsub2digit/page-2.png",
+      "bytes": 5384548,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-14-addsub2digit",
+      "page": 3,
+      "path": "math-14-addsub2digit/page-3.png",
+      "bytes": 5083656,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-14-addsub2digit",
+      "page": 4,
+      "path": "math-14-addsub2digit/page-4.png",
+      "bytes": 5613952,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-14-addsub2digit",
+      "page": 5,
+      "path": "math-14-addsub2digit/page-5.png",
+      "bytes": 5332007,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-14-addsub2digit",
+      "page": 6,
+      "path": "math-14-addsub2digit/page-6.png",
+      "bytes": 4692609,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-14-addsub2digit",
+      "page": 7,
+      "path": "math-14-addsub2digit/page-7.png",
+      "bytes": 4727633,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-14-addsub2digit",
+      "page": 8,
+      "path": "math-14-addsub2digit/page-8.png",
+      "bytes": 4449340,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-15-money",
+      "page": 1,
+      "path": "math-15-money/page-1.png",
+      "bytes": 5063245,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-15-money",
+      "page": 2,
+      "path": "math-15-money/page-2.png",
+      "bytes": 4403772,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-15-money",
+      "page": 3,
+      "path": "math-15-money/page-3.png",
+      "bytes": 3867850,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-15-money",
+      "page": 4,
+      "path": "math-15-money/page-4.png",
+      "bytes": 5008984,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-15-money",
+      "page": 5,
+      "path": "math-15-money/page-5.png",
+      "bytes": 5734785,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-15-money",
+      "page": 6,
+      "path": "math-15-money/page-6.png",
+      "bytes": 4863335,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-15-money",
+      "page": 7,
+      "path": "math-15-money/page-7.png",
+      "bytes": 4987386,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-16-clock",
+      "page": 1,
+      "path": "math-16-clock/page-1.png",
+      "bytes": 5527194,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-16-clock",
+      "page": 2,
+      "path": "math-16-clock/page-2.png",
+      "bytes": 4270966,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-16-clock",
+      "page": 3,
+      "path": "math-16-clock/page-3.png",
+      "bytes": 4405456,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-16-clock",
+      "page": 4,
+      "path": "math-16-clock/page-4.png",
+      "bytes": 2845803,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-16-clock",
+      "page": 5,
+      "path": "math-16-clock/page-5.png",
+      "bytes": 5746771,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-16-clock",
+      "page": 6,
+      "path": "math-16-clock/page-6.png",
+      "bytes": 4131051,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-16-clock",
+      "page": 7,
+      "path": "math-16-clock/page-7.png",
+      "bytes": 4096801,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-16-clock",
+      "page": 8,
+      "path": "math-16-clock/page-8.png",
+      "bytes": 5060684,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-17-shapes",
+      "page": 1,
+      "path": "math-17-shapes/page-1.png",
+      "bytes": 4081926,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-17-shapes",
+      "page": 2,
+      "path": "math-17-shapes/page-2.png",
+      "bytes": 2037188,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-17-shapes",
+      "page": 3,
+      "path": "math-17-shapes/page-3.png",
+      "bytes": 3428275,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-17-shapes",
+      "page": 4,
+      "path": "math-17-shapes/page-4.png",
+      "bytes": 5040203,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-17-shapes",
+      "page": 5,
+      "path": "math-17-shapes/page-5.png",
+      "bytes": 4482579,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-17-shapes",
+      "page": 6,
+      "path": "math-17-shapes/page-6.png",
+      "bytes": 4674253,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-17-shapes",
+      "page": 7,
+      "path": "math-17-shapes/page-7.png",
+      "bytes": 4881705,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-17-shapes",
+      "page": 8,
+      "path": "math-17-shapes/page-8.png",
+      "bytes": 4479060,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-17-shapes",
+      "page": 9,
+      "path": "math-17-shapes/page-9.png",
+      "bytes": 3475417,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-18-sorting",
+      "page": 1,
+      "path": "math-18-sorting/page-1.png",
+      "bytes": 4814808,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-18-sorting",
+      "page": 2,
+      "path": "math-18-sorting/page-2.png",
+      "bytes": 5615226,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-18-sorting",
+      "page": 3,
+      "path": "math-18-sorting/page-3.png",
+      "bytes": 5012044,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-18-sorting",
+      "page": 4,
+      "path": "math-18-sorting/page-4.png",
+      "bytes": 5009764,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-18-sorting",
+      "page": 5,
+      "path": "math-18-sorting/page-5.png",
+      "bytes": 4504320,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-18-sorting",
+      "page": 6,
+      "path": "math-18-sorting/page-6.png",
+      "bytes": 6038722,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-18-sorting",
+      "page": 7,
+      "path": "math-18-sorting/page-7.png",
+      "bytes": 5178032,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-18-sorting",
+      "page": 8,
+      "path": "math-18-sorting/page-8.png",
+      "bytes": 5106834,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-18-sorting",
+      "page": 9,
+      "path": "math-18-sorting/page-9.png",
+      "bytes": 4695167,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-18-sorting",
+      "page": 10,
+      "path": "math-18-sorting/page-10.png",
+      "bytes": 4506647,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-18-sorting",
+      "page": 11,
+      "path": "math-18-sorting/page-11.png",
+      "bytes": 5226500,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-18-sorting",
+      "page": 12,
+      "path": "math-18-sorting/page-12.png",
+      "bytes": 6665644,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-18-sorting",
+      "page": 13,
+      "path": "math-18-sorting/page-13.png",
+      "bytes": 4924290,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-18-sorting",
+      "page": 14,
+      "path": "math-18-sorting/page-14.png",
+      "bytes": 5461432,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-19-statistics",
+      "page": 1,
+      "path": "math-19-statistics/page-1.png",
+      "bytes": 5886446,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-19-statistics",
+      "page": 2,
+      "path": "math-19-statistics/page-2.png",
+      "bytes": 4435372,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-19-statistics",
+      "page": 3,
+      "path": "math-19-statistics/page-3.png",
+      "bytes": 5371314,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-19-statistics",
+      "page": 4,
+      "path": "math-19-statistics/page-4.png",
+      "bytes": 4915759,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-19-statistics",
+      "page": 5,
+      "path": "math-19-statistics/page-5.png",
+      "bytes": 5350427,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-19-statistics",
+      "page": 6,
+      "path": "math-19-statistics/page-6.png",
+      "bytes": 3992653,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-19-statistics",
+      "page": 7,
+      "path": "math-19-statistics/page-7.png",
+      "bytes": 4131719,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-20-direction",
+      "page": 1,
+      "path": "math-20-direction/page-1.png",
+      "bytes": 3409812,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-20-direction",
+      "page": 2,
+      "path": "math-20-direction/page-2.png",
+      "bytes": 4198585,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-20-direction",
+      "page": 3,
+      "path": "math-20-direction/page-3.png",
+      "bytes": 5160650,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-20-direction",
+      "page": 4,
+      "path": "math-20-direction/page-4.png",
+      "bytes": 5359254,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-20-direction",
+      "page": 5,
+      "path": "math-20-direction/page-5.png",
+      "bytes": 4928178,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-20-direction",
+      "page": 6,
+      "path": "math-20-direction/page-6.png",
+      "bytes": 4745614,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-20-direction",
+      "page": 7,
+      "path": "math-20-direction/page-7.png",
+      "bytes": 4729776,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-20-direction",
+      "page": 8,
+      "path": "math-20-direction/page-8.png",
+      "bytes": 6016135,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-21-multiplication",
+      "page": 1,
+      "path": "math-21-multiplication/page-1.png",
+      "bytes": 4911189,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-21-multiplication",
+      "page": 2,
+      "path": "math-21-multiplication/page-2.png",
+      "bytes": 1403269,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-21-multiplication",
+      "page": 3,
+      "path": "math-21-multiplication/page-3.png",
+      "bytes": 5865391,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-21-multiplication",
+      "page": 4,
+      "path": "math-21-multiplication/page-4.png",
+      "bytes": 4143160,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-21-multiplication",
+      "page": 5,
+      "path": "math-21-multiplication/page-5.png",
+      "bytes": 5139200,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-21-multiplication",
+      "page": 6,
+      "path": "math-21-multiplication/page-6.png",
+      "bytes": 5072284,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-21-multiplication",
+      "page": 7,
+      "path": "math-21-multiplication/page-7.png",
+      "bytes": 4876755,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-21-multiplication",
+      "page": 8,
+      "path": "math-21-multiplication/page-8.png",
+      "bytes": 5351302,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-22-fractions",
+      "page": 1,
+      "path": "math-22-fractions/page-1.png",
+      "bytes": 5657964,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-22-fractions",
+      "page": 2,
+      "path": "math-22-fractions/page-2.png",
+      "bytes": 5227864,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-22-fractions",
+      "page": 3,
+      "path": "math-22-fractions/page-3.png",
+      "bytes": 4886858,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-22-fractions",
+      "page": 4,
+      "path": "math-22-fractions/page-4.png",
+      "bytes": 5602642,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-22-fractions",
+      "page": 5,
+      "path": "math-22-fractions/page-5.png",
+      "bytes": 5570590,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-22-fractions",
+      "page": 6,
+      "path": "math-22-fractions/page-6.png",
+      "bytes": 5479462,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-22-fractions",
+      "page": 7,
+      "path": "math-22-fractions/page-7.png",
+      "bytes": 4450900,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-22-fractions",
+      "page": 8,
+      "path": "math-22-fractions/page-8.png",
+      "bytes": 4825645,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-22-fractions",
+      "page": 9,
+      "path": "math-22-fractions/page-9.png",
+      "bytes": 5148168,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-23-word-problems",
+      "page": 1,
+      "path": "math-23-word-problems/page-1.png",
+      "bytes": 4800036,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "math-24-carnival",
+      "page": 1,
+      "path": "math-24-carnival/page-1.png",
+      "bytes": 5944128,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "gears-amber-style",
+      "page": 1,
+      "path": "gears-amber-style/page-1.png",
+      "bytes": 4978149,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "gears-amber-style",
+      "page": 2,
+      "path": "gears-amber-style/page-2.png",
+      "bytes": 4533046,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "gears-amber-style",
+      "page": 3,
+      "path": "gears-amber-style/page-3.png",
+      "bytes": 6245556,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "gears-amber-style",
+      "page": 4,
+      "path": "gears-amber-style/page-4.png",
+      "bytes": 3893801,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "gears-amber-style",
+      "page": 5,
+      "path": "gears-amber-style/page-5.png",
+      "bytes": 4617036,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "gears-amber-style",
+      "page": 6,
+      "path": "gears-amber-style/page-6.png",
+      "bytes": 4624261,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "gears-amber-style",
+      "page": 7,
+      "path": "gears-amber-style/page-7.png",
+      "bytes": 4764322,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "gears-amber-style",
+      "page": 8,
+      "path": "gears-amber-style/page-8.png",
+      "bytes": 5109481,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "gears-interactive",
+      "page": 1,
+      "path": "gears-interactive/page-1.png",
+      "bytes": 4070008,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "gears-mermaid-style",
+      "page": 1,
+      "path": "gears-mermaid-style/page-1.png",
+      "bytes": 4908160,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "gears-mermaid-style",
+      "page": 2,
+      "path": "gears-mermaid-style/page-2.png",
+      "bytes": 4251720,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "gears-mermaid-style",
+      "page": 3,
+      "path": "gears-mermaid-style/page-3.png",
+      "bytes": 2180003,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "gears-mermaid-style",
+      "page": 4,
+      "path": "gears-mermaid-style/page-4.png",
+      "bytes": 4551146,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "gears-mermaid-style",
+      "page": 5,
+      "path": "gears-mermaid-style/page-5.png",
+      "bytes": 4259261,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "gears-mermaid-style",
+      "page": 6,
+      "path": "gears-mermaid-style/page-6.png",
+      "bytes": 4629601,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "gears-mermaid-style",
+      "page": 7,
+      "path": "gears-mermaid-style/page-7.png",
+      "bytes": 6383059,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "gears-mermaid-style",
+      "page": 8,
+      "path": "gears-mermaid-style/page-8.png",
+      "bytes": 3317077,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "gears-mermaid-style",
+      "page": 9,
+      "path": "gears-mermaid-style/page-9.png",
+      "bytes": 4249612,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "gears-picturebook",
+      "page": 1,
+      "path": "gears-picturebook/page-1.png",
+      "bytes": 6204292,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "gears-picturebook",
+      "page": 2,
+      "path": "gears-picturebook/page-2.png",
+      "bytes": 5731804,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "gears-picturebook",
+      "page": 3,
+      "path": "gears-picturebook/page-3.png",
+      "bytes": 5422551,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "gears-picturebook",
+      "page": 4,
+      "path": "gears-picturebook/page-4.png",
+      "bytes": 4061649,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "gears-picturebook",
+      "page": 5,
+      "path": "gears-picturebook/page-5.png",
+      "bytes": 4984316,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "gears-picturebook",
+      "page": 6,
+      "path": "gears-picturebook/page-6.png",
+      "bytes": 5020408,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "gears-picturebook",
+      "page": 7,
+      "path": "gears-picturebook/page-7.png",
+      "bytes": 5424951,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "gears-picturebook",
+      "page": 8,
+      "path": "gears-picturebook/page-8.png",
+      "bytes": 4992395,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "gears-transmission-v2",
+      "page": 1,
+      "path": "gears-transmission-v2/page-1.png",
+      "bytes": 6042434,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "gears-transmission-v2",
+      "page": 2,
+      "path": "gears-transmission-v2/page-2.png",
+      "bytes": 5141844,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "gears-watercolor",
+      "page": 1,
+      "path": "gears-watercolor/page-1.png",
+      "bytes": 5429816,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "gears-watercolor",
+      "page": 2,
+      "path": "gears-watercolor/page-2.png",
+      "bytes": 4020013,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "gears-watercolor",
+      "page": 3,
+      "path": "gears-watercolor/page-3.png",
+      "bytes": 3531269,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "gears-watercolor",
+      "page": 4,
+      "path": "gears-watercolor/page-4.png",
+      "bytes": 5196309,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "gears-watercolor",
+      "page": 5,
+      "path": "gears-watercolor/page-5.png",
+      "bytes": 4868598,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "gears-watercolor",
+      "page": 6,
+      "path": "gears-watercolor/page-6.png",
+      "bytes": 5137048,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "gears-watercolor",
+      "page": 7,
+      "path": "gears-watercolor/page-7.png",
+      "bytes": 6532975,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "gears-watercolor",
+      "page": 8,
+      "path": "gears-watercolor/page-8.png",
+      "bytes": 4836464,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "gears-transmission",
+      "page": 1,
+      "path": "gears-transmission/page-1.png",
+      "bytes": 5461866,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "gears-transmission",
+      "page": 2,
+      "path": "gears-transmission/page-2.png",
+      "bytes": 1065284,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "gears-transmission",
+      "page": 3,
+      "path": "gears-transmission/page-3.png",
+      "bytes": 5401596,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "gears-transmission",
+      "page": 4,
+      "path": "gears-transmission/page-4.png",
+      "bytes": 4627749,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "gears-transmission",
+      "page": 5,
+      "path": "gears-transmission/page-5.png",
+      "bytes": 759150,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "gears-transmission",
+      "page": 6,
+      "path": "gears-transmission/page-6.png",
+      "bytes": 5964509,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "gears-transmission",
+      "page": 7,
+      "path": "gears-transmission/page-7.png",
+      "bytes": 4637362,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "gears-transmission",
+      "page": 8,
+      "path": "gears-transmission/page-8.png",
+      "bytes": 4569395,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "gears-transmission",
+      "page": 9,
+      "path": "gears-transmission/page-9.png",
+      "bytes": 5031964,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "abc-song",
+      "page": 1,
+      "path": "abc-song/page-1.png",
+      "bytes": 3742546,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "baa-baa-black-sheep",
+      "page": 1,
+      "path": "baa-baa-black-sheep/page-1.png",
+      "bytes": 5594714,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "bingo",
+      "page": 1,
+      "path": "bingo/page-1.png",
+      "bytes": 4960919,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "cat-and-fiddle",
+      "page": 1,
+      "path": "cat-and-fiddle/page-1.png",
+      "bytes": 5812141,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "five-little-monkeys",
+      "page": 1,
+      "path": "five-little-monkeys/page-1.png",
+      "bytes": 5333897,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "head-shoulders",
+      "page": 1,
+      "path": "head-shoulders/page-1.png",
+      "bytes": 5419608,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "hickory-dickory",
+      "page": 1,
+      "path": "hickory-dickory/page-1.png",
+      "bytes": 5544204,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "humpty-dumpty",
+      "page": 1,
+      "path": "humpty-dumpty/page-1.png",
+      "bytes": 6396395,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "hush-little-baby",
+      "page": 1,
+      "path": "hush-little-baby/page-1.png",
+      "bytes": 4628068,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "if-youre-happy",
+      "page": 1,
+      "path": "if-youre-happy/page-1.png",
+      "bytes": 5646542,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "itsy-bitsy-spider",
+      "page": 1,
+      "path": "itsy-bitsy-spider/page-1.png",
+      "bytes": 5260403,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "jack-and-jill",
+      "page": 1,
+      "path": "jack-and-jill/page-1.png",
+      "bytes": 5350662,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "jack-be-nimble",
+      "page": 1,
+      "path": "jack-be-nimble/page-1.png",
+      "bytes": 5717703,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "london-bridge",
+      "page": 1,
+      "path": "london-bridge/page-1.png",
+      "bytes": 5445888,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "mary-lamb",
+      "page": 1,
+      "path": "mary-lamb/page-1.png",
+      "bytes": 5504328,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "mulberry-bush",
+      "page": 1,
+      "path": "mulberry-bush/page-1.png",
+      "bytes": 6234839,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "old-macdonald",
+      "page": 1,
+      "path": "old-macdonald/page-1.png",
+      "bytes": 5836330,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "pat-a-cake",
+      "page": 1,
+      "path": "pat-a-cake/page-1.png",
+      "bytes": 5322481,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "rain-go-away",
+      "page": 1,
+      "path": "rain-go-away/page-1.png",
+      "bytes": 5094583,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "ring-around-rosy",
+      "page": 1,
+      "path": "ring-around-rosy/page-1.png",
+      "bytes": 5763976,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "row-your-boat",
+      "page": 1,
+      "path": "row-your-boat/page-1.png",
+      "bytes": 5273759,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "silent-night",
+      "page": 1,
+      "path": "silent-night/page-1.png",
+      "bytes": 4286607,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "skidamarink",
+      "page": 1,
+      "path": "skidamarink/page-1.png",
+      "bytes": 6169273,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "three-blind-mice",
+      "page": 1,
+      "path": "three-blind-mice/page-1.png",
+      "bytes": 5362398,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "twinkle-twinkle",
+      "page": 1,
+      "path": "twinkle-twinkle/page-1.png",
+      "bytes": 4970538,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "wheels-on-bus",
+      "page": 1,
+      "path": "wheels-on-bus/page-1.png",
+      "bytes": 4689783,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "yankee-doodle",
+      "page": 1,
+      "path": "yankee-doodle/page-1.png",
+      "bytes": 6027657,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "lesson-extra-06-music-instruments",
+      "page": 1,
+      "path": "lesson-extra-06-music-instruments/page-1.png",
+      "bytes": 3961956,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "lesson-extra-06-music-instruments",
+      "page": 2,
+      "path": "lesson-extra-06-music-instruments/page-2.png",
+      "bytes": 5010966,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "lesson-extra-06-music-instruments",
+      "page": 3,
+      "path": "lesson-extra-06-music-instruments/page-3.png",
+      "bytes": 4880424,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "abc-song",
+      "page": 2,
+      "path": "abc-song/page-2.png",
+      "bytes": 1281823,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "abc-song",
+      "page": 3,
+      "path": "abc-song/page-3.png",
+      "bytes": 3244165,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "abc-song",
+      "page": 4,
+      "path": "abc-song/page-4.png",
+      "bytes": 3679575,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "abc-song",
+      "page": 5,
+      "path": "abc-song/page-5.png",
+      "bytes": 1620771,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "abc-song",
+      "page": 6,
+      "path": "abc-song/page-6.png",
+      "bytes": 3821674,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "abc-song",
+      "page": 7,
+      "path": "abc-song/page-7.png",
+      "bytes": 1523829,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "abc-song",
+      "page": 8,
+      "path": "abc-song/page-8.png",
+      "bytes": 770860,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "abc-song",
+      "page": 9,
+      "path": "abc-song/page-9.png",
+      "bytes": 3701316,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "abc-song",
+      "page": 10,
+      "path": "abc-song/page-10.png",
+      "bytes": 1655231,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "baa-baa-black-sheep",
+      "page": 2,
+      "path": "baa-baa-black-sheep/page-2.png",
+      "bytes": 1769043,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "baa-baa-black-sheep",
+      "page": 3,
+      "path": "baa-baa-black-sheep/page-3.png",
+      "bytes": 1729355,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "baa-baa-black-sheep",
+      "page": 4,
+      "path": "baa-baa-black-sheep/page-4.png",
+      "bytes": 4522160,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "baa-baa-black-sheep",
+      "page": 5,
+      "path": "baa-baa-black-sheep/page-5.png",
+      "bytes": 1736494,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "baa-baa-black-sheep",
+      "page": 6,
+      "path": "baa-baa-black-sheep/page-6.png",
+      "bytes": 1445775,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "baa-baa-black-sheep",
+      "page": 7,
+      "path": "baa-baa-black-sheep/page-7.png",
+      "bytes": 1446542,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "baa-baa-black-sheep",
+      "page": 8,
+      "path": "baa-baa-black-sheep/page-8.png",
+      "bytes": 1448392,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "baa-baa-black-sheep",
+      "page": 9,
+      "path": "baa-baa-black-sheep/page-9.png",
+      "bytes": 1624517,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "bingo",
+      "page": 2,
+      "path": "bingo/page-2.png",
+      "bytes": 4368855,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "bingo",
+      "page": 3,
+      "path": "bingo/page-3.png",
+      "bytes": 1533621,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "bingo",
+      "page": 4,
+      "path": "bingo/page-4.png",
+      "bytes": 1530452,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "bingo",
+      "page": 5,
+      "path": "bingo/page-5.png",
+      "bytes": 4822082,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "bingo",
+      "page": 6,
+      "path": "bingo/page-6.png",
+      "bytes": 5070154,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "bingo",
+      "page": 7,
+      "path": "bingo/page-7.png",
+      "bytes": 1731290,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "lesson-extra-06-music-instruments",
+      "page": 5,
+      "path": "lesson-extra-06-music-instruments/page-5.png",
+      "bytes": 4210972,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "bingo",
+      "page": 9,
+      "path": "bingo/page-9.png",
+      "bytes": 4933555,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "lesson-extra-06-music-instruments",
+      "page": 4,
+      "path": "lesson-extra-06-music-instruments/page-4.png",
+      "bytes": 5348955,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "lesson-extra-06-music-instruments",
+      "page": 6,
+      "path": "lesson-extra-06-music-instruments/page-6.png",
+      "bytes": 5152232,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "bingo",
+      "page": 8,
+      "path": "bingo/page-8.png",
+      "bytes": 4759107,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "cat-and-fiddle",
+      "page": 2,
+      "path": "cat-and-fiddle/page-2.png",
+      "bytes": 4391136,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "cat-and-fiddle",
+      "page": 3,
+      "path": "cat-and-fiddle/page-3.png",
+      "bytes": 4254298,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "cat-and-fiddle",
+      "page": 4,
+      "path": "cat-and-fiddle/page-4.png",
+      "bytes": 4285685,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "cat-and-fiddle",
+      "page": 6,
+      "path": "cat-and-fiddle/page-6.png",
+      "bytes": 4150783,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "cat-and-fiddle",
+      "page": 5,
+      "path": "cat-and-fiddle/page-5.png",
+      "bytes": 3337760,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "cat-and-fiddle",
+      "page": 8,
+      "path": "cat-and-fiddle/page-8.png",
+      "bytes": 4125181,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "cat-and-fiddle",
+      "page": 9,
+      "path": "cat-and-fiddle/page-9.png",
+      "bytes": 4413203,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "cat-and-fiddle",
+      "page": 7,
+      "path": "cat-and-fiddle/page-7.png",
+      "bytes": 4176166,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "five-little-monkeys",
+      "page": 2,
+      "path": "five-little-monkeys/page-2.png",
+      "bytes": 4061960,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "five-little-monkeys",
+      "page": 4,
+      "path": "five-little-monkeys/page-4.png",
+      "bytes": 3538850,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "five-little-monkeys",
+      "page": 7,
+      "path": "five-little-monkeys/page-7.png",
+      "bytes": 5444641,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "five-little-monkeys",
+      "page": 6,
+      "path": "five-little-monkeys/page-6.png",
+      "bytes": 3171844,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "head-shoulders",
+      "page": 2,
+      "path": "head-shoulders/page-2.png",
+      "bytes": 4005273,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "head-shoulders",
+      "page": 4,
+      "path": "head-shoulders/page-4.png",
+      "bytes": 3932146,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "head-shoulders",
+      "page": 5,
+      "path": "head-shoulders/page-5.png",
+      "bytes": 3676534,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "head-shoulders",
+      "page": 6,
+      "path": "head-shoulders/page-6.png",
+      "bytes": 4978101,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "head-shoulders",
+      "page": 3,
+      "path": "head-shoulders/page-3.png",
+      "bytes": 3331721,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "head-shoulders",
+      "page": 7,
+      "path": "head-shoulders/page-7.png",
+      "bytes": 3720167,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "hickory-dickory",
+      "page": 2,
+      "path": "hickory-dickory/page-2.png",
+      "bytes": 4280229,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "head-shoulders",
+      "page": 9,
+      "path": "head-shoulders/page-9.png",
+      "bytes": 3385719,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "head-shoulders",
+      "page": 8,
+      "path": "head-shoulders/page-8.png",
+      "bytes": 4814128,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "hickory-dickory",
+      "page": 4,
+      "path": "hickory-dickory/page-4.png",
+      "bytes": 3981561,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "hickory-dickory",
+      "page": 7,
+      "path": "hickory-dickory/page-7.png",
+      "bytes": 5070182,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "hickory-dickory",
+      "page": 6,
+      "path": "hickory-dickory/page-6.png",
+      "bytes": 5436513,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "hickory-dickory",
+      "page": 9,
+      "path": "hickory-dickory/page-9.png",
+      "bytes": 4527634,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "humpty-dumpty",
+      "page": 2,
+      "path": "humpty-dumpty/page-2.png",
+      "bytes": 5070792,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "humpty-dumpty",
+      "page": 5,
+      "path": "humpty-dumpty/page-5.png",
+      "bytes": 4031338,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "humpty-dumpty",
+      "page": 3,
+      "path": "humpty-dumpty/page-3.png",
+      "bytes": 5048204,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "humpty-dumpty",
+      "page": 4,
+      "path": "humpty-dumpty/page-4.png",
+      "bytes": 4621562,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "humpty-dumpty",
+      "page": 7,
+      "path": "humpty-dumpty/page-7.png",
+      "bytes": 4965255,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "hush-little-baby",
+      "page": 2,
+      "path": "hush-little-baby/page-2.png",
+      "bytes": 4662527,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "hush-little-baby",
+      "page": 4,
+      "path": "hush-little-baby/page-4.png",
+      "bytes": 3930174,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "hush-little-baby",
+      "page": 6,
+      "path": "hush-little-baby/page-6.png",
+      "bytes": 4766402,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "hush-little-baby",
+      "page": 7,
+      "path": "hush-little-baby/page-7.png",
+      "bytes": 4763451,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "hush-little-baby",
+      "page": 9,
+      "path": "hush-little-baby/page-9.png",
+      "bytes": 4401793,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "if-youre-happy",
+      "page": 2,
+      "path": "if-youre-happy/page-2.png",
+      "bytes": 4996027,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "if-youre-happy",
+      "page": 3,
+      "path": "if-youre-happy/page-3.png",
+      "bytes": 5150461,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "if-youre-happy",
+      "page": 4,
+      "path": "if-youre-happy/page-4.png",
+      "bytes": 4611579,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "if-youre-happy",
+      "page": 5,
+      "path": "if-youre-happy/page-5.png",
+      "bytes": 4849638,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "if-youre-happy",
+      "page": 6,
+      "path": "if-youre-happy/page-6.png",
+      "bytes": 6016304,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "if-youre-happy",
+      "page": 7,
+      "path": "if-youre-happy/page-7.png",
+      "bytes": 4042452,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "if-youre-happy",
+      "page": 8,
+      "path": "if-youre-happy/page-8.png",
+      "bytes": 4614043,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "if-youre-happy",
+      "page": 9,
+      "path": "if-youre-happy/page-9.png",
+      "bytes": 4184110,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "itsy-bitsy-spider",
+      "page": 2,
+      "path": "itsy-bitsy-spider/page-2.png",
+      "bytes": 3102332,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "itsy-bitsy-spider",
+      "page": 3,
+      "path": "itsy-bitsy-spider/page-3.png",
+      "bytes": 3910678,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "itsy-bitsy-spider",
+      "page": 4,
+      "path": "itsy-bitsy-spider/page-4.png",
+      "bytes": 3767018,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "itsy-bitsy-spider",
+      "page": 5,
+      "path": "itsy-bitsy-spider/page-5.png",
+      "bytes": 3793349,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "itsy-bitsy-spider",
+      "page": 6,
+      "path": "itsy-bitsy-spider/page-6.png",
+      "bytes": 4819661,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "itsy-bitsy-spider",
+      "page": 7,
+      "path": "itsy-bitsy-spider/page-7.png",
+      "bytes": 4693965,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "itsy-bitsy-spider",
+      "page": 8,
+      "path": "itsy-bitsy-spider/page-8.png",
+      "bytes": 4450646,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "itsy-bitsy-spider",
+      "page": 9,
+      "path": "itsy-bitsy-spider/page-9.png",
+      "bytes": 4052220,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "jack-and-jill",
+      "page": 2,
+      "path": "jack-and-jill/page-2.png",
+      "bytes": 5471339,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "jack-and-jill",
+      "page": 3,
+      "path": "jack-and-jill/page-3.png",
+      "bytes": 4347168,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "jack-and-jill",
+      "page": 4,
+      "path": "jack-and-jill/page-4.png",
+      "bytes": 4289977,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "jack-and-jill",
+      "page": 5,
+      "path": "jack-and-jill/page-5.png",
+      "bytes": 4961918,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "jack-and-jill",
+      "page": 6,
+      "path": "jack-and-jill/page-6.png",
+      "bytes": 4437572,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "jack-and-jill",
+      "page": 7,
+      "path": "jack-and-jill/page-7.png",
+      "bytes": 5307290,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "jack-and-jill",
+      "page": 8,
+      "path": "jack-and-jill/page-8.png",
+      "bytes": 3911287,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "jack-and-jill",
+      "page": 9,
+      "path": "jack-and-jill/page-9.png",
+      "bytes": 4074028,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "jack-be-nimble",
+      "page": 2,
+      "path": "jack-be-nimble/page-2.png",
+      "bytes": 3827344,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "jack-be-nimble",
+      "page": 3,
+      "path": "jack-be-nimble/page-3.png",
+      "bytes": 4255882,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "jack-be-nimble",
+      "page": 4,
+      "path": "jack-be-nimble/page-4.png",
+      "bytes": 2706062,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "jack-be-nimble",
+      "page": 5,
+      "path": "jack-be-nimble/page-5.png",
+      "bytes": 4310727,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "jack-be-nimble",
+      "page": 6,
+      "path": "jack-be-nimble/page-6.png",
+      "bytes": 3197342,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "jack-be-nimble",
+      "page": 7,
+      "path": "jack-be-nimble/page-7.png",
+      "bytes": 3346911,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "jack-be-nimble",
+      "page": 8,
+      "path": "jack-be-nimble/page-8.png",
+      "bytes": 4241923,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "jack-be-nimble",
+      "page": 9,
+      "path": "jack-be-nimble/page-9.png",
+      "bytes": 3564002,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "london-bridge",
+      "page": 2,
+      "path": "london-bridge/page-2.png",
+      "bytes": 5141638,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "london-bridge",
+      "page": 3,
+      "path": "london-bridge/page-3.png",
+      "bytes": 4917624,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "london-bridge",
+      "page": 4,
+      "path": "london-bridge/page-4.png",
+      "bytes": 5200651,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "london-bridge",
+      "page": 5,
+      "path": "london-bridge/page-5.png",
+      "bytes": 4699934,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "london-bridge",
+      "page": 6,
+      "path": "london-bridge/page-6.png",
+      "bytes": 4953805,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "london-bridge",
+      "page": 7,
+      "path": "london-bridge/page-7.png",
+      "bytes": 4084870,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "london-bridge",
+      "page": 8,
+      "path": "london-bridge/page-8.png",
+      "bytes": 5262796,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "london-bridge",
+      "page": 9,
+      "path": "london-bridge/page-9.png",
+      "bytes": 4923794,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "mary-lamb",
+      "page": 2,
+      "path": "mary-lamb/page-2.png",
+      "bytes": 5008191,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "mary-lamb",
+      "page": 3,
+      "path": "mary-lamb/page-3.png",
+      "bytes": 4082329,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "mary-lamb",
+      "page": 4,
+      "path": "mary-lamb/page-4.png",
+      "bytes": 5048152,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "mary-lamb",
+      "page": 5,
+      "path": "mary-lamb/page-5.png",
+      "bytes": 5316888,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "mary-lamb",
+      "page": 6,
+      "path": "mary-lamb/page-6.png",
+      "bytes": 6063251,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "mary-lamb",
+      "page": 7,
+      "path": "mary-lamb/page-7.png",
+      "bytes": 5485911,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "mary-lamb",
+      "page": 8,
+      "path": "mary-lamb/page-8.png",
+      "bytes": 5178942,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "mary-lamb",
+      "page": 9,
+      "path": "mary-lamb/page-9.png",
+      "bytes": 4632997,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "mulberry-bush",
+      "page": 2,
+      "path": "mulberry-bush/page-2.png",
+      "bytes": 4777469,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "mulberry-bush",
+      "page": 3,
+      "path": "mulberry-bush/page-3.png",
+      "bytes": 4309589,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "mulberry-bush",
+      "page": 4,
+      "path": "mulberry-bush/page-4.png",
+      "bytes": 5355504,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "mulberry-bush",
+      "page": 5,
+      "path": "mulberry-bush/page-5.png",
+      "bytes": 5528861,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "mulberry-bush",
+      "page": 6,
+      "path": "mulberry-bush/page-6.png",
+      "bytes": 4624826,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "mulberry-bush",
+      "page": 7,
+      "path": "mulberry-bush/page-7.png",
+      "bytes": 4981693,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "mulberry-bush",
+      "page": 8,
+      "path": "mulberry-bush/page-8.png",
+      "bytes": 5028415,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "mulberry-bush",
+      "page": 9,
+      "path": "mulberry-bush/page-9.png",
+      "bytes": 5360393,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "old-macdonald",
+      "page": 2,
+      "path": "old-macdonald/page-2.png",
+      "bytes": 4763824,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "old-macdonald",
+      "page": 3,
+      "path": "old-macdonald/page-3.png",
+      "bytes": 4939217,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "old-macdonald",
+      "page": 4,
+      "path": "old-macdonald/page-4.png",
+      "bytes": 5016264,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "old-macdonald",
+      "page": 5,
+      "path": "old-macdonald/page-5.png",
+      "bytes": 5135349,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "old-macdonald",
+      "page": 6,
+      "path": "old-macdonald/page-6.png",
+      "bytes": 4902923,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "old-macdonald",
+      "page": 7,
+      "path": "old-macdonald/page-7.png",
+      "bytes": 5098062,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "old-macdonald",
+      "page": 8,
+      "path": "old-macdonald/page-8.png",
+      "bytes": 4997296,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "old-macdonald",
+      "page": 9,
+      "path": "old-macdonald/page-9.png",
+      "bytes": 5071389,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "old-macdonald",
+      "page": 10,
+      "path": "old-macdonald/page-10.png",
+      "bytes": 5218259,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "old-macdonald",
+      "page": 11,
+      "path": "old-macdonald/page-11.png",
+      "bytes": 5035780,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "old-macdonald",
+      "page": 12,
+      "path": "old-macdonald/page-12.png",
+      "bytes": 5263972,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "old-macdonald",
+      "page": 13,
+      "path": "old-macdonald/page-13.png",
+      "bytes": 5627330,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "old-macdonald",
+      "page": 14,
+      "path": "old-macdonald/page-14.png",
+      "bytes": 5707066,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "pat-a-cake",
+      "page": 2,
+      "path": "pat-a-cake/page-2.png",
+      "bytes": 3801641,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "pat-a-cake",
+      "page": 3,
+      "path": "pat-a-cake/page-3.png",
+      "bytes": 4201154,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "pat-a-cake",
+      "page": 4,
+      "path": "pat-a-cake/page-4.png",
+      "bytes": 2886137,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "pat-a-cake",
+      "page": 5,
+      "path": "pat-a-cake/page-5.png",
+      "bytes": 4060322,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "pat-a-cake",
+      "page": 6,
+      "path": "pat-a-cake/page-6.png",
+      "bytes": 2959284,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "pat-a-cake",
+      "page": 7,
+      "path": "pat-a-cake/page-7.png",
+      "bytes": 4280317,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "pat-a-cake",
+      "page": 8,
+      "path": "pat-a-cake/page-8.png",
+      "bytes": 4761496,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "pat-a-cake",
+      "page": 9,
+      "path": "pat-a-cake/page-9.png",
+      "bytes": 4276792,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "rain-go-away",
+      "page": 2,
+      "path": "rain-go-away/page-2.png",
+      "bytes": 4521025,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "rain-go-away",
+      "page": 3,
+      "path": "rain-go-away/page-3.png",
+      "bytes": 4607702,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "rain-go-away",
+      "page": 4,
+      "path": "rain-go-away/page-4.png",
+      "bytes": 4325416,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "rain-go-away",
+      "page": 5,
+      "path": "rain-go-away/page-5.png",
+      "bytes": 4364339,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "rain-go-away",
+      "page": 6,
+      "path": "rain-go-away/page-6.png",
+      "bytes": 4346936,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "rain-go-away",
+      "page": 7,
+      "path": "rain-go-away/page-7.png",
+      "bytes": 4096412,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "rain-go-away",
+      "page": 8,
+      "path": "rain-go-away/page-8.png",
+      "bytes": 4605410,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "rain-go-away",
+      "page": 9,
+      "path": "rain-go-away/page-9.png",
+      "bytes": 4100474,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "ring-around-rosy",
+      "page": 2,
+      "path": "ring-around-rosy/page-2.png",
+      "bytes": 5626570,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "ring-around-rosy",
+      "page": 3,
+      "path": "ring-around-rosy/page-3.png",
+      "bytes": 5851439,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "ring-around-rosy",
+      "page": 4,
+      "path": "ring-around-rosy/page-4.png",
+      "bytes": 5038189,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "ring-around-rosy",
+      "page": 5,
+      "path": "ring-around-rosy/page-5.png",
+      "bytes": 5152186,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "ring-around-rosy",
+      "page": 6,
+      "path": "ring-around-rosy/page-6.png",
+      "bytes": 4946462,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "ring-around-rosy",
+      "page": 7,
+      "path": "ring-around-rosy/page-7.png",
+      "bytes": 5764375,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "ring-around-rosy",
+      "page": 8,
+      "path": "ring-around-rosy/page-8.png",
+      "bytes": 5449988,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "ring-around-rosy",
+      "page": 9,
+      "path": "ring-around-rosy/page-9.png",
+      "bytes": 5342184,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "row-your-boat",
+      "page": 2,
+      "path": "row-your-boat/page-2.png",
+      "bytes": 3960405,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "row-your-boat",
+      "page": 3,
+      "path": "row-your-boat/page-3.png",
+      "bytes": 4616761,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "row-your-boat",
+      "page": 4,
+      "path": "row-your-boat/page-4.png",
+      "bytes": 4969991,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "humpty-dumpty",
+      "page": 8,
+      "path": "humpty-dumpty/page-8.png",
+      "bytes": 5121347,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "humpty-dumpty",
+      "page": 9,
+      "path": "humpty-dumpty/page-9.png",
+      "bytes": 4551825,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "silent-night",
+      "page": 2,
+      "path": "silent-night/page-2.png",
+      "bytes": 4528094,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "row-your-boat",
+      "page": 6,
+      "path": "row-your-boat/page-6.png",
+      "bytes": 4042877,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "row-your-boat",
+      "page": 5,
+      "path": "row-your-boat/page-5.png",
+      "bytes": 4955168,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "humpty-dumpty",
+      "page": 6,
+      "path": "humpty-dumpty/page-6.png",
+      "bytes": 4749667,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "silent-night",
+      "page": 4,
+      "path": "silent-night/page-4.png",
+      "bytes": 3828803,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "silent-night",
+      "page": 5,
+      "path": "silent-night/page-5.png",
+      "bytes": 4268242,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "silent-night",
+      "page": 3,
+      "path": "silent-night/page-3.png",
+      "bytes": 4166022,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "silent-night",
+      "page": 6,
+      "path": "silent-night/page-6.png",
+      "bytes": 4612720,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "silent-night",
+      "page": 8,
+      "path": "silent-night/page-8.png",
+      "bytes": 4898222,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "skidamarink",
+      "page": 2,
+      "path": "skidamarink/page-2.png",
+      "bytes": 3396854,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "silent-night",
+      "page": 7,
+      "path": "silent-night/page-7.png",
+      "bytes": 5292372,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "silent-night",
+      "page": 9,
+      "path": "silent-night/page-9.png",
+      "bytes": 4820701,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "skidamarink",
+      "page": 3,
+      "path": "skidamarink/page-3.png",
+      "bytes": 3774689,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "skidamarink",
+      "page": 5,
+      "path": "skidamarink/page-5.png",
+      "bytes": 3980703,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "skidamarink",
+      "page": 4,
+      "path": "skidamarink/page-4.png",
+      "bytes": 3045458,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "skidamarink",
+      "page": 6,
+      "path": "skidamarink/page-6.png",
+      "bytes": 3835614,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "skidamarink",
+      "page": 8,
+      "path": "skidamarink/page-8.png",
+      "bytes": 4116625,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "skidamarink",
+      "page": 9,
+      "path": "skidamarink/page-9.png",
+      "bytes": 5409008,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "three-blind-mice",
+      "page": 2,
+      "path": "three-blind-mice/page-2.png",
+      "bytes": 5593672,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "skidamarink",
+      "page": 7,
+      "path": "skidamarink/page-7.png",
+      "bytes": 4618577,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "three-blind-mice",
+      "page": 3,
+      "path": "three-blind-mice/page-3.png",
+      "bytes": 4950301,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "three-blind-mice",
+      "page": 5,
+      "path": "three-blind-mice/page-5.png",
+      "bytes": 4411085,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "three-blind-mice",
+      "page": 6,
+      "path": "three-blind-mice/page-6.png",
+      "bytes": 4785700,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "three-blind-mice",
+      "page": 7,
+      "path": "three-blind-mice/page-7.png",
+      "bytes": 4429067,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "three-blind-mice",
+      "page": 4,
+      "path": "three-blind-mice/page-4.png",
+      "bytes": 4571586,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "twinkle-twinkle",
+      "page": 3,
+      "path": "twinkle-twinkle/page-3.png",
+      "bytes": 4525640,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "three-blind-mice",
+      "page": 9,
+      "path": "three-blind-mice/page-9.png",
+      "bytes": 4086826,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "twinkle-twinkle",
+      "page": 5,
+      "path": "twinkle-twinkle/page-5.png",
+      "bytes": 5657296,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "twinkle-twinkle",
+      "page": 6,
+      "path": "twinkle-twinkle/page-6.png",
+      "bytes": 3348832,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "twinkle-twinkle",
+      "page": 2,
+      "path": "twinkle-twinkle/page-2.png",
+      "bytes": 2709285,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "three-blind-mice",
+      "page": 8,
+      "path": "three-blind-mice/page-8.png",
+      "bytes": 4503010,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "twinkle-twinkle",
+      "page": 8,
+      "path": "twinkle-twinkle/page-8.png",
+      "bytes": 4254419,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "twinkle-twinkle",
+      "page": 4,
+      "path": "twinkle-twinkle/page-4.png",
+      "bytes": 3425132,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "twinkle-twinkle",
+      "page": 7,
+      "path": "twinkle-twinkle/page-7.png",
+      "bytes": 3229573,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "twinkle-twinkle",
+      "page": 9,
+      "path": "twinkle-twinkle/page-9.png",
+      "bytes": 3253168,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "wheels-on-bus",
+      "page": 2,
+      "path": "wheels-on-bus/page-2.png",
+      "bytes": 4190355,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "twinkle-twinkle",
+      "page": 10,
+      "path": "twinkle-twinkle/page-10.png",
+      "bytes": 4666879,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "wheels-on-bus",
+      "page": 3,
+      "path": "wheels-on-bus/page-3.png",
+      "bytes": 3459786,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "wheels-on-bus",
+      "page": 5,
+      "path": "wheels-on-bus/page-5.png",
+      "bytes": 3485476,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "wheels-on-bus",
+      "page": 6,
+      "path": "wheels-on-bus/page-6.png",
+      "bytes": 2803371,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "wheels-on-bus",
+      "page": 4,
+      "path": "wheels-on-bus/page-4.png",
+      "bytes": 3289540,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "wheels-on-bus",
+      "page": 7,
+      "path": "wheels-on-bus/page-7.png",
+      "bytes": 3832136,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "wheels-on-bus",
+      "page": 8,
+      "path": "wheels-on-bus/page-8.png",
+      "bytes": 4113631,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "wheels-on-bus",
+      "page": 9,
+      "path": "wheels-on-bus/page-9.png",
+      "bytes": 3933631,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "yankee-doodle",
+      "page": 3,
+      "path": "yankee-doodle/page-3.png",
+      "bytes": 5457855,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "wheels-on-bus",
+      "page": 10,
+      "path": "wheels-on-bus/page-10.png",
+      "bytes": 3440949,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "yankee-doodle",
+      "page": 2,
+      "path": "yankee-doodle/page-2.png",
+      "bytes": 5656814,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "yankee-doodle",
+      "page": 4,
+      "path": "yankee-doodle/page-4.png",
+      "bytes": 5430426,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "yankee-doodle",
+      "page": 5,
+      "path": "yankee-doodle/page-5.png",
+      "bytes": 5272934,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "yankee-doodle",
+      "page": 6,
+      "path": "yankee-doodle/page-6.png",
+      "bytes": 6149277,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "yankee-doodle",
+      "page": 8,
+      "path": "yankee-doodle/page-8.png",
+      "bytes": 5622165,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "yankee-doodle",
+      "page": 7,
+      "path": "yankee-doodle/page-7.png",
+      "bytes": 6167174,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "yankee-doodle",
+      "page": 9,
+      "path": "yankee-doodle/page-9.png",
+      "bytes": 5655433,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "five-little-monkeys",
+      "page": 5,
+      "path": "five-little-monkeys/page-5.png",
+      "bytes": 3997923,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "five-little-monkeys",
+      "page": 8,
+      "path": "five-little-monkeys/page-8.png",
+      "bytes": 3504647,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "hickory-dickory",
+      "page": 3,
+      "path": "hickory-dickory/page-3.png",
+      "bytes": 4588557,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "hickory-dickory",
+      "page": 5,
+      "path": "hickory-dickory/page-5.png",
+      "bytes": 4888146,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "hickory-dickory",
+      "page": 8,
+      "path": "hickory-dickory/page-8.png",
+      "bytes": 4099485,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "hush-little-baby",
+      "page": 3,
+      "path": "hush-little-baby/page-3.png",
+      "bytes": 4125202,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "hush-little-baby",
+      "page": 5,
+      "path": "hush-little-baby/page-5.svg",
+      "bytes": 2211,
+      "source": "local-fallback",
+      "model": "svg",
+      "status": "verified"
+    },
+    {
+      "id": "hush-little-baby",
+      "page": 8,
+      "path": "hush-little-baby/page-8.png",
+      "bytes": 2931910,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    },
+    {
+      "id": "five-little-monkeys",
+      "page": 3,
+      "path": "five-little-monkeys/page-3.png",
+      "bytes": 3560604,
+      "source": "grok",
+      "model": "grok-imagine-image-quality",
+      "status": "verified"
+    }
+  ],
+  "engine": "grok",
+  "model": "grok-imagine-image-quality",
+  "failures": []
+}

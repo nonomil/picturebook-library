@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="/picturebook-library/favicon.svg" type="image/svg+xml">
+    <title>绘本图书馆模板实验室</title>
+    <script type="module" crossorigin src="/picturebook-library/assets/designLab--cpYVVR_.js"></script>
+    <link rel="modulepreload" crossorigin href="/picturebook-library/assets/modulepreload-polyfill-B5Qt9EMX.js">
+    <link rel="stylesheet" crossorigin href="/picturebook-library/assets/designLab-BAnZXahW.css">
+  </head>
+  <body>
+    <main id="design-lab" class="design-lab">
+      <header class="lab-header">
+        <div>
+          <p class="lab-kicker">Picturebook UI Lab</p>
+          <h1>同一座绘本馆的四种入口</h1>
+          <p>先比较信息架构，再决定最终视觉。这里的模板会映射到独立绘本站的真实页面状态。</p>
+        </div>
+        <a class="lab-link" href="/picturebook-library/">返回绘本馆</a>
+      </header>
+      <nav class="template-tabs" aria-label="模板选择">
+        <button class="template-tab is-active" data-template="shelf" type="button">故事书架</button>
+        <button class="template-tab" data-template="world" type="button">故事世界</button>
+        <button class="template-tab" data-template="reader" type="button">沉浸阅读</button>
+        <button class="template-tab" data-template="report" type="button">阅读报告</button>
+      </nav>
+      <section class="template-stage" aria-live="polite">
+        <div class="template-panel is-active" data-panel="shelf">
+          <div class="preview-toolbar"><strong>绘本馆</strong><span>8 本故事 · 继续读《好饿的小蛇》</span><button type="button">搜索</button></div>
+          <div class="shelf-preview">
+            <aside><strong>故事分类</strong><button class="filter-active" type="button">全部绘本</button><button type="button">中文启蒙</button><button type="button">双语故事</button><button type="button">自然与生活</button></aside>
+            <div class="preview-books">
+              <article class="preview-book book-tall"><div class="art art-snake"></div><strong>好饿的小蛇</strong><span>8 页 · 3-5 岁</span></article>
+              <article class="preview-book"><div class="art art-garden"></div><strong>花园里的朋友</strong><span>10 页 · 4-6 岁</span></article>
+              <article class="preview-book book-tall"><div class="art art-ocean"></div><strong>海底大冒险</strong><span>20 页 · 5-7 岁</span></article>
+              <article class="preview-book"><div class="art art-space"></div><strong>星星邮局</strong><span>12 页 · 4-6 岁</span></article>
+            </div>
+          </div>
+        </div>
+        <div class="template-panel" data-panel="world">
+          <div class="world-preview">
+            <div class="world-top"><span>今天去哪里读故事？</span><b>连续阅读 3 天</b></div>
+            <div class="world-map"><div class="world-path"></div><button class="world-zone zone-one" type="button"><i>书</i><span>中文启蒙</span></button><button class="world-zone zone-two" type="button"><i>星</i><span>想象冒险</span></button><button class="world-zone zone-three" type="button"><i>叶</i><span>自然发现</span></button><div class="world-character">小读者</div></div>
+            <div class="world-footer"><span>今日推荐：好饿的小蛇</span><button type="button">开始阅读</button></div>
+          </div>
+        </div>
+        <div class="template-panel" data-panel="reader">
+          <div class="reader-preview">
+            <div class="reader-top"><strong>好饿的小蛇</strong><span>第 3 / 8 页</span><button type="button">退出</button></div>
+            <div class="reader-spread"><div class="reader-art art-snake"><span>小蛇看见了红苹果</span></div><div class="reader-copy"><small>第 3 页</small><h2>他看到一个圆圆的红苹果。</h2><p>你猜他会怎么做？</p><button class="voice-button" type="button">朗读这一页</button></div></div>
+            <div class="reader-controls"><button type="button">上一页</button><progress value="3" max="8"></progress><button class="primary" type="button">下一页</button></div>
+          </div>
+        </div>
+        <div class="template-panel" data-panel="report">
+          <div class="report-preview">
+            <div class="report-heading"><div><small>阅读成长报告</small><h2>这个月，读故事 12 次</h2></div><span class="report-badge">连续 6 天</span></div>
+            <div class="report-metrics"><div><strong>8</strong><span>已读绘本</span></div><div><strong>46</strong><span>阅读页数</span></div><div><strong>32</strong><span>阅读分钟</span></div></div>
+            <div class="report-grid"><div class="report-chart"><strong>最近 7 天</strong><div class="chart-bars"><i style="height:34%"></i><i style="height:60%"></i><i style="height:45%"></i><i style="height:82%"></i><i style="height:54%"></i><i style="height:96%"></i><i style="height:72%"></i></div></div><div class="report-list"><strong>最常阅读</strong><p><span>中文启蒙</span><b>6 次</b></p><p><span>想象冒险</span><b>4 次</b></p><p><span>自然发现</span><b>2 次</b></p></div></div>
+          </div>
+        </div>
+      </section>
+      <footer class="lab-footer">决策建议：默认使用故事书架；故事世界由主站积分入口带入；阅读器统一承载所有绘本；阅读报告面向家长。</footer>
+    </main>
+  </body>
+</html>

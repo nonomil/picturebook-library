@@ -1,0 +1,3551 @@
+{
+  "total_files": 130,
+  "files_with_issues": 130,
+  "summary": {
+    "broken_image": 32,
+    "broken_audio": 0,
+    "small_font": 127,
+    "no_alt": 1,
+    "no_onerror": 8,
+    "external_url": 3,
+    "no_viewport": 0,
+    "no_safe_area": 126,
+    "no_overflow_hidden": 2,
+    "no_tts_fallback": 0,
+    "empty_page": 0,
+    "nav_boundary": 0,
+    "long_text_line": 127,
+    "img_too_large": 27,
+    "inline_style_overload": 16,
+    "duplicate_id": 36,
+    "missing_required_id": 0
+  },
+  "details": {
+    "abc-song.html": [
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "baa-baa-black-sheep.html": [
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "bingo.html": [
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "cat-and-fiddle.html": [
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "chinese-01-characters.html": [
+      [
+        "small_font",
+        72,
+        "font-size:10px"
+      ],
+      [
+        "small_font",
+        300,
+        "font-size:11px"
+      ],
+      [
+        "small_font",
+        346,
+        "font-size:11px"
+      ],
+      [
+        "small_font",
+        392,
+        "font-size:11px"
+      ],
+      [
+        "small_font",
+        437,
+        "font-size:11px"
+      ],
+      [
+        "small_font",
+        483,
+        "font-size:11px"
+      ],
+      [
+        "inline_style_overload",
+        [
+          1190,
+          0
+        ],
+        "len=298"
+      ],
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "chinese-02-strokes.html": [
+      [
+        "inline_style_overload",
+        [
+          1137,
+          8
+        ],
+        "len=212"
+      ],
+      [
+        "inline_style_overload",
+        [
+          1558,
+          0
+        ],
+        "len=298"
+      ],
+      [
+        "duplicate_id",
+        [
+          1631,
+          4
+        ],
+        "id='prevBtn'"
+      ],
+      [
+        "duplicate_id",
+        [
+          1633,
+          4
+        ],
+        "id='nextBtn'"
+      ],
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ],
+      [
+        "long_text_line",
+        [
+          1118,
+          11
+        ],
+        "\"不只是学会了字，你学会了汉字的积木。每个字都是由笔画搭成的，就像 Minecraft 的方块一样！\""
+      ]
+    ],
+    "chinese-03-heaven-earth.html": [
+      [
+        "small_font",
+        46,
+        "font-size:11px"
+      ],
+      [
+        "small_font",
+        57,
+        "font-size:11px"
+      ],
+      [
+        "small_font",
+        65,
+        "font-size:11px"
+      ],
+      [
+        "small_font",
+        66,
+        "font-size:11px"
+      ],
+      [
+        "small_font",
+        74,
+        "font-size:10px"
+      ],
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "chinese-04-nature.html": [
+      [
+        "small_font",
+        168,
+        "font-size:11px"
+      ],
+      [
+        "small_font",
+        182,
+        "font-size:11px"
+      ],
+      [
+        "small_font",
+        556,
+        "font-size:11px"
+      ],
+      [
+        "small_font",
+        561,
+        "font-size:11px"
+      ],
+      [
+        "small_font",
+        566,
+        "font-size:11px"
+      ],
+      [
+        "small_font",
+        571,
+        "font-size:11px"
+      ],
+      [
+        "small_font",
+        668,
+        "font-size:11px"
+      ],
+      [
+        "small_font",
+        677,
+        "font-size:11px"
+      ],
+      [
+        "small_font",
+        686,
+        "font-size:11px"
+      ],
+      [
+        "small_font",
+        695,
+        "font-size:11px"
+      ],
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "chinese-05-family.html": [
+      [
+        "small_font",
+        179,
+        "font-size:11px"
+      ],
+      [
+        "small_font",
+        193,
+        "font-size:11px"
+      ],
+      [
+        "small_font",
+        318,
+        "font-size:11px"
+      ],
+      [
+        "small_font",
+        319,
+        "font-size:10px"
+      ],
+      [
+        "small_font",
+        613,
+        "font-size:11px"
+      ],
+      [
+        "small_font",
+        618,
+        "font-size:11px"
+      ],
+      [
+        "small_font",
+        623,
+        "font-size:11px"
+      ],
+      [
+        "small_font",
+        726,
+        "font-size:11px"
+      ],
+      [
+        "small_font",
+        735,
+        "font-size:11px"
+      ],
+      [
+        "small_font",
+        744,
+        "font-size:11px"
+      ],
+      [
+        "small_font",
+        753,
+        "font-size:11px"
+      ],
+      [
+        "broken_image",
+        [
+          702,
+          10
+        ],
+        "images/chinese-05/webp/page-10.webp"
+      ],
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "chinese-06-school.html": [
+      [
+        "small_font",
+        179,
+        "font-size:11px"
+      ],
+      [
+        "small_font",
+        193,
+        "font-size:11px"
+      ],
+      [
+        "broken_image",
+        [
+          855,
+          10
+        ],
+        "images/chinese-06/webp/page-10.webp"
+      ],
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ],
+      [
+        "long_text_line",
+        [
+          6,
+          7
+        ],
+        "第6课：开心学校 | Chinese Lesson 6: Happy School"
+      ]
+    ],
+    "chinese-07-pinyin.html": [
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ],
+      [
+        "long_text_line",
+        [
+          6,
+          7
+        ],
+        "第7课：拼音是什么 | Chinese Lesson 7: What is Pinyin"
+      ]
+    ],
+    "chinese-08-pinyin2.html": [
+      [
+        "broken_image",
+        [
+          750,
+          10
+        ],
+        "images/chinese-08/webp/page-09.webp"
+      ],
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ],
+      [
+        "long_text_line",
+        [
+          6,
+          7
+        ],
+        "第8课：拼音魔法进阶 | Chinese Lesson 8: Pinyin Advanced"
+      ]
+    ],
+    "chinese-09-shengmu1.html": [
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ],
+      [
+        "long_text_line",
+        [
+          6,
+          7
+        ],
+        "第9课：声母王国上 | Chinese Lesson 9: Initial Consonants Part 1"
+      ]
+    ],
+    "chinese-10-shengmu2.html": [
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ],
+      [
+        "long_text_line",
+        [
+          6,
+          7
+        ],
+        "第10课：声母王国中 | Chinese Lesson 10: Initial Consonants Part 2"
+      ],
+      [
+        "long_text_line",
+        [
+          455,
+          36
+        ],
+        "鸡(jī) · 气(qì) · 西(xī) · 家(jiā) · 球(qiú) · 小(xiǎo)"
+      ],
+      [
+        "long_text_line",
+        [
+          509,
+          36
+        ],
+        "知(zhī) · 吃(chī) · 师(shī) · 住(zhù) · 茶(chá) · 手(shǒu)"
+      ],
+      [
+        "long_text_line",
+        [
+          562,
+          36
+        ],
+        "日(rì) · 字(zì) · 次(cì) · 热(rè) · 坐(zuò) · 菜(cài)"
+      ],
+      [
+        "long_text_line",
+        [
+          615,
+          36
+        ],
+        "四(sì) · 一(yī) · 五(wǔ) · 三(sān) · 有(yǒu) · 我(wǒ)"
+      ]
+    ],
+    "chinese-11-shengmu3.html": [
+      [
+        "small_font",
+        98,
+        "font-size:11px"
+      ],
+      [
+        "img_too_large",
+        [
+          259,
+          8
+        ],
+        "src='images/chinese-11/webp/page-02.webp'"
+      ],
+      [
+        "img_too_large",
+        [
+          313,
+          8
+        ],
+        "src='images/chinese-11/webp/page-03.webp'"
+      ],
+      [
+        "img_too_large",
+        [
+          348,
+          8
+        ],
+        "src='images/chinese-11/webp/page-04.webp'"
+      ],
+      [
+        "img_too_large",
+        [
+          398,
+          8
+        ],
+        "src='images/chinese-11/webp/page-05.webp'"
+      ],
+      [
+        "img_too_large",
+        [
+          448,
+          8
+        ],
+        "src='images/chinese-11/webp/page-06.webp'"
+      ],
+      [
+        "img_too_large",
+        [
+          495,
+          8
+        ],
+        "src='images/chinese-11/webp/page-07.webp'"
+      ],
+      [
+        "img_too_large",
+        [
+          549,
+          8
+        ],
+        "src='images/chinese-11/webp/page-08.webp'"
+      ],
+      [
+        "img_too_large",
+        [
+          618,
+          8
+        ],
+        "src='images/chinese-11/webp/page-09.webp'"
+      ],
+      [
+        "broken_image",
+        [
+          646,
+          8
+        ],
+        "images/chinese-11/webp/page-10.webp"
+      ],
+      [
+        "img_too_large",
+        [
+          646,
+          8
+        ],
+        "src='images/chinese-11/webp/page-10.webp'"
+      ],
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ],
+      [
+        "long_text_line",
+        [
+          217,
+          48
+        ],
+        "舌尖卷起顶住硬腭前部，慢慢放开。像说英语 \"judge\" 里的 j，但要更卷一些。"
+      ],
+      [
+        "long_text_line",
+        [
+          275,
+          48
+        ],
+        "舌尖平放抵住下门齿背，像英语 \"cats\" 的 ts。和翘舌音 zh ch sh 最大的区别是——舌尖不用卷起！"
+      ],
+      [
+        "long_text_line",
+        [
+          463,
+          45
+        ],
+        "y 后面跟 ü 时，ü 上两点要省略，写成 yu。比如 y + ü → yú (鱼)，不是 yǘ。"
+      ]
+    ],
+    "chinese-12-yunmu.html": [
+      [
+        "img_too_large",
+        [
+          277,
+          8
+        ],
+        "src='images/chinese-12/webp/page-02.webp'"
+      ],
+      [
+        "img_too_large",
+        [
+          349,
+          8
+        ],
+        "src='images/chinese-12/webp/page-03.webp'"
+      ],
+      [
+        "img_too_large",
+        [
+          408,
+          8
+        ],
+        "src='images/chinese-12/webp/page-04.webp'"
+      ],
+      [
+        "img_too_large",
+        [
+          456,
+          8
+        ],
+        "src='images/chinese-12/webp/page-05.webp'"
+      ],
+      [
+        "img_too_large",
+        [
+          501,
+          8
+        ],
+        "src='images/chinese-12/webp/page-06.webp'"
+      ],
+      [
+        "img_too_large",
+        [
+          567,
+          8
+        ],
+        "src='images/chinese-12/webp/page-07.webp'"
+      ],
+      [
+        "img_too_large",
+        [
+          674,
+          8
+        ],
+        "src='images/chinese-12/webp/page-07.webp'"
+      ],
+      [
+        "img_too_large",
+        [
+          717,
+          8
+        ],
+        "src='images/chinese-12/webp/page-01.webp'"
+      ],
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ],
+      [
+        "long_text_line",
+        [
+          215,
+          27
+        ],
+        "a o e i u ü  ·  ai ei ui  ·  ao ou iu  ·  ie üe  ·  an en in"
+      ],
+      [
+        "long_text_line",
+        [
+          233,
+          99
+        ],
+        "：a, o, e, i, u, ü。发 a 时嘴巴张得最大，发 i 时嘴角向两边展开，发 ü 时嘴唇收圆像吹口哨。"
+      ],
+      [
+        "long_text_line",
+        [
+          604,
+          46
+        ],
+        "你能在每句诗里找到几个韵母？试试看把每个字的韵母都读出来！比如\"妈\"(mā)的韵母是"
+      ]
+    ],
+    "chinese-13-body.html": [
+      [
+        "small_font",
+        139,
+        "font-size:11px"
+      ],
+      [
+        "broken_image",
+        [
+          227,
+          8
+        ],
+        "images/chinese-13/webp/page-00.webp"
+      ],
+      [
+        "inline_style_overload",
+        [
+          473,
+          10
+        ],
+        "len=210"
+      ],
+      [
+        "inline_style_overload",
+        [
+          474,
+          10
+        ],
+        "len=221"
+      ],
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "chinese-14-colors.html": [
+      [
+        "small_font",
+        36,
+        "font-size:10px"
+      ],
+      [
+        "small_font",
+        76,
+        "font-size:11px"
+      ],
+      [
+        "small_font",
+        82,
+        "font-size:11px"
+      ],
+      [
+        "small_font",
+        83,
+        "font-size:11px"
+      ],
+      [
+        "small_font",
+        87,
+        "font-size:11px"
+      ],
+      [
+        "small_font",
+        90,
+        "font-size:10px"
+      ],
+      [
+        "small_font",
+        95,
+        "font-size:11px"
+      ],
+      [
+        "small_font",
+        99,
+        "font-size:11px"
+      ],
+      [
+        "small_font",
+        131,
+        "font-size:10px"
+      ],
+      [
+        "small_font",
+        278,
+        "font-size:10px"
+      ],
+      [
+        "broken_image",
+        [
+          266,
+          125
+        ],
+        "images/chinese-14-colors\n    <div style="
+      ],
+      [
+        "no_alt",
+        [
+          266,
+          125
+        ],
+        "<img src='images/chinese-14-colors\n    <div style='>"
+      ],
+      [
+        "broken_image",
+        [
+          267,
+          131
+        ],
+        "images/chinese-14-colors/webp/page-09.webp"
+      ],
+      [
+        "broken_image",
+        [
+          278,
+          54
+        ],
+        "images/chinese-14-colors/webp/page-10.webp"
+      ],
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ],
+      [
+        "long_text_line",
+        [
+          243,
+          83
+        ],
+        "all the colors of the rainbow — in Chinese!"
+      ]
+    ],
+    "chinese-15-food.html": [
+      [
+        "broken_image",
+        [
+          276,
+          6
+        ],
+        "images/chinese-15/webp/page-00.webp"
+      ],
+      [
+        "img_too_large",
+        [
+          276,
+          6
+        ],
+        "src='images/chinese-15/webp/page-00.webp'"
+      ],
+      [
+        "broken_image",
+        [
+          442,
+          8
+        ],
+        "images/chinese-15/webp/page-08.webp"
+      ],
+      [
+        "broken_image",
+        [
+          464,
+          8
+        ],
+        "images/chinese-15/webp/page-09.webp"
+      ],
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "chinese-16-actions.html": [
+      [
+        "broken_image",
+        [
+          277,
+          6
+        ],
+        "images/chinese-16/webp/page-00.webp"
+      ],
+      [
+        "img_too_large",
+        [
+          277,
+          6
+        ],
+        "src='images/chinese-16/webp/page-00.webp'"
+      ],
+      [
+        "broken_image",
+        [
+          443,
+          8
+        ],
+        "images/chinese-16/webp/page-08.webp"
+      ],
+      [
+        "broken_image",
+        [
+          465,
+          8
+        ],
+        "images/chinese-16/webp/page-09.webp"
+      ],
+      [
+        "broken_image",
+        [
+          487,
+          8
+        ],
+        "images/chinese-16/webp/page-10.webp"
+      ],
+      [
+        "broken_image",
+        [
+          509,
+          8
+        ],
+        "images/chinese-16/webp/page-11.webp"
+      ],
+      [
+        "broken_image",
+        [
+          531,
+          8
+        ],
+        "images/chinese-16/webp/page-12.webp"
+      ],
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "chinese-17-direction-time.html": [
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "chinese-18-animals.html": [
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "chinese-19-compound.html": [
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ],
+      [
+        "long_text_line",
+        [
+          540,
+          14
+        ],
+        "笔画：4 + 6 + 4 + 9 + 9 + 8 + 4 + 6 + 6 + 8 + 5 = 69 画"
+      ]
+    ],
+    "chinese-20-reading.html": [
+      [
+        "broken_image",
+        [
+          276,
+          2
+        ],
+        "images/chinese-20/webp/page-06.webp"
+      ],
+      [
+        "broken_image",
+        [
+          287,
+          2
+        ],
+        "images/chinese-20/webp/page-07.webp"
+      ],
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "chinese-21-antonyms.html": [
+      [
+        "small_font",
+        60,
+        "font-size:11px"
+      ],
+      [
+        "small_font",
+        65,
+        "font-size:11px"
+      ],
+      [
+        "small_font",
+        78,
+        "font-size:11px"
+      ],
+      [
+        "small_font",
+        93,
+        "font-size:11px"
+      ],
+      [
+        "small_font",
+        116,
+        "font-size:10px"
+      ],
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ],
+      [
+        "long_text_line",
+        [
+          264,
+          22
+        ],
+        "Choose the correct character to complete the sentence"
+      ]
+    ],
+    "chinese-22-qa.html": [
+      [
+        "small_font",
+        61,
+        "font-size:11px"
+      ],
+      [
+        "small_font",
+        69,
+        "font-size:11px"
+      ],
+      [
+        "small_font",
+        82,
+        "font-size:11px"
+      ],
+      [
+        "small_font",
+        97,
+        "font-size:11px"
+      ],
+      [
+        "small_font",
+        120,
+        "font-size:10px"
+      ],
+      [
+        "small_font",
+        417,
+        "font-size:11px"
+      ],
+      [
+        "small_font",
+        419,
+        "font-size:11px"
+      ],
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ],
+      [
+        "long_text_line",
+        [
+          256,
+          22
+        ],
+        "Choose the right question word for each sentence"
+      ]
+    ],
+    "chinese-23-poems.html": [
+      [
+        "small_font",
+        58,
+        "font-size:11px"
+      ],
+      [
+        "small_font",
+        71,
+        "font-size:11px"
+      ],
+      [
+        "small_font",
+        90,
+        "font-size:11px"
+      ],
+      [
+        "small_font",
+        669,
+        "font-size:11px"
+      ],
+      [
+        "broken_image",
+        [
+          278,
+          6
+        ],
+        "images/chinese-23/webp/poem-line-1.webp"
+      ],
+      [
+        "broken_image",
+        [
+          279,
+          6
+        ],
+        "images/chinese-23/webp/poem-line-2.webp"
+      ],
+      [
+        "broken_image",
+        [
+          280,
+          6
+        ],
+        "images/chinese-23/webp/poem-line-3.webp"
+      ],
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ],
+      [
+        "long_text_line",
+        [
+          206,
+          30
+        ],
+        "💭 Moonlight before my bed — could it be frost? I lift my hea"
+      ],
+      [
+        "long_text_line",
+        [
+          236,
+          30
+        ],
+        "💭 Spring dawn — I sleep without noticing morning. Everywhere"
+      ],
+      [
+        "long_text_line",
+        [
+          266,
+          30
+        ],
+        "💭 The sun sets behind the mountains, the Yellow River flows "
+      ],
+      [
+        "long_text_line",
+        [
+          301,
+          22
+        ],
+        "Choose the correct line to complete each poem"
+      ]
+    ],
+    "chinese-24-adventure.html": [
+      [
+        "small_font",
+        62,
+        "font-size:11px"
+      ],
+      [
+        "small_font",
+        75,
+        "font-size:11px"
+      ],
+      [
+        "small_font",
+        332,
+        "font-size:11px"
+      ],
+      [
+        "broken_image",
+        [
+          247,
+          4
+        ],
+        "images/chinese-24/webp/page-05.webp"
+      ],
+      [
+        "broken_image",
+        [
+          259,
+          4
+        ],
+        "images/chinese-24/webp/page-06.webp"
+      ],
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ],
+      [
+        "long_text_line",
+        [
+          285,
+          22
+        ],
+        "👆 Tap a word → tap its category (方向时间 · 动物 · 复合词 · 连接词 · 反义词"
+      ]
+    ],
+    "chinese-magic-characters.html": [
+      [
+        "inline_style_overload",
+        [
+          820,
+          0
+        ],
+        "len=298"
+      ],
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ],
+      [
+        "long_text_line",
+        [
+          245,
+          28
+        ],
+        "Steve 在山洞里发现了古老的符文！古人把看到的东西画成符号，这就是最早的汉字..."
+      ]
+    ],
+    "elephant-piggie-surprise.html": [
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "english-01-hello.html": [
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "english-02-abc.html": [
+      [
+        "inline_style_overload",
+        [
+          1001,
+          0
+        ],
+        "len=298"
+      ],
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ],
+      [
+        "long_text_line",
+        [
+          167,
+          26
+        ],
+        "Steve and Alex arrive at a magical forest!"
+      ],
+      [
+        "long_text_line",
+        [
+          178,
+          140
+        ],
+        "\"This is the Alphabet Forest! Every tree grows a letter, and"
+      ],
+      [
+        "long_text_line",
+        [
+          231,
+          115
+        ],
+        "\"It is a cat. It is a dog. I see the cat. Is it in the tree?"
+      ],
+      [
+        "long_text_line",
+        [
+          256,
+          32
+        ],
+        "A = pointy top + cross | B = stick + two bumps | C = half ci"
+      ],
+      [
+        "long_text_line",
+        [
+          329,
+          32
+        ],
+        "E = stick + three bars | F = E missing bottom | G = C with a"
+      ],
+      [
+        "long_text_line",
+        [
+          399,
+          32
+        ],
+        "I = one tall stick | J = I with a hook | K = stick + two arm"
+      ],
+      [
+        "long_text_line",
+        [
+          516,
+          77
+        ],
+        "Click any letter in the song to hear it! 👇"
+      ],
+      [
+        "long_text_line",
+        [
+          539,
+          26
+        ],
+        "Help Steve get through the Alphabet Forest! 🌳"
+      ],
+      [
+        "long_text_line",
+        [
+          590,
+          51
+        ],
+        "\"____ is a cat.\" → Choose the right word!"
+      ],
+      [
+        "long_text_line",
+        [
+          601,
+          65
+        ],
+        "All gates passed! You're an Alphabet Star! ⭐"
+      ],
+      [
+        "long_text_line",
+        [
+          613,
+          59
+        ],
+        "Steve opens the treasure chest! Inside: a golden apple 🍎✨"
+      ],
+      [
+        "long_text_line",
+        [
+          616,
+          48
+        ],
+        "apple · ball · cat · dog · egg · fish · girl · hat · igloo ·"
+      ]
+    ],
+    "english-03-abc-nz.html": [
+      [
+        "small_font",
+        54,
+        "font-size:10px"
+      ],
+      [
+        "small_font",
+        117,
+        "font-size:11px"
+      ],
+      [
+        "small_font",
+        125,
+        "font-size:11px"
+      ],
+      [
+        "inline_style_overload",
+        [
+          570,
+          8
+        ],
+        "len=220"
+      ],
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ],
+      [
+        "long_text_line",
+        [
+          6,
+          7
+        ],
+        "ABC Adventure: N to Z! — English Courseware"
+      ],
+      [
+        "long_text_line",
+        [
+          183,
+          28
+        ],
+        "🧑 Steve & 👩 Alex  •  Let's Learn Together!"
+      ],
+      [
+        "long_text_line",
+        [
+          377,
+          29
+        ],
+        "Green letters = N through Z — tap any letter to hear it"
+      ],
+      [
+        "long_text_line",
+        [
+          379,
+          74
+        ],
+        "Count the letters! There are 26 in the alphabet."
+      ],
+      [
+        "long_text_line",
+        [
+          512,
+          29
+        ],
+        "Answer 3 questions to unlock the treasure!"
+      ]
+    ],
+    "english-04-colors.html": [
+      [
+        "small_font",
+        50,
+        "font-size:11px"
+      ],
+      [
+        "inline_style_overload",
+        [
+          617,
+          6
+        ],
+        "len=231"
+      ],
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ],
+      [
+        "long_text_line",
+        [
+          374,
+          33
+        ],
+        "\"The night is black. The stars are white.\""
+      ],
+      [
+        "long_text_line",
+        [
+          406,
+          33
+        ],
+        "\"Pink flowers. Purple flowers. So pretty!\""
+      ],
+      [
+        "long_text_line",
+        [
+          431,
+          71
+        ],
+        "To the tune of \"Twinkle Twinkle Little Star\""
+      ]
+    ],
+    "english-05-numbers.html": [
+      [
+        "inline_style_overload",
+        [
+          565,
+          6
+        ],
+        "len=231"
+      ],
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ],
+      [
+        "long_text_line",
+        [
+          212,
+          33
+        ],
+        "\"Five little chickens on the farm! Let's count!\""
+      ],
+      [
+        "long_text_line",
+        [
+          359,
+          33
+        ],
+        "\"I can count to five! One, two, three, four, five!\""
+      ],
+      [
+        "long_text_line",
+        [
+          405,
+          32
+        ],
+        "Tap each word and listen for the /ɪ/ sound! — 点击每个单词听 /ɪ/ 音"
+      ],
+      [
+        "long_text_line",
+        [
+          421,
+          71
+        ],
+        "To the tune of \\\"Twinkle Twinkle Little Star\\\""
+      ],
+      [
+        "long_text_line",
+        [
+          473,
+          32
+        ],
+        "Tap a number, then tap its word — 点数字再点对应的单词"
+      ]
+    ],
+    "english-06-family.html": [
+      [
+        "broken_image",
+        [
+          631,
+          6
+        ],
+        "images/english-06/webp/page-10.webp"
+      ],
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ],
+      [
+        "long_text_line",
+        [
+          623,
+          21
+        ],
+        "Tap an English word, then tap its Chinese match!"
+      ],
+      [
+        "long_text_line",
+        [
+          637,
+          57
+        ],
+        "mother · father · sister · brother · baby"
+      ]
+    ],
+    "english-07-animals.html": [
+      [
+        "duplicate_id",
+        [
+          1160,
+          4
+        ],
+        "id='pageDots'"
+      ],
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "english-08-body.html": [
+      [
+        "duplicate_id",
+        [
+          996,
+          4
+        ],
+        "id='prevBtn'"
+      ],
+      [
+        "duplicate_id",
+        [
+          998,
+          4
+        ],
+        "id='nextBtn'"
+      ],
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "english-09-food.html": [
+      [
+        "broken_image",
+        [
+          507,
+          8
+        ],
+        "images/english-09/webp/page-10.webp"
+      ],
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ],
+      [
+        "long_text_line",
+        [
+          189,
+          62
+        ],
+        "🔤 Phonics: a = /æ/ (apple, cat, hat, man, rat)"
+      ],
+      [
+        "long_text_line",
+        [
+          232,
+          60
+        ],
+        "💡 \"An apple a day keeps the doctor away!\" 🍏"
+      ],
+      [
+        "long_text_line",
+        [
+          263,
+          60
+        ],
+        "💡 Bread is made from flour, water, and yeast."
+      ],
+      [
+        "long_text_line",
+        [
+          294,
+          60
+        ],
+        "💡 Cheese is made from milk! 🥛 Mice love cheese! 🐭"
+      ],
+      [
+        "long_text_line",
+        [
+          313,
+          26
+        ],
+        "鸡蛋 — Oval food that comes from chickens 🥚"
+      ],
+      [
+        "long_text_line",
+        [
+          325,
+          60
+        ],
+        "💡 Eggs can be boiled, fried, or scrambled! 🍳"
+      ],
+      [
+        "long_text_line",
+        [
+          356,
+          60
+        ],
+        "💡 Fish live in oceans, rivers, and lakes! 🌊🐠"
+      ],
+      [
+        "long_text_line",
+        [
+          395,
+          60
+        ],
+        "💡 Rice is a staple food for many people around the world! 🌏"
+      ],
+      [
+        "long_text_line",
+        [
+          430,
+          62
+        ],
+        "All five words have the /æ/ sound! · 都含有 /æ/ 音"
+      ],
+      [
+        "long_text_line",
+        [
+          477,
+          52
+        ],
+        "2️⃣ Then tap its Chinese translation (e.g. \"苹果\")"
+      ]
+    ],
+    "english-10-toys.html": [
+      [
+        "duplicate_id",
+        [
+          948,
+          4
+        ],
+        "id='prevBtn'"
+      ],
+      [
+        "duplicate_id",
+        [
+          950,
+          4
+        ],
+        "id='nextBtn'"
+      ],
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ],
+      [
+        "long_text_line",
+        [
+          277,
+          53
+        ],
+        "🔤 ball · car · doll · kite · robot · teddy bear · train"
+      ]
+    ],
+    "english-11-weather.html": [
+      [
+        "duplicate_id",
+        [
+          1061,
+          4
+        ],
+        "id='prevBtn'"
+      ],
+      [
+        "duplicate_id",
+        [
+          1063,
+          4
+        ],
+        "id='nextBtn'"
+      ],
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "english-12-clothes.html": [
+      [
+        "duplicate_id",
+        [
+          1057,
+          4
+        ],
+        "id='prevBtn'"
+      ],
+      [
+        "duplicate_id",
+        [
+          1059,
+          4
+        ],
+        "id='nextBtn'"
+      ],
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "english-13-actions.html": [
+      [
+        "duplicate_id",
+        [
+          1076,
+          4
+        ],
+        "id='prevBtn'"
+      ],
+      [
+        "duplicate_id",
+        [
+          1078,
+          4
+        ],
+        "id='nextBtn'"
+      ],
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "english-14-places.html": [
+      [
+        "duplicate_id",
+        [
+          1058,
+          4
+        ],
+        "id='prevBtn'"
+      ],
+      [
+        "duplicate_id",
+        [
+          1060,
+          4
+        ],
+        "id='nextBtn'"
+      ],
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "english-15-feelings.html": [
+      [
+        "duplicate_id",
+        [
+          1058,
+          4
+        ],
+        "id='prevBtn'"
+      ],
+      [
+        "duplicate_id",
+        [
+          1060,
+          4
+        ],
+        "id='nextBtn'"
+      ],
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "english-16-time.html": [
+      [
+        "small_font",
+        253,
+        "font-size:11px"
+      ],
+      [
+        "duplicate_id",
+        [
+          1552,
+          4
+        ],
+        "id='prevBtn'"
+      ],
+      [
+        "duplicate_id",
+        [
+          1554,
+          4
+        ],
+        "id='nextBtn'"
+      ],
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "english-17-transport.html": [
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ],
+      [
+        "long_text_line",
+        [
+          443,
+          3
+        ],
+        "Who wins? Everyone wins because we all go together! 🎉"
+      ],
+      [
+        "long_text_line",
+        [
+          503,
+          42
+        ],
+        "Tap the correct pronoun for each sentence."
+      ],
+      [
+        "long_text_line",
+        [
+          523,
+          42
+        ],
+        "Tap a word, then tap the matching picture."
+      ]
+    ],
+    "english-18-review.html": [
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ],
+      [
+        "no_overflow_hidden",
+        1,
+        "多图片页面但 body 无 overflow:hidden"
+      ],
+      [
+        "long_text_line",
+        [
+          6,
+          9
+        ],
+        "📖 English Lesson 18: Review Week — The Big Story"
+      ],
+      [
+        "long_text_line",
+        [
+          277,
+          7
+        ],
+        "Review Week · Phase 3 Words (Lessons 13–17)"
+      ],
+      [
+        "long_text_line",
+        [
+          289,
+          13
+        ],
+        "Listen and practice each sound. Tap a block to hear it!"
+      ],
+      [
+        "long_text_line",
+        [
+          297,
+          27
+        ],
+        "Can you find words with these sounds? Here are some examples"
+      ],
+      [
+        "long_text_line",
+        [
+          332,
+          66
+        ],
+        "— an adventure full of all the Phase 3 words! Each day bring"
+      ],
+      [
+        "long_text_line",
+        [
+          342,
+          13
+        ],
+        "Let's review what we learned in Lessons 13–17 and put it all"
+      ],
+      [
+        "long_text_line",
+        [
+          405,
+          41
+        ],
+        "to school with a big smile. It's going to be a great week!"
+      ],
+      [
+        "long_text_line",
+        [
+          430,
+          50
+        ],
+        ",\" she says after playing. So she sits on a bench to rest."
+      ],
+      [
+        "long_text_line",
+        [
+          431,
+          62
+        ],
+        "to buy some fruit. Lily picks apples and oranges. What a fun"
+      ],
+      [
+        "long_text_line",
+        [
+          453,
+          113
+        ],
+        "is a special day. Lily sees cows, sheep, and chickens."
+      ],
+      [
+        "long_text_line",
+        [
+          480,
+          45
+        ],
+        "to pick her up, Lily says, \"This was the best day!\""
+      ],
+      [
+        "long_text_line",
+        [
+          505,
+          46
+        ],
+        "!\" she thinks. She runs and jumps. In the"
+      ],
+      [
+        "long_text_line",
+        [
+          506,
+          40
+        ],
+        "her best race. She didn't win first place, but she"
+      ],
+      [
+        "long_text_line",
+        [
+          528,
+          46
+        ],
+        ", Lily's family goes on an adventure! Dad rides his"
+      ],
+      [
+        "long_text_line",
+        [
+          530,
+          89
+        ],
+        "her bike along the path with the wind in her hair. What a pe"
+      ],
+      [
+        "long_text_line",
+        [
+          552,
+          67
+        ],
+        "! Let's celebrate with the full story together:"
+      ],
+      [
+        "long_text_line",
+        [
+          561,
+          47
+        ],
+        "🎊 42 words · 5 sound blocks · Phase 3 complete!"
+      ],
+      [
+        "long_text_line",
+        [
+          574,
+          13
+        ],
+        "Drag the words into the correct categories!"
+      ],
+      [
+        "long_text_line",
+        [
+          620,
+          13
+        ],
+        "Read these words. What sound block do you hear?"
+      ],
+      [
+        "long_text_line",
+        [
+          631,
+          27
+        ],
+        "Tap each word block to hear it. Can you identify the sound?"
+      ],
+      [
+        "long_text_line",
+        [
+          637,
+          13
+        ],
+        "Write your own short story using Phase 3 words!"
+      ],
+      [
+        "long_text_line",
+        [
+          654,
+          13
+        ],
+        "Tap each word to mark it as mastered. Go for all 42!"
+      ]
+    ],
+    "english-19-lost-cat.html": [
+      [
+        "broken_image",
+        [
+          609,
+          8
+        ],
+        "images/english-19/webp/page-08.webp"
+      ],
+      [
+        "long_text_line",
+        [
+          589,
+          33
+        ],
+        "🔗 Match: lost · find · look · help · friend · home"
+      ]
+    ],
+    "english-20-storm.html": [
+      [
+        "inline_style_overload",
+        [
+          249,
+          6
+        ],
+        "len=215"
+      ],
+      [
+        "inline_style_overload",
+        [
+          271,
+          6
+        ],
+        "len=214"
+      ],
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ],
+      [
+        "long_text_line",
+        [
+          175,
+          122
+        ],
+        "📖 Story: storm · cloud · rain · wind · thunder · lightning ·"
+      ],
+      [
+        "long_text_line",
+        [
+          230,
+          56
+        ],
+        "stops. The sun comes out! A beautiful rainbow appears."
+      ]
+    ],
+    "english-21-birthday.html": [
+      [
+        "broken_image",
+        [
+          402,
+          10
+        ],
+        "images/english-21/webp/page-06.webp"
+      ],
+      [
+        "long_text_line",
+        [
+          387,
+          61
+        ],
+        "Alex walks in and everyone shouts, \"Happy"
+      ],
+      [
+        "long_text_line",
+        [
+          462,
+          65
+        ],
+        "Tap a word, then tap the blank to fill it."
+      ]
+    ],
+    "english-22-farm.html": [
+      [
+        "broken_image",
+        [
+          456,
+          4
+        ],
+        "images/english-22/webp/page-06.webp"
+      ],
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ],
+      [
+        "long_text_line",
+        [
+          356,
+          66
+        ],
+        "today. He sees many animals and learns about farm life."
+      ],
+      [
+        "long_text_line",
+        [
+          357,
+          9
+        ],
+        "\"Welcome to Green Valley Farm!\" says Farmer Tom. \"Let me"
+      ],
+      [
+        "long_text_line",
+        [
+          408,
+          184
+        ],
+        ",\" says Tom. \"They love to roll in mud to stay cool.\""
+      ],
+      [
+        "long_text_line",
+        [
+          458,
+          9
+        ],
+        "What a wonderful day at the farm! Steve learned so much. 🎉"
+      ],
+      [
+        "long_text_line",
+        [
+          460,
+          9
+        ],
+        "Steve waves goodbye to Farmer Tom and all the animals. See y"
+      ],
+      [
+        "long_text_line",
+        [
+          490,
+          25
+        ],
+        "Tap a farm animal, then tap what it does!"
+      ],
+      [
+        "long_text_line",
+        [
+          519,
+          60
+        ],
+        "sound, and new words. Keep up the amazing work!"
+      ]
+    ],
+    "english-23-treasure.html": [
+      [
+        "broken_image",
+        [
+          395,
+          10
+        ],
+        "images/english-23/webp/page-04.webp"
+      ],
+      [
+        "broken_image",
+        [
+          399,
+          10
+        ],
+        "images/english-23/webp/page-05.webp"
+      ],
+      [
+        "long_text_line",
+        [
+          400,
+          119
+        ],
+        "in a secret cave. \"Our secret!\" says Steve. 🏴‍☠️✨"
+      ],
+      [
+        "long_text_line",
+        [
+          467,
+          65
+        ],
+        "Tap a word, then tap the blank to fill it."
+      ]
+    ],
+    "english-24-review.html": [
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ],
+      [
+        "long_text_line",
+        [
+          6,
+          9
+        ],
+        "🏆 English Lesson 24: Phase 4 Complete! Review"
+      ],
+      [
+        "long_text_line",
+        [
+          356,
+          7
+        ],
+        "Review ALL Phase 4 · wh · st · th · sh · ch · Sight Words (L"
+      ],
+      [
+        "long_text_line",
+        [
+          368,
+          13
+        ],
+        "Listen and practice each sound block. Tap a block to hear th"
+      ],
+      [
+        "long_text_line",
+        [
+          437,
+          13
+        ],
+        "All the sight words we learned in Phase 4. Tap any word to h"
+      ],
+      [
+        "long_text_line",
+        [
+          543,
+          13
+        ],
+        "Drag each word into the correct sound block group!"
+      ],
+      [
+        "long_text_line",
+        [
+          612,
+          13
+        ],
+        "You reviewed ALL Phase 4 sound blocks and sight words! 🎉"
+      ],
+      [
+        "long_text_line",
+        [
+          619,
+          30
+        ],
+        "Congratulations! You have successfully completed"
+      ]
+    ],
+    "english-colors.html": [
+      [
+        "inline_style_overload",
+        [
+          934,
+          0
+        ],
+        "len=298"
+      ],
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ],
+      [
+        "long_text_line",
+        [
+          284,
+          28
+        ],
+        "Gray is the color of clouds and rainy days. It's calm and qu"
+      ],
+      [
+        "long_text_line",
+        [
+          298,
+          28
+        ],
+        "Red is the color of apples! Blue is the color of water and t"
+      ],
+      [
+        "long_text_line",
+        [
+          319,
+          28
+        ],
+        "Yellow is the color of the bright sun! Green is the color of"
+      ],
+      [
+        "long_text_line",
+        [
+          337,
+          28
+        ],
+        "Pink is the color of pretty flowers! Purple is the color of "
+      ],
+      [
+        "long_text_line",
+        [
+          339,
+          46
+        ],
+        "Pick a color, then tap the matching picture:"
+      ],
+      [
+        "long_text_line",
+        [
+          366,
+          28
+        ],
+        "Red, Orange, Yellow, Green, Blue, Purple — the colors of the"
+      ],
+      [
+        "long_text_line",
+        [
+          385,
+          28
+        ],
+        "Let's test what you've learned! Can you name all the colors?"
+      ]
+    ],
+    "five-little-monkeys.html": [
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ],
+      [
+        "long_text_line",
+        [
+          6,
+          7
+        ],
+        "🐵 Five Little Monkeys Jumping on the Bed!"
+      ]
+    ],
+    "gears-transmission.html": [
+      [
+        "small_font",
+        242,
+        "font-size:11px"
+      ],
+      [
+        "small_font",
+        408,
+        "font-size:10px"
+      ],
+      [
+        "small_font",
+        464,
+        "font-size:11px"
+      ],
+      [
+        "small_font",
+        767,
+        "font-size:10px"
+      ],
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "head-shoulders.html": [
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "hickory-dickory.html": [
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "humpty-dumpty.html": [
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "hush-little-baby.html": [
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "i-am-an-apple.html": [
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "if-youre-happy.html": [
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "itsy-bitsy-spider.html": [
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "jack-and-jill.html": [
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "jack-be-nimble.html": [
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "london-bridge.html": [
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "mary-lamb.html": [
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "math-01-counting.html": [
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "math-02-counting-11to20.html": [
+      [
+        "inline_style_overload",
+        [
+          1337,
+          0
+        ],
+        "len=298"
+      ],
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "math-03-compare.html": [
+      [
+        "small_font",
+        43,
+        "font-size:11px"
+      ],
+      [
+        "small_font",
+        60,
+        "font-size:11px"
+      ],
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "math-04-addition.html": [
+      [
+        "duplicate_id",
+        [
+          1181,
+          4
+        ],
+        "id='pageDots'"
+      ],
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "math-05-addition10.html": [
+      [
+        "small_font",
+        143,
+        "font-size:11px"
+      ],
+      [
+        "small_font",
+        154,
+        "font-size:10px"
+      ],
+      [
+        "small_font",
+        155,
+        "font-size:10px"
+      ],
+      [
+        "small_font",
+        159,
+        "font-size:10px"
+      ],
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "math-06-subtraction5.html": [
+      [
+        "duplicate_id",
+        [
+          1182,
+          4
+        ],
+        "id='prevBtn'"
+      ],
+      [
+        "duplicate_id",
+        [
+          1183,
+          4
+        ],
+        "id='pageDots'"
+      ],
+      [
+        "duplicate_id",
+        [
+          1184,
+          4
+        ],
+        "id='nextBtn'"
+      ],
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "math-07-subtraction10.html": [
+      [
+        "duplicate_id",
+        [
+          1474,
+          4
+        ],
+        "id='prevBtn'"
+      ],
+      [
+        "duplicate_id",
+        [
+          1475,
+          4
+        ],
+        "id='pageDots'"
+      ],
+      [
+        "duplicate_id",
+        [
+          1476,
+          4
+        ],
+        "id='nextBtn'"
+      ],
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "math-08-addition20.html": [
+      [
+        "broken_image",
+        [
+          270,
+          6
+        ],
+        "images/math-08/webp/page-03.webp"
+      ],
+      [
+        "duplicate_id",
+        [
+          771,
+          4
+        ],
+        "id='prevBtn'"
+      ],
+      [
+        "duplicate_id",
+        [
+          773,
+          4
+        ],
+        "id='nextBtn'"
+      ],
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "math-09-subtraction20.html": [
+      [
+        "duplicate_id",
+        [
+          899,
+          4
+        ],
+        "id='prevBtn'"
+      ],
+      [
+        "duplicate_id",
+        [
+          901,
+          4
+        ],
+        "id='nextBtn'"
+      ],
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "math-10-shapes.html": [
+      [
+        "duplicate_id",
+        [
+          959,
+          4
+        ],
+        "id='prevBtn'"
+      ],
+      [
+        "duplicate_id",
+        [
+          961,
+          4
+        ],
+        "id='nextBtn'"
+      ],
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "math-11-measurement.html": [
+      [
+        "small_font",
+        144,
+        "font-size:10px"
+      ],
+      [
+        "small_font",
+        422,
+        "font-size:11px"
+      ],
+      [
+        "small_font",
+        425,
+        "font-size:11px"
+      ],
+      [
+        "duplicate_id",
+        [
+          1037,
+          4
+        ],
+        "id='prevBtn'"
+      ],
+      [
+        "duplicate_id",
+        [
+          1039,
+          4
+        ],
+        "id='nextBtn'"
+      ],
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ],
+      [
+        "long_text_line",
+        [
+          363,
+          42
+        ],
+        "Let's learn how to measure things around us!"
+      ],
+      [
+        "long_text_line",
+        [
+          380,
+          32
+        ],
+        "Length tells us how long, wide, or tall something is."
+      ],
+      [
+        "long_text_line",
+        [
+          388,
+          30
+        ],
+        "Rulers, tape measures, and meter sticks are tools."
+      ],
+      [
+        "long_text_line",
+        [
+          469,
+          207
+        ],
+        "铅笔 ≈ 18cm  ·  书本 ≈ 26cm  ·  手机 ≈ 14cm  ·  勺子 ≈ 16cm"
+      ]
+    ],
+    "math-12-review.html": [
+      [
+        "small_font",
+        517,
+        "font-size:11px"
+      ],
+      [
+        "small_font",
+        522,
+        "font-size:11px"
+      ],
+      [
+        "small_font",
+        527,
+        "font-size:11px"
+      ],
+      [
+        "small_font",
+        532,
+        "font-size:11px"
+      ],
+      [
+        "duplicate_id",
+        [
+          1080,
+          4
+        ],
+        "id='prevBtn'"
+      ],
+      [
+        "duplicate_id",
+        [
+          1082,
+          4
+        ],
+        "id='nextBtn'"
+      ],
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ],
+      [
+        "long_text_line",
+        [
+          668,
+          31
+        ],
+        "You've reviewed all the math for this term!"
+      ]
+    ],
+    "math-13-numbers100.html": [
+      [
+        "small_font",
+        42,
+        "font-size:11px"
+      ],
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "math-14-addsub2digit.html": [
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "math-15-money.html": [
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "math-16-clock.html": [
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "math-17-shapes.html": [
+      [
+        "small_font",
+        137,
+        "font-size:11px"
+      ],
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "math-18-sorting.html": [
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "math-19-statistics.html": [
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ],
+      [
+        "long_text_line",
+        [
+          222,
+          5
+        ],
+        "小明的 Minecraft 村庄今天要统计村民人数啦！每个村民都有不同的职业。村长需要知道："
+      ]
+    ],
+    "math-20-direction.html": [
+      [
+        "small_font",
+        131,
+        "font-size:11px"
+      ],
+      [
+        "small_font",
+        132,
+        "font-size:11px"
+      ],
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "math-21-multiplication.html": [
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "math-22-fractions.html": [
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ],
+      [
+        "long_text_line",
+        [
+          158,
+          24
+        ],
+        "Steve 做了一个大披萨，Alex、Zombie 和 Creeper 都来了。他们要把披萨分得一样多！"
+      ]
+    ],
+    "math-23-word-problems.html": [
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "math-24-carnival.html": [
+      [
+        "inline_style_overload",
+        [
+          786,
+          8
+        ],
+        "len=201"
+      ],
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ],
+      [
+        "long_text_line",
+        [
+          814,
+          20
+        ],
+        "Lesson 24 · 数学嘉年华 Math Carnival 🎪 · Final Review"
+      ]
+    ],
+    "math-numbers-1-10.html": [
+      [
+        "inline_style_overload",
+        [
+          857,
+          0
+        ],
+        "len=298"
+      ],
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "mulberry-bush.html": [
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "nature-lesson-4.html": [
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "old-macdonald.html": [
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "pat-a-cake.html": [
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "pet-hub.html": [
+      [
+        "small_font",
+        46,
+        "font-size:8px"
+      ],
+      [
+        "small_font",
+        48,
+        "font-size:7px"
+      ],
+      [
+        "small_font",
+        52,
+        "font-size:6px"
+      ],
+      [
+        "small_font",
+        60,
+        "font-size:8px"
+      ],
+      [
+        "small_font",
+        73,
+        "font-size:7px"
+      ],
+      [
+        "small_font",
+        132,
+        "font-size:9px"
+      ],
+      [
+        "small_font",
+        133,
+        "font-size:6px"
+      ],
+      [
+        "small_font",
+        135,
+        "font-size:10px"
+      ],
+      [
+        "small_font",
+        137,
+        "font-size:6px"
+      ],
+      [
+        "small_font",
+        143,
+        "font-size:6px"
+      ],
+      [
+        "small_font",
+        156,
+        "font-size:7px"
+      ],
+      [
+        "small_font",
+        173,
+        "font-size:6px"
+      ],
+      [
+        "small_font",
+        174,
+        "font-size:5px"
+      ],
+      [
+        "small_font",
+        188,
+        "font-size:6px"
+      ],
+      [
+        "small_font",
+        189,
+        "font-size:5px"
+      ],
+      [
+        "small_font",
+        190,
+        "font-size:6px"
+      ],
+      [
+        "small_font",
+        191,
+        "font-size:6px"
+      ],
+      [
+        "small_font",
+        206,
+        "font-size:5px"
+      ],
+      [
+        "small_font",
+        207,
+        "font-size:5px"
+      ],
+      [
+        "small_font",
+        220,
+        "font-size:7px"
+      ],
+      [
+        "small_font",
+        221,
+        "font-size:6px"
+      ],
+      [
+        "small_font",
+        222,
+        "font-size:6px"
+      ],
+      [
+        "small_font",
+        232,
+        "font-size:7px"
+      ],
+      [
+        "small_font",
+        247,
+        "font-size:8px"
+      ],
+      [
+        "small_font",
+        255,
+        "font-size:8px"
+      ],
+      [
+        "small_font",
+        260,
+        "font-size:7px"
+      ],
+      [
+        "small_font",
+        269,
+        "font-size:7px"
+      ],
+      [
+        "small_font",
+        344,
+        "font-size:5px"
+      ],
+      [
+        "small_font",
+        361,
+        "font-size:7px"
+      ],
+      [
+        "small_font",
+        368,
+        "font-size:7px"
+      ],
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "phonics-fat-cat.html": [
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "rain-go-away.html": [
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "rainforest-adventure.html": [
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ],
+      [
+        "long_text_line",
+        [
+          546,
+          29
+        ],
+        "会用树枝当工具钓白蚁，记住哪有好吃的果树，用叫声传递不同信息——像有自己的\"语言\"！"
+      ]
+    ],
+    "ring-around-rosy.html": [
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "row-your-boat.html": [
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "sight-word-tales-can-we-get-a-pet.html": [
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "sight-word-tales-come-to-the-party.html": [
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "silent-night.html": [
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "skidamarink.html": [
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "stories-index.html": [
+      [
+        "small_font",
+        61,
+        "font-size:10px"
+      ],
+      [
+        "small_font",
+        156,
+        "font-size:10px"
+      ],
+      [
+        "small_font",
+        271,
+        "font-size:10px"
+      ],
+      [
+        "small_font",
+        281,
+        "font-size:11px"
+      ],
+      [
+        "small_font",
+        286,
+        "font-size:10px"
+      ],
+      [
+        "small_font",
+        292,
+        "font-size:10px"
+      ],
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "story-block-battle.html": [
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "story-brave-pea-shooter.html": [
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "story-brave-tank.html": [
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "story-hungry-snake.html": [
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "story-invisible-tank.html": [
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "story-minecraft-tank-1.html": [
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "story-minecraft-tank-2.html": [
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "story-minecraft-tank-3.html": [
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "story-ocean-adventure.html": [
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "story-robot-battle.html": [
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "story-space-d1.html": [
+      [
+        "external_url",
+        129,
+        "https://via.placeholder.com/1024x768?text=Page+3+Generating..."
+      ],
+      [
+        "external_url",
+        174,
+        "https://via.placeholder.com/1024x768?text=Page+8+Generating..."
+      ],
+      [
+        "external_url",
+        264,
+        "https://via.placeholder.com/1024x768?text=Page+18+Generating..."
+      ],
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "story-space-d2.html": [
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "story-space-d3.html": [
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "story-space-d4.html": [
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "story-star-wars.html": [
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "story-steve-wither.html": [
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "story-sugarcane-tank.html": [
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "three-blind-mice.html": [
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "twinkle-twinkle.html": [
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "village.html": [
+      [
+        "no_onerror",
+        [
+          50,
+          8
+        ],
+        "<img src='images/minecraft/steve.png'>"
+      ],
+      [
+        "img_too_large",
+        [
+          50,
+          8
+        ],
+        "src='images/minecraft/steve.png'"
+      ],
+      [
+        "no_onerror",
+        [
+          73,
+          10
+        ],
+        "<img src='images/minecraft/steve.png'>"
+      ],
+      [
+        "img_too_large",
+        [
+          73,
+          10
+        ],
+        "src='images/minecraft/steve.png'"
+      ],
+      [
+        "no_onerror",
+        [
+          79,
+          10
+        ],
+        "<img src='images/minecraft/alex.png'>"
+      ],
+      [
+        "img_too_large",
+        [
+          79,
+          10
+        ],
+        "src='images/minecraft/alex.png'"
+      ],
+      [
+        "no_onerror",
+        [
+          85,
+          10
+        ],
+        "<img src='images/minecraft/cat.png'>"
+      ],
+      [
+        "img_too_large",
+        [
+          85,
+          10
+        ],
+        "src='images/minecraft/cat.png'"
+      ],
+      [
+        "no_onerror",
+        [
+          214,
+          29
+        ],
+        "<img src='images/minecraft/chest.png'>"
+      ],
+      [
+        "img_too_large",
+        [
+          214,
+          29
+        ],
+        "src='images/minecraft/chest.png'"
+      ],
+      [
+        "no_onerror",
+        [
+          218,
+          29
+        ],
+        "<img src='images/minecraft/cat.png'>"
+      ],
+      [
+        "img_too_large",
+        [
+          218,
+          29
+        ],
+        "src='images/minecraft/cat.png'"
+      ],
+      [
+        "no_onerror",
+        [
+          222,
+          29
+        ],
+        "<img src='images/minecraft/book.png'>"
+      ],
+      [
+        "img_too_large",
+        [
+          222,
+          29
+        ],
+        "src='images/minecraft/book.png'"
+      ],
+      [
+        "no_onerror",
+        [
+          267,
+          8
+        ],
+        "<img src='images/minecraft/steve-hd.png'>"
+      ],
+      [
+        "img_too_large",
+        [
+          267,
+          8
+        ],
+        "src='images/minecraft/steve-hd.png'"
+      ],
+      [
+        "no_overflow_hidden",
+        1,
+        "多图片页面但 body 无 overflow:hidden"
+      ]
+    ],
+    "wheels-on-bus.html": [
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ],
+    "yankee-doodle.html": [
+      [
+        "no_safe_area",
+        1,
+        "viewport 无 viewport-fit=cover"
+      ]
+    ]
+  }
+}

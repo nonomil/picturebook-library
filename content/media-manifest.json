@@ -1,0 +1,2067 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "1970-01-01T00:00:00.000Z",
+  "sourceRoot": "G:/StudyCode/幼小衔接/儿童绘本/Prj",
+  "policy": "source-only manifests; media files are not copied into the library build until mapped and verified",
+  "audio": [
+    {
+      "sourceId": "block-battle",
+      "canonicalId": "block-battle",
+      "status": "source-only",
+      "sourcePath": "bilingual-picturebooks/audio/block-battle",
+      "sourceFileCount": 85,
+      "pages": [
+        {
+          "page": 1,
+          "zh": "bilingual-picturebooks/audio/block-battle/page-1-zh.mp3",
+          "en": "bilingual-picturebooks/audio/block-battle/page-1-en.mp3",
+          "localEn": "content/media/legacy-audio/block-battle/page-1-en.mp3",
+          "localZh": "content/media/legacy-audio/block-battle/page-1-zh.mp3"
+        },
+        {
+          "page": 2,
+          "zh": null,
+          "en": "bilingual-picturebooks/audio/block-battle/page-2-en.mp3",
+          "localEn": "content/media/legacy-audio/block-battle/page-2-en.mp3"
+        },
+        {
+          "page": 3,
+          "zh": null,
+          "en": "bilingual-picturebooks/audio/block-battle/page-3-en.mp3",
+          "localEn": "content/media/legacy-audio/block-battle/page-3-en.mp3"
+        },
+        {
+          "page": 4,
+          "zh": null,
+          "en": "bilingual-picturebooks/audio/block-battle/page-4-en.mp3",
+          "localEn": "content/media/legacy-audio/block-battle/page-4-en.mp3"
+        },
+        {
+          "page": 5,
+          "zh": null,
+          "en": "bilingual-picturebooks/audio/block-battle/page-5-en.mp3",
+          "localEn": "content/media/legacy-audio/block-battle/page-5-en.mp3"
+        },
+        {
+          "page": 6,
+          "zh": null,
+          "en": "bilingual-picturebooks/audio/block-battle/page-6-en.mp3",
+          "localEn": "content/media/legacy-audio/block-battle/page-6-en.mp3"
+        },
+        {
+          "page": 7,
+          "zh": null,
+          "en": "bilingual-picturebooks/audio/block-battle/page-7-en.mp3",
+          "localEn": "content/media/legacy-audio/block-battle/page-7-en.mp3"
+        },
+        {
+          "page": 8,
+          "zh": null,
+          "en": "bilingual-picturebooks/audio/block-battle/page-8-en.mp3",
+          "localEn": "content/media/legacy-audio/block-battle/page-8-en.mp3"
+        },
+        {
+          "page": 9,
+          "zh": null,
+          "en": "bilingual-picturebooks/audio/block-battle/page-9-en.mp3",
+          "localEn": "content/media/legacy-audio/block-battle/page-9-en.mp3"
+        },
+        {
+          "page": 10,
+          "zh": null,
+          "en": "bilingual-picturebooks/audio/block-battle/page-10-en.mp3",
+          "localEn": "content/media/legacy-audio/block-battle/page-10-en.mp3"
+        },
+        {
+          "page": 11,
+          "zh": null,
+          "en": "bilingual-picturebooks/audio/block-battle/page-11-en.mp3",
+          "localEn": "content/media/legacy-audio/block-battle/page-11-en.mp3"
+        },
+        {
+          "page": 12,
+          "zh": null,
+          "en": "bilingual-picturebooks/audio/block-battle/page-12-en.mp3",
+          "localEn": "content/media/legacy-audio/block-battle/page-12-en.mp3"
+        },
+        {
+          "page": 13,
+          "zh": null,
+          "en": "bilingual-picturebooks/audio/block-battle/page-13-en.mp3",
+          "localEn": "content/media/legacy-audio/block-battle/page-13-en.mp3"
+        },
+        {
+          "page": 14,
+          "zh": null,
+          "en": "bilingual-picturebooks/audio/block-battle/page-14-en.mp3",
+          "localEn": "content/media/legacy-audio/block-battle/page-14-en.mp3"
+        },
+        {
+          "page": 15,
+          "zh": null,
+          "en": "bilingual-picturebooks/audio/block-battle/page-15-en.mp3",
+          "localEn": "content/media/legacy-audio/block-battle/page-15-en.mp3"
+        },
+        {
+          "page": 16,
+          "zh": null,
+          "en": "bilingual-picturebooks/audio/block-battle/page-16-en.mp3",
+          "localEn": "content/media/legacy-audio/block-battle/page-16-en.mp3"
+        },
+        {
+          "page": 17,
+          "zh": null,
+          "en": "bilingual-picturebooks/audio/block-battle/page-17-en.mp3",
+          "localEn": "content/media/legacy-audio/block-battle/page-17-en.mp3"
+        },
+        {
+          "page": 18,
+          "zh": null,
+          "en": "bilingual-picturebooks/audio/block-battle/page-18-en.mp3",
+          "localEn": "content/media/legacy-audio/block-battle/page-18-en.mp3"
+        },
+        {
+          "page": 19,
+          "zh": null,
+          "en": "bilingual-picturebooks/audio/block-battle/page-19-en.mp3",
+          "localEn": "content/media/legacy-audio/block-battle/page-19-en.mp3"
+        },
+        {
+          "page": 20,
+          "zh": null,
+          "en": "bilingual-picturebooks/audio/block-battle/page-20-en.mp3",
+          "localEn": "content/media/legacy-audio/block-battle/page-20-en.mp3"
+        },
+        {
+          "page": 21,
+          "zh": "bilingual-picturebooks/audio/block-battle/page-21-zh.mp3",
+          "en": "bilingual-picturebooks/audio/block-battle/page-21-en.mp3",
+          "localEn": "content/media/legacy-audio/block-battle/page-21-en.mp3",
+          "localZh": "content/media/legacy-audio/block-battle/page-21-zh.mp3"
+        },
+        {
+          "page": 22,
+          "zh": "bilingual-picturebooks/audio/block-battle/page-22-zh.mp3",
+          "en": "bilingual-picturebooks/audio/block-battle/page-22-en.mp3",
+          "localEn": "content/media/legacy-audio/block-battle/page-22-en.mp3",
+          "localZh": "content/media/legacy-audio/block-battle/page-22-zh.mp3"
+        },
+        {
+          "page": 23,
+          "zh": "bilingual-picturebooks/audio/block-battle/page-23-zh.mp3",
+          "en": "bilingual-picturebooks/audio/block-battle/page-23-en.mp3",
+          "localEn": "content/media/legacy-audio/block-battle/page-23-en.mp3",
+          "localZh": "content/media/legacy-audio/block-battle/page-23-zh.mp3"
+        },
+        {
+          "page": 24,
+          "zh": "bilingual-picturebooks/audio/block-battle/page-24-zh.mp3",
+          "en": "bilingual-picturebooks/audio/block-battle/page-24-en.mp3",
+          "localEn": "content/media/legacy-audio/block-battle/page-24-en.mp3",
+          "localZh": "content/media/legacy-audio/block-battle/page-24-zh.mp3"
+        },
+        {
+          "page": 25,
+          "zh": "bilingual-picturebooks/audio/block-battle/page-25-zh.mp3",
+          "en": "bilingual-picturebooks/audio/block-battle/page-25-en.mp3",
+          "localEn": "content/media/legacy-audio/block-battle/page-25-en.mp3",
+          "localZh": "content/media/legacy-audio/block-battle/page-25-zh.mp3"
+        },
+        {
+          "page": 26,
+          "zh": "bilingual-picturebooks/audio/block-battle/page-26-zh.mp3",
+          "en": "bilingual-picturebooks/audio/block-battle/page-26-en.mp3",
+          "localEn": "content/media/legacy-audio/block-battle/page-26-en.mp3",
+          "localZh": "content/media/legacy-audio/block-battle/page-26-zh.mp3"
+        },
+        {
+          "page": 27,
+          "zh": "bilingual-picturebooks/audio/block-battle/page-27-zh.mp3",
+          "en": "bilingual-picturebooks/audio/block-battle/page-27-en.mp3",
+          "localEn": "content/media/legacy-audio/block-battle/page-27-en.mp3",
+          "localZh": "content/media/legacy-audio/block-battle/page-27-zh.mp3"
+        },
+        {
+          "page": 28,
+          "zh": "bilingual-picturebooks/audio/block-battle/page-28-zh.mp3",
+          "en": "bilingual-picturebooks/audio/block-battle/page-28-en.mp3",
+          "localEn": "content/media/legacy-audio/block-battle/page-28-en.mp3",
+          "localZh": "content/media/legacy-audio/block-battle/page-28-zh.mp3"
+        },
+        {
+          "page": 29,
+          "zh": "bilingual-picturebooks/audio/block-battle/page-29-zh.mp3",
+          "en": "bilingual-picturebooks/audio/block-battle/page-29-en.mp3",
+          "localEn": "content/media/legacy-audio/block-battle/page-29-en.mp3",
+          "localZh": "content/media/legacy-audio/block-battle/page-29-zh.mp3"
+        },
+        {
+          "page": 30,
+          "zh": "bilingual-picturebooks/audio/block-battle/page-30-zh.mp3",
+          "en": "bilingual-picturebooks/audio/block-battle/page-30-en.mp3",
+          "localEn": "content/media/legacy-audio/block-battle/page-30-en.mp3",
+          "localZh": "content/media/legacy-audio/block-battle/page-30-zh.mp3"
+        },
+        {
+          "page": 31,
+          "zh": "bilingual-picturebooks/audio/block-battle/page-31-zh.mp3",
+          "en": "bilingual-picturebooks/audio/block-battle/page-31-en.mp3",
+          "localEn": "content/media/legacy-audio/block-battle/page-31-en.mp3",
+          "localZh": "content/media/legacy-audio/block-battle/page-31-zh.mp3"
+        },
+        {
+          "page": 32,
+          "zh": "bilingual-picturebooks/audio/block-battle/page-32-zh.mp3",
+          "en": "bilingual-picturebooks/audio/block-battle/page-32-en.mp3",
+          "localEn": "content/media/legacy-audio/block-battle/page-32-en.mp3",
+          "localZh": "content/media/legacy-audio/block-battle/page-32-zh.mp3"
+        },
+        {
+          "page": 33,
+          "zh": "bilingual-picturebooks/audio/block-battle/page-33-zh.mp3",
+          "en": "bilingual-picturebooks/audio/block-battle/page-33-en.mp3",
+          "localEn": "content/media/legacy-audio/block-battle/page-33-en.mp3",
+          "localZh": "content/media/legacy-audio/block-battle/page-33-zh.mp3"
+        },
+        {
+          "page": 34,
+          "zh": "bilingual-picturebooks/audio/block-battle/page-34-zh.mp3",
+          "en": "bilingual-picturebooks/audio/block-battle/page-34-en.mp3",
+          "localEn": "content/media/legacy-audio/block-battle/page-34-en.mp3",
+          "localZh": "content/media/legacy-audio/block-battle/page-34-zh.mp3"
+        },
+        {
+          "page": 35,
+          "zh": "bilingual-picturebooks/audio/block-battle/page-35-zh.mp3",
+          "en": "bilingual-picturebooks/audio/block-battle/page-35-en.mp3",
+          "localEn": "content/media/legacy-audio/block-battle/page-35-en.mp3",
+          "localZh": "content/media/legacy-audio/block-battle/page-35-zh.mp3"
+        },
+        {
+          "page": 36,
+          "zh": "bilingual-picturebooks/audio/block-battle/page-36-zh.mp3",
+          "en": "bilingual-picturebooks/audio/block-battle/page-36-en.mp3",
+          "localEn": "content/media/legacy-audio/block-battle/page-36-en.mp3",
+          "localZh": "content/media/legacy-audio/block-battle/page-36-zh.mp3"
+        },
+        {
+          "page": 37,
+          "zh": "bilingual-picturebooks/audio/block-battle/page-37-zh.mp3",
+          "en": "bilingual-picturebooks/audio/block-battle/page-37-en.mp3",
+          "localEn": "content/media/legacy-audio/block-battle/page-37-en.mp3",
+          "localZh": "content/media/legacy-audio/block-battle/page-37-zh.mp3"
+        },
+        {
+          "page": 38,
+          "zh": "bilingual-picturebooks/audio/block-battle/page-38-zh.mp3",
+          "en": "bilingual-picturebooks/audio/block-battle/page-38-en.mp3",
+          "localEn": "content/media/legacy-audio/block-battle/page-38-en.mp3",
+          "localZh": "content/media/legacy-audio/block-battle/page-38-zh.mp3"
+        },
+        {
+          "page": 39,
+          "zh": "bilingual-picturebooks/audio/block-battle/page-39-zh.mp3",
+          "en": "bilingual-picturebooks/audio/block-battle/page-39-en.mp3",
+          "localEn": "content/media/legacy-audio/block-battle/page-39-en.mp3",
+          "localZh": "content/media/legacy-audio/block-battle/page-39-zh.mp3"
+        },
+        {
+          "page": 40,
+          "zh": "bilingual-picturebooks/audio/block-battle/page-40-zh.mp3",
+          "en": "bilingual-picturebooks/audio/block-battle/page-40-en.mp3",
+          "localEn": "content/media/legacy-audio/block-battle/page-40-en.mp3",
+          "localZh": "content/media/legacy-audio/block-battle/page-40-zh.mp3"
+        },
+        {
+          "page": 41,
+          "zh": "bilingual-picturebooks/audio/block-battle/page-41-zh.mp3",
+          "en": "bilingual-picturebooks/audio/block-battle/page-41-en.mp3",
+          "localEn": "content/media/legacy-audio/block-battle/page-41-en.mp3",
+          "localZh": "content/media/legacy-audio/block-battle/page-41-zh.mp3"
+        },
+        {
+          "page": 42,
+          "zh": "bilingual-picturebooks/audio/block-battle/page-42-zh.mp3",
+          "en": "bilingual-picturebooks/audio/block-battle/page-42-en.mp3",
+          "localEn": "content/media/legacy-audio/block-battle/page-42-en.mp3",
+          "localZh": "content/media/legacy-audio/block-battle/page-42-zh.mp3"
+        },
+        {
+          "page": 43,
+          "zh": "bilingual-picturebooks/audio/block-battle/page-43-zh.mp3",
+          "en": "bilingual-picturebooks/audio/block-battle/page-43-en.mp3",
+          "localEn": "content/media/legacy-audio/block-battle/page-43-en.mp3",
+          "localZh": "content/media/legacy-audio/block-battle/page-43-zh.mp3"
+        },
+        {
+          "page": 44,
+          "zh": "bilingual-picturebooks/audio/block-battle/page-44-zh.mp3",
+          "en": "bilingual-picturebooks/audio/block-battle/page-44-en.mp3",
+          "localEn": "content/media/legacy-audio/block-battle/page-44-en.mp3",
+          "localZh": "content/media/legacy-audio/block-battle/page-44-zh.mp3"
+        },
+        {
+          "page": 45,
+          "zh": "bilingual-picturebooks/audio/block-battle/page-45-zh.mp3",
+          "en": "bilingual-picturebooks/audio/block-battle/page-45-en.mp3",
+          "localEn": "content/media/legacy-audio/block-battle/page-45-en.mp3",
+          "localZh": "content/media/legacy-audio/block-battle/page-45-zh.mp3"
+        },
+        {
+          "page": 46,
+          "zh": "bilingual-picturebooks/audio/block-battle/page-46-zh.mp3",
+          "en": "bilingual-picturebooks/audio/block-battle/page-46-en.mp3",
+          "localEn": "content/media/legacy-audio/block-battle/page-46-en.mp3",
+          "localZh": "content/media/legacy-audio/block-battle/page-46-zh.mp3"
+        },
+        {
+          "page": 47,
+          "zh": "bilingual-picturebooks/audio/block-battle/page-47-zh.mp3",
+          "en": "bilingual-picturebooks/audio/block-battle/page-47-en.mp3",
+          "localEn": "content/media/legacy-audio/block-battle/page-47-en.mp3",
+          "localZh": "content/media/legacy-audio/block-battle/page-47-zh.mp3"
+        },
+        {
+          "page": 48,
+          "zh": "bilingual-picturebooks/audio/block-battle/page-48-zh.mp3",
+          "en": "bilingual-picturebooks/audio/block-battle/page-48-en.mp3",
+          "localEn": "content/media/legacy-audio/block-battle/page-48-en.mp3",
+          "localZh": "content/media/legacy-audio/block-battle/page-48-zh.mp3"
+        },
+        {
+          "page": 49,
+          "zh": "bilingual-picturebooks/audio/block-battle/page-49-zh.mp3",
+          "en": "bilingual-picturebooks/audio/block-battle/page-49-en.mp3",
+          "localEn": "content/media/legacy-audio/block-battle/page-49-en.mp3",
+          "localZh": "content/media/legacy-audio/block-battle/page-49-zh.mp3"
+        },
+        {
+          "page": 50,
+          "zh": "bilingual-picturebooks/audio/block-battle/page-50-zh.mp3",
+          "en": "bilingual-picturebooks/audio/block-battle/page-50-en.mp3",
+          "localEn": "content/media/legacy-audio/block-battle/page-50-en.mp3",
+          "localZh": "content/media/legacy-audio/block-battle/page-50-zh.mp3"
+        },
+        {
+          "page": 51,
+          "zh": "bilingual-picturebooks/audio/block-battle/page-51-zh.mp3",
+          "en": "bilingual-picturebooks/audio/block-battle/page-51-en.mp3",
+          "localEn": "content/media/legacy-audio/block-battle/page-51-en.mp3",
+          "localZh": "content/media/legacy-audio/block-battle/page-51-zh.mp3"
+        },
+        {
+          "page": 52,
+          "zh": "bilingual-picturebooks/audio/block-battle/page-52-zh.mp3",
+          "en": "bilingual-picturebooks/audio/block-battle/page-52-en.mp3",
+          "localEn": "content/media/legacy-audio/block-battle/page-52-en.mp3",
+          "localZh": "content/media/legacy-audio/block-battle/page-52-zh.mp3"
+        }
+      ]
+    },
+    {
+      "sourceId": "brave-tank",
+      "canonicalId": "brave-tank",
+      "status": "source-only",
+      "sourcePath": "bilingual-picturebooks/audio/brave-tank",
+      "sourceFileCount": 38,
+      "pages": [
+        {
+          "page": 1,
+          "zh": "bilingual-picturebooks/audio/brave-tank/page-1-zh.mp3",
+          "en": "bilingual-picturebooks/audio/brave-tank/page-1-en.mp3",
+          "localEn": "content/media/legacy-audio/brave-tank/page-1-en.mp3",
+          "localZh": "content/media/legacy-audio/brave-tank/page-1-zh.mp3"
+        },
+        {
+          "page": 2,
+          "zh": "bilingual-picturebooks/audio/brave-tank/page-2-zh.mp3",
+          "en": "bilingual-picturebooks/audio/brave-tank/page-2-en.mp3",
+          "localEn": "content/media/legacy-audio/brave-tank/page-2-en.mp3",
+          "localZh": "content/media/legacy-audio/brave-tank/page-2-zh.mp3"
+        },
+        {
+          "page": 3,
+          "zh": "bilingual-picturebooks/audio/brave-tank/page-3-zh.mp3",
+          "en": "bilingual-picturebooks/audio/brave-tank/page-3-en.mp3",
+          "localEn": "content/media/legacy-audio/brave-tank/page-3-en.mp3",
+          "localZh": "content/media/legacy-audio/brave-tank/page-3-zh.mp3"
+        },
+        {
+          "page": 4,
+          "zh": "bilingual-picturebooks/audio/brave-tank/page-4-zh.mp3",
+          "en": "bilingual-picturebooks/audio/brave-tank/page-4-en.mp3",
+          "localEn": "content/media/legacy-audio/brave-tank/page-4-en.mp3",
+          "localZh": "content/media/legacy-audio/brave-tank/page-4-zh.mp3"
+        },
+        {
+          "page": 5,
+          "zh": "bilingual-picturebooks/audio/brave-tank/page-5-zh.mp3",
+          "en": "bilingual-picturebooks/audio/brave-tank/page-5-en.mp3",
+          "localEn": "content/media/legacy-audio/brave-tank/page-5-en.mp3",
+          "localZh": "content/media/legacy-audio/brave-tank/page-5-zh.mp3"
+        },
+        {
+          "page": 6,
+          "zh": "bilingual-picturebooks/audio/brave-tank/page-6-zh.mp3",
+          "en": "bilingual-picturebooks/audio/brave-tank/page-6-en.mp3",
+          "localEn": "content/media/legacy-audio/brave-tank/page-6-en.mp3",
+          "localZh": "content/media/legacy-audio/brave-tank/page-6-zh.mp3"
+        },
+        {
+          "page": 7,
+          "zh": "bilingual-picturebooks/audio/brave-tank/page-7-zh.mp3",
+          "en": "bilingual-picturebooks/audio/brave-tank/page-7-en.mp3",
+          "localEn": "content/media/legacy-audio/brave-tank/page-7-en.mp3",
+          "localZh": "content/media/legacy-audio/brave-tank/page-7-zh.mp3"
+        },
+        {
+          "page": 8,
+          "zh": "bilingual-picturebooks/audio/brave-tank/page-8-zh.mp3",
+          "en": "bilingual-picturebooks/audio/brave-tank/page-8-en.mp3",
+          "localEn": "content/media/legacy-audio/brave-tank/page-8-en.mp3",
+          "localZh": "content/media/legacy-audio/brave-tank/page-8-zh.mp3"
+        },
+        {
+          "page": 9,
+          "zh": "bilingual-picturebooks/audio/brave-tank/page-9-zh.mp3",
+          "en": "bilingual-picturebooks/audio/brave-tank/page-9-en.mp3",
+          "localEn": "content/media/legacy-audio/brave-tank/page-9-en.mp3",
+          "localZh": "content/media/legacy-audio/brave-tank/page-9-zh.mp3"
+        },
+        {
+          "page": 10,
+          "zh": "bilingual-picturebooks/audio/brave-tank/page-10-zh.mp3",
+          "en": "bilingual-picturebooks/audio/brave-tank/page-10-en.mp3",
+          "localEn": "content/media/legacy-audio/brave-tank/page-10-en.mp3",
+          "localZh": "content/media/legacy-audio/brave-tank/page-10-zh.mp3"
+        },
+        {
+          "page": 11,
+          "zh": "bilingual-picturebooks/audio/brave-tank/page-11-zh.mp3",
+          "en": "bilingual-picturebooks/audio/brave-tank/page-11-en.mp3",
+          "localEn": "content/media/legacy-audio/brave-tank/page-11-en.mp3",
+          "localZh": "content/media/legacy-audio/brave-tank/page-11-zh.mp3"
+        },
+        {
+          "page": 12,
+          "zh": "bilingual-picturebooks/audio/brave-tank/page-12-zh.mp3",
+          "en": "bilingual-picturebooks/audio/brave-tank/page-12-en.mp3",
+          "localEn": "content/media/legacy-audio/brave-tank/page-12-en.mp3",
+          "localZh": "content/media/legacy-audio/brave-tank/page-12-zh.mp3"
+        },
+        {
+          "page": 13,
+          "zh": "bilingual-picturebooks/audio/brave-tank/page-13-zh.mp3",
+          "en": "bilingual-picturebooks/audio/brave-tank/page-13-en.mp3",
+          "localEn": "content/media/legacy-audio/brave-tank/page-13-en.mp3",
+          "localZh": "content/media/legacy-audio/brave-tank/page-13-zh.mp3"
+        },
+        {
+          "page": 14,
+          "zh": "bilingual-picturebooks/audio/brave-tank/page-14-zh.mp3",
+          "en": "bilingual-picturebooks/audio/brave-tank/page-14-en.mp3",
+          "localEn": "content/media/legacy-audio/brave-tank/page-14-en.mp3",
+          "localZh": "content/media/legacy-audio/brave-tank/page-14-zh.mp3"
+        },
+        {
+          "page": 15,
+          "zh": "bilingual-picturebooks/audio/brave-tank/page-15-zh.mp3",
+          "en": "bilingual-picturebooks/audio/brave-tank/page-15-en.mp3",
+          "localEn": "content/media/legacy-audio/brave-tank/page-15-en.mp3",
+          "localZh": "content/media/legacy-audio/brave-tank/page-15-zh.mp3"
+        },
+        {
+          "page": 16,
+          "zh": "bilingual-picturebooks/audio/brave-tank/page-16-zh.mp3",
+          "en": "bilingual-picturebooks/audio/brave-tank/page-16-en.mp3",
+          "localEn": "content/media/legacy-audio/brave-tank/page-16-en.mp3",
+          "localZh": "content/media/legacy-audio/brave-tank/page-16-zh.mp3"
+        },
+        {
+          "page": 17,
+          "zh": "bilingual-picturebooks/audio/brave-tank/page-17-zh.mp3",
+          "en": "bilingual-picturebooks/audio/brave-tank/page-17-en.mp3",
+          "localEn": "content/media/legacy-audio/brave-tank/page-17-en.mp3",
+          "localZh": "content/media/legacy-audio/brave-tank/page-17-zh.mp3"
+        },
+        {
+          "page": 18,
+          "zh": "bilingual-picturebooks/audio/brave-tank/page-18-zh.mp3",
+          "en": "bilingual-picturebooks/audio/brave-tank/page-18-en.mp3",
+          "localEn": "content/media/legacy-audio/brave-tank/page-18-en.mp3",
+          "localZh": "content/media/legacy-audio/brave-tank/page-18-zh.mp3"
+        },
+        {
+          "page": 19,
+          "zh": "bilingual-picturebooks/audio/brave-tank/page-19-zh.mp3",
+          "en": "bilingual-picturebooks/audio/brave-tank/page-19-en.mp3",
+          "localEn": "content/media/legacy-audio/brave-tank/page-19-en.mp3",
+          "localZh": "content/media/legacy-audio/brave-tank/page-19-zh.mp3"
+        }
+      ]
+    },
+    {
+      "sourceId": "invisible-tank",
+      "canonicalId": "invisible-tank",
+      "status": "source-only",
+      "sourcePath": "bilingual-picturebooks/audio/invisible-tank",
+      "sourceFileCount": 42,
+      "pages": [
+        {
+          "page": 1,
+          "zh": "bilingual-picturebooks/audio/invisible-tank/page-1-zh.mp3",
+          "en": "bilingual-picturebooks/audio/invisible-tank/page-1-en.mp3",
+          "localEn": "content/media/legacy-audio/invisible-tank/page-1-en.mp3",
+          "localZh": "content/media/legacy-audio/invisible-tank/page-1-zh.mp3"
+        },
+        {
+          "page": 2,
+          "zh": "bilingual-picturebooks/audio/invisible-tank/page-2-zh.mp3",
+          "en": "bilingual-picturebooks/audio/invisible-tank/page-2-en.mp3",
+          "localEn": "content/media/legacy-audio/invisible-tank/page-2-en.mp3",
+          "localZh": "content/media/legacy-audio/invisible-tank/page-2-zh.mp3"
+        },
+        {
+          "page": 3,
+          "zh": "bilingual-picturebooks/audio/invisible-tank/page-3-zh.mp3",
+          "en": "bilingual-picturebooks/audio/invisible-tank/page-3-en.mp3",
+          "localEn": "content/media/legacy-audio/invisible-tank/page-3-en.mp3",
+          "localZh": "content/media/legacy-audio/invisible-tank/page-3-zh.mp3"
+        },
+        {
+          "page": 4,
+          "zh": "bilingual-picturebooks/audio/invisible-tank/page-4-zh.mp3",
+          "en": "bilingual-picturebooks/audio/invisible-tank/page-4-en.mp3",
+          "localEn": "content/media/legacy-audio/invisible-tank/page-4-en.mp3",
+          "localZh": "content/media/legacy-audio/invisible-tank/page-4-zh.mp3"
+        },
+        {
+          "page": 5,
+          "zh": "bilingual-picturebooks/audio/invisible-tank/page-5-zh.mp3",
+          "en": "bilingual-picturebooks/audio/invisible-tank/page-5-en.mp3",
+          "localEn": "content/media/legacy-audio/invisible-tank/page-5-en.mp3",
+          "localZh": "content/media/legacy-audio/invisible-tank/page-5-zh.mp3"
+        },
+        {
+          "page": 6,
+          "zh": "bilingual-picturebooks/audio/invisible-tank/page-6-zh.mp3",
+          "en": "bilingual-picturebooks/audio/invisible-tank/page-6-en.mp3",
+          "localEn": "content/media/legacy-audio/invisible-tank/page-6-en.mp3",
+          "localZh": "content/media/legacy-audio/invisible-tank/page-6-zh.mp3"
+        },
+        {
+          "page": 7,
+          "zh": "bilingual-picturebooks/audio/invisible-tank/page-7-zh.mp3",
+          "en": "bilingual-picturebooks/audio/invisible-tank/page-7-en.mp3",
+          "localEn": "content/media/legacy-audio/invisible-tank/page-7-en.mp3",
+          "localZh": "content/media/legacy-audio/invisible-tank/page-7-zh.mp3"
+        },
+        {
+          "page": 8,
+          "zh": "bilingual-picturebooks/audio/invisible-tank/page-8-zh.mp3",
+          "en": "bilingual-picturebooks/audio/invisible-tank/page-8-en.mp3",
+          "localEn": "content/media/legacy-audio/invisible-tank/page-8-en.mp3",
+          "localZh": "content/media/legacy-audio/invisible-tank/page-8-zh.mp3"
+        },
+        {
+          "page": 9,
+          "zh": "bilingual-picturebooks/audio/invisible-tank/page-9-zh.mp3",
+          "en": "bilingual-picturebooks/audio/invisible-tank/page-9-en.mp3",
+          "localEn": "content/media/legacy-audio/invisible-tank/page-9-en.mp3",
+          "localZh": "content/media/legacy-audio/invisible-tank/page-9-zh.mp3"
+        },
+        {
+          "page": 10,
+          "zh": "bilingual-picturebooks/audio/invisible-tank/page-10-zh.mp3",
+          "en": "bilingual-picturebooks/audio/invisible-tank/page-10-en.mp3",
+          "localEn": "content/media/legacy-audio/invisible-tank/page-10-en.mp3",
+          "localZh": "content/media/legacy-audio/invisible-tank/page-10-zh.mp3"
+        },
+        {
+          "page": 11,
+          "zh": "bilingual-picturebooks/audio/invisible-tank/page-11-zh.mp3",
+          "en": "bilingual-picturebooks/audio/invisible-tank/page-11-en.mp3",
+          "localEn": "content/media/legacy-audio/invisible-tank/page-11-en.mp3",
+          "localZh": "content/media/legacy-audio/invisible-tank/page-11-zh.mp3"
+        },
+        {
+          "page": 12,
+          "zh": "bilingual-picturebooks/audio/invisible-tank/page-12-zh.mp3",
+          "en": "bilingual-picturebooks/audio/invisible-tank/page-12-en.mp3",
+          "localEn": "content/media/legacy-audio/invisible-tank/page-12-en.mp3",
+          "localZh": "content/media/legacy-audio/invisible-tank/page-12-zh.mp3"
+        },
+        {
+          "page": 13,
+          "zh": "bilingual-picturebooks/audio/invisible-tank/page-13-zh.mp3",
+          "en": "bilingual-picturebooks/audio/invisible-tank/page-13-en.mp3",
+          "localEn": "content/media/legacy-audio/invisible-tank/page-13-en.mp3",
+          "localZh": "content/media/legacy-audio/invisible-tank/page-13-zh.mp3"
+        },
+        {
+          "page": 14,
+          "zh": "bilingual-picturebooks/audio/invisible-tank/page-14-zh.mp3",
+          "en": "bilingual-picturebooks/audio/invisible-tank/page-14-en.mp3",
+          "localEn": "content/media/legacy-audio/invisible-tank/page-14-en.mp3",
+          "localZh": "content/media/legacy-audio/invisible-tank/page-14-zh.mp3"
+        },
+        {
+          "page": 15,
+          "zh": "bilingual-picturebooks/audio/invisible-tank/page-15-zh.mp3",
+          "en": "bilingual-picturebooks/audio/invisible-tank/page-15-en.mp3",
+          "localEn": "content/media/legacy-audio/invisible-tank/page-15-en.mp3",
+          "localZh": "content/media/legacy-audio/invisible-tank/page-15-zh.mp3"
+        },
+        {
+          "page": 16,
+          "zh": "bilingual-picturebooks/audio/invisible-tank/page-16-zh.mp3",
+          "en": "bilingual-picturebooks/audio/invisible-tank/page-16-en.mp3",
+          "localEn": "content/media/legacy-audio/invisible-tank/page-16-en.mp3",
+          "localZh": "content/media/legacy-audio/invisible-tank/page-16-zh.mp3"
+        },
+        {
+          "page": 17,
+          "zh": "bilingual-picturebooks/audio/invisible-tank/page-17-zh.mp3",
+          "en": "bilingual-picturebooks/audio/invisible-tank/page-17-en.mp3",
+          "localEn": "content/media/legacy-audio/invisible-tank/page-17-en.mp3",
+          "localZh": "content/media/legacy-audio/invisible-tank/page-17-zh.mp3"
+        },
+        {
+          "page": 18,
+          "zh": "bilingual-picturebooks/audio/invisible-tank/page-18-zh.mp3",
+          "en": "bilingual-picturebooks/audio/invisible-tank/page-18-en.mp3",
+          "localEn": "content/media/legacy-audio/invisible-tank/page-18-en.mp3",
+          "localZh": "content/media/legacy-audio/invisible-tank/page-18-zh.mp3"
+        },
+        {
+          "page": 19,
+          "zh": "bilingual-picturebooks/audio/invisible-tank/page-19-zh.mp3",
+          "en": "bilingual-picturebooks/audio/invisible-tank/page-19-en.mp3",
+          "localEn": "content/media/legacy-audio/invisible-tank/page-19-en.mp3",
+          "localZh": "content/media/legacy-audio/invisible-tank/page-19-zh.mp3"
+        },
+        {
+          "page": 20,
+          "zh": "bilingual-picturebooks/audio/invisible-tank/page-20-zh.mp3",
+          "en": "bilingual-picturebooks/audio/invisible-tank/page-20-en.mp3",
+          "localEn": "content/media/legacy-audio/invisible-tank/page-20-en.mp3",
+          "localZh": "content/media/legacy-audio/invisible-tank/page-20-zh.mp3"
+        },
+        {
+          "page": 21,
+          "zh": "bilingual-picturebooks/audio/invisible-tank/page-21-zh.mp3",
+          "en": "bilingual-picturebooks/audio/invisible-tank/page-21-en.mp3",
+          "localEn": "content/media/legacy-audio/invisible-tank/page-21-en.mp3",
+          "localZh": "content/media/legacy-audio/invisible-tank/page-21-zh.mp3"
+        }
+      ]
+    },
+    {
+      "sourceId": "minecraft",
+      "canonicalId": "minecraft",
+      "status": "source-only",
+      "sourcePath": "bilingual-picturebooks/audio/minecraft",
+      "sourceFileCount": 40,
+      "pages": [
+        {
+          "page": 1,
+          "zh": "bilingual-picturebooks/audio/minecraft/page-1-zh.mp3",
+          "en": "bilingual-picturebooks/audio/minecraft/page-1-en.mp3",
+          "localEn": "content/media/legacy-audio/minecraft/page-1-en.mp3",
+          "localZh": "content/media/legacy-audio/minecraft/page-1-zh.mp3"
+        },
+        {
+          "page": 2,
+          "zh": "bilingual-picturebooks/audio/minecraft/page-2-zh.mp3",
+          "en": "bilingual-picturebooks/audio/minecraft/page-2-en.mp3",
+          "localEn": "content/media/legacy-audio/minecraft/page-2-en.mp3",
+          "localZh": "content/media/legacy-audio/minecraft/page-2-zh.mp3"
+        },
+        {
+          "page": 3,
+          "zh": "bilingual-picturebooks/audio/minecraft/page-3-zh.mp3",
+          "en": "bilingual-picturebooks/audio/minecraft/page-3-en.mp3",
+          "localEn": "content/media/legacy-audio/minecraft/page-3-en.mp3",
+          "localZh": "content/media/legacy-audio/minecraft/page-3-zh.mp3"
+        },
+        {
+          "page": 4,
+          "zh": "bilingual-picturebooks/audio/minecraft/page-4-zh.mp3",
+          "en": "bilingual-picturebooks/audio/minecraft/page-4-en.mp3",
+          "localEn": "content/media/legacy-audio/minecraft/page-4-en.mp3",
+          "localZh": "content/media/legacy-audio/minecraft/page-4-zh.mp3"
+        },
+        {
+          "page": 5,
+          "zh": "bilingual-picturebooks/audio/minecraft/page-5-zh.mp3",
+          "en": "bilingual-picturebooks/audio/minecraft/page-5-en.mp3",
+          "localEn": "content/media/legacy-audio/minecraft/page-5-en.mp3",
+          "localZh": "content/media/legacy-audio/minecraft/page-5-zh.mp3"
+        },
+        {
+          "page": 6,
+          "zh": "bilingual-picturebooks/audio/minecraft/page-6-zh.mp3",
+          "en": "bilingual-picturebooks/audio/minecraft/page-6-en.mp3",
+          "localEn": "content/media/legacy-audio/minecraft/page-6-en.mp3",
+          "localZh": "content/media/legacy-audio/minecraft/page-6-zh.mp3"
+        },
+        {
+          "page": 7,
+          "zh": "bilingual-picturebooks/audio/minecraft/page-7-zh.mp3",
+          "en": "bilingual-picturebooks/audio/minecraft/page-7-en.mp3",
+          "localEn": "content/media/legacy-audio/minecraft/page-7-en.mp3",
+          "localZh": "content/media/legacy-audio/minecraft/page-7-zh.mp3"
+        },
+        {
+          "page": 8,
+          "zh": "bilingual-picturebooks/audio/minecraft/page-8-zh.mp3",
+          "en": "bilingual-picturebooks/audio/minecraft/page-8-en.mp3",
+          "localEn": "content/media/legacy-audio/minecraft/page-8-en.mp3",
+          "localZh": "content/media/legacy-audio/minecraft/page-8-zh.mp3"
+        },
+        {
+          "page": 9,
+          "zh": "bilingual-picturebooks/audio/minecraft/page-9-zh.mp3",
+          "en": "bilingual-picturebooks/audio/minecraft/page-9-en.mp3",
+          "localEn": "content/media/legacy-audio/minecraft/page-9-en.mp3",
+          "localZh": "content/media/legacy-audio/minecraft/page-9-zh.mp3"
+        },
+        {
+          "page": 10,
+          "zh": "bilingual-picturebooks/audio/minecraft/page-10-zh.mp3",
+          "en": "bilingual-picturebooks/audio/minecraft/page-10-en.mp3",
+          "localEn": "content/media/legacy-audio/minecraft/page-10-en.mp3",
+          "localZh": "content/media/legacy-audio/minecraft/page-10-zh.mp3"
+        },
+        {
+          "page": 11,
+          "zh": "bilingual-picturebooks/audio/minecraft/page-11-zh.mp3",
+          "en": "bilingual-picturebooks/audio/minecraft/page-11-en.mp3",
+          "localEn": "content/media/legacy-audio/minecraft/page-11-en.mp3",
+          "localZh": "content/media/legacy-audio/minecraft/page-11-zh.mp3"
+        },
+        {
+          "page": 12,
+          "zh": "bilingual-picturebooks/audio/minecraft/page-12-zh.mp3",
+          "en": "bilingual-picturebooks/audio/minecraft/page-12-en.mp3",
+          "localEn": "content/media/legacy-audio/minecraft/page-12-en.mp3",
+          "localZh": "content/media/legacy-audio/minecraft/page-12-zh.mp3"
+        },
+        {
+          "page": 13,
+          "zh": "bilingual-picturebooks/audio/minecraft/page-13-zh.mp3",
+          "en": "bilingual-picturebooks/audio/minecraft/page-13-en.mp3",
+          "localEn": "content/media/legacy-audio/minecraft/page-13-en.mp3",
+          "localZh": "content/media/legacy-audio/minecraft/page-13-zh.mp3"
+        },
+        {
+          "page": 14,
+          "zh": "bilingual-picturebooks/audio/minecraft/page-14-zh.mp3",
+          "en": "bilingual-picturebooks/audio/minecraft/page-14-en.mp3",
+          "localEn": "content/media/legacy-audio/minecraft/page-14-en.mp3",
+          "localZh": "content/media/legacy-audio/minecraft/page-14-zh.mp3"
+        },
+        {
+          "page": 15,
+          "zh": "bilingual-picturebooks/audio/minecraft/page-15-zh.mp3",
+          "en": "bilingual-picturebooks/audio/minecraft/page-15-en.mp3",
+          "localEn": "content/media/legacy-audio/minecraft/page-15-en.mp3",
+          "localZh": "content/media/legacy-audio/minecraft/page-15-zh.mp3"
+        },
+        {
+          "page": 16,
+          "zh": "bilingual-picturebooks/audio/minecraft/page-16-zh.mp3",
+          "en": "bilingual-picturebooks/audio/minecraft/page-16-en.mp3",
+          "localEn": "content/media/legacy-audio/minecraft/page-16-en.mp3",
+          "localZh": "content/media/legacy-audio/minecraft/page-16-zh.mp3"
+        },
+        {
+          "page": 17,
+          "zh": "bilingual-picturebooks/audio/minecraft/page-17-zh.mp3",
+          "en": "bilingual-picturebooks/audio/minecraft/page-17-en.mp3",
+          "localEn": "content/media/legacy-audio/minecraft/page-17-en.mp3",
+          "localZh": "content/media/legacy-audio/minecraft/page-17-zh.mp3"
+        },
+        {
+          "page": 18,
+          "zh": "bilingual-picturebooks/audio/minecraft/page-18-zh.mp3",
+          "en": "bilingual-picturebooks/audio/minecraft/page-18-en.mp3",
+          "localEn": "content/media/legacy-audio/minecraft/page-18-en.mp3",
+          "localZh": "content/media/legacy-audio/minecraft/page-18-zh.mp3"
+        },
+        {
+          "page": 19,
+          "zh": "bilingual-picturebooks/audio/minecraft/page-19-zh.mp3",
+          "en": "bilingual-picturebooks/audio/minecraft/page-19-en.mp3",
+          "localEn": "content/media/legacy-audio/minecraft/page-19-en.mp3",
+          "localZh": "content/media/legacy-audio/minecraft/page-19-zh.mp3"
+        },
+        {
+          "page": 20,
+          "zh": "bilingual-picturebooks/audio/minecraft/page-20-zh.mp3",
+          "en": "bilingual-picturebooks/audio/minecraft/page-20-en.mp3",
+          "localEn": "content/media/legacy-audio/minecraft/page-20-en.mp3",
+          "localZh": "content/media/legacy-audio/minecraft/page-20-zh.mp3"
+        }
+      ]
+    },
+    {
+      "sourceId": "pea-shooter",
+      "canonicalId": "brave-pea-shooter",
+      "status": "source-only",
+      "sourcePath": "bilingual-picturebooks/audio/pea-shooter",
+      "sourceFileCount": 38,
+      "pages": [
+        {
+          "page": 1,
+          "zh": "bilingual-picturebooks/audio/pea-shooter/page-1-zh.mp3",
+          "en": "bilingual-picturebooks/audio/pea-shooter/page-1-en.mp3",
+          "localEn": "content/media/legacy-audio/pea-shooter/page-1-en.mp3",
+          "localZh": "content/media/legacy-audio/pea-shooter/page-1-zh.mp3"
+        },
+        {
+          "page": 2,
+          "zh": "bilingual-picturebooks/audio/pea-shooter/page-2-zh.mp3",
+          "en": "bilingual-picturebooks/audio/pea-shooter/page-2-en.mp3",
+          "localEn": "content/media/legacy-audio/pea-shooter/page-2-en.mp3",
+          "localZh": "content/media/legacy-audio/pea-shooter/page-2-zh.mp3"
+        },
+        {
+          "page": 3,
+          "zh": "bilingual-picturebooks/audio/pea-shooter/page-3-zh.mp3",
+          "en": "bilingual-picturebooks/audio/pea-shooter/page-3-en.mp3",
+          "localEn": "content/media/legacy-audio/pea-shooter/page-3-en.mp3",
+          "localZh": "content/media/legacy-audio/pea-shooter/page-3-zh.mp3"
+        },
+        {
+          "page": 4,
+          "zh": "bilingual-picturebooks/audio/pea-shooter/page-4-zh.mp3",
+          "en": "bilingual-picturebooks/audio/pea-shooter/page-4-en.mp3",
+          "localEn": "content/media/legacy-audio/pea-shooter/page-4-en.mp3",
+          "localZh": "content/media/legacy-audio/pea-shooter/page-4-zh.mp3"
+        },
+        {
+          "page": 5,
+          "zh": "bilingual-picturebooks/audio/pea-shooter/page-5-zh.mp3",
+          "en": "bilingual-picturebooks/audio/pea-shooter/page-5-en.mp3",
+          "localEn": "content/media/legacy-audio/pea-shooter/page-5-en.mp3",
+          "localZh": "content/media/legacy-audio/pea-shooter/page-5-zh.mp3"
+        },
+        {
+          "page": 6,
+          "zh": "bilingual-picturebooks/audio/pea-shooter/page-6-zh.mp3",
+          "en": "bilingual-picturebooks/audio/pea-shooter/page-6-en.mp3",
+          "localEn": "content/media/legacy-audio/pea-shooter/page-6-en.mp3",
+          "localZh": "content/media/legacy-audio/pea-shooter/page-6-zh.mp3"
+        },
+        {
+          "page": 7,
+          "zh": "bilingual-picturebooks/audio/pea-shooter/page-7-zh.mp3",
+          "en": "bilingual-picturebooks/audio/pea-shooter/page-7-en.mp3",
+          "localEn": "content/media/legacy-audio/pea-shooter/page-7-en.mp3",
+          "localZh": "content/media/legacy-audio/pea-shooter/page-7-zh.mp3"
+        },
+        {
+          "page": 8,
+          "zh": "bilingual-picturebooks/audio/pea-shooter/page-8-zh.mp3",
+          "en": "bilingual-picturebooks/audio/pea-shooter/page-8-en.mp3",
+          "localEn": "content/media/legacy-audio/pea-shooter/page-8-en.mp3",
+          "localZh": "content/media/legacy-audio/pea-shooter/page-8-zh.mp3"
+        },
+        {
+          "page": 9,
+          "zh": "bilingual-picturebooks/audio/pea-shooter/page-9-zh.mp3",
+          "en": "bilingual-picturebooks/audio/pea-shooter/page-9-en.mp3",
+          "localEn": "content/media/legacy-audio/pea-shooter/page-9-en.mp3",
+          "localZh": "content/media/legacy-audio/pea-shooter/page-9-zh.mp3"
+        },
+        {
+          "page": 10,
+          "zh": "bilingual-picturebooks/audio/pea-shooter/page-10-zh.mp3",
+          "en": "bilingual-picturebooks/audio/pea-shooter/page-10-en.mp3",
+          "localEn": "content/media/legacy-audio/pea-shooter/page-10-en.mp3",
+          "localZh": "content/media/legacy-audio/pea-shooter/page-10-zh.mp3"
+        },
+        {
+          "page": 11,
+          "zh": "bilingual-picturebooks/audio/pea-shooter/page-11-zh.mp3",
+          "en": "bilingual-picturebooks/audio/pea-shooter/page-11-en.mp3",
+          "localEn": "content/media/legacy-audio/pea-shooter/page-11-en.mp3",
+          "localZh": "content/media/legacy-audio/pea-shooter/page-11-zh.mp3"
+        },
+        {
+          "page": 12,
+          "zh": "bilingual-picturebooks/audio/pea-shooter/page-12-zh.mp3",
+          "en": "bilingual-picturebooks/audio/pea-shooter/page-12-en.mp3",
+          "localEn": "content/media/legacy-audio/pea-shooter/page-12-en.mp3",
+          "localZh": "content/media/legacy-audio/pea-shooter/page-12-zh.mp3"
+        },
+        {
+          "page": 13,
+          "zh": "bilingual-picturebooks/audio/pea-shooter/page-13-zh.mp3",
+          "en": "bilingual-picturebooks/audio/pea-shooter/page-13-en.mp3",
+          "localEn": "content/media/legacy-audio/pea-shooter/page-13-en.mp3",
+          "localZh": "content/media/legacy-audio/pea-shooter/page-13-zh.mp3"
+        },
+        {
+          "page": 14,
+          "zh": "bilingual-picturebooks/audio/pea-shooter/page-14-zh.mp3",
+          "en": "bilingual-picturebooks/audio/pea-shooter/page-14-en.mp3",
+          "localEn": "content/media/legacy-audio/pea-shooter/page-14-en.mp3",
+          "localZh": "content/media/legacy-audio/pea-shooter/page-14-zh.mp3"
+        },
+        {
+          "page": 15,
+          "zh": "bilingual-picturebooks/audio/pea-shooter/page-15-zh.mp3",
+          "en": "bilingual-picturebooks/audio/pea-shooter/page-15-en.mp3",
+          "localEn": "content/media/legacy-audio/pea-shooter/page-15-en.mp3",
+          "localZh": "content/media/legacy-audio/pea-shooter/page-15-zh.mp3"
+        },
+        {
+          "page": 16,
+          "zh": "bilingual-picturebooks/audio/pea-shooter/page-16-zh.mp3",
+          "en": "bilingual-picturebooks/audio/pea-shooter/page-16-en.mp3",
+          "localEn": "content/media/legacy-audio/pea-shooter/page-16-en.mp3",
+          "localZh": "content/media/legacy-audio/pea-shooter/page-16-zh.mp3"
+        },
+        {
+          "page": 17,
+          "zh": "bilingual-picturebooks/audio/pea-shooter/page-17-zh.mp3",
+          "en": "bilingual-picturebooks/audio/pea-shooter/page-17-en.mp3",
+          "localEn": "content/media/legacy-audio/pea-shooter/page-17-en.mp3",
+          "localZh": "content/media/legacy-audio/pea-shooter/page-17-zh.mp3"
+        },
+        {
+          "page": 18,
+          "zh": "bilingual-picturebooks/audio/pea-shooter/page-18-zh.mp3",
+          "en": "bilingual-picturebooks/audio/pea-shooter/page-18-en.mp3",
+          "localEn": "content/media/legacy-audio/pea-shooter/page-18-en.mp3",
+          "localZh": "content/media/legacy-audio/pea-shooter/page-18-zh.mp3"
+        },
+        {
+          "page": 19,
+          "zh": "bilingual-picturebooks/audio/pea-shooter/page-19-zh.mp3",
+          "en": "bilingual-picturebooks/audio/pea-shooter/page-19-en.mp3",
+          "localEn": "content/media/legacy-audio/pea-shooter/page-19-en.mp3",
+          "localZh": "content/media/legacy-audio/pea-shooter/page-19-zh.mp3"
+        }
+      ]
+    },
+    {
+      "sourceId": "robot-battle",
+      "canonicalId": "robot-battle",
+      "status": "source-only",
+      "sourcePath": "bilingual-picturebooks/audio/robot-battle",
+      "sourceFileCount": 39,
+      "pages": [
+        {
+          "page": 1,
+          "zh": "bilingual-picturebooks/audio/robot-battle/page-1-zh.mp3",
+          "en": null,
+          "localZh": "content/media/legacy-audio/robot-battle/page-1-zh.mp3"
+        },
+        {
+          "page": 2,
+          "zh": "bilingual-picturebooks/audio/robot-battle/page-2-zh.mp3",
+          "en": "bilingual-picturebooks/audio/robot-battle/page-2-en.mp3",
+          "localEn": "content/media/legacy-audio/robot-battle/page-2-en.mp3",
+          "localZh": "content/media/legacy-audio/robot-battle/page-2-zh.mp3"
+        },
+        {
+          "page": 3,
+          "zh": "bilingual-picturebooks/audio/robot-battle/page-3-zh.mp3",
+          "en": "bilingual-picturebooks/audio/robot-battle/page-3-en.mp3",
+          "localEn": "content/media/legacy-audio/robot-battle/page-3-en.mp3",
+          "localZh": "content/media/legacy-audio/robot-battle/page-3-zh.mp3"
+        },
+        {
+          "page": 4,
+          "zh": "bilingual-picturebooks/audio/robot-battle/page-4-zh.mp3",
+          "en": "bilingual-picturebooks/audio/robot-battle/page-4-en.mp3",
+          "localEn": "content/media/legacy-audio/robot-battle/page-4-en.mp3",
+          "localZh": "content/media/legacy-audio/robot-battle/page-4-zh.mp3"
+        },
+        {
+          "page": 5,
+          "zh": "bilingual-picturebooks/audio/robot-battle/page-5-zh.mp3",
+          "en": "bilingual-picturebooks/audio/robot-battle/page-5-en.mp3",
+          "localEn": "content/media/legacy-audio/robot-battle/page-5-en.mp3",
+          "localZh": "content/media/legacy-audio/robot-battle/page-5-zh.mp3"
+        },
+        {
+          "page": 6,
+          "zh": "bilingual-picturebooks/audio/robot-battle/page-6-zh.mp3",
+          "en": "bilingual-picturebooks/audio/robot-battle/page-6-en.mp3",
+          "localEn": "content/media/legacy-audio/robot-battle/page-6-en.mp3",
+          "localZh": "content/media/legacy-audio/robot-battle/page-6-zh.mp3"
+        },
+        {
+          "page": 7,
+          "zh": "bilingual-picturebooks/audio/robot-battle/page-7-zh.mp3",
+          "en": "bilingual-picturebooks/audio/robot-battle/page-7-en.mp3",
+          "localEn": "content/media/legacy-audio/robot-battle/page-7-en.mp3",
+          "localZh": "content/media/legacy-audio/robot-battle/page-7-zh.mp3"
+        },
+        {
+          "page": 8,
+          "zh": "bilingual-picturebooks/audio/robot-battle/page-8-zh.mp3",
+          "en": "bilingual-picturebooks/audio/robot-battle/page-8-en.mp3",
+          "localEn": "content/media/legacy-audio/robot-battle/page-8-en.mp3",
+          "localZh": "content/media/legacy-audio/robot-battle/page-8-zh.mp3"
+        },
+        {
+          "page": 9,
+          "zh": "bilingual-picturebooks/audio/robot-battle/page-9-zh.mp3",
+          "en": "bilingual-picturebooks/audio/robot-battle/page-9-en.mp3",
+          "localEn": "content/media/legacy-audio/robot-battle/page-9-en.mp3",
+          "localZh": "content/media/legacy-audio/robot-battle/page-9-zh.mp3"
+        },
+        {
+          "page": 10,
+          "zh": "bilingual-picturebooks/audio/robot-battle/page-10-zh.mp3",
+          "en": "bilingual-picturebooks/audio/robot-battle/page-10-en.mp3",
+          "localEn": "content/media/legacy-audio/robot-battle/page-10-en.mp3",
+          "localZh": "content/media/legacy-audio/robot-battle/page-10-zh.mp3"
+        },
+        {
+          "page": 11,
+          "zh": "bilingual-picturebooks/audio/robot-battle/page-11-zh.mp3",
+          "en": "bilingual-picturebooks/audio/robot-battle/page-11-en.mp3",
+          "localEn": "content/media/legacy-audio/robot-battle/page-11-en.mp3",
+          "localZh": "content/media/legacy-audio/robot-battle/page-11-zh.mp3"
+        },
+        {
+          "page": 12,
+          "zh": "bilingual-picturebooks/audio/robot-battle/page-12-zh.mp3",
+          "en": "bilingual-picturebooks/audio/robot-battle/page-12-en.mp3",
+          "localEn": "content/media/legacy-audio/robot-battle/page-12-en.mp3",
+          "localZh": "content/media/legacy-audio/robot-battle/page-12-zh.mp3"
+        },
+        {
+          "page": 13,
+          "zh": "bilingual-picturebooks/audio/robot-battle/page-13-zh.mp3",
+          "en": "bilingual-picturebooks/audio/robot-battle/page-13-en.mp3",
+          "localEn": "content/media/legacy-audio/robot-battle/page-13-en.mp3",
+          "localZh": "content/media/legacy-audio/robot-battle/page-13-zh.mp3"
+        },
+        {
+          "page": 14,
+          "zh": "bilingual-picturebooks/audio/robot-battle/page-14-zh.mp3",
+          "en": "bilingual-picturebooks/audio/robot-battle/page-14-en.mp3",
+          "localEn": "content/media/legacy-audio/robot-battle/page-14-en.mp3",
+          "localZh": "content/media/legacy-audio/robot-battle/page-14-zh.mp3"
+        },
+        {
+          "page": 15,
+          "zh": "bilingual-picturebooks/audio/robot-battle/page-15-zh.mp3",
+          "en": "bilingual-picturebooks/audio/robot-battle/page-15-en.mp3",
+          "localEn": "content/media/legacy-audio/robot-battle/page-15-en.mp3",
+          "localZh": "content/media/legacy-audio/robot-battle/page-15-zh.mp3"
+        },
+        {
+          "page": 16,
+          "zh": "bilingual-picturebooks/audio/robot-battle/page-16-zh.mp3",
+          "en": "bilingual-picturebooks/audio/robot-battle/page-16-en.mp3",
+          "localEn": "content/media/legacy-audio/robot-battle/page-16-en.mp3",
+          "localZh": "content/media/legacy-audio/robot-battle/page-16-zh.mp3"
+        },
+        {
+          "page": 17,
+          "zh": "bilingual-picturebooks/audio/robot-battle/page-17-zh.mp3",
+          "en": "bilingual-picturebooks/audio/robot-battle/page-17-en.mp3",
+          "localEn": "content/media/legacy-audio/robot-battle/page-17-en.mp3",
+          "localZh": "content/media/legacy-audio/robot-battle/page-17-zh.mp3"
+        },
+        {
+          "page": 18,
+          "zh": "bilingual-picturebooks/audio/robot-battle/page-18-zh.mp3",
+          "en": "bilingual-picturebooks/audio/robot-battle/page-18-en.mp3",
+          "localEn": "content/media/legacy-audio/robot-battle/page-18-en.mp3",
+          "localZh": "content/media/legacy-audio/robot-battle/page-18-zh.mp3"
+        },
+        {
+          "page": 19,
+          "zh": "bilingual-picturebooks/audio/robot-battle/page-19-zh.mp3",
+          "en": "bilingual-picturebooks/audio/robot-battle/page-19-en.mp3",
+          "localEn": "content/media/legacy-audio/robot-battle/page-19-en.mp3",
+          "localZh": "content/media/legacy-audio/robot-battle/page-19-zh.mp3"
+        },
+        {
+          "page": 20,
+          "zh": "bilingual-picturebooks/audio/robot-battle/page-20-zh.mp3",
+          "en": "bilingual-picturebooks/audio/robot-battle/page-20-en.mp3",
+          "localEn": "content/media/legacy-audio/robot-battle/page-20-en.mp3",
+          "localZh": "content/media/legacy-audio/robot-battle/page-20-zh.mp3"
+        }
+      ]
+    },
+    {
+      "sourceId": "snake",
+      "canonicalId": "hungry-snake",
+      "status": "source-only",
+      "sourcePath": "bilingual-picturebooks/audio/snake",
+      "sourceFileCount": 7,
+      "pages": [
+        {
+          "page": 1,
+          "zh": "bilingual-picturebooks/audio/snake/page-1-zh.mp3",
+          "en": null,
+          "localZh": "content/media/legacy-audio/snake/page-1-zh.mp3"
+        },
+        {
+          "page": 2,
+          "zh": "bilingual-picturebooks/audio/snake/page-2-zh.mp3",
+          "en": null,
+          "localZh": "content/media/legacy-audio/snake/page-2-zh.mp3"
+        },
+        {
+          "page": 3,
+          "zh": "bilingual-picturebooks/audio/snake/page-3-zh.mp3",
+          "en": null,
+          "localZh": "content/media/legacy-audio/snake/page-3-zh.mp3"
+        },
+        {
+          "page": 4,
+          "zh": "bilingual-picturebooks/audio/snake/page-4-zh.mp3",
+          "en": null,
+          "localZh": "content/media/legacy-audio/snake/page-4-zh.mp3"
+        },
+        {
+          "page": 5,
+          "zh": "bilingual-picturebooks/audio/snake/page-5-zh.mp3",
+          "en": null,
+          "localZh": "content/media/legacy-audio/snake/page-5-zh.mp3"
+        },
+        {
+          "page": 6,
+          "zh": "bilingual-picturebooks/audio/snake/page-6-zh.mp3",
+          "en": null,
+          "localZh": "content/media/legacy-audio/snake/page-6-zh.mp3"
+        },
+        {
+          "page": 7,
+          "zh": "bilingual-picturebooks/audio/snake/page-7-zh.mp3",
+          "en": null,
+          "localZh": "content/media/legacy-audio/snake/page-7-zh.mp3"
+        }
+      ]
+    },
+    {
+      "sourceId": "star-wars",
+      "canonicalId": "star-wars",
+      "status": "source-only",
+      "sourcePath": "bilingual-picturebooks/audio/star-wars",
+      "sourceFileCount": 21,
+      "pages": [
+        {
+          "page": 1,
+          "zh": "bilingual-picturebooks/audio/star-wars/page-1-zh.mp3",
+          "en": null,
+          "localZh": "content/media/legacy-audio/star-wars/page-1-zh.mp3"
+        },
+        {
+          "page": 2,
+          "zh": "bilingual-picturebooks/audio/star-wars/page-2-zh.mp3",
+          "en": null,
+          "localZh": "content/media/legacy-audio/star-wars/page-2-zh.mp3"
+        },
+        {
+          "page": 3,
+          "zh": "bilingual-picturebooks/audio/star-wars/page-3-zh.mp3",
+          "en": null,
+          "localZh": "content/media/legacy-audio/star-wars/page-3-zh.mp3"
+        },
+        {
+          "page": 4,
+          "zh": "bilingual-picturebooks/audio/star-wars/page-4-zh.mp3",
+          "en": null,
+          "localZh": "content/media/legacy-audio/star-wars/page-4-zh.mp3"
+        },
+        {
+          "page": 5,
+          "zh": "bilingual-picturebooks/audio/star-wars/page-5-zh.mp3",
+          "en": null,
+          "localZh": "content/media/legacy-audio/star-wars/page-5-zh.mp3"
+        },
+        {
+          "page": 6,
+          "zh": "bilingual-picturebooks/audio/star-wars/page-6-zh.mp3",
+          "en": null,
+          "localZh": "content/media/legacy-audio/star-wars/page-6-zh.mp3"
+        },
+        {
+          "page": 7,
+          "zh": "bilingual-picturebooks/audio/star-wars/page-7-zh.mp3",
+          "en": null,
+          "localZh": "content/media/legacy-audio/star-wars/page-7-zh.mp3"
+        },
+        {
+          "page": 8,
+          "zh": "bilingual-picturebooks/audio/star-wars/page-8-zh.mp3",
+          "en": null,
+          "localZh": "content/media/legacy-audio/star-wars/page-8-zh.mp3"
+        },
+        {
+          "page": 9,
+          "zh": "bilingual-picturebooks/audio/star-wars/page-9-zh.mp3",
+          "en": null,
+          "localZh": "content/media/legacy-audio/star-wars/page-9-zh.mp3"
+        },
+        {
+          "page": 10,
+          "zh": "bilingual-picturebooks/audio/star-wars/page-10-zh.mp3",
+          "en": null,
+          "localZh": "content/media/legacy-audio/star-wars/page-10-zh.mp3"
+        },
+        {
+          "page": 11,
+          "zh": "bilingual-picturebooks/audio/star-wars/page-11-zh.mp3",
+          "en": null,
+          "localZh": "content/media/legacy-audio/star-wars/page-11-zh.mp3"
+        },
+        {
+          "page": 12,
+          "zh": "bilingual-picturebooks/audio/star-wars/page-12-zh.mp3",
+          "en": null,
+          "localZh": "content/media/legacy-audio/star-wars/page-12-zh.mp3"
+        },
+        {
+          "page": 13,
+          "zh": "bilingual-picturebooks/audio/star-wars/page-13-zh.mp3",
+          "en": null,
+          "localZh": "content/media/legacy-audio/star-wars/page-13-zh.mp3"
+        },
+        {
+          "page": 14,
+          "zh": "bilingual-picturebooks/audio/star-wars/page-14-zh.mp3",
+          "en": null,
+          "localZh": "content/media/legacy-audio/star-wars/page-14-zh.mp3"
+        },
+        {
+          "page": 15,
+          "zh": "bilingual-picturebooks/audio/star-wars/page-15-zh.mp3",
+          "en": null,
+          "localZh": "content/media/legacy-audio/star-wars/page-15-zh.mp3"
+        },
+        {
+          "page": 16,
+          "zh": "bilingual-picturebooks/audio/star-wars/page-16-zh.mp3",
+          "en": null,
+          "localZh": "content/media/legacy-audio/star-wars/page-16-zh.mp3"
+        },
+        {
+          "page": 17,
+          "zh": "bilingual-picturebooks/audio/star-wars/page-17-zh.mp3",
+          "en": null,
+          "localZh": "content/media/legacy-audio/star-wars/page-17-zh.mp3"
+        },
+        {
+          "page": 18,
+          "zh": "bilingual-picturebooks/audio/star-wars/page-18-zh.mp3",
+          "en": null,
+          "localZh": "content/media/legacy-audio/star-wars/page-18-zh.mp3"
+        },
+        {
+          "page": 19,
+          "zh": "bilingual-picturebooks/audio/star-wars/page-19-zh.mp3",
+          "en": null,
+          "localZh": "content/media/legacy-audio/star-wars/page-19-zh.mp3"
+        },
+        {
+          "page": 20,
+          "zh": "bilingual-picturebooks/audio/star-wars/page-20-zh.mp3",
+          "en": null,
+          "localZh": "content/media/legacy-audio/star-wars/page-20-zh.mp3"
+        },
+        {
+          "page": 21,
+          "zh": "bilingual-picturebooks/audio/star-wars/page-21-zh.mp3",
+          "en": null,
+          "localZh": "content/media/legacy-audio/star-wars/page-21-zh.mp3"
+        }
+      ]
+    },
+    {
+      "sourceId": "sugarcane-tank",
+      "canonicalId": "sugarcane-tank",
+      "status": "source-only",
+      "sourcePath": "bilingual-picturebooks/audio/sugarcane-tank",
+      "sourceFileCount": 42,
+      "pages": [
+        {
+          "page": 1,
+          "zh": "bilingual-picturebooks/audio/sugarcane-tank/page-1-zh.mp3",
+          "en": "bilingual-picturebooks/audio/sugarcane-tank/page-1-en.mp3",
+          "localEn": "content/media/legacy-audio/sugarcane-tank/page-1-en.mp3",
+          "localZh": "content/media/legacy-audio/sugarcane-tank/page-1-zh.mp3"
+        },
+        {
+          "page": 2,
+          "zh": "bilingual-picturebooks/audio/sugarcane-tank/page-2-zh.mp3",
+          "en": "bilingual-picturebooks/audio/sugarcane-tank/page-2-en.mp3",
+          "localEn": "content/media/legacy-audio/sugarcane-tank/page-2-en.mp3",
+          "localZh": "content/media/legacy-audio/sugarcane-tank/page-2-zh.mp3"
+        },
+        {
+          "page": 3,
+          "zh": "bilingual-picturebooks/audio/sugarcane-tank/page-3-zh.mp3",
+          "en": "bilingual-picturebooks/audio/sugarcane-tank/page-3-en.mp3",
+          "localEn": "content/media/legacy-audio/sugarcane-tank/page-3-en.mp3",
+          "localZh": "content/media/legacy-audio/sugarcane-tank/page-3-zh.mp3"
+        },
+        {
+          "page": 4,
+          "zh": "bilingual-picturebooks/audio/sugarcane-tank/page-4-zh.mp3",
+          "en": "bilingual-picturebooks/audio/sugarcane-tank/page-4-en.mp3",
+          "localEn": "content/media/legacy-audio/sugarcane-tank/page-4-en.mp3",
+          "localZh": "content/media/legacy-audio/sugarcane-tank/page-4-zh.mp3"
+        },
+        {
+          "page": 5,
+          "zh": "bilingual-picturebooks/audio/sugarcane-tank/page-5-zh.mp3",
+          "en": "bilingual-picturebooks/audio/sugarcane-tank/page-5-en.mp3",
+          "localEn": "content/media/legacy-audio/sugarcane-tank/page-5-en.mp3",
+          "localZh": "content/media/legacy-audio/sugarcane-tank/page-5-zh.mp3"
+        },
+        {
+          "page": 6,
+          "zh": "bilingual-picturebooks/audio/sugarcane-tank/page-6-zh.mp3",
+          "en": "bilingual-picturebooks/audio/sugarcane-tank/page-6-en.mp3",
+          "localEn": "content/media/legacy-audio/sugarcane-tank/page-6-en.mp3",
+          "localZh": "content/media/legacy-audio/sugarcane-tank/page-6-zh.mp3"
+        },
+        {
+          "page": 7,
+          "zh": "bilingual-picturebooks/audio/sugarcane-tank/page-7-zh.mp3",
+          "en": "bilingual-picturebooks/audio/sugarcane-tank/page-7-en.mp3",
+          "localEn": "content/media/legacy-audio/sugarcane-tank/page-7-en.mp3",
+          "localZh": "content/media/legacy-audio/sugarcane-tank/page-7-zh.mp3"
+        },
+        {
+          "page": 8,
+          "zh": "bilingual-picturebooks/audio/sugarcane-tank/page-8-zh.mp3",
+          "en": "bilingual-picturebooks/audio/sugarcane-tank/page-8-en.mp3",
+          "localEn": "content/media/legacy-audio/sugarcane-tank/page-8-en.mp3",
+          "localZh": "content/media/legacy-audio/sugarcane-tank/page-8-zh.mp3"
+        },
+        {
+          "page": 9,
+          "zh": "bilingual-picturebooks/audio/sugarcane-tank/page-9-zh.mp3",
+          "en": "bilingual-picturebooks/audio/sugarcane-tank/page-9-en.mp3",
+          "localEn": "content/media/legacy-audio/sugarcane-tank/page-9-en.mp3",
+          "localZh": "content/media/legacy-audio/sugarcane-tank/page-9-zh.mp3"
+        },
+        {
+          "page": 10,
+          "zh": "bilingual-picturebooks/audio/sugarcane-tank/page-10-zh.mp3",
+          "en": "bilingual-picturebooks/audio/sugarcane-tank/page-10-en.mp3",
+          "localEn": "content/media/legacy-audio/sugarcane-tank/page-10-en.mp3",
+          "localZh": "content/media/legacy-audio/sugarcane-tank/page-10-zh.mp3"
+        },
+        {
+          "page": 11,
+          "zh": "bilingual-picturebooks/audio/sugarcane-tank/page-11-zh.mp3",
+          "en": "bilingual-picturebooks/audio/sugarcane-tank/page-11-en.mp3",
+          "localEn": "content/media/legacy-audio/sugarcane-tank/page-11-en.mp3",
+          "localZh": "content/media/legacy-audio/sugarcane-tank/page-11-zh.mp3"
+        },
+        {
+          "page": 12,
+          "zh": "bilingual-picturebooks/audio/sugarcane-tank/page-12-zh.mp3",
+          "en": "bilingual-picturebooks/audio/sugarcane-tank/page-12-en.mp3",
+          "localEn": "content/media/legacy-audio/sugarcane-tank/page-12-en.mp3",
+          "localZh": "content/media/legacy-audio/sugarcane-tank/page-12-zh.mp3"
+        },
+        {
+          "page": 13,
+          "zh": "bilingual-picturebooks/audio/sugarcane-tank/page-13-zh.mp3",
+          "en": "bilingual-picturebooks/audio/sugarcane-tank/page-13-en.mp3",
+          "localEn": "content/media/legacy-audio/sugarcane-tank/page-13-en.mp3",
+          "localZh": "content/media/legacy-audio/sugarcane-tank/page-13-zh.mp3"
+        },
+        {
+          "page": 14,
+          "zh": "bilingual-picturebooks/audio/sugarcane-tank/page-14-zh.mp3",
+          "en": "bilingual-picturebooks/audio/sugarcane-tank/page-14-en.mp3",
+          "localEn": "content/media/legacy-audio/sugarcane-tank/page-14-en.mp3",
+          "localZh": "content/media/legacy-audio/sugarcane-tank/page-14-zh.mp3"
+        },
+        {
+          "page": 15,
+          "zh": "bilingual-picturebooks/audio/sugarcane-tank/page-15-zh.mp3",
+          "en": "bilingual-picturebooks/audio/sugarcane-tank/page-15-en.mp3",
+          "localEn": "content/media/legacy-audio/sugarcane-tank/page-15-en.mp3",
+          "localZh": "content/media/legacy-audio/sugarcane-tank/page-15-zh.mp3"
+        },
+        {
+          "page": 16,
+          "zh": "bilingual-picturebooks/audio/sugarcane-tank/page-16-zh.mp3",
+          "en": "bilingual-picturebooks/audio/sugarcane-tank/page-16-en.mp3",
+          "localEn": "content/media/legacy-audio/sugarcane-tank/page-16-en.mp3",
+          "localZh": "content/media/legacy-audio/sugarcane-tank/page-16-zh.mp3"
+        },
+        {
+          "page": 17,
+          "zh": "bilingual-picturebooks/audio/sugarcane-tank/page-17-zh.mp3",
+          "en": "bilingual-picturebooks/audio/sugarcane-tank/page-17-en.mp3",
+          "localEn": "content/media/legacy-audio/sugarcane-tank/page-17-en.mp3",
+          "localZh": "content/media/legacy-audio/sugarcane-tank/page-17-zh.mp3"
+        },
+        {
+          "page": 18,
+          "zh": "bilingual-picturebooks/audio/sugarcane-tank/page-18-zh.mp3",
+          "en": "bilingual-picturebooks/audio/sugarcane-tank/page-18-en.mp3",
+          "localEn": "content/media/legacy-audio/sugarcane-tank/page-18-en.mp3",
+          "localZh": "content/media/legacy-audio/sugarcane-tank/page-18-zh.mp3"
+        },
+        {
+          "page": 19,
+          "zh": "bilingual-picturebooks/audio/sugarcane-tank/page-19-zh.mp3",
+          "en": "bilingual-picturebooks/audio/sugarcane-tank/page-19-en.mp3",
+          "localEn": "content/media/legacy-audio/sugarcane-tank/page-19-en.mp3",
+          "localZh": "content/media/legacy-audio/sugarcane-tank/page-19-zh.mp3"
+        },
+        {
+          "page": 20,
+          "zh": "bilingual-picturebooks/audio/sugarcane-tank/page-20-zh.mp3",
+          "en": "bilingual-picturebooks/audio/sugarcane-tank/page-20-en.mp3",
+          "localEn": "content/media/legacy-audio/sugarcane-tank/page-20-en.mp3",
+          "localZh": "content/media/legacy-audio/sugarcane-tank/page-20-zh.mp3"
+        },
+        {
+          "page": 21,
+          "zh": "bilingual-picturebooks/audio/sugarcane-tank/page-21-zh.mp3",
+          "en": "bilingual-picturebooks/audio/sugarcane-tank/page-21-en.mp3",
+          "localEn": "content/media/legacy-audio/sugarcane-tank/page-21-en.mp3",
+          "localZh": "content/media/legacy-audio/sugarcane-tank/page-21-zh.mp3"
+        }
+      ]
+    },
+    {
+      "sourceId": "tank-1",
+      "canonicalId": "tank-1",
+      "status": "source-only",
+      "sourcePath": "bilingual-picturebooks/audio/tank-1",
+      "sourceFileCount": 22,
+      "pages": [
+        {
+          "page": 1,
+          "zh": "bilingual-picturebooks/audio/tank-1/page-1-zh.mp3",
+          "en": "bilingual-picturebooks/audio/tank-1/page-1-en.mp3",
+          "localEn": "content/media/legacy-audio/tank-1/page-1-en.mp3",
+          "localZh": "content/media/legacy-audio/tank-1/page-1-zh.mp3"
+        },
+        {
+          "page": 2,
+          "zh": "bilingual-picturebooks/audio/tank-1/page-2-zh.mp3",
+          "en": "bilingual-picturebooks/audio/tank-1/page-2-en.mp3",
+          "localEn": "content/media/legacy-audio/tank-1/page-2-en.mp3",
+          "localZh": "content/media/legacy-audio/tank-1/page-2-zh.mp3"
+        },
+        {
+          "page": 3,
+          "zh": "bilingual-picturebooks/audio/tank-1/page-3-zh.mp3",
+          "en": "bilingual-picturebooks/audio/tank-1/page-3-en.mp3",
+          "localEn": "content/media/legacy-audio/tank-1/page-3-en.mp3",
+          "localZh": "content/media/legacy-audio/tank-1/page-3-zh.mp3"
+        },
+        {
+          "page": 4,
+          "zh": "bilingual-picturebooks/audio/tank-1/page-4-zh.mp3",
+          "en": "bilingual-picturebooks/audio/tank-1/page-4-en.mp3",
+          "localEn": "content/media/legacy-audio/tank-1/page-4-en.mp3",
+          "localZh": "content/media/legacy-audio/tank-1/page-4-zh.mp3"
+        },
+        {
+          "page": 5,
+          "zh": "bilingual-picturebooks/audio/tank-1/page-5-zh.mp3",
+          "en": "bilingual-picturebooks/audio/tank-1/page-5-en.mp3",
+          "localEn": "content/media/legacy-audio/tank-1/page-5-en.mp3",
+          "localZh": "content/media/legacy-audio/tank-1/page-5-zh.mp3"
+        },
+        {
+          "page": 6,
+          "zh": "bilingual-picturebooks/audio/tank-1/page-6-zh.mp3",
+          "en": "bilingual-picturebooks/audio/tank-1/page-6-en.mp3",
+          "localEn": "content/media/legacy-audio/tank-1/page-6-en.mp3",
+          "localZh": "content/media/legacy-audio/tank-1/page-6-zh.mp3"
+        },
+        {
+          "page": 7,
+          "zh": "bilingual-picturebooks/audio/tank-1/page-7-zh.mp3",
+          "en": "bilingual-picturebooks/audio/tank-1/page-7-en.mp3",
+          "localEn": "content/media/legacy-audio/tank-1/page-7-en.mp3",
+          "localZh": "content/media/legacy-audio/tank-1/page-7-zh.mp3"
+        },
+        {
+          "page": 8,
+          "zh": "bilingual-picturebooks/audio/tank-1/page-8-zh.mp3",
+          "en": "bilingual-picturebooks/audio/tank-1/page-8-en.mp3",
+          "localEn": "content/media/legacy-audio/tank-1/page-8-en.mp3",
+          "localZh": "content/media/legacy-audio/tank-1/page-8-zh.mp3"
+        },
+        {
+          "page": 9,
+          "zh": "bilingual-picturebooks/audio/tank-1/page-9-zh.mp3",
+          "en": "bilingual-picturebooks/audio/tank-1/page-9-en.mp3",
+          "localEn": "content/media/legacy-audio/tank-1/page-9-en.mp3",
+          "localZh": "content/media/legacy-audio/tank-1/page-9-zh.mp3"
+        },
+        {
+          "page": 10,
+          "zh": "bilingual-picturebooks/audio/tank-1/page-10-zh.mp3",
+          "en": "bilingual-picturebooks/audio/tank-1/page-10-en.mp3",
+          "localEn": "content/media/legacy-audio/tank-1/page-10-en.mp3",
+          "localZh": "content/media/legacy-audio/tank-1/page-10-zh.mp3"
+        },
+        {
+          "page": 11,
+          "zh": "bilingual-picturebooks/audio/tank-1/page-11-zh.mp3",
+          "en": "bilingual-picturebooks/audio/tank-1/page-11-en.mp3",
+          "localEn": "content/media/legacy-audio/tank-1/page-11-en.mp3",
+          "localZh": "content/media/legacy-audio/tank-1/page-11-zh.mp3"
+        }
+      ]
+    },
+    {
+      "sourceId": "tank-2",
+      "canonicalId": "tank-2",
+      "status": "source-only",
+      "sourcePath": "bilingual-picturebooks/audio/tank-2",
+      "sourceFileCount": 26,
+      "pages": [
+        {
+          "page": 1,
+          "zh": "bilingual-picturebooks/audio/tank-2/page-1-zh.mp3",
+          "en": "bilingual-picturebooks/audio/tank-2/page-1-en.mp3",
+          "localEn": "content/media/legacy-audio/tank-2/page-1-en.mp3",
+          "localZh": "content/media/legacy-audio/tank-2/page-1-zh.mp3"
+        },
+        {
+          "page": 2,
+          "zh": "bilingual-picturebooks/audio/tank-2/page-2-zh.mp3",
+          "en": "bilingual-picturebooks/audio/tank-2/page-2-en.mp3",
+          "localEn": "content/media/legacy-audio/tank-2/page-2-en.mp3",
+          "localZh": "content/media/legacy-audio/tank-2/page-2-zh.mp3"
+        },
+        {
+          "page": 3,
+          "zh": "bilingual-picturebooks/audio/tank-2/page-3-zh.mp3",
+          "en": "bilingual-picturebooks/audio/tank-2/page-3-en.mp3",
+          "localEn": "content/media/legacy-audio/tank-2/page-3-en.mp3",
+          "localZh": "content/media/legacy-audio/tank-2/page-3-zh.mp3"
+        },
+        {
+          "page": 4,
+          "zh": "bilingual-picturebooks/audio/tank-2/page-4-zh.mp3",
+          "en": "bilingual-picturebooks/audio/tank-2/page-4-en.mp3",
+          "localEn": "content/media/legacy-audio/tank-2/page-4-en.mp3",
+          "localZh": "content/media/legacy-audio/tank-2/page-4-zh.mp3"
+        },
+        {
+          "page": 5,
+          "zh": "bilingual-picturebooks/audio/tank-2/page-5-zh.mp3",
+          "en": "bilingual-picturebooks/audio/tank-2/page-5-en.mp3",
+          "localEn": "content/media/legacy-audio/tank-2/page-5-en.mp3",
+          "localZh": "content/media/legacy-audio/tank-2/page-5-zh.mp3"
+        },
+        {
+          "page": 6,
+          "zh": "bilingual-picturebooks/audio/tank-2/page-6-zh.mp3",
+          "en": "bilingual-picturebooks/audio/tank-2/page-6-en.mp3",
+          "localEn": "content/media/legacy-audio/tank-2/page-6-en.mp3",
+          "localZh": "content/media/legacy-audio/tank-2/page-6-zh.mp3"
+        },
+        {
+          "page": 7,
+          "zh": "bilingual-picturebooks/audio/tank-2/page-7-zh.mp3",
+          "en": "bilingual-picturebooks/audio/tank-2/page-7-en.mp3",
+          "localEn": "content/media/legacy-audio/tank-2/page-7-en.mp3",
+          "localZh": "content/media/legacy-audio/tank-2/page-7-zh.mp3"
+        },
+        {
+          "page": 8,
+          "zh": "bilingual-picturebooks/audio/tank-2/page-8-zh.mp3",
+          "en": "bilingual-picturebooks/audio/tank-2/page-8-en.mp3",
+          "localEn": "content/media/legacy-audio/tank-2/page-8-en.mp3",
+          "localZh": "content/media/legacy-audio/tank-2/page-8-zh.mp3"
+        },
+        {
+          "page": 9,
+          "zh": "bilingual-picturebooks/audio/tank-2/page-9-zh.mp3",
+          "en": "bilingual-picturebooks/audio/tank-2/page-9-en.mp3",
+          "localEn": "content/media/legacy-audio/tank-2/page-9-en.mp3",
+          "localZh": "content/media/legacy-audio/tank-2/page-9-zh.mp3"
+        },
+        {
+          "page": 10,
+          "zh": "bilingual-picturebooks/audio/tank-2/page-10-zh.mp3",
+          "en": "bilingual-picturebooks/audio/tank-2/page-10-en.mp3",
+          "localEn": "content/media/legacy-audio/tank-2/page-10-en.mp3",
+          "localZh": "content/media/legacy-audio/tank-2/page-10-zh.mp3"
+        },
+        {
+          "page": 11,
+          "zh": "bilingual-picturebooks/audio/tank-2/page-11-zh.mp3",
+          "en": "bilingual-picturebooks/audio/tank-2/page-11-en.mp3",
+          "localEn": "content/media/legacy-audio/tank-2/page-11-en.mp3",
+          "localZh": "content/media/legacy-audio/tank-2/page-11-zh.mp3"
+        },
+        {
+          "page": 12,
+          "zh": "bilingual-picturebooks/audio/tank-2/page-12-zh.mp3",
+          "en": "bilingual-picturebooks/audio/tank-2/page-12-en.mp3",
+          "localEn": "content/media/legacy-audio/tank-2/page-12-en.mp3",
+          "localZh": "content/media/legacy-audio/tank-2/page-12-zh.mp3"
+        },
+        {
+          "page": 13,
+          "zh": "bilingual-picturebooks/audio/tank-2/page-13-zh.mp3",
+          "en": "bilingual-picturebooks/audio/tank-2/page-13-en.mp3",
+          "localEn": "content/media/legacy-audio/tank-2/page-13-en.mp3",
+          "localZh": "content/media/legacy-audio/tank-2/page-13-zh.mp3"
+        }
+      ]
+    },
+    {
+      "sourceId": "tank-3",
+      "canonicalId": "tank-3",
+      "status": "source-only",
+      "sourcePath": "bilingual-picturebooks/audio/tank-3",
+      "sourceFileCount": 26,
+      "pages": [
+        {
+          "page": 1,
+          "zh": "bilingual-picturebooks/audio/tank-3/page-1-zh.mp3",
+          "en": "bilingual-picturebooks/audio/tank-3/page-1-en.mp3",
+          "localEn": "content/media/legacy-audio/tank-3/page-1-en.mp3",
+          "localZh": "content/media/legacy-audio/tank-3/page-1-zh.mp3"
+        },
+        {
+          "page": 2,
+          "zh": "bilingual-picturebooks/audio/tank-3/page-2-zh.mp3",
+          "en": "bilingual-picturebooks/audio/tank-3/page-2-en.mp3",
+          "localEn": "content/media/legacy-audio/tank-3/page-2-en.mp3",
+          "localZh": "content/media/legacy-audio/tank-3/page-2-zh.mp3"
+        },
+        {
+          "page": 3,
+          "zh": "bilingual-picturebooks/audio/tank-3/page-3-zh.mp3",
+          "en": "bilingual-picturebooks/audio/tank-3/page-3-en.mp3",
+          "localEn": "content/media/legacy-audio/tank-3/page-3-en.mp3",
+          "localZh": "content/media/legacy-audio/tank-3/page-3-zh.mp3"
+        },
+        {
+          "page": 4,
+          "zh": "bilingual-picturebooks/audio/tank-3/page-4-zh.mp3",
+          "en": "bilingual-picturebooks/audio/tank-3/page-4-en.mp3",
+          "localEn": "content/media/legacy-audio/tank-3/page-4-en.mp3",
+          "localZh": "content/media/legacy-audio/tank-3/page-4-zh.mp3"
+        },
+        {
+          "page": 5,
+          "zh": "bilingual-picturebooks/audio/tank-3/page-5-zh.mp3",
+          "en": "bilingual-picturebooks/audio/tank-3/page-5-en.mp3",
+          "localEn": "content/media/legacy-audio/tank-3/page-5-en.mp3",
+          "localZh": "content/media/legacy-audio/tank-3/page-5-zh.mp3"
+        },
+        {
+          "page": 6,
+          "zh": "bilingual-picturebooks/audio/tank-3/page-6-zh.mp3",
+          "en": "bilingual-picturebooks/audio/tank-3/page-6-en.mp3",
+          "localEn": "content/media/legacy-audio/tank-3/page-6-en.mp3",
+          "localZh": "content/media/legacy-audio/tank-3/page-6-zh.mp3"
+        },
+        {
+          "page": 7,
+          "zh": "bilingual-picturebooks/audio/tank-3/page-7-zh.mp3",
+          "en": "bilingual-picturebooks/audio/tank-3/page-7-en.mp3",
+          "localEn": "content/media/legacy-audio/tank-3/page-7-en.mp3",
+          "localZh": "content/media/legacy-audio/tank-3/page-7-zh.mp3"
+        },
+        {
+          "page": 8,
+          "zh": "bilingual-picturebooks/audio/tank-3/page-8-zh.mp3",
+          "en": "bilingual-picturebooks/audio/tank-3/page-8-en.mp3",
+          "localEn": "content/media/legacy-audio/tank-3/page-8-en.mp3",
+          "localZh": "content/media/legacy-audio/tank-3/page-8-zh.mp3"
+        },
+        {
+          "page": 9,
+          "zh": "bilingual-picturebooks/audio/tank-3/page-9-zh.mp3",
+          "en": "bilingual-picturebooks/audio/tank-3/page-9-en.mp3",
+          "localEn": "content/media/legacy-audio/tank-3/page-9-en.mp3",
+          "localZh": "content/media/legacy-audio/tank-3/page-9-zh.mp3"
+        },
+        {
+          "page": 10,
+          "zh": "bilingual-picturebooks/audio/tank-3/page-10-zh.mp3",
+          "en": "bilingual-picturebooks/audio/tank-3/page-10-en.mp3",
+          "localEn": "content/media/legacy-audio/tank-3/page-10-en.mp3",
+          "localZh": "content/media/legacy-audio/tank-3/page-10-zh.mp3"
+        },
+        {
+          "page": 11,
+          "zh": "bilingual-picturebooks/audio/tank-3/page-11-zh.mp3",
+          "en": "bilingual-picturebooks/audio/tank-3/page-11-en.mp3",
+          "localEn": "content/media/legacy-audio/tank-3/page-11-en.mp3",
+          "localZh": "content/media/legacy-audio/tank-3/page-11-zh.mp3"
+        },
+        {
+          "page": 12,
+          "zh": "bilingual-picturebooks/audio/tank-3/page-12-zh.mp3",
+          "en": "bilingual-picturebooks/audio/tank-3/page-12-en.mp3",
+          "localEn": "content/media/legacy-audio/tank-3/page-12-en.mp3",
+          "localZh": "content/media/legacy-audio/tank-3/page-12-zh.mp3"
+        },
+        {
+          "page": 13,
+          "zh": "bilingual-picturebooks/audio/tank-3/page-13-zh.mp3",
+          "en": "bilingual-picturebooks/audio/tank-3/page-13-en.mp3",
+          "localEn": "content/media/legacy-audio/tank-3/page-13-en.mp3",
+          "localZh": "content/media/legacy-audio/tank-3/page-13-zh.mp3"
+        }
+      ]
+    }
+  ],
+  "video": [
+    {
+      "sourceId": "block-battle",
+      "canonicalId": "block-battle",
+      "status": "mapped-variant",
+      "titleZh": "方块大战",
+      "titleEn": "Block Battle",
+      "pageCount": 52,
+      "path": "children-book-video/output/videos/preset-block-battle/preset-block-battle.mp4",
+      "audioPath": "children-book-video/output/audio/preset-block-battle",
+      "localPath": "content/media/legacy-video-output/videos/preset-block-battle/preset-block-battle.mp4",
+      "localAudioPath": "content/media/legacy-video-output/audio/preset-block-battle",
+      "bytes": 27460615
+    },
+    {
+      "sourceId": "brave-tank",
+      "canonicalId": "brave-tank",
+      "status": "mapped-variant",
+      "titleZh": "勇敢的小坦克",
+      "titleEn": "The Brave Little Tank",
+      "pageCount": 19,
+      "path": "children-book-video/output/videos/preset-brave-tank/preset-brave-tank.mp4",
+      "audioPath": "children-book-video/output/audio/preset-brave-tank",
+      "localPath": "content/media/legacy-video-output/videos/preset-brave-tank/preset-brave-tank.mp4",
+      "localAudioPath": "content/media/legacy-video-output/audio/preset-brave-tank",
+      "bytes": 8239126
+    },
+    {
+      "sourceId": "city-to-ocean",
+      "canonicalId": "ocean-adventure",
+      "status": "mapped-variant",
+      "titleZh": "城市到海洋大冒险 🐙",
+      "titleEn": "City to Ocean Adventure",
+      "pageCount": 12,
+      "path": "children-book-video/output/videos/preset-city-to-ocean/preset-city-to-ocean.mp4",
+      "audioPath": "children-book-video/output/audio/preset-city-to-ocean",
+      "localPath": "content/media/legacy-video-output/videos/preset-city-to-ocean/preset-city-to-ocean.mp4",
+      "localAudioPath": "content/media/legacy-video-output/audio/preset-city-to-ocean",
+      "bytes": 6317724
+    },
+    {
+      "sourceId": "invisible-tank",
+      "canonicalId": "invisible-tank",
+      "status": "mapped-variant",
+      "titleZh": "隐身战车奇袭",
+      "titleEn": "Invisible Tank Mission",
+      "pageCount": 21,
+      "path": "children-book-video/output/videos/preset-invisible-tank/preset-invisible-tank.mp4",
+      "audioPath": "children-book-video/output/audio/preset-invisible-tank",
+      "localPath": "content/media/legacy-video-output/videos/preset-invisible-tank/preset-invisible-tank.mp4",
+      "localAudioPath": "content/media/legacy-video-output/audio/preset-invisible-tank",
+      "bytes": 7896042
+    },
+    {
+      "sourceId": "minecraft",
+      "canonicalId": "minecraft",
+      "status": "mapped-variant",
+      "titleZh": "史蒂夫大战凋零",
+      "titleEn": "Steve vs The Wither",
+      "pageCount": 20,
+      "path": "children-book-video/output/videos/preset-minecraft/preset-minecraft.mp4",
+      "audioPath": "children-book-video/output/audio/preset-minecraft",
+      "localPath": "content/media/legacy-video-output/videos/preset-minecraft/preset-minecraft.mp4",
+      "localAudioPath": "content/media/legacy-video-output/audio/preset-minecraft",
+      "bytes": 8698497
+    },
+    {
+      "sourceId": "pea-shooter",
+      "canonicalId": "brave-pea-shooter",
+      "status": "mapped-variant",
+      "titleZh": "勇敢的豌豆射手",
+      "titleEn": "The Brave Pea Shooter",
+      "pageCount": 19,
+      "path": "children-book-video/output/videos/preset-pea-shooter/preset-pea-shooter.mp4",
+      "audioPath": "children-book-video/output/audio/preset-pea-shooter",
+      "localPath": "content/media/legacy-video-output/videos/preset-pea-shooter/preset-pea-shooter.mp4",
+      "localAudioPath": "content/media/legacy-video-output/audio/preset-pea-shooter",
+      "bytes": 13355371
+    },
+    {
+      "sourceId": "pips-toybox",
+      "canonicalId": null,
+      "status": "unmapped",
+      "titleZh": "Pip's Toy Box",
+      "titleEn": "皮普的玩具箱",
+      "pageCount": 10,
+      "path": "children-book-video/output/videos/preset-pips-toybox/preset-pips-toybox.mp4",
+      "audioPath": "children-book-video/output/audio/preset-pips-toybox",
+      "localPath": "content/media/legacy-video-output/videos/preset-pips-toybox/preset-pips-toybox.mp4",
+      "localAudioPath": "content/media/legacy-video-output/audio/preset-pips-toybox",
+      "bytes": 607912
+    },
+    {
+      "sourceId": "planet-battle",
+      "canonicalId": "space-d1",
+      "status": "mapped-variant",
+      "titleZh": "Planet Battle Game",
+      "titleEn": "星球大战游戏",
+      "pageCount": 22,
+      "path": "children-book-video/output/videos/preset-planet-battle/preset-planet-battle.mp4",
+      "audioPath": "children-book-video/output/audio/preset-planet-battle",
+      "localPath": "content/media/legacy-video-output/videos/preset-planet-battle/preset-planet-battle.mp4",
+      "localAudioPath": "content/media/legacy-video-output/audio/preset-planet-battle",
+      "bytes": 8532016
+    },
+    {
+      "sourceId": "robot-battle",
+      "canonicalId": "robot-battle",
+      "status": "mapped-variant",
+      "titleZh": "家务机器人大战",
+      "titleEn": "Chore Robot Battle",
+      "pageCount": 20,
+      "path": "children-book-video/output/videos/preset-robot-battle/preset-robot-battle.mp4",
+      "audioPath": "children-book-video/output/audio/preset-robot-battle",
+      "localPath": "content/media/legacy-video-output/videos/preset-robot-battle/preset-robot-battle.mp4",
+      "localAudioPath": "content/media/legacy-video-output/audio/preset-robot-battle",
+      "bytes": 7857251
+    },
+    {
+      "sourceId": "snake",
+      "canonicalId": "hungry-snake",
+      "status": "mapped-variant",
+      "titleZh": "好饿的小蛇",
+      "titleEn": "The Very Hungry Little Snake",
+      "pageCount": 7,
+      "path": "children-book-video/output/videos/preset-snake/preset-snake.mp4",
+      "audioPath": "children-book-video/output/audio/preset-snake",
+      "localPath": "content/media/legacy-video-output/videos/preset-snake/preset-snake.mp4",
+      "localAudioPath": "content/media/legacy-video-output/audio/preset-snake",
+      "bytes": 3894451
+    },
+    {
+      "sourceId": "star-wars",
+      "canonicalId": "star-wars",
+      "status": "mapped-variant",
+      "titleZh": "星球大战",
+      "titleEn": "Star Wars",
+      "pageCount": 21,
+      "path": "children-book-video/output/videos/preset-star-wars/preset-star-wars.mp4",
+      "audioPath": "children-book-video/output/audio/preset-star-wars",
+      "localPath": "content/media/legacy-video-output/videos/preset-star-wars/preset-star-wars.mp4",
+      "localAudioPath": "content/media/legacy-video-output/audio/preset-star-wars",
+      "bytes": 15995182
+    },
+    {
+      "sourceId": "sugarcane-tank",
+      "canonicalId": "sugarcane-tank",
+      "status": "source-missing",
+      "titleZh": "甘蔗坦克大作战",
+      "titleEn": "Sugarcane Tank Battle",
+      "pageCount": 21,
+      "path": "children-book-video/output/videos/preset-sugarcane-tank/preset-sugarcane-tank.mp4",
+      "audioPath": "children-book-video/output/audio/preset-sugarcane-tank",
+      "localPath": "content/media/legacy-video-output/videos/preset-sugarcane-tank/preset-sugarcane-tank.mp4",
+      "localAudioPath": "content/media/legacy-video-output/audio/preset-sugarcane-tank",
+      "bytes": 0
+    },
+    {
+      "sourceId": "tank-1",
+      "canonicalId": "tank-1",
+      "status": "mapped-variant",
+      "titleZh": "坦克大战·第一册",
+      "titleEn": "Tank Battles Book 1",
+      "pageCount": 11,
+      "path": "children-book-video/output/videos/preset-tank-1/preset-tank-1.mp4",
+      "audioPath": "children-book-video/output/audio/preset-tank-1",
+      "localPath": "content/media/legacy-video-output/videos/preset-tank-1/preset-tank-1.mp4",
+      "localAudioPath": "content/media/legacy-video-output/audio/preset-tank-1",
+      "bytes": 4198624
+    },
+    {
+      "sourceId": "tank-2",
+      "canonicalId": "tank-2",
+      "status": "mapped-variant",
+      "titleZh": "坦克大战·第二册",
+      "titleEn": "Tank Battles Book 2",
+      "pageCount": 13,
+      "path": "children-book-video/output/videos/preset-tank-2/preset-tank-2.mp4",
+      "audioPath": "children-book-video/output/audio/preset-tank-2",
+      "localPath": "content/media/legacy-video-output/videos/preset-tank-2/preset-tank-2.mp4",
+      "localAudioPath": "content/media/legacy-video-output/audio/preset-tank-2",
+      "bytes": 5053006
+    },
+    {
+      "sourceId": "tank-3",
+      "canonicalId": "tank-3",
+      "status": "mapped-variant",
+      "titleZh": "坦克大战·第三册",
+      "titleEn": "Tank Battles Book 3",
+      "pageCount": 13,
+      "path": "children-book-video/output/videos/preset-tank-3/preset-tank-3.mp4",
+      "audioPath": "children-book-video/output/audio/preset-tank-3",
+      "localPath": "content/media/legacy-video-output/videos/preset-tank-3/preset-tank-3.mp4",
+      "localAudioPath": "content/media/legacy-video-output/audio/preset-tank-3",
+      "bytes": 4997329
+    },
+    {
+      "sourceId": "brave-pea-shooter",
+      "canonicalId": "brave-pea-shooter",
+      "status": "mapped-variant",
+      "titleZh": "勇敢的豌豆射手",
+      "titleEn": "The Brave Pea Shooter",
+      "pageCount": 21,
+      "path": "children-book-video/output/videos/preset-brave-pea-shooter/preset-brave-pea-shooter.mp4",
+      "audioPath": "children-book-video/output/audio/preset-brave-pea-shooter",
+      "localPath": "content/media/legacy-video-output/videos/preset-brave-pea-shooter/preset-brave-pea-shooter.mp4",
+      "localAudioPath": "content/media/legacy-video-output/audio/preset-brave-pea-shooter",
+      "bytes": 5966382
+    },
+    {
+      "sourceId": "hungry-snake",
+      "canonicalId": "hungry-snake",
+      "status": "mapped-variant",
+      "titleZh": "好饿的小蛇",
+      "titleEn": "The Hungry Snake",
+      "pageCount": 9,
+      "path": "children-book-video/output/videos/preset-hungry-snake/preset-hungry-snake.mp4",
+      "audioPath": "children-book-video/output/audio/preset-hungry-snake",
+      "localPath": "content/media/legacy-video-output/videos/preset-hungry-snake/preset-hungry-snake.mp4",
+      "localAudioPath": "content/media/legacy-video-output/audio/preset-hungry-snake",
+      "bytes": 2502521
+    },
+    {
+      "sourceId": "minecraft-tank-1",
+      "canonicalId": "tank-1",
+      "status": "mapped-variant",
+      "titleZh": "坦克大战·第一册",
+      "titleEn": "Minecraft Tank 1",
+      "pageCount": 13,
+      "path": "children-book-video/output/videos/preset-minecraft-tank-1/preset-minecraft-tank-1.mp4",
+      "audioPath": "children-book-video/output/audio/preset-minecraft-tank-1",
+      "localPath": "content/media/legacy-video-output/videos/preset-minecraft-tank-1/preset-minecraft-tank-1.mp4",
+      "localAudioPath": "content/media/legacy-video-output/audio/preset-minecraft-tank-1",
+      "bytes": 2048619
+    },
+    {
+      "sourceId": "minecraft-tank-2",
+      "canonicalId": "tank-2",
+      "status": "mapped-variant",
+      "titleZh": "坦克大战·第二册",
+      "titleEn": "Minecraft Tank 2",
+      "pageCount": 15,
+      "path": "children-book-video/output/videos/preset-minecraft-tank-2/preset-minecraft-tank-2.mp4",
+      "audioPath": "children-book-video/output/audio/preset-minecraft-tank-2",
+      "localPath": "content/media/legacy-video-output/videos/preset-minecraft-tank-2/preset-minecraft-tank-2.mp4",
+      "localAudioPath": "content/media/legacy-video-output/audio/preset-minecraft-tank-2",
+      "bytes": 2179372
+    },
+    {
+      "sourceId": "minecraft-tank-3",
+      "canonicalId": "tank-3",
+      "status": "mapped-variant",
+      "titleZh": "坦克大战·第三册",
+      "titleEn": "Minecraft Tank 3",
+      "pageCount": 15,
+      "path": "children-book-video/output/videos/preset-minecraft-tank-3/preset-minecraft-tank-3.mp4",
+      "audioPath": "children-book-video/output/audio/preset-minecraft-tank-3",
+      "localPath": "content/media/legacy-video-output/videos/preset-minecraft-tank-3/preset-minecraft-tank-3.mp4",
+      "localAudioPath": "content/media/legacy-video-output/audio/preset-minecraft-tank-3",
+      "bytes": 2157292
+    },
+    {
+      "sourceId": "ocean-adventure",
+      "canonicalId": "ocean-adventure",
+      "status": "mapped-variant",
+      "titleZh": "城市到海洋大冒险 🐙",
+      "titleEn": "Ocean Adventure",
+      "pageCount": 14,
+      "path": "children-book-video/output/videos/preset-ocean-adventure/preset-ocean-adventure.mp4",
+      "audioPath": "children-book-video/output/audio/preset-ocean-adventure",
+      "localPath": "content/media/legacy-video-output/videos/preset-ocean-adventure/preset-ocean-adventure.mp4",
+      "localAudioPath": "content/media/legacy-video-output/audio/preset-ocean-adventure",
+      "bytes": 3032090
+    },
+    {
+      "sourceId": "space-d1",
+      "canonicalId": "space-d1",
+      "status": "mapped-variant",
+      "titleZh": "Planet Battle Game",
+      "titleEn": "Space Day 1",
+      "pageCount": 24,
+      "path": "children-book-video/output/videos/preset-space-d1/preset-space-d1.mp4",
+      "audioPath": "children-book-video/output/audio/preset-space-d1",
+      "localPath": "content/media/legacy-video-output/videos/preset-space-d1/preset-space-d1.mp4",
+      "localAudioPath": "content/media/legacy-video-output/audio/preset-space-d1",
+      "bytes": 3520193
+    },
+    {
+      "sourceId": "space-d2",
+      "canonicalId": null,
+      "status": "unmapped",
+      "titleZh": "豆豆的太空冒险 D2: 宇宙飞船",
+      "titleEn": "Space Day 2",
+      "pageCount": 4,
+      "path": "children-book-video/output/videos/preset-space-d2/preset-space-d2.mp4",
+      "audioPath": "children-book-video/output/audio/preset-space-d2",
+      "localPath": "content/media/legacy-video-output/videos/preset-space-d2/preset-space-d2.mp4",
+      "localAudioPath": "content/media/legacy-video-output/audio/preset-space-d2",
+      "bytes": 297408
+    },
+    {
+      "sourceId": "space-d3",
+      "canonicalId": null,
+      "status": "unmapped",
+      "titleZh": "豆豆的太空冒险 D3: 恐龙星球",
+      "titleEn": "Space Day 3",
+      "pageCount": 4,
+      "path": "children-book-video/output/videos/preset-space-d3/preset-space-d3.mp4",
+      "audioPath": "children-book-video/output/audio/preset-space-d3",
+      "localPath": "content/media/legacy-video-output/videos/preset-space-d3/preset-space-d3.mp4",
+      "localAudioPath": "content/media/legacy-video-output/audio/preset-space-d3",
+      "bytes": 268746
+    },
+    {
+      "sourceId": "space-d4",
+      "canonicalId": null,
+      "status": "unmapped",
+      "titleZh": "豆豆的太空冒险 D4: 太空城市",
+      "titleEn": "Space Day 4",
+      "pageCount": 4,
+      "path": "children-book-video/output/videos/preset-space-d4/preset-space-d4.mp4",
+      "audioPath": "children-book-video/output/audio/preset-space-d4",
+      "localPath": "content/media/legacy-video-output/videos/preset-space-d4/preset-space-d4.mp4",
+      "localAudioPath": "content/media/legacy-video-output/audio/preset-space-d4",
+      "bytes": 301736
+    },
+    {
+      "sourceId": "steve-wither",
+      "canonicalId": "minecraft",
+      "status": "mapped-variant",
+      "titleZh": "史蒂夫大战凋零",
+      "titleEn": "Steve vs Wither",
+      "pageCount": 22,
+      "path": "children-book-video/output/videos/preset-steve-wither/preset-steve-wither.mp4",
+      "audioPath": "children-book-video/output/audio/preset-steve-wither",
+      "localPath": "content/media/legacy-video-output/videos/preset-steve-wither/preset-steve-wither.mp4",
+      "localAudioPath": "content/media/legacy-video-output/audio/preset-steve-wither",
+      "bytes": 4165867
+    }
+  ]
+}
